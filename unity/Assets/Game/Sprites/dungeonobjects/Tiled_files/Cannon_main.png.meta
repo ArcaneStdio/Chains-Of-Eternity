@@ -1,0 +1,2132 @@
+fileFormatVersion: 2
+guid: 2eae916ad78dc25438e8574c61f718ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7049355120197488992
+    second: Cannon_main_0
+  - first:
+      213: 696118064025043211
+    second: Cannon_main_1
+  - first:
+      213: -7312703156103015417
+    second: Cannon_main_2
+  - first:
+      213: 2618577099047710352
+    second: Cannon_main_3
+  - first:
+      213: 1212386707416801632
+    second: Cannon_main_4
+  - first:
+      213: -387800758273582586
+    second: Cannon_main_5
+  - first:
+      213: -1273265250295355495
+    second: Cannon_main_6
+  - first:
+      213: 3410199874419898414
+    second: Cannon_main_7
+  - first:
+      213: -1991865342296802796
+    second: Cannon_main_8
+  - first:
+      213: -7804278689363265662
+    second: Cannon_main_9
+  - first:
+      213: -65335270582109595
+    second: Cannon_main_10
+  - first:
+      213: -6549691737123784846
+    second: Cannon_main_11
+  - first:
+      213: 4016616574539632296
+    second: Cannon_main_12
+  - first:
+      213: 2492201267448678706
+    second: Cannon_main_13
+  - first:
+      213: -4821376819449344949
+    second: Cannon_main_14
+  - first:
+      213: 3530887355963051051
+    second: Cannon_main_15
+  - first:
+      213: 7634396438357073777
+    second: Cannon_main_16
+  - first:
+      213: 8025301028573984068
+    second: Cannon_main_17
+  - first:
+      213: 8689637777800087715
+    second: Cannon_main_18
+  - first:
+      213: 2911707536685691500
+    second: Cannon_main_19
+  - first:
+      213: -7297721142807150563
+    second: Cannon_main_20
+  - first:
+      213: -8337709903893478066
+    second: Cannon_main_21
+  - first:
+      213: 3016998078157563742
+    second: Cannon_main_22
+  - first:
+      213: 6755474408327855824
+    second: Cannon_main_23
+  - first:
+      213: 1434590682264678678
+    second: Cannon_main_24
+  - first:
+      213: -6044391486518801312
+    second: Cannon_main_25
+  - first:
+      213: 5856222286931020105
+    second: Cannon_main_26
+  - first:
+      213: 2908911875782307945
+    second: Cannon_main_27
+  - first:
+      213: -188999929775768562
+    second: Cannon_main_28
+  - first:
+      213: 8723958550342088186
+    second: Cannon_main_29
+  - first:
+      213: 4420769471348369499
+    second: Cannon_main_30
+  - first:
+      213: -3349104533667986876
+    second: Cannon_main_31
+  - first:
+      213: -7960114057391949550
+    second: Cannon_main_32
+  - first:
+      213: 145357616117227976
+    second: Cannon_main_33
+  - first:
+      213: 3264990799627297757
+    second: Cannon_main_34
+  - first:
+      213: -3409067015893211692
+    second: Cannon_main_35
+  - first:
+      213: 7223126737951094703
+    second: Cannon_main_36
+  - first:
+      213: 9119078338752237154
+    second: Cannon_main_37
+  - first:
+      213: -8760086011878109645
+    second: Cannon_main_38
+  - first:
+      213: 8223244290642546738
+    second: Cannon_main_39
+  - first:
+      213: -9135852371817318398
+    second: Cannon_main_40
+  - first:
+      213: 786308614136025053
+    second: Cannon_main_41
+  - first:
+      213: -4000133841229347679
+    second: Cannon_main_42
+  - first:
+      213: -1462490290624363667
+    second: Cannon_main_43
+  - first:
+      213: -6805333347286586242
+    second: Cannon_main_44
+  - first:
+      213: -2100743972161370393
+    second: Cannon_main_45
+  - first:
+      213: 466247035216024471
+    second: Cannon_main_46
+  - first:
+      213: -8448428329653950920
+    second: Cannon_main_47
+  - first:
+      213: 733251305290245966
+    second: Cannon_main_48
+  - first:
+      213: -4766254791249398480
+    second: Cannon_main_49
+  - first:
+      213: -1015711296904368144
+    second: Cannon_main_50
+  - first:
+      213: -3330456001696178530
+    second: Cannon_main_51
+  - first:
+      213: 5391181385563696149
+    second: Cannon_main_52
+  - first:
+      213: -7302688052313879203
+    second: Cannon_main_53
+  - first:
+      213: -7405206006237274096
+    second: Cannon_main_54
+  - first:
+      213: -5434519813642752138
+    second: Cannon_main_55
+  - first:
+      213: 7770335845525700822
+    second: Cannon_main_56
+  - first:
+      213: -6854316913491589001
+    second: Cannon_main_57
+  - first:
+      213: 7698170261902387443
+    second: Cannon_main_58
+  - first:
+      213: -6212725886950916254
+    second: Cannon_main_59
+  - first:
+      213: -762329865418126233
+    second: Cannon_main_60
+  - first:
+      213: 6721134754120972181
+    second: Cannon_main_61
+  - first:
+      213: 2842930045522667964
+    second: Cannon_main_62
+  - first:
+      213: 4972406787859351162
+    second: Cannon_main_63
+  - first:
+      213: -7061872818285637162
+    second: Cannon_main_64
+  - first:
+      213: 626871439669615456
+    second: Cannon_main_65
+  - first:
+      213: 2028974393958317064
+    second: Cannon_main_66
+  - first:
+      213: -5573735790229579627
+    second: Cannon_main_67
+  - first:
+      213: 866879562411637145
+    second: Cannon_main_68
+  - first:
+      213: 7004665264008595703
+    second: Cannon_main_69
+  - first:
+      213: -6249257743989837149
+    second: Cannon_main_70
+  - first:
+      213: 8585008925205890085
+    second: Cannon_main_71
+  - first:
+      213: -3413058945835217507
+    second: Cannon_main_72
+  - first:
+      213: -36710859897096320
+    second: Cannon_main_73
+  - first:
+      213: 2643779908393061002
+    second: Cannon_main_74
+  - first:
+      213: -6322916354205971841
+    second: Cannon_main_75
+  - first:
+      213: -5465202056388270324
+    second: Cannon_main_76
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cannon_main_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 602
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061d3faf12754d160800000000000000
+      internalID: 7049355120197488992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 596
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0102f7e0bb19a900800000000000000
+      internalID: 696118064025043211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 602
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7041a90593f048a90800000000000000
+      internalID: -7312703156103015417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 538
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e26bd6ffd075420800000000000000
+      internalID: 2618577099047710352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 532
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061ebf1794343d010800000000000000
+      internalID: 1212386707416801632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 538
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ad977d3414e9af0800000000000000
+      internalID: -387800758273582586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_6
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 474
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997eb4b3004745ee0800000000000000
+      internalID: -1273265250295355495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 468
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2831efb7b6735f20800000000000000
+      internalID: 3410199874419898414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 474
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41abcf746097b54e0800000000000000
+      internalID: -1991865342296802796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_9
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 419
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287f95081e1a1b390800000000000000
+      internalID: -7804278689363265662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_10
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 410
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a36a5eae1e71ff0800000000000000
+      internalID: -65335270582109595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_11
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 403
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277fc6c1112da15a0800000000000000
+      internalID: -6549691737123784846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 410
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae816c5e73edb730800000000000000
+      internalID: 4016616574539632296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 419
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2398e0739d3169220800000000000000
+      internalID: 2492201267448678706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_14
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 393
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c4b64d357071db0800000000000000
+      internalID: -4821376819449344949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_15
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 371
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c8812c75b300130800000000000000
+      internalID: 3530887355963051051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 355
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fd7c6ac13d2f960800000000000000
+      internalID: 7634396438357073777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_17
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 346
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445babff3c89f5f60800000000000000
+      internalID: 8025301028573984068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_18
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 340
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8c69ce48bc79870800000000000000
+      internalID: 8689637777800087715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 346
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c627af5e396786820800000000000000
+      internalID: 2911707536685691500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 355
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d104f1d194949ba90800000000000000
+      internalID: -7297721142807150563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_21
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 323
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e454c2a74018a4c80800000000000000
+      internalID: -8337709903893478066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 305
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e572e9074c78ed920800000000000000
+      internalID: 3016998078157563742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_23
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 289
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0debf9dae2440cd50800000000000000
+      internalID: 6755474408327855824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 282
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611b87eef90b8e310800000000000000
+      internalID: 1434590682264678678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_25
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 276
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cc6a2b7f10e1ca0800000000000000
+      internalID: -6044391486518801312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 282
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949cf32742b754150800000000000000
+      internalID: 5856222286931020105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_27
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 289
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9607bee50f78e5820800000000000000
+      internalID: 2908911875782307945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 257
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c3423b099806df0800000000000000
+      internalID: -188999929775768562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_29
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 239
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af53f5c741ab11970800000000000000
+      internalID: 8723958550342088186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_30
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 223
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b586c95796ab95d30800000000000000
+      internalID: 4420769471348369499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_31
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 218
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442c113cb279581d0800000000000000
+      internalID: -3349104533667986876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_32
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 212
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2193f85707ef78190800000000000000
+      internalID: -7960114057391949550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 218
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1a0125bf9640200800000000000000
+      internalID: 145357616117227976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_34
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 223
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd324b665d39f4d20800000000000000
+      internalID: 3264990799627297757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_35
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 191
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d52f2e6c9f80b0d0800000000000000
+      internalID: -3409067015893211692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_36
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa773379f73bd3460800000000000000
+      internalID: 7223126737951094703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_37
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e49442f697d8e70800000000000000
+      internalID: 9119078338752237154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_38
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 154
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e03246f2ced6680800000000000000
+      internalID: -8760086011878109645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_39
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 148
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230120d1d15de1270800000000000000
+      internalID: 8223244290642546738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 154
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2083b61fbaee63180800000000000000
+      internalID: -9135852371817318398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_41
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf486db48789ea00800000000000000
+      internalID: 786308614136025053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4818b077bac78c0800000000000000
+      internalID: -4000133841229347679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6380eb44d034bbe0800000000000000
+      internalID: -1462490290624363667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_44
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 120
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7cecd870699e81a0800000000000000
+      internalID: -6805333347286586242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_45
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 105
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6474fcc78a8d2e0800000000000000
+      internalID: -2100743972161370393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_46
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 104
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79351af4531787600800000000000000
+      internalID: 466247035216024471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_47
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 90
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83621a4223721ca80800000000000000
+      internalID: -8448428329653950920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_48
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 111
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47aaee5d280d2a00800000000000000
+      internalID: 733251305290245966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 90
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0357392258cdaddb0800000000000000
+      internalID: -4766254791249398480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_50
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 105
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffe9a9f4f777e1f0800000000000000
+      internalID: -1015711296904368144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_51
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 104
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ed4d679e7d7c1d0800000000000000
+      internalID: -3330456001696178530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_52
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 95
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ce83e08e251da40800000000000000
+      internalID: 5391181385563696149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_53
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 84
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d875068e3a7aa90800000000000000
+      internalID: -7302688052313879203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_54
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 95
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01063ad2f5c6b3990800000000000000
+      internalID: -7405206006237274096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_55
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f6007d505b494b0800000000000000
+      internalID: -5434519813642752138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_56
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 63
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d04b025847c5db60800000000000000
+      internalID: 7770335845525700822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_57
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778c169351390e0a0800000000000000
+      internalID: -6854316913491589001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_58
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8ea29011565da60800000000000000
+      internalID: 7698170261902387443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_59
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fba65e8b6f7c9a0800000000000000
+      internalID: -6212725886950916254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_60
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76cc412c609ab65f0800000000000000
+      internalID: -762329865418126233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_61
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597b9e2e274464d50800000000000000
+      internalID: 6721134754120972181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_62
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 48
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9e9ac50dd147720800000000000000
+      internalID: 2842930045522667964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_63
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 47
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76091de0a9810540800000000000000
+      internalID: 4972406787859351162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_64
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1191156103ffd90800000000000000
+      internalID: -7061872818285637162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_65
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b5859c04813b800800000000000000
+      internalID: 626871439669615456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_66
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 32
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cbf3a167d582c10800000000000000
+      internalID: 2028974393958317064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_67
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 31
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5981c7764dc16a2b0800000000000000
+      internalID: -5573735790229579627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_68
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 26
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999779c7e56c70c00800000000000000
+      internalID: 866879562411637145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_69
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 20
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f800cff1f1953160800000000000000
+      internalID: 7004665264008595703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 26
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a270ab113d2649a0800000000000000
+      internalID: -6249257743989837149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_71
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 32
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5248474d124142770800000000000000
+      internalID: 8585008925205890085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_72
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 31
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9dc500d8f062a0d0800000000000000
+      internalID: -3413058945835217507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_73
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0873f6cdaa39d7ff0800000000000000
+      internalID: -36710859897096320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_74
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a4510c1d790b420800000000000000
+      internalID: 2643779908393061002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_75
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a8b0b731d7048a0800000000000000
+      internalID: -6322916354205971841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon_main_76
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c072e338fa3b724b0800000000000000
+      internalID: -5465202056388270324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cannon_main_0: 7049355120197488992
+      Cannon_main_1: 696118064025043211
+      Cannon_main_10: -65335270582109595
+      Cannon_main_11: -6549691737123784846
+      Cannon_main_12: 4016616574539632296
+      Cannon_main_13: 2492201267448678706
+      Cannon_main_14: -4821376819449344949
+      Cannon_main_15: 3530887355963051051
+      Cannon_main_16: 7634396438357073777
+      Cannon_main_17: 8025301028573984068
+      Cannon_main_18: 8689637777800087715
+      Cannon_main_19: 2911707536685691500
+      Cannon_main_2: -7312703156103015417
+      Cannon_main_20: -7297721142807150563
+      Cannon_main_21: -8337709903893478066
+      Cannon_main_22: 3016998078157563742
+      Cannon_main_23: 6755474408327855824
+      Cannon_main_24: 1434590682264678678
+      Cannon_main_25: -6044391486518801312
+      Cannon_main_26: 5856222286931020105
+      Cannon_main_27: 2908911875782307945
+      Cannon_main_28: -188999929775768562
+      Cannon_main_29: 8723958550342088186
+      Cannon_main_3: 2618577099047710352
+      Cannon_main_30: 4420769471348369499
+      Cannon_main_31: -3349104533667986876
+      Cannon_main_32: -7960114057391949550
+      Cannon_main_33: 145357616117227976
+      Cannon_main_34: 3264990799627297757
+      Cannon_main_35: -3409067015893211692
+      Cannon_main_36: 7223126737951094703
+      Cannon_main_37: 9119078338752237154
+      Cannon_main_38: -8760086011878109645
+      Cannon_main_39: 8223244290642546738
+      Cannon_main_4: 1212386707416801632
+      Cannon_main_40: -9135852371817318398
+      Cannon_main_41: 786308614136025053
+      Cannon_main_42: -4000133841229347679
+      Cannon_main_43: -1462490290624363667
+      Cannon_main_44: -6805333347286586242
+      Cannon_main_45: -2100743972161370393
+      Cannon_main_46: 466247035216024471
+      Cannon_main_47: -8448428329653950920
+      Cannon_main_48: 733251305290245966
+      Cannon_main_49: -4766254791249398480
+      Cannon_main_5: -387800758273582586
+      Cannon_main_50: -1015711296904368144
+      Cannon_main_51: -3330456001696178530
+      Cannon_main_52: 5391181385563696149
+      Cannon_main_53: -7302688052313879203
+      Cannon_main_54: -7405206006237274096
+      Cannon_main_55: -5434519813642752138
+      Cannon_main_56: 7770335845525700822
+      Cannon_main_57: -6854316913491589001
+      Cannon_main_58: 7698170261902387443
+      Cannon_main_59: -6212725886950916254
+      Cannon_main_6: -1273265250295355495
+      Cannon_main_60: -762329865418126233
+      Cannon_main_61: 6721134754120972181
+      Cannon_main_62: 2842930045522667964
+      Cannon_main_63: 4972406787859351162
+      Cannon_main_64: -7061872818285637162
+      Cannon_main_65: 626871439669615456
+      Cannon_main_66: 2028974393958317064
+      Cannon_main_67: -5573735790229579627
+      Cannon_main_68: 866879562411637145
+      Cannon_main_69: 7004665264008595703
+      Cannon_main_7: 3410199874419898414
+      Cannon_main_70: -6249257743989837149
+      Cannon_main_71: 8585008925205890085
+      Cannon_main_72: -3413058945835217507
+      Cannon_main_73: -36710859897096320
+      Cannon_main_74: 2643779908393061002
+      Cannon_main_75: -6322916354205971841
+      Cannon_main_76: -5465202056388270324
+      Cannon_main_8: -1991865342296802796
+      Cannon_main_9: -7804278689363265662
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

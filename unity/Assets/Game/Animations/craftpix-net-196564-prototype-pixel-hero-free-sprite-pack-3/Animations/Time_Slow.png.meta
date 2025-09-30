@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 2bf706237733f654f8df1262e5322a42
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1522394976332841370
+    second: Time_Slow_0
+  - first:
+      213: -4400028792292310990
+    second: Time_Slow_1
+  - first:
+      213: 8405401660811988348
+    second: Time_Slow_2
+  - first:
+      213: -122388026071644377
+    second: Time_Slow_3
+  - first:
+      213: 3689565535503312725
+    second: Time_Slow_4
+  - first:
+      213: -5987715406364084200
+    second: Time_Slow_5
+  - first:
+      213: 7853356833975457752
+    second: Time_Slow_6
+  - first:
+      213: -3805873147760146652
+    second: Time_Slow_7
+  - first:
+      213: -5941970214802864805
+    second: Time_Slow_8
+  - first:
+      213: 4899402812449696026
+    second: Time_Slow_9
+  - first:
+      213: 5544440623051146190
+    second: Time_Slow_10
+  - first:
+      213: -1863382499516148372
+    second: Time_Slow_11
+  - first:
+      213: 8794947774848346450
+    second: Time_Slow_12
+  - first:
+      213: -3411418506051032315
+    second: Time_Slow_13
+  - first:
+      213: 921965264276826063
+    second: Time_Slow_14
+  - first:
+      213: 7217563526990835732
+    second: Time_Slow_15
+  - first:
+      213: -2985777308227614467
+    second: Time_Slow_16
+  - first:
+      213: 4139614225766215494
+    second: Time_Slow_17
+  - first:
+      213: -1132519340162236767
+    second: Time_Slow_18
+  - first:
+      213: -873149966821704219
+    second: Time_Slow_19
+  - first:
+      213: 5507777273583893959
+    second: Time_Slow_20
+  - first:
+      213: -515488399333384078
+    second: Time_Slow_21
+  - first:
+      213: -7180592986289783912
+    second: Time_Slow_22
+  - first:
+      213: -1434175001526355309
+    second: Time_Slow_23
+  - first:
+      213: -5819266640567546264
+    second: Time_Slow_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Time_Slow_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91882c3a22a02510800000000000000
+      internalID: 1522394976332841370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2300de13025ffe2c0800000000000000
+      internalID: -4400028792292310990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d4d2bd64cf5a470800000000000000
+      internalID: 8405401660811988348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_3
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 0
+        width: 27
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7270d3d1db03d4ef0800000000000000
+      internalID: -122388026071644377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_4
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 0
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557e23f6e48f33330800000000000000
+      internalID: 3689565535503312725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_5
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 0
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818f88bef8c57eca0800000000000000
+      internalID: -5987715406364084200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_6
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 58
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d75e7f7e6abcfc60800000000000000
+      internalID: 7853356833975457752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_7
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 0
+        width: 63
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4270f875982de2bc0800000000000000
+      internalID: -3805873147760146652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_8
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 0
+        width: 57
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5549b05291e98da0800000000000000
+      internalID: -5941970214802864805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_9
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 61
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a192d9756ec2ef340800000000000000
+      internalID: 4899402812449696026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_10
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec38537fe5fc1fc40800000000000000
+      internalID: 5544440623051146190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_11
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 0
+        width: 94
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6519a34d7fe326e0800000000000000
+      internalID: -1863382499516148372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_12
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 67
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259a2f1576eed0a70800000000000000
+      internalID: 8794947774848346450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_13
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 0
+        width: 98
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b62a671f438a0d0800000000000000
+      internalID: -3411418506051032315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_14
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 68
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc72878e58a7bcc00800000000000000
+      internalID: 921965264276826063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_15
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 66
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410ba1a99cfe92460800000000000000
+      internalID: 7217563526990835732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_16
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 58
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8cba48b536096d0800000000000000
+      internalID: -2985777308227614467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_17
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 34
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64fe2f9a43dd27930800000000000000
+      internalID: 4139614225766215494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_18
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 39
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aebe5419ab7840f0800000000000000
+      internalID: -1132519340162236767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_19
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 15
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edb2f73bb2f1e3f0800000000000000
+      internalID: -873149966821704219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_20
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 16
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdffe5bf3e8f6c40800000000000000
+      internalID: 5507777273583893959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_21
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 20
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27026ef280e98d8f0800000000000000
+      internalID: -515488399333384078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_22
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b398f29b8695c90800000000000000
+      internalID: -7180592986289783912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_23
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 14
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ab6484f69c81ce0800000000000000
+      internalID: -1434175001526355309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time_Slow_24
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 14
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ec0bb72dfcd3fa0800000000000000
+      internalID: -5819266640567546264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Time_Slow_0: 1522394976332841370
+      Time_Slow_1: -4400028792292310990
+      Time_Slow_10: 5544440623051146190
+      Time_Slow_11: -1863382499516148372
+      Time_Slow_12: 8794947774848346450
+      Time_Slow_13: -3411418506051032315
+      Time_Slow_14: 921965264276826063
+      Time_Slow_15: 7217563526990835732
+      Time_Slow_16: -2985777308227614467
+      Time_Slow_17: 4139614225766215494
+      Time_Slow_18: -1132519340162236767
+      Time_Slow_19: -873149966821704219
+      Time_Slow_2: 8405401660811988348
+      Time_Slow_20: 5507777273583893959
+      Time_Slow_21: -515488399333384078
+      Time_Slow_22: -7180592986289783912
+      Time_Slow_23: -1434175001526355309
+      Time_Slow_24: -5819266640567546264
+      Time_Slow_3: -122388026071644377
+      Time_Slow_4: 3689565535503312725
+      Time_Slow_5: -5987715406364084200
+      Time_Slow_6: 7853356833975457752
+      Time_Slow_7: -3805873147760146652
+      Time_Slow_8: -5941970214802864805
+      Time_Slow_9: 4899402812449696026
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

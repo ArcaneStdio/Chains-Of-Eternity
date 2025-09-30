@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 3ed755ee80c739f48b362b05834e18b3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - FirstSpell: {fileID: 11400000, guid: 4ae4c694fd3e27842a219d6fd3aafbd0, type: 2}
+  - SecondSpell: {instanceID: 0}
+  - ThirdSpell: {instanceID: 0}
+  - FourthSpell: {instanceID: 0}
+  - FirstProjectileData: {instanceID: 0}
+  - SecondProjectileData: {instanceID: 0}
+  - ThirdProjectileData: {instanceID: 0}
+  - FourthProjectileData: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

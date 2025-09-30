@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 7616af2c316135941a90b61d987184ad
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - InputSpellName: {instanceID: 0}
+  - InputDamage: {instanceID: 0}
+  - InputKnockBackForce: {instanceID: 0}
+  - InputCooldown: {instanceID: 0}
+  - InputManaCost: {instanceID: 0}
+  - DropdownElementTMP: {instanceID: 0}
+  - DropdownElement: {instanceID: 0}
+  - DropdownSubTypeTMP: {instanceID: 0}
+  - DropdownSubType: {instanceID: 0}
+  - DropdownMovementTMP: {instanceID: 0}
+  - DropdownMovement: {instanceID: 0}
+  - powerSlider: {instanceID: 0}
+  - CreateSpell: {fileID: 11400000, guid: bbf67cea837029447a8104801c2e83f9, type: 2}
+  - DataProjectile: {fileID: 11400000, guid: b0fdab8b3a3aaff45958ab6064876f05, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

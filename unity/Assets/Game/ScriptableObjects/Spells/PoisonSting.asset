@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0167b4a97f069f4d816b76d9abc8626, type: 3}
+  m_Name: PoisonSting
+  m_EditorClassIdentifier: 
+  spellName: PoisonSting
+  element: 2
+  category: 0
+  visualPrefab: {fileID: 329099338094097531, guid: 95e6aefe529b4d94e847d46a53a2d8d0, type: 3}
+  manaCost: 0
+  cooldown: 0
+  attackSubtype: 1
+  attackData:
+    aoeData:
+      shape: 0
+      range: 5
+      damagePerTick: 10
+      tickInterval: 1
+      duration: 5
+    projectileData:
+      targetLayerMask:
+        serializedVersion: 2
+        m_Bits: 524288
+      delayBetweenProjectiles: 0
+      spawnOffsets: []
+      staggeredLaunchAngle: 0
+      numberOfProjectiles: 3
+      destroyTime: 3.5
+      projectileSpeed: 7
+      damage: 10
+      directions:
+      - {x: 1, y: 0}
+      - {x: 1, y: 0.2}
+      - {x: 1, y: -0.2}
+      movementPath: 0
+    shortRangeData:
+      reachDistance: 2
+      arcAngle: 90
+      damage: 20
+      knockbackForce: 5
+  buffData:
+    buffType: 0
+    duration: 5
+    magnitude: 1.5

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0167b4a97f069f4d816b76d9abc8626, type: 3}
+  m_Name: FireSlash
+  m_EditorClassIdentifier: 
+  spellName: FireSlash
+  element: 0
+  category: 0
+  visualPrefab: {fileID: 2895834301900257236, guid: 0335bb050ef2fca40948d6f5dc3cf16e, type: 3}
+  manaCost: 10
+  cooldown: 0
+  attackSubtype: 1
+  attackData:
+    aoeData:
+      shape: 0
+      range: 5
+      damagePerTick: 10
+      tickInterval: 1
+      duration: 5
+    projectileData:
+      numberOfProjectiles: 1
+      projectileSpeed: 5
+      damage: 25
+      directions:
+      - {x: 1, y: 0}
+      movementPath: 0
+    shortRangeData:
+      reachDistance: 2
+      arcAngle: 90
+      damage: 20
+      knockbackForce: 5
+  buffData:
+    buffType: 0
+    duration: 5
+    magnitude: 1.5

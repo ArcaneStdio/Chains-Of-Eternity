@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: 0f92f50bb8b00e246aafdd59e64cfaa9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1546985989388467852
+    second: Energy_Abcorb_0
+  - first:
+      213: 3292064298072724053
+    second: Energy_Abcorb_1
+  - first:
+      213: -7371412063413048579
+    second: Energy_Abcorb_2
+  - first:
+      213: 2224207410491718325
+    second: Energy_Abcorb_3
+  - first:
+      213: -6947530000402302238
+    second: Energy_Abcorb_4
+  - first:
+      213: 7114996453819623279
+    second: Energy_Abcorb_5
+  - first:
+      213: -7593178789700227040
+    second: Energy_Abcorb_6
+  - first:
+      213: 6627594728157467969
+    second: Energy_Abcorb_7
+  - first:
+      213: -2119668203966743545
+    second: Energy_Abcorb_8
+  - first:
+      213: -783070818649349995
+    second: Energy_Abcorb_9
+  - first:
+      213: 2112228319855152452
+    second: Energy_Abcorb_10
+  - first:
+      213: -4419773408568278528
+    second: Energy_Abcorb_11
+  - first:
+      213: 4274209710230416041
+    second: Energy_Abcorb_12
+  - first:
+      213: 6402143880690027072
+    second: Energy_Abcorb_13
+  - first:
+      213: -1574264345989938637
+    second: Energy_Abcorb_14
+  - first:
+      213: 1763726994646667074
+    second: Energy_Abcorb_15
+  - first:
+      213: 2388099180464772317
+    second: Energy_Abcorb_16
+  - first:
+      213: 73527567581766852
+    second: Energy_Abcorb_17
+  - first:
+      213: 124512663552265236
+    second: Energy_Abcorb_18
+  - first:
+      213: 3166819362848434683
+    second: Energy_Abcorb_19
+  - first:
+      213: 8259310040100155184
+    second: Energy_Abcorb_20
+  - first:
+      213: -1978798542426079627
+    second: Energy_Abcorb_21
+  - first:
+      213: 3149756897528438317
+    second: Energy_Abcorb_22
+  - first:
+      213: -1518248743437739565
+    second: Energy_Abcorb_23
+  - first:
+      213: -8666485457672392369
+    second: Energy_Abcorb_24
+  - first:
+      213: 1064274534670131530
+    second: Energy_Abcorb_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Energy_Abcorb_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 68
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e7102af8ff77510800000000000000
+      internalID: 1546985989388467852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 72
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552de587903cfad20800000000000000
+      internalID: 3292064298072724053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 76
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa6c33a8cb73b990800000000000000
+      internalID: -7371412063413048579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 67
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba76210bd8fdde10800000000000000
+      internalID: 2224207410491718325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_4
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 69
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eab6a3364a659f90800000000000000
+      internalID: -6947530000402302238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 73
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f672510f39b8db260800000000000000
+      internalID: 7114996453819623279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_6
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02033e30f1c9f9690800000000000000
+      internalID: -7593178789700227040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 52
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145d31f6a42f9fb50800000000000000
+      internalID: 6627594728157467969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_8
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 68
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c3fdcbffc6592e0800000000000000
+      internalID: -2119668203966743545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5906e644d39f125f0800000000000000
+      internalID: -783070818649349995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 53
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d8c714774205d10800000000000000
+      internalID: 2112228319855152452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 56
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002029a708fc9a2c0800000000000000
+      internalID: -4419773408568278528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_12
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa2fc1f51b015b30800000000000000
+      internalID: 4274209710230416041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_13
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 63
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a487180fbf8d850800000000000000
+      internalID: 6402143880690027072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_14
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33205ba0be6172ae0800000000000000
+      internalID: -1574264345989938637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 61
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f8ea46b540a7810800000000000000
+      internalID: 1763726994646667074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_16
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4110c4d8b342120800000000000000
+      internalID: 2388099180464772317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_17
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 64
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4e8e2eee8350100800000000000000
+      internalID: 73527567581766852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_18
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c02199b9b5ab100800000000000000
+      internalID: 124512663552265236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_19
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 60
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9e8669e6dc2fb20800000000000000
+      internalID: 3166819362848434683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_20
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 0
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03facf5c8b6fe9270800000000000000
+      internalID: 8259310040100155184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_21
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 39
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ef1a4b535e984e0800000000000000
+      internalID: -1978798542426079627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_22
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 44
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ed40ec53f26bb20800000000000000
+      internalID: 3149756897528438317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_23
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 40
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9d5b6dfc81eeae0800000000000000
+      internalID: -1518248743437739565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_24
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 45
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41395ca4657ab780800000000000000
+      internalID: -8666485457672392369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_Abcorb_25
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 47
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41e18eec0015ce00800000000000000
+      internalID: 1064274534670131530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Energy_Abcorb_0: 1546985989388467852
+      Energy_Abcorb_1: 3292064298072724053
+      Energy_Abcorb_10: 2112228319855152452
+      Energy_Abcorb_11: -4419773408568278528
+      Energy_Abcorb_12: 4274209710230416041
+      Energy_Abcorb_13: 6402143880690027072
+      Energy_Abcorb_14: -1574264345989938637
+      Energy_Abcorb_15: 1763726994646667074
+      Energy_Abcorb_16: 2388099180464772317
+      Energy_Abcorb_17: 73527567581766852
+      Energy_Abcorb_18: 124512663552265236
+      Energy_Abcorb_19: 3166819362848434683
+      Energy_Abcorb_2: -7371412063413048579
+      Energy_Abcorb_20: 8259310040100155184
+      Energy_Abcorb_21: -1978798542426079627
+      Energy_Abcorb_22: 3149756897528438317
+      Energy_Abcorb_23: -1518248743437739565
+      Energy_Abcorb_24: -8666485457672392369
+      Energy_Abcorb_25: 1064274534670131530
+      Energy_Abcorb_3: 2224207410491718325
+      Energy_Abcorb_4: -6947530000402302238
+      Energy_Abcorb_5: 7114996453819623279
+      Energy_Abcorb_6: -7593178789700227040
+      Energy_Abcorb_7: 6627594728157467969
+      Energy_Abcorb_8: -2119668203966743545
+      Energy_Abcorb_9: -783070818649349995
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

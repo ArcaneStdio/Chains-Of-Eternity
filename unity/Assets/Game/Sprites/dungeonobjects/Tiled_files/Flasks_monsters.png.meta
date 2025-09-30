@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 5bf0079cb0fdc7f45990f89fc38c429b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4347097446864797076
+    second: Flasks_monsters_0
+  - first:
+      213: -2659088272306767095
+    second: Flasks_monsters_1
+  - first:
+      213: 5561581755302063482
+    second: Flasks_monsters_2
+  - first:
+      213: -501272081390608322
+    second: Flasks_monsters_3
+  - first:
+      213: -7158582594984736501
+    second: Flasks_monsters_4
+  - first:
+      213: -6677496249865259869
+    second: Flasks_monsters_5
+  - first:
+      213: 2212748828628181064
+    second: Flasks_monsters_6
+  - first:
+      213: 5284376812884839287
+    second: Flasks_monsters_7
+  - first:
+      213: -3430461634369048902
+    second: Flasks_monsters_8
+  - first:
+      213: 2316151179906284636
+    second: Flasks_monsters_9
+  - first:
+      213: 7198513229700449993
+    second: Flasks_monsters_10
+  - first:
+      213: -5840729251330355958
+    second: Flasks_monsters_11
+  - first:
+      213: 5369935355763174463
+    second: Flasks_monsters_12
+  - first:
+      213: -2395745502480745193
+    second: Flasks_monsters_13
+  - first:
+      213: -887762121562600544
+    second: Flasks_monsters_14
+  - first:
+      213: -4353876731787943993
+    second: Flasks_monsters_15
+  - first:
+      213: -446617184340699087
+    second: Flasks_monsters_16
+  - first:
+      213: 1431169840106142811
+    second: Flasks_monsters_17
+  - first:
+      213: 1662396026472201987
+    second: Flasks_monsters_18
+  - first:
+      213: -4126052755414778779
+    second: Flasks_monsters_19
+  - first:
+      213: -5808856587900559663
+    second: Flasks_monsters_20
+  - first:
+      213: -1023059979423747146
+    second: Flasks_monsters_21
+  - first:
+      213: 8455657628603745621
+    second: Flasks_monsters_22
+  - first:
+      213: 5196753031303929116
+    second: Flasks_monsters_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flasks_monsters_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 324
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62cd9b67e10ca3c0800000000000000
+      internalID: -4347097446864797076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 324
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b7fb60e45091bd0800000000000000
+      internalID: -2659088272306767095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 324
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7da212d325be2d40800000000000000
+      internalID: 5561581755302063482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 324
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3064e4a2bf1b09f0800000000000000
+      internalID: -501272081390608322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 260
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0904a2ce0b97ac90800000000000000
+      internalID: -7158582594984736501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 260
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a437c52a84c453a0800000000000000
+      internalID: -6677496249865259869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 260
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8406b83065345be10800000000000000
+      internalID: 2212748828628181064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 260
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bcf47a6b0e55940800000000000000
+      internalID: 5284376812884839287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 196
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abea3d3a15d8460d0800000000000000
+      internalID: -3430461634369048902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_9
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 196
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c7a640a3f942020800000000000000
+      internalID: 2316151179906284636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 196
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6ce3f94a146e360800000000000000
+      internalID: 7198513229700449993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_11
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 196
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d883101bf81fea0800000000000000
+      internalID: -5840729251330355958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 132
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c231341c7d58a40800000000000000
+      internalID: 5369935355763174463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_13
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 132
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d3560a82a90ced0800000000000000
+      internalID: -2395745502480745193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 132
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abc633dd090ea3f0800000000000000
+      internalID: -887762121562600544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 132
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfd0f52e2ce393c0800000000000000
+      internalID: -4353876731787943993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 68
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13899c0890c4dc9f0800000000000000
+      internalID: -446617184340699087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_17
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 68
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c77cc03698cd310800000000000000
+      internalID: 1431169840106142811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 68
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f75e9d064021710800000000000000
+      internalID: 1662396026472201987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_19
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 68
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56cfaf431e05db6c0800000000000000
+      internalID: -4126052755414778779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 4
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dedffeb5bbc26fa0800000000000000
+      internalID: -5808856587900559663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_21
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 4
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3778e7e5c5dc1f0800000000000000
+      internalID: -1023059979423747146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 4
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5558f3f20d7885570800000000000000
+      internalID: 8455657628603745621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flasks_monsters_23
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 4
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d1e4039539e1840800000000000000
+      internalID: 5196753031303929116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Flasks_monsters_0: -4347097446864797076
+      Flasks_monsters_1: -2659088272306767095
+      Flasks_monsters_10: 7198513229700449993
+      Flasks_monsters_11: -5840729251330355958
+      Flasks_monsters_12: 5369935355763174463
+      Flasks_monsters_13: -2395745502480745193
+      Flasks_monsters_14: -887762121562600544
+      Flasks_monsters_15: -4353876731787943993
+      Flasks_monsters_16: -446617184340699087
+      Flasks_monsters_17: 1431169840106142811
+      Flasks_monsters_18: 1662396026472201987
+      Flasks_monsters_19: -4126052755414778779
+      Flasks_monsters_2: 5561581755302063482
+      Flasks_monsters_20: -5808856587900559663
+      Flasks_monsters_21: -1023059979423747146
+      Flasks_monsters_22: 8455657628603745621
+      Flasks_monsters_23: 5196753031303929116
+      Flasks_monsters_3: -501272081390608322
+      Flasks_monsters_4: -7158582594984736501
+      Flasks_monsters_5: -6677496249865259869
+      Flasks_monsters_6: 2212748828628181064
+      Flasks_monsters_7: 5284376812884839287
+      Flasks_monsters_8: -3430461634369048902
+      Flasks_monsters_9: 2316151179906284636
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

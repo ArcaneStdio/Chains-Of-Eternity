@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Fire_1
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: 8314308955538630803, guid: 468008e04068b9c4484292a122396660, type: 3}
+  - {fileID: 996638998543384504, guid: 468008e04068b9c4484292a122396660, type: 3}
+  - {fileID: 689483009432355683, guid: 468008e04068b9c4484292a122396660, type: 3}
+  - {fileID: -5247555247312264489, guid: 468008e04068b9c4484292a122396660, type: 3}
+  - {fileID: -4523623588274359541, guid: 468008e04068b9c4484292a122396660, type: 3}
+  m_MinSpeed: 3
+  m_MaxSpeed: 3
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0

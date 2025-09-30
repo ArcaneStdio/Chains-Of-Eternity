@@ -1,0 +1,1196 @@
+fileFormatVersion: 2
+guid: 3c820507dbdbea949b48a87035b4b41d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7352828500307952561
+    second: Sakuras_0
+  - first:
+      213: 5234540560027936920
+    second: Sakuras_1
+  - first:
+      213: 3331268992669022144
+    second: Sakuras_2
+  - first:
+      213: 4019814127067298407
+    second: Sakuras_3
+  - first:
+      213: 632684352527005793
+    second: Sakuras_4
+  - first:
+      213: -4430688460434692685
+    second: Sakuras_5
+  - first:
+      213: -1044883618707606613
+    second: Sakuras_6
+  - first:
+      213: -3393457004778904991
+    second: Sakuras_7
+  - first:
+      213: -4989048350942493783
+    second: Sakuras_8
+  - first:
+      213: -1146368760690261702
+    second: Sakuras_9
+  - first:
+      213: 4673458305082769831
+    second: Sakuras_10
+  - first:
+      213: 6716546784693999197
+    second: Sakuras_11
+  - first:
+      213: -4125351424161390588
+    second: Sakuras_12
+  - first:
+      213: -121588917705944202
+    second: Sakuras_13
+  - first:
+      213: 3511551956514683442
+    second: Sakuras_14
+  - first:
+      213: -4044704353539157363
+    second: Sakuras_15
+  - first:
+      213: -2101732252313202467
+    second: Sakuras_16
+  - first:
+      213: 7494333833774965292
+    second: Sakuras_17
+  - first:
+      213: -8985759497873886347
+    second: Sakuras_18
+  - first:
+      213: -5418305409344435960
+    second: Sakuras_19
+  - first:
+      213: -5122488916138570540
+    second: Sakuras_20
+  - first:
+      213: -3095228176027826995
+    second: Sakuras_21
+  - first:
+      213: -443272272100528287
+    second: Sakuras_22
+  - first:
+      213: -5678755375768106824
+    second: Sakuras_23
+  - first:
+      213: -648601559560947830
+    second: Sakuras_24
+  - first:
+      213: 8695034657964495729
+    second: Sakuras_25
+  - first:
+      213: 1133907397913759306
+    second: Sakuras_26
+  - first:
+      213: 9049884654786149810
+    second: Sakuras_27
+  - first:
+      213: -5431366697736423820
+    second: Sakuras_28
+  - first:
+      213: 3372721081768372976
+    second: Sakuras_29
+  - first:
+      213: 5200454584531358962
+    second: Sakuras_30
+  - first:
+      213: -7312403165213930414
+    second: Sakuras_31
+  - first:
+      213: -5526763103210301217
+    second: Sakuras_32
+  - first:
+      213: 6720506163853487212
+    second: Sakuras_33
+  - first:
+      213: 8253389627059870269
+    second: Sakuras_34
+  - first:
+      213: -2115563773263823995
+    second: Sakuras_35
+  - first:
+      213: 8467102719707274253
+    second: Sakuras_36
+  - first:
+      213: 3252811834509211101
+    second: Sakuras_37
+  - first:
+      213: -7783864866083000504
+    second: Sakuras_38
+  - first:
+      213: -4303961700131087682
+    second: Sakuras_39
+  - first:
+      213: -8813069584944601095
+    second: Sakuras_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sakuras_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 150
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cb6c89f6185f990800000000000000
+      internalID: -7352828500307952561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 142
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898e6d2d7e2d4a840800000000000000
+      internalID: 5234540560027936920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 150
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c77f4fbf7b0b3e20800000000000000
+      internalID: 3331268992669022144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 142
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a71f296af39c730800000000000000
+      internalID: 4019814127067298407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_4
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168f157011fb7c800800000000000000
+      internalID: 632684352527005793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 143
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b52e5de1580382c0800000000000000
+      internalID: -4430688460434692685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_6
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 154
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3fe4382e3df71f0800000000000000
+      internalID: -1044883618707606613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_7
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 145
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162a79d55d408e0d0800000000000000
+      internalID: -3393457004778904991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_8
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 156
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a303da35f653cab0800000000000000
+      internalID: -4989048350942493783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 146
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31c3759fa74710f0800000000000000
+      internalID: -1146368760690261702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_10
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 156
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1ce0341957bd040800000000000000
+      internalID: 4673458305082769831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_11
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 137
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d565af207b7f53d50800000000000000
+      internalID: 6716546784693999197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 138
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400653d9cbecfb6c0800000000000000
+      internalID: -4125351424161390588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_13
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 138
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67353870687005ef0800000000000000
+      internalID: -121588917705944202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_14
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 124
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ab26246e98bb030800000000000000
+      internalID: 3511551956514683442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_15
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 142
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8292d9f1d25ed7c0800000000000000
+      internalID: -4044704353539157363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_16
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 125
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0d3e7e6a525d2e0800000000000000
+      internalID: -2101732252313202467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_17
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 128
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2229564ae8310860800000000000000
+      internalID: 7494333833774965292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_18
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 144
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5737224685b2c4380800000000000000
+      internalID: -8985759497873886347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_19
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 135
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809827700ff4ec4b0800000000000000
+      internalID: -5418305409344435960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 122
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc4fab887349e8b0800000000000000
+      internalID: -5122488916138570540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 122
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4c4158f5a8b05d0800000000000000
+      internalID: -3095228176027826995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_22
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 130
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16feaa2973e29d9f0800000000000000
+      internalID: -443272272100528287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 121
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b88005b2120131b0800000000000000
+      internalID: -5678755375768106824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_24
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 124
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87fa996154bff6f0800000000000000
+      internalID: -648601559560947830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_25
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 62
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1731fa104f7faa870800000000000000
+      internalID: 8695034657964495729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_26
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 61
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e46dc45c27cbf00800000000000000
+      internalID: 1133907397913759306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_27
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 64
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd79ca2526a79d70800000000000000
+      internalID: 9049884654786149810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 63
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476b888d3c8ef94b0800000000000000
+      internalID: -5431366697736423820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_29
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 51
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa664554ff4ece20800000000000000
+      internalID: 3372721081768372976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_30
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 52
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f41b8534e9bb2840800000000000000
+      internalID: 5200454584531358962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_31
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 53
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c4bf26010258a90800000000000000
+      internalID: -7312403165213930414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_32
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 54
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd81a6b5d3efc43b0800000000000000
+      internalID: -5526763103210301217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_33
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 40
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c6f4fcfb8044d50800000000000000
+      internalID: 6720506163853487212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_34
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 33
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a1cc1332ee98270800000000000000
+      internalID: 8253389627059870269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_35
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 40
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58bbceaf4f104a2e0800000000000000
+      internalID: -2115563773263823995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_36
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 41
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c55ec1011318570800000000000000
+      internalID: 8467102719707274253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_37
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 33
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5bb1d112f442d20800000000000000
+      internalID: 3252811834509211101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_38
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 42
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84faa7d15282af390800000000000000
+      internalID: -7783864866083000504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_39
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebadcc813a14544c0800000000000000
+      internalID: -4303961700131087682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sakuras_40
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 31
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7e398f7efa1b580800000000000000
+      internalID: -8813069584944601095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sakuras_0: -7352828500307952561
+      Sakuras_1: 5234540560027936920
+      Sakuras_10: 4673458305082769831
+      Sakuras_11: 6716546784693999197
+      Sakuras_12: -4125351424161390588
+      Sakuras_13: -121588917705944202
+      Sakuras_14: 3511551956514683442
+      Sakuras_15: -4044704353539157363
+      Sakuras_16: -2101732252313202467
+      Sakuras_17: 7494333833774965292
+      Sakuras_18: -8985759497873886347
+      Sakuras_19: -5418305409344435960
+      Sakuras_2: 3331268992669022144
+      Sakuras_20: -5122488916138570540
+      Sakuras_21: -3095228176027826995
+      Sakuras_22: -443272272100528287
+      Sakuras_23: -5678755375768106824
+      Sakuras_24: -648601559560947830
+      Sakuras_25: 8695034657964495729
+      Sakuras_26: 1133907397913759306
+      Sakuras_27: 9049884654786149810
+      Sakuras_28: -5431366697736423820
+      Sakuras_29: 3372721081768372976
+      Sakuras_3: 4019814127067298407
+      Sakuras_30: 5200454584531358962
+      Sakuras_31: -7312403165213930414
+      Sakuras_32: -5526763103210301217
+      Sakuras_33: 6720506163853487212
+      Sakuras_34: 8253389627059870269
+      Sakuras_35: -2115563773263823995
+      Sakuras_36: 8467102719707274253
+      Sakuras_37: 3252811834509211101
+      Sakuras_38: -7783864866083000504
+      Sakuras_39: -4303961700131087682
+      Sakuras_4: 632684352527005793
+      Sakuras_40: -8813069584944601095
+      Sakuras_5: -4430688460434692685
+      Sakuras_6: -1044883618707606613
+      Sakuras_7: -3393457004778904991
+      Sakuras_8: -4989048350942493783
+      Sakuras_9: -1146368760690261702
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

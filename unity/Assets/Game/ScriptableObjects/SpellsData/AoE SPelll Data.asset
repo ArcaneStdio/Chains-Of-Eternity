@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3ab961f2cc5da478475518ffdfaf6e, type: 3}
+  m_Name: AoE SPelll Data
+  m_EditorClassIdentifier: Assembly-CSharp::AoEData
+  spellName: New AoE Spell
+  damageType: 1
+  targetingMode: 1
+  damage: 10
+  knockbackForce: 5
+  maxTargets: 0
+  shape: 2
+  range: 6.4
+  angle: 93
+  rectSize: {x: 7.19, y: 8.5}
+  lineWidth: 0.46
+  positionOffset: {x: 0, y: 0}
+  activationDelay: 0
+  warningDuration: 0.5
+  damagePerTick: 10
+  tickInterval: 1
+  duration: 1.7
+  canHitSameTargetMultipleTimes: 1
+  targetLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  ignoreTags: []
+  destroyOnCasterDeath: 1
+  canAffectCaster: 0
+  followCaster: 0
+  movementSpeed: 0
+  movementDirection: {x: 0, y: 0}
+  aoeEffectPrefab: {fileID: 249310588689319383, guid: 60bb2cafc7f49af4eafe9eb6dd17c6dd, type: 3}
+  warningEffectPrefab: {fileID: 0}
+  impactEffectPrefab: {fileID: 0}
+  aoeColor: {r: 1, g: 0, b: 0, a: 1}
+  warningColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  effectScale: 1
+  fadeOutOnEnd: 1
+  castSound: {fileID: 0}
+  aoeSound: {fileID: 0}
+  impactSound: {fileID: 0}
+  audioVolume: 1

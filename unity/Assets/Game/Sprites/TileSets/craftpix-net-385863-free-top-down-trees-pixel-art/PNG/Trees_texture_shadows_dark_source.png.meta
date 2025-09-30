@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: 83753082de496bf408008155cd61ffd5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4206128331854850859
+    second: Trees_texture_shadows_dark_source_0
+  - first:
+      213: -4877734958640585440
+    second: Trees_texture_shadows_dark_source_1
+  - first:
+      213: -1384202894685114097
+    second: Trees_texture_shadows_dark_source_2
+  - first:
+      213: -574249128258605528
+    second: Trees_texture_shadows_dark_source_3
+  - first:
+      213: -7552022326074127784
+    second: Trees_texture_shadows_dark_source_4
+  - first:
+      213: -4994771776808766202
+    second: Trees_texture_shadows_dark_source_5
+  - first:
+      213: -813905415782299904
+    second: Trees_texture_shadows_dark_source_6
+  - first:
+      213: 5858826967822943431
+    second: Trees_texture_shadows_dark_source_7
+  - first:
+      213: -755011853082922646
+    second: Trees_texture_shadows_dark_source_8
+  - first:
+      213: 2069914780902647202
+    second: Trees_texture_shadows_dark_source_9
+  - first:
+      213: -8436931717165383827
+    second: Trees_texture_shadows_dark_source_10
+  - first:
+      213: -6699076053712931173
+    second: Trees_texture_shadows_dark_source_11
+  - first:
+      213: -3405260432575312370
+    second: Trees_texture_shadows_dark_source_12
+  - first:
+      213: -8200883494760116026
+    second: Trees_texture_shadows_dark_source_13
+  - first:
+      213: -9094678282835082156
+    second: Trees_texture_shadows_dark_source_14
+  - first:
+      213: -3636036211586619309
+    second: Trees_texture_shadows_dark_source_15
+  - first:
+      213: -3523638182975928951
+    second: Trees_texture_shadows_dark_source_16
+  - first:
+      213: -1034263112395929958
+    second: Trees_texture_shadows_dark_source_17
+  - first:
+      213: 8798776066777678279
+    second: Trees_texture_shadows_dark_source_18
+  - first:
+      213: -5459203498915013965
+    second: Trees_texture_shadows_dark_source_19
+  - first:
+      213: -7278641035455284091
+    second: Trees_texture_shadows_dark_source_20
+  - first:
+      213: 5270610699308109053
+    second: Trees_texture_shadows_dark_source_21
+  - first:
+      213: -9103455554972288075
+    second: Trees_texture_shadows_dark_source_22
+  - first:
+      213: -5760566183489688258
+    second: Trees_texture_shadows_dark_source_23
+  - first:
+      213: 2623024703908667607
+    second: Trees_texture_shadows_dark_source_24
+  - first:
+      213: -8500324946952658534
+    second: Trees_texture_shadows_dark_source_25
+  - first:
+      213: -1754824647845214116
+    second: Trees_texture_shadows_dark_source_26
+  - first:
+      213: 2869697629830557494
+    second: Trees_texture_shadows_dark_source_27
+  - first:
+      213: -7116406199015907407
+    second: Trees_texture_shadows_dark_source_28
+  - first:
+      213: -7104856552759208011
+    second: Trees_texture_shadows_dark_source_29
+  - first:
+      213: -5873687231963580046
+    second: Trees_texture_shadows_dark_source_30
+  - first:
+      213: 8008530842247117491
+    second: Trees_texture_shadows_dark_source_31
+  - first:
+      213: -8959574539409397326
+    second: Trees_texture_shadows_dark_source_32
+  - first:
+      213: -8203234747780411900
+    second: Trees_texture_shadows_dark_source_33
+  - first:
+      213: 7898589732794727320
+    second: Trees_texture_shadows_dark_source_34
+  - first:
+      213: 996669892668223951
+    second: Trees_texture_shadows_dark_source_35
+  - first:
+      213: 4758248808724552995
+    second: Trees_texture_shadows_dark_source_36
+  - first:
+      213: 4383548536455816794
+    second: Trees_texture_shadows_dark_source_37
+  - first:
+      213: 7557649512480853538
+    second: Trees_texture_shadows_dark_source_38
+  - first:
+      213: 3745265243281201679
+    second: Trees_texture_shadows_dark_source_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b2aebce6b2f5a30800000000000000
+      internalID: 4206128331854850859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 111
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02529b106edce4cb0800000000000000
+      internalID: -4877734958640585440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 113
+        width: 65
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01f9351dc25acce0800000000000000
+      internalID: -1384202894685114097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 114
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e6199d57bd708f0800000000000000
+      internalID: -574249128258605528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 111
+        width: 72
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a488ee4b3d13790800000000000000
+      internalID: -7552022326074127784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_5
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 115
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605ba2d48810faab0800000000000000
+      internalID: -4994771776808766202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_6
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 113
+        width: 63
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007878b265d64b4f0800000000000000
+      internalID: -813905415782299904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 111
+        width: 63
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4c099f51cbe4150800000000000000
+      internalID: 5858826967822943431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_8
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 112
+        width: 60
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6178c748b8a585f0800000000000000
+      internalID: -755011853082922646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_9
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 113
+        width: 64
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5680fb680d9bc10800000000000000
+      internalID: 2069914780902647202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_10
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 114
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f7124dd4ff9ea80800000000000000
+      internalID: -8436931717165383827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_11
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 117
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b967d1782d91803a0800000000000000
+      internalID: -6699076053712931173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ec7acada51eb0d0800000000000000
+      internalID: -3405260432575312370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 47
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0957269eb903e80800000000000000
+      internalID: -8200883494760116026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_14
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 50
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454c725994639c180800000000000000
+      internalID: -9094678282835082156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 48
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3582ce184543a8dc0800000000000000
+      internalID: -3636036211586619309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_16
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 47
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98587baddb5891fc0800000000000000
+      internalID: -3523638182975928951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_17
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 49
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96c955dd2f85a1f0800000000000000
+      internalID: -1034263112395929958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_18
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 49
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c10e7ef6388b1a70800000000000000
+      internalID: 8798776066777678279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_19
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 47
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bad99287530d34b0800000000000000
+      internalID: -5459203498915013965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_20
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 48
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c3b1aca821dfa90800000000000000
+      internalID: -7278641035455284091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_21
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 49
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc02a19188f42940800000000000000
+      internalID: 5270610699308109053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_22
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 67
+        width: 82
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbf159a7670aa180800000000000000
+      internalID: -9103455554972288075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_23
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 70
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d28ffa39b5e00b0800000000000000
+      internalID: -5760566183489688258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_24
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 63
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0ec81221bd66420800000000000000
+      internalID: 2623024703908667607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_25
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91ee755f77c80a80800000000000000
+      internalID: -8500324946952658534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_26
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58061eb74c95a7e0800000000000000
+      internalID: -1754824647845214116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 5
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fa4de3ac633d720800000000000000
+      internalID: 2869697629830557494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_28
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfd44e24427d3d90800000000000000
+      internalID: -7116406199015907407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_29
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b75ea0cb9a766d90800000000000000
+      internalID: -7104856552759208011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_30
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 6
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279301925987c7ea0800000000000000
+      internalID: -5873687231963580046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_31
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 4
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba36e8be54042f60800000000000000
+      internalID: 8008530842247117491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_32
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 3
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b96edf1d6239a380800000000000000
+      internalID: -8959574539409397326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_33
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 19
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e4861a571482e80800000000000000
+      internalID: -8203234747780411900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_34
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 16
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89bf6c1738d6d9d60800000000000000
+      internalID: 7898589732794727320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_35
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 16
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1f0de9cf1e4dd00800000000000000
+      internalID: 996669892668223951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_36
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 19
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32dd3fcc412b80240800000000000000
+      internalID: 4758248808724552995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_37
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 16
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56e12b3b2e75dc30800000000000000
+      internalID: 4383548536455816794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_38
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 16
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e4350803a22e860800000000000000
+      internalID: 7557649512480853538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_texture_shadows_dark_source_39
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 32
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a946f35ead9f330800000000000000
+      internalID: 3745265243281201679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Trees_texture_shadows_dark_source_0: 4206128331854850859
+      Trees_texture_shadows_dark_source_1: -4877734958640585440
+      Trees_texture_shadows_dark_source_10: -8436931717165383827
+      Trees_texture_shadows_dark_source_11: -6699076053712931173
+      Trees_texture_shadows_dark_source_12: -3405260432575312370
+      Trees_texture_shadows_dark_source_13: -8200883494760116026
+      Trees_texture_shadows_dark_source_14: -9094678282835082156
+      Trees_texture_shadows_dark_source_15: -3636036211586619309
+      Trees_texture_shadows_dark_source_16: -3523638182975928951
+      Trees_texture_shadows_dark_source_17: -1034263112395929958
+      Trees_texture_shadows_dark_source_18: 8798776066777678279
+      Trees_texture_shadows_dark_source_19: -5459203498915013965
+      Trees_texture_shadows_dark_source_2: -1384202894685114097
+      Trees_texture_shadows_dark_source_20: -7278641035455284091
+      Trees_texture_shadows_dark_source_21: 5270610699308109053
+      Trees_texture_shadows_dark_source_22: -9103455554972288075
+      Trees_texture_shadows_dark_source_23: -5760566183489688258
+      Trees_texture_shadows_dark_source_24: 2623024703908667607
+      Trees_texture_shadows_dark_source_25: -8500324946952658534
+      Trees_texture_shadows_dark_source_26: -1754824647845214116
+      Trees_texture_shadows_dark_source_27: 2869697629830557494
+      Trees_texture_shadows_dark_source_28: -7116406199015907407
+      Trees_texture_shadows_dark_source_29: -7104856552759208011
+      Trees_texture_shadows_dark_source_3: -574249128258605528
+      Trees_texture_shadows_dark_source_30: -5873687231963580046
+      Trees_texture_shadows_dark_source_31: 8008530842247117491
+      Trees_texture_shadows_dark_source_32: -8959574539409397326
+      Trees_texture_shadows_dark_source_33: -8203234747780411900
+      Trees_texture_shadows_dark_source_34: 7898589732794727320
+      Trees_texture_shadows_dark_source_35: 996669892668223951
+      Trees_texture_shadows_dark_source_36: 4758248808724552995
+      Trees_texture_shadows_dark_source_37: 4383548536455816794
+      Trees_texture_shadows_dark_source_38: 7557649512480853538
+      Trees_texture_shadows_dark_source_39: 3745265243281201679
+      Trees_texture_shadows_dark_source_4: -7552022326074127784
+      Trees_texture_shadows_dark_source_5: -4994771776808766202
+      Trees_texture_shadows_dark_source_6: -813905415782299904
+      Trees_texture_shadows_dark_source_7: 5858826967822943431
+      Trees_texture_shadows_dark_source_8: -755011853082922646
+      Trees_texture_shadows_dark_source_9: 2069914780902647202
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

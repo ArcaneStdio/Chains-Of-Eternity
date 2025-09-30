@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: 5fe7c52586f28a74181b06f776445b0d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3241281879801852770
+    second: Poison Cloud-Sheet_0
+  - first:
+      213: -3944955905485219512
+    second: Poison Cloud-Sheet_1
+  - first:
+      213: 7564622245840697614
+    second: Poison Cloud-Sheet_2
+  - first:
+      213: 8375106615220885425
+    second: Poison Cloud-Sheet_3
+  - first:
+      213: -3567525090918946531
+    second: Poison Cloud-Sheet_4
+  - first:
+      213: 4626618078603121072
+    second: Poison Cloud-Sheet_5
+  - first:
+      213: 4765258637720642768
+    second: Poison Cloud-Sheet_6
+  - first:
+      213: 8713046188816262972
+    second: Poison Cloud-Sheet_7
+  - first:
+      213: -4837125817955981506
+    second: Poison Cloud-Sheet_8
+  - first:
+      213: 5217006168369772067
+    second: Poison Cloud-Sheet_9
+  - first:
+      213: -7683222927763234312
+    second: Poison Cloud-Sheet_10
+  - first:
+      213: 2725152528477596545
+    second: Poison Cloud-Sheet_11
+  - first:
+      213: 4103888211568170934
+    second: Poison Cloud-Sheet_12
+  - first:
+      213: -4330031447461058175
+    second: Poison Cloud-Sheet_13
+  - first:
+      213: 9015062397456777608
+    second: Poison Cloud-Sheet_14
+  - first:
+      213: -7845708818272837734
+    second: Poison Cloud-Sheet_15
+  - first:
+      213: -4957461544492097668
+    second: Poison Cloud-Sheet_16
+  - first:
+      213: 6615306725427074271
+    second: Poison Cloud-Sheet_17
+  - first:
+      213: 6413168363612541191
+    second: Poison Cloud-Sheet_18
+  - first:
+      213: 5603950111705904772
+    second: Poison Cloud-Sheet_19
+  - first:
+      213: -2489387360878987057
+    second: Poison Cloud-Sheet_20
+  - first:
+      213: -2651099846062691969
+    second: Poison Cloud-Sheet_21
+  - first:
+      213: -7812439724377540191
+    second: Poison Cloud-Sheet_22
+  - first:
+      213: 5275587720199044678
+    second: Poison Cloud-Sheet_23
+  - first:
+      213: -5058681265350125626
+    second: Poison Cloud-Sheet_24
+  - first:
+      213: 1749546107487627446
+    second: Poison Cloud-Sheet_25
+  - first:
+      213: 3910615389932982356
+    second: Poison Cloud-Sheet_26
+  - first:
+      213: -6524607181370866093
+    second: Poison Cloud-Sheet_27
+  - first:
+      213: 3836828480755276519
+    second: Poison Cloud-Sheet_28
+  - first:
+      213: -4449447071901221359
+    second: Poison Cloud-Sheet_29
+  - first:
+      213: -523431287099218307
+    second: Poison Cloud-Sheet_30
+  - first:
+      213: -1550160078937656663
+    second: Poison Cloud-Sheet_31
+  - first:
+      213: 5180026942320608110
+    second: Poison Cloud-Sheet_32
+  - first:
+      213: 782588859326777698
+    second: Poison Cloud-Sheet_33
+  - first:
+      213: 6428619768403212494
+    second: Poison Cloud-Sheet_34
+  - first:
+      213: -4575758756539951436
+    second: Poison Cloud-Sheet_35
+  - first:
+      213: -579638487875437111
+    second: Poison Cloud-Sheet_36
+  - first:
+      213: -4994576115890087874
+    second: Poison Cloud-Sheet_37
+  - first:
+      213: -9162589029492347851
+    second: Poison Cloud-Sheet_38
+  - first:
+      213: 3806647862659438378
+    second: Poison Cloud-Sheet_39
+  - first:
+      213: 2029210797226750459
+    second: Poison Cloud-Sheet_40
+  - first:
+      213: -8021553580596435209
+    second: Poison Cloud-Sheet_41
+  - first:
+      213: -3771767878293715292
+    second: Poison Cloud-Sheet_42
+  - first:
+      213: -5709952988332129603
+    second: Poison Cloud-Sheet_43
+  - first:
+      213: 4765962540515412988
+    second: Poison Cloud-Sheet_44
+  - first:
+      213: -176483526571042991
+    second: Poison Cloud-Sheet_45
+  - first:
+      213: 1576420790198504706
+    second: Poison Cloud-Sheet_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 575
+        width: 41
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263ff7652b85bfc20800000000000000
+      internalID: 3241281879801852770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 575
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84959f65183b049c0800000000000000
+      internalID: -3944955905485219512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 633
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e093a5f7adfeaf860800000000000000
+      internalID: 7564622245840697614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 499
+        width: 41
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7d344e71b5a3470800000000000000
+      internalID: 8375106615220885425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 632
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19ab74d4da9d7ec0800000000000000
+      internalID: -3567525090918946531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 575
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b11a8e21ac053040800000000000000
+      internalID: 4626618078603121072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 613
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4633ccb79912240800000000000000
+      internalID: 4765258637720642768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 592
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37e6f35855fae870800000000000000
+      internalID: 8713046188816262972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 594
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37ecde52b31fdcb0800000000000000
+      internalID: -4837125817955981506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 597
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326b3b02877866840800000000000000
+      internalID: 5217006168369772067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 595
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f129846475bf5590800000000000000
+      internalID: -7683222927763234312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 431
+        width: 39
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b2aa249cfa1d520800000000000000
+      internalID: 2725152528477596545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 431
+        width: 39
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b71f68c590f3f830800000000000000
+      internalID: 4103888211568170934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 363
+        width: 40
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18920db0753a8e3c0800000000000000
+      internalID: -4330031447461058175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 368
+        width: 56
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88184649c7feb1d70800000000000000
+      internalID: 9015062397456777608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 476
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f92bbe5617e1390800000000000000
+      internalID: -7845708818272837734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 473
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f93e4bdfe833bb0800000000000000
+      internalID: -4957461544492097668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 453
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd45559da6a4ecb50800000000000000
+      internalID: 6615306725427074271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 456
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70116e5f5a6200950800000000000000
+      internalID: 6413168363612541191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 458
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486bd338fea35cd40800000000000000
+      internalID: 5603950111705904772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 337
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8f576726be37dd0800000000000000
+      internalID: -2489387360878987057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 344
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7927537cb6653bd0800000000000000
+      internalID: -2651099846062691969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 342
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a973577673a49390800000000000000
+      internalID: -7812439724377540191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 287
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e70eb8417a63940800000000000000
+      internalID: 5275587720199044678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 347
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7d1e2f034fbc9b0800000000000000
+      internalID: -5058681265350125626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 259
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8a7fe4ae2a74810800000000000000
+      internalID: 1749546107487627446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 333
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45091225afb454630800000000000000
+      internalID: 3910615389932982356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 287
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3564d6f5650f375a0800000000000000
+      internalID: -6524607181370866093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 335
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea1583cc272f3530800000000000000
+      internalID: 3836828480755276519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 336
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11efc6856736042c0800000000000000
+      internalID: -4449447071901221359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 337
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76202484066cb8f0800000000000000
+      internalID: -523431287099218307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 287
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2fded0f99bc7ae0800000000000000
+      internalID: -1550160078937656663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 200
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6309ff1f0723e740800000000000000
+      internalID: 5180026942320608110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 197
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269c955db605cda00800000000000000
+      internalID: 782588859326777698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 143
+        width: 59
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec83abb7e9b073950800000000000000
+      internalID: 6428619768403212494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 58
+        width: 39
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b69d8287a3af70c0800000000000000
+      internalID: -4575758756539951436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 199
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd3a08cdd5b4f7f0800000000000000
+      internalID: -579638487875437111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 143
+        width: 37
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3898b82c73bfaab0800000000000000
+      internalID: -4994576115890087874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 143
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ca73ab2d1f7d080800000000000000
+      internalID: -9162589029492347851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 191
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27d0d6001ee3d430800000000000000
+      internalID: 3806647862659438378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 64
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf176170874392c10800000000000000
+      internalID: 2029210797226750459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 41
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f669c9b487bda090800000000000000
+      internalID: -8021553580596435209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 29
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6031f291df7abc0800000000000000
+      internalID: -3771767878293715292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2884e720c22c0b0800000000000000
+      internalID: -5709952988332129603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb4d30fda9142240800000000000000
+      internalID: 4765962540515412988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157560aea210d8df0800000000000000
+      internalID: -176483526571042991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 0
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d82504b5290e510800000000000000
+      internalID: 1576420790198504706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Poison Cloud-Sheet_0: 3241281879801852770
+      Poison Cloud-Sheet_1: -3944955905485219512
+      Poison Cloud-Sheet_10: -7683222927763234312
+      Poison Cloud-Sheet_11: 2725152528477596545
+      Poison Cloud-Sheet_12: 4103888211568170934
+      Poison Cloud-Sheet_13: -4330031447461058175
+      Poison Cloud-Sheet_14: 9015062397456777608
+      Poison Cloud-Sheet_15: -7845708818272837734
+      Poison Cloud-Sheet_16: -4957461544492097668
+      Poison Cloud-Sheet_17: 6615306725427074271
+      Poison Cloud-Sheet_18: 6413168363612541191
+      Poison Cloud-Sheet_19: 5603950111705904772
+      Poison Cloud-Sheet_2: 7564622245840697614
+      Poison Cloud-Sheet_20: -2489387360878987057
+      Poison Cloud-Sheet_21: -2651099846062691969
+      Poison Cloud-Sheet_22: -7812439724377540191
+      Poison Cloud-Sheet_23: 5275587720199044678
+      Poison Cloud-Sheet_24: -5058681265350125626
+      Poison Cloud-Sheet_25: 1749546107487627446
+      Poison Cloud-Sheet_26: 3910615389932982356
+      Poison Cloud-Sheet_27: -6524607181370866093
+      Poison Cloud-Sheet_28: 3836828480755276519
+      Poison Cloud-Sheet_29: -4449447071901221359
+      Poison Cloud-Sheet_3: 8375106615220885425
+      Poison Cloud-Sheet_30: -523431287099218307
+      Poison Cloud-Sheet_31: -1550160078937656663
+      Poison Cloud-Sheet_32: 5180026942320608110
+      Poison Cloud-Sheet_33: 782588859326777698
+      Poison Cloud-Sheet_34: 6428619768403212494
+      Poison Cloud-Sheet_35: -4575758756539951436
+      Poison Cloud-Sheet_36: -579638487875437111
+      Poison Cloud-Sheet_37: -4994576115890087874
+      Poison Cloud-Sheet_38: -9162589029492347851
+      Poison Cloud-Sheet_39: 3806647862659438378
+      Poison Cloud-Sheet_4: -3567525090918946531
+      Poison Cloud-Sheet_40: 2029210797226750459
+      Poison Cloud-Sheet_41: -8021553580596435209
+      Poison Cloud-Sheet_42: -3771767878293715292
+      Poison Cloud-Sheet_43: -5709952988332129603
+      Poison Cloud-Sheet_44: 4765962540515412988
+      Poison Cloud-Sheet_45: -176483526571042991
+      Poison Cloud-Sheet_46: 1576420790198504706
+      Poison Cloud-Sheet_5: 4626618078603121072
+      Poison Cloud-Sheet_6: 4765258637720642768
+      Poison Cloud-Sheet_7: 8713046188816262972
+      Poison Cloud-Sheet_8: -4837125817955981506
+      Poison Cloud-Sheet_9: 5217006168369772067
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

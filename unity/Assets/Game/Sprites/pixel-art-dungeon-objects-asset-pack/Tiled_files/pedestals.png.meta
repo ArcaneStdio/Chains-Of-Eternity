@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: 8368e717167b9f14aa6c4505a7ddbe7f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -759929626149477629
+    second: pedestals_0
+  - first:
+      213: -3297883814910300261
+    second: pedestals_1
+  - first:
+      213: -4711922898132801063
+    second: pedestals_2
+  - first:
+      213: -3379481950518777490
+    second: pedestals_3
+  - first:
+      213: -1931038411872924636
+    second: pedestals_4
+  - first:
+      213: 4477888376197218463
+    second: pedestals_5
+  - first:
+      213: 5825526504752976190
+    second: pedestals_6
+  - first:
+      213: -9090798497146655137
+    second: pedestals_7
+  - first:
+      213: -6210971304131641653
+    second: pedestals_8
+  - first:
+      213: -4225135877028372868
+    second: pedestals_9
+  - first:
+      213: 5976038173838898950
+    second: pedestals_10
+  - first:
+      213: -3007193377883185433
+    second: pedestals_11
+  - first:
+      213: 5693092871012785787
+    second: pedestals_12
+  - first:
+      213: 4751631163619608692
+    second: pedestals_13
+  - first:
+      213: -7631976435696163547
+    second: pedestals_14
+  - first:
+      213: 7624092715174627028
+    second: pedestals_15
+  - first:
+      213: -3472950878988251247
+    second: pedestals_16
+  - first:
+      213: 4732219691092681714
+    second: pedestals_17
+  - first:
+      213: -6214140492614256127
+    second: pedestals_18
+  - first:
+      213: 3545463697876865349
+    second: pedestals_19
+  - first:
+      213: 4250033915017411980
+    second: pedestals_20
+  - first:
+      213: -2110875179909365710
+    second: pedestals_21
+  - first:
+      213: -3625542835411085025
+    second: pedestals_22
+  - first:
+      213: -2525401011758052953
+    second: pedestals_23
+  - first:
+      213: -1996059350142844920
+    second: pedestals_24
+  - first:
+      213: 5900845161932038619
+    second: pedestals_25
+  - first:
+      213: 8102416495109373180
+    second: pedestals_26
+  - first:
+      213: -9040360245952177449
+    second: pedestals_27
+  - first:
+      213: -2904219685937038822
+    second: pedestals_28
+  - first:
+      213: -582650963197158736
+    second: pedestals_29
+  - first:
+      213: -9065960296267286402
+    second: pedestals_30
+  - first:
+      213: -6914205036421153343
+    second: pedestals_31
+  - first:
+      213: -909640275240561030
+    second: pedestals_32
+  - first:
+      213: 8268940525379738909
+    second: pedestals_33
+  - first:
+      213: -1027091286849136680
+    second: pedestals_34
+  - first:
+      213: -3889667097943047784
+    second: pedestals_35
+  - first:
+      213: -4719955828830604105
+    second: pedestals_36
+  - first:
+      213: 3348219235677010497
+    second: pedestals_37
+  - first:
+      213: 7645199177539386777
+    second: pedestals_38
+  - first:
+      213: -3846181322001006587
+    second: pedestals_39
+  - first:
+      213: -4774190438144914906
+    second: pedestals_40
+  - first:
+      213: -4321048857249739768
+    second: pedestals_41
+  - first:
+      213: -6651838280650182387
+    second: pedestals_42
+  - first:
+      213: 5328152444783578045
+    second: pedestals_43
+  - first:
+      213: -5346666980684633037
+    second: pedestals_44
+  - first:
+      213: -8344427060300259622
+    second: pedestals_45
+  - first:
+      213: -177673342592739659
+    second: pedestals_46
+  - first:
+      213: -2914433002220130786
+    second: pedestals_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pedestals_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 101
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303a01308003475f0800000000000000
+      internalID: -759929626149477629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 111
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9fe2cda4209b32d0800000000000000
+      internalID: -3297883814910300261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 114
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9e3c7c613eb9eb0800000000000000
+      internalID: -4711922898132801063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 101
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69eb7e321ba911d0800000000000000
+      internalID: -3379481950518777490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_4
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 111
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c0ea4abc29335e0800000000000000
+      internalID: -1931038411872924636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 114
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f900617d0c7a42e30800000000000000
+      internalID: 4477888376197218463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_6
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 101
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e319c69bd7d68d050800000000000000
+      internalID: 5825526504752976190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_7
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 111
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e2be49eeef6d180800000000000000
+      internalID: -9090798497146655137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_8
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 114
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bceb61b81823ec9a0800000000000000
+      internalID: -6210971304131641653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_9
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 101
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e17f93e4d4d55c0800000000000000
+      internalID: -4225135877028372868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_10
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 111
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60777d38e072fe250800000000000000
+      internalID: 5976038173838898950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_11
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 114
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee9d5c3e8d4446d0800000000000000
+      internalID: -3007193377883185433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_12
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 101
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e960a8dcde10f40800000000000000
+      internalID: 5693092871012785787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_13
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 111
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478093b3e5f21f140800000000000000
+      internalID: 4751631163619608692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_14
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 114
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525ad202ed5c51690800000000000000
+      internalID: -7631976435696163547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 53
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d680a62ee73ec960800000000000000
+      internalID: 7624092715174627028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_16
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f468773999dcfc0800000000000000
+      internalID: -3472950878988251247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_17
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 66
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f320b69cb83ca140800000000000000
+      internalID: 4732219691092681714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 53
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a3b595520f2c9a0800000000000000
+      internalID: -6214140492614256127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_19
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5415ef3d274043130800000000000000
+      internalID: 3545463697876865349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_20
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 66
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8db9fbf3572bfa30800000000000000
+      internalID: 4250033915017411980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_21
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 53
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2304050353aa4b2e0800000000000000
+      internalID: -2110875179909365710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_22
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f191c59000c7fadc0800000000000000
+      internalID: -3625542835411085025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_23
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 66
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9cfb2f829f3fcd0800000000000000
+      internalID: -2525401011758052953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_24
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 53
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800832cb8929c44e0800000000000000
+      internalID: -1996059350142844920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_25
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1aa87296304e150800000000000000
+      internalID: 5900845161932038619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_26
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 66
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc7245bfd0917070800000000000000
+      internalID: 8102416495109373180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_27
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 53
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da157211403a8280800000000000000
+      internalID: -9040360245952177449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_28
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ab606359322b7d0800000000000000
+      internalID: -2904219685937038822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_29
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 66
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba189639020ae7f0800000000000000
+      internalID: -582650963197158736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_30
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 25
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e787131e42d3f2280800000000000000
+      internalID: -9065960296267286402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_31
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 32
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd76e3072fcb00a0800000000000000
+      internalID: -6914205036421153343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_32
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 23
+        width: 44
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76d5e83dfe4063f0800000000000000
+      internalID: -909640275240561030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_33
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 29
+        width: 44
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d571cd89d21c270800000000000000
+      internalID: 8268940525379738909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_34
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 29
+        width: 44
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d755779ae90fb1f0800000000000000
+      internalID: -1027091286849136680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_35
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 24
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891849cf160250ac0800000000000000
+      internalID: -3889667097943047784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_36
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 32
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4740b5e295f7eb0800000000000000
+      internalID: -4719955828830604105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_37
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 23
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a78acb7a3477e20800000000000000
+      internalID: 3348219235677010497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_38
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 31
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99df75e5524391a60800000000000000
+      internalID: 7645199177539386777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_39
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 25
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5004360377e9f9ac0800000000000000
+      internalID: -3846181322001006587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_40
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 33
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a4e4c571baebdb0800000000000000
+      internalID: -4774190438144914906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_41
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 26
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c858e45fc8804c0800000000000000
+      internalID: -4321048857249739768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_42
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 33
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d013082a35cefa3a0800000000000000
+      internalID: -6651838280650182387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_43
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 16
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb44743b6661f940800000000000000
+      internalID: 5328152444783578045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_44
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 16
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c6bfb75b2dcc5b0800000000000000
+      internalID: -5346666980684633037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_45
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 15
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade55a0acc3a23c80800000000000000
+      internalID: -8344427060300259622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_46
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 17
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b614b84907c88df0800000000000000
+      internalID: -177673342592739659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestals_47
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 17
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e6ef430aadd87d0800000000000000
+      internalID: -2914433002220130786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pedestals_0: -759929626149477629
+      pedestals_1: -3297883814910300261
+      pedestals_10: 5976038173838898950
+      pedestals_11: -3007193377883185433
+      pedestals_12: 5693092871012785787
+      pedestals_13: 4751631163619608692
+      pedestals_14: -7631976435696163547
+      pedestals_15: 7624092715174627028
+      pedestals_16: -3472950878988251247
+      pedestals_17: 4732219691092681714
+      pedestals_18: -6214140492614256127
+      pedestals_19: 3545463697876865349
+      pedestals_2: -4711922898132801063
+      pedestals_20: 4250033915017411980
+      pedestals_21: -2110875179909365710
+      pedestals_22: -3625542835411085025
+      pedestals_23: -2525401011758052953
+      pedestals_24: -1996059350142844920
+      pedestals_25: 5900845161932038619
+      pedestals_26: 8102416495109373180
+      pedestals_27: -9040360245952177449
+      pedestals_28: -2904219685937038822
+      pedestals_29: -582650963197158736
+      pedestals_3: -3379481950518777490
+      pedestals_30: -9065960296267286402
+      pedestals_31: -6914205036421153343
+      pedestals_32: -909640275240561030
+      pedestals_33: 8268940525379738909
+      pedestals_34: -1027091286849136680
+      pedestals_35: -3889667097943047784
+      pedestals_36: -4719955828830604105
+      pedestals_37: 3348219235677010497
+      pedestals_38: 7645199177539386777
+      pedestals_39: -3846181322001006587
+      pedestals_4: -1931038411872924636
+      pedestals_40: -4774190438144914906
+      pedestals_41: -4321048857249739768
+      pedestals_42: -6651838280650182387
+      pedestals_43: 5328152444783578045
+      pedestals_44: -5346666980684633037
+      pedestals_45: -8344427060300259622
+      pedestals_46: -177673342592739659
+      pedestals_47: -2914433002220130786
+      pedestals_5: 4477888376197218463
+      pedestals_6: 5825526504752976190
+      pedestals_7: -9090798497146655137
+      pedestals_8: -6210971304131641653
+      pedestals_9: -4225135877028372868
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

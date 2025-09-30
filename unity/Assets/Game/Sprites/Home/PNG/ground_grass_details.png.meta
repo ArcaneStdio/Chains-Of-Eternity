@@ -1,0 +1,6344 @@
+fileFormatVersion: 2
+guid: acd3fb04d6870a04e8082a0915234a0a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5318536009656277987
+    second: ground_grass_details_0
+  - first:
+      213: -3189137088214865780
+    second: ground_grass_details_1
+  - first:
+      213: -1572067601059049726
+    second: ground_grass_details_2
+  - first:
+      213: 6774220675219108780
+    second: ground_grass_details_3
+  - first:
+      213: -7779266989348195830
+    second: ground_grass_details_4
+  - first:
+      213: 3828888572334814914
+    second: ground_grass_details_5
+  - first:
+      213: 9079439315511315472
+    second: ground_grass_details_6
+  - first:
+      213: -6785522389487935871
+    second: ground_grass_details_7
+  - first:
+      213: -6222438450906413905
+    second: ground_grass_details_8
+  - first:
+      213: -313227483902536941
+    second: ground_grass_details_9
+  - first:
+      213: 504221396111895984
+    second: ground_grass_details_10
+  - first:
+      213: 8394565213202491285
+    second: ground_grass_details_11
+  - first:
+      213: 5929628437685472205
+    second: ground_grass_details_12
+  - first:
+      213: -2215794927832058247
+    second: ground_grass_details_13
+  - first:
+      213: 2199727574832221277
+    second: ground_grass_details_14
+  - first:
+      213: 4343960727522283609
+    second: ground_grass_details_15
+  - first:
+      213: 3777495028269027896
+    second: ground_grass_details_16
+  - first:
+      213: 1430936634815465141
+    second: ground_grass_details_17
+  - first:
+      213: -4685323818289485614
+    second: ground_grass_details_18
+  - first:
+      213: -7713620483461961901
+    second: ground_grass_details_19
+  - first:
+      213: 4421540228391476440
+    second: ground_grass_details_20
+  - first:
+      213: -7399418554650998686
+    second: ground_grass_details_21
+  - first:
+      213: -4638451700587260720
+    second: ground_grass_details_22
+  - first:
+      213: 8584453257796909224
+    second: ground_grass_details_23
+  - first:
+      213: 4115639901819259603
+    second: ground_grass_details_24
+  - first:
+      213: 7890532112774521504
+    second: ground_grass_details_25
+  - first:
+      213: -29137387953833922
+    second: ground_grass_details_26
+  - first:
+      213: -235848468028138796
+    second: ground_grass_details_27
+  - first:
+      213: -759553829980365570
+    second: ground_grass_details_28
+  - first:
+      213: 555125581584577230
+    second: ground_grass_details_29
+  - first:
+      213: -2038233623927035144
+    second: ground_grass_details_30
+  - first:
+      213: 1736109923829032675
+    second: ground_grass_details_31
+  - first:
+      213: 3650886216706309029
+    second: ground_grass_details_32
+  - first:
+      213: 7916079923334369722
+    second: ground_grass_details_33
+  - first:
+      213: 7190161631564549244
+    second: ground_grass_details_34
+  - first:
+      213: 8228496291430003631
+    second: ground_grass_details_35
+  - first:
+      213: 2036390474781096284
+    second: ground_grass_details_36
+  - first:
+      213: 6557103516451739662
+    second: ground_grass_details_37
+  - first:
+      213: 6238129157008652885
+    second: ground_grass_details_38
+  - first:
+      213: 5987583232317998108
+    second: ground_grass_details_39
+  - first:
+      213: -4744345789008409089
+    second: ground_grass_details_40
+  - first:
+      213: -2726156936441753814
+    second: ground_grass_details_41
+  - first:
+      213: -1396202170089006458
+    second: ground_grass_details_42
+  - first:
+      213: -8725048588020620785
+    second: ground_grass_details_43
+  - first:
+      213: 785228240385625045
+    second: ground_grass_details_44
+  - first:
+      213: -8287173282461904028
+    second: ground_grass_details_45
+  - first:
+      213: 2332810477336795126
+    second: ground_grass_details_46
+  - first:
+      213: 3601965057358313009
+    second: ground_grass_details_47
+  - first:
+      213: 4239550303667079253
+    second: ground_grass_details_48
+  - first:
+      213: -1337661353422876734
+    second: ground_grass_details_49
+  - first:
+      213: -4889739019010623293
+    second: ground_grass_details_50
+  - first:
+      213: -2434901110665330447
+    second: ground_grass_details_51
+  - first:
+      213: 4925949429462295456
+    second: ground_grass_details_52
+  - first:
+      213: -8162309518418848754
+    second: ground_grass_details_53
+  - first:
+      213: 9077369938736543594
+    second: ground_grass_details_54
+  - first:
+      213: -5087559774323981971
+    second: ground_grass_details_55
+  - first:
+      213: 8394707626339975716
+    second: ground_grass_details_56
+  - first:
+      213: 2418249669473716441
+    second: ground_grass_details_57
+  - first:
+      213: -3906647287535579684
+    second: ground_grass_details_58
+  - first:
+      213: -2208943955400413785
+    second: ground_grass_details_59
+  - first:
+      213: -2757480660643976539
+    second: ground_grass_details_60
+  - first:
+      213: 3972617366690549580
+    second: ground_grass_details_61
+  - first:
+      213: 7164658913523457897
+    second: ground_grass_details_62
+  - first:
+      213: -6279713818109150940
+    second: ground_grass_details_63
+  - first:
+      213: 5324603902388431050
+    second: ground_grass_details_64
+  - first:
+      213: 5553669437185666144
+    second: ground_grass_details_65
+  - first:
+      213: -5862348770204637082
+    second: ground_grass_details_66
+  - first:
+      213: -9024282049605777304
+    second: ground_grass_details_67
+  - first:
+      213: 1291218486839924443
+    second: ground_grass_details_68
+  - first:
+      213: -432555223069237923
+    second: ground_grass_details_69
+  - first:
+      213: 1261989614882922617
+    second: ground_grass_details_70
+  - first:
+      213: -3321756013173526393
+    second: ground_grass_details_71
+  - first:
+      213: -4082938233820475547
+    second: ground_grass_details_72
+  - first:
+      213: -2930861086219478928
+    second: ground_grass_details_73
+  - first:
+      213: 6176165529805176993
+    second: ground_grass_details_74
+  - first:
+      213: 2340916465617435424
+    second: ground_grass_details_75
+  - first:
+      213: -1309090455483950754
+    second: ground_grass_details_76
+  - first:
+      213: -2086062938780791365
+    second: ground_grass_details_77
+  - first:
+      213: 3347039954322165030
+    second: ground_grass_details_78
+  - first:
+      213: 6196546882525731652
+    second: ground_grass_details_79
+  - first:
+      213: -2497103448440419716
+    second: ground_grass_details_80
+  - first:
+      213: 355924807016813489
+    second: ground_grass_details_81
+  - first:
+      213: -1735569316600318114
+    second: ground_grass_details_82
+  - first:
+      213: 2753179905336895192
+    second: ground_grass_details_83
+  - first:
+      213: 8175338661194139452
+    second: ground_grass_details_84
+  - first:
+      213: 3373913701697589571
+    second: ground_grass_details_85
+  - first:
+      213: -7491482258644796216
+    second: ground_grass_details_86
+  - first:
+      213: -1241952444371289645
+    second: ground_grass_details_87
+  - first:
+      213: 5991899944548268061
+    second: ground_grass_details_88
+  - first:
+      213: 8517095074317951619
+    second: ground_grass_details_89
+  - first:
+      213: -8362573777489913148
+    second: ground_grass_details_90
+  - first:
+      213: -7498465145449133346
+    second: ground_grass_details_91
+  - first:
+      213: -2568535058850245560
+    second: ground_grass_details_92
+  - first:
+      213: -8776593052697029837
+    second: ground_grass_details_93
+  - first:
+      213: 5601569088846372738
+    second: ground_grass_details_94
+  - first:
+      213: -4623908923976044324
+    second: ground_grass_details_95
+  - first:
+      213: -4846809250805675189
+    second: ground_grass_details_96
+  - first:
+      213: 2043064791053716623
+    second: ground_grass_details_97
+  - first:
+      213: -4042357493806997171
+    second: ground_grass_details_98
+  - first:
+      213: -8180893562671734816
+    second: ground_grass_details_99
+  - first:
+      213: -1913465361346422530
+    second: ground_grass_details_100
+  - first:
+      213: 1155716310530866900
+    second: ground_grass_details_101
+  - first:
+      213: 5903689973423101002
+    second: ground_grass_details_102
+  - first:
+      213: -2117027951224641623
+    second: ground_grass_details_103
+  - first:
+      213: 8377166861753554333
+    second: ground_grass_details_104
+  - first:
+      213: -3263177389086029117
+    second: ground_grass_details_105
+  - first:
+      213: 7404110673127809630
+    second: ground_grass_details_106
+  - first:
+      213: -5913788832397417130
+    second: ground_grass_details_107
+  - first:
+      213: 963408930837679263
+    second: ground_grass_details_108
+  - first:
+      213: -8656070964490120109
+    second: ground_grass_details_109
+  - first:
+      213: -229572376879748190
+    second: ground_grass_details_110
+  - first:
+      213: -6199528842022199654
+    second: ground_grass_details_111
+  - first:
+      213: -7000767705325098759
+    second: ground_grass_details_112
+  - first:
+      213: -4936760571657620128
+    second: ground_grass_details_113
+  - first:
+      213: 350042423827263530
+    second: ground_grass_details_114
+  - first:
+      213: -1805703460827460605
+    second: ground_grass_details_115
+  - first:
+      213: -4529729419002588450
+    second: ground_grass_details_116
+  - first:
+      213: 7725965203635240048
+    second: ground_grass_details_117
+  - first:
+      213: 991761930135204626
+    second: ground_grass_details_118
+  - first:
+      213: 698036622865824651
+    second: ground_grass_details_119
+  - first:
+      213: -8441814898717680228
+    second: ground_grass_details_120
+  - first:
+      213: -1917395642901113785
+    second: ground_grass_details_121
+  - first:
+      213: 4448597119411296668
+    second: ground_grass_details_122
+  - first:
+      213: 4272743099912137279
+    second: ground_grass_details_123
+  - first:
+      213: -6389524705678236793
+    second: ground_grass_details_124
+  - first:
+      213: -4301097751967192180
+    second: ground_grass_details_125
+  - first:
+      213: 3869899773836523884
+    second: ground_grass_details_126
+  - first:
+      213: 3638383957353743669
+    second: ground_grass_details_127
+  - first:
+      213: 4498783181734764600
+    second: ground_grass_details_128
+  - first:
+      213: -3646132090564380602
+    second: ground_grass_details_129
+  - first:
+      213: 8636913712840164114
+    second: ground_grass_details_130
+  - first:
+      213: 4214556187999011190
+    second: ground_grass_details_131
+  - first:
+      213: -807719958424555173
+    second: ground_grass_details_132
+  - first:
+      213: -3461320694441528977
+    second: ground_grass_details_133
+  - first:
+      213: 1807407404866922015
+    second: ground_grass_details_134
+  - first:
+      213: 7009449179198259819
+    second: ground_grass_details_135
+  - first:
+      213: -9127929245337887262
+    second: ground_grass_details_136
+  - first:
+      213: -8064444865077237759
+    second: ground_grass_details_137
+  - first:
+      213: -7435880178070739653
+    second: ground_grass_details_138
+  - first:
+      213: 2128051481043509394
+    second: ground_grass_details_139
+  - first:
+      213: 2013068055435841742
+    second: ground_grass_details_140
+  - first:
+      213: 1703251657856434403
+    second: ground_grass_details_141
+  - first:
+      213: -3247104166734686008
+    second: ground_grass_details_142
+  - first:
+      213: 1029866620474396191
+    second: ground_grass_details_143
+  - first:
+      213: -1874457950772194873
+    second: ground_grass_details_144
+  - first:
+      213: 6513826391072434749
+    second: ground_grass_details_145
+  - first:
+      213: -508160811523093829
+    second: ground_grass_details_146
+  - first:
+      213: -3036238114176974995
+    second: ground_grass_details_147
+  - first:
+      213: -489406970825216659
+    second: ground_grass_details_148
+  - first:
+      213: 8213882894675862205
+    second: ground_grass_details_149
+  - first:
+      213: 2490503020270984671
+    second: ground_grass_details_150
+  - first:
+      213: 1978727562604632270
+    second: ground_grass_details_151
+  - first:
+      213: 7279140675625130818
+    second: ground_grass_details_152
+  - first:
+      213: 1528270403817245193
+    second: ground_grass_details_153
+  - first:
+      213: 6971868375640293834
+    second: ground_grass_details_154
+  - first:
+      213: -993127279574217344
+    second: ground_grass_details_155
+  - first:
+      213: 4878269063985525067
+    second: ground_grass_details_156
+  - first:
+      213: 6315708162636819516
+    second: ground_grass_details_157
+  - first:
+      213: -4945493322255509957
+    second: ground_grass_details_158
+  - first:
+      213: 5754632620396438863
+    second: ground_grass_details_159
+  - first:
+      213: -3254950845216719898
+    second: ground_grass_details_160
+  - first:
+      213: -3822752086889787582
+    second: ground_grass_details_161
+  - first:
+      213: -3050069116712568385
+    second: ground_grass_details_162
+  - first:
+      213: 7062935810265213210
+    second: ground_grass_details_163
+  - first:
+      213: -4802973194424590714
+    second: ground_grass_details_164
+  - first:
+      213: -3773249731162482351
+    second: ground_grass_details_165
+  - first:
+      213: -4584063680709533100
+    second: ground_grass_details_166
+  - first:
+      213: 1659430594013614808
+    second: ground_grass_details_167
+  - first:
+      213: -8294740573198899960
+    second: ground_grass_details_168
+  - first:
+      213: -8958458496114789949
+    second: ground_grass_details_169
+  - first:
+      213: -1508991209882116213
+    second: ground_grass_details_170
+  - first:
+      213: 499183712580305779
+    second: ground_grass_details_171
+  - first:
+      213: 7186243255603962652
+    second: ground_grass_details_172
+  - first:
+      213: 604437971383764187
+    second: ground_grass_details_173
+  - first:
+      213: -5785945705246850526
+    second: ground_grass_details_174
+  - first:
+      213: 2138351562683857218
+    second: ground_grass_details_175
+  - first:
+      213: -6695943290507049926
+    second: ground_grass_details_176
+  - first:
+      213: -8080044573017247660
+    second: ground_grass_details_177
+  - first:
+      213: -4523227295613228270
+    second: ground_grass_details_178
+  - first:
+      213: -664460105563248025
+    second: ground_grass_details_179
+  - first:
+      213: -8469622709229249638
+    second: ground_grass_details_180
+  - first:
+      213: 7106970784313999552
+    second: ground_grass_details_181
+  - first:
+      213: 5396743183875994003
+    second: ground_grass_details_182
+  - first:
+      213: 6423597499808591581
+    second: ground_grass_details_183
+  - first:
+      213: 4015369277353442709
+    second: ground_grass_details_184
+  - first:
+      213: 1475923663722775517
+    second: ground_grass_details_185
+  - first:
+      213: -4333708854437866845
+    second: ground_grass_details_186
+  - first:
+      213: 2704661920832903031
+    second: ground_grass_details_187
+  - first:
+      213: -3028928061021286642
+    second: ground_grass_details_188
+  - first:
+      213: -5666754315150010180
+    second: ground_grass_details_189
+  - first:
+      213: -2872749057678904466
+    second: ground_grass_details_190
+  - first:
+      213: -6816942546831395547
+    second: ground_grass_details_191
+  - first:
+      213: 2299061679271441791
+    second: ground_grass_details_192
+  - first:
+      213: 1149532964504722146
+    second: ground_grass_details_193
+  - first:
+      213: 9192680687020669719
+    second: ground_grass_details_194
+  - first:
+      213: -4534650830985964863
+    second: ground_grass_details_195
+  - first:
+      213: 244925786937134463
+    second: ground_grass_details_196
+  - first:
+      213: 2109736119710317152
+    second: ground_grass_details_197
+  - first:
+      213: 8399122536273145080
+    second: ground_grass_details_198
+  - first:
+      213: 8247527216813821115
+    second: ground_grass_details_199
+  - first:
+      213: 2633955891857741482
+    second: ground_grass_details_200
+  - first:
+      213: -1250652075391492161
+    second: ground_grass_details_201
+  - first:
+      213: -3241046405980830521
+    second: ground_grass_details_202
+  - first:
+      213: -3541320539936393995
+    second: ground_grass_details_203
+  - first:
+      213: -4342682959368645495
+    second: ground_grass_details_204
+  - first:
+      213: -7148162756786223837
+    second: ground_grass_details_205
+  - first:
+      213: -7935890307229352076
+    second: ground_grass_details_206
+  - first:
+      213: 1208294940981946350
+    second: ground_grass_details_207
+  - first:
+      213: -7756024952506411515
+    second: ground_grass_details_208
+  - first:
+      213: 9185050525427375519
+    second: ground_grass_details_209
+  - first:
+      213: -5019269221983302896
+    second: ground_grass_details_210
+  - first:
+      213: -6129978939286350750
+    second: ground_grass_details_211
+  - first:
+      213: 8550554599236096461
+    second: ground_grass_details_212
+  - first:
+      213: -2749058237574503977
+    second: ground_grass_details_213
+  - first:
+      213: 457290277687945477
+    second: ground_grass_details_214
+  - first:
+      213: -3671555771657734872
+    second: ground_grass_details_215
+  - first:
+      213: 7327137653235593824
+    second: ground_grass_details_216
+  - first:
+      213: -8564935459003995670
+    second: ground_grass_details_217
+  - first:
+      213: 3884129329758429156
+    second: ground_grass_details_218
+  - first:
+      213: -7893401763818423038
+    second: ground_grass_details_219
+  - first:
+      213: -7799043648009996089
+    second: ground_grass_details_220
+  - first:
+      213: 4026492929781220551
+    second: ground_grass_details_221
+  - first:
+      213: 3387884193372466295
+    second: ground_grass_details_222
+  - first:
+      213: 2092025093103263956
+    second: ground_grass_details_223
+  - first:
+      213: -7784902063620241656
+    second: ground_grass_details_224
+  - first:
+      213: 9206340576657865057
+    second: ground_grass_details_225
+  - first:
+      213: 1652498209803396242
+    second: ground_grass_details_226
+  - first:
+      213: -4265075617874700020
+    second: ground_grass_details_227
+  - first:
+      213: -2597760190002519351
+    second: ground_grass_details_228
+  - first:
+      213: -1542860290771339497
+    second: ground_grass_details_229
+  - first:
+      213: 6789098844895082519
+    second: ground_grass_details_230
+  - first:
+      213: -1849462796748518986
+    second: ground_grass_details_231
+  - first:
+      213: 1685867296655025401
+    second: ground_grass_details_232
+  - first:
+      213: -4875126905373828128
+    second: ground_grass_details_233
+  - first:
+      213: 2380172637692062430
+    second: ground_grass_details_234
+  - first:
+      213: 6761330572018930288
+    second: ground_grass_details_235
+  - first:
+      213: -4587852708232909610
+    second: ground_grass_details_236
+  - first:
+      213: 8029335376170087800
+    second: ground_grass_details_237
+  - first:
+      213: 324768750452547563
+    second: ground_grass_details_238
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 4
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ground_grass_details_0
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 278
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb9fac625c3fc940800000000000000
+      internalID: 5318536009656277987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 277
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88edec07b8edb3d0800000000000000
+      internalID: -3189137088214865780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 282
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f89f398d4ee2ae0800000000000000
+      internalID: -1572067601059049726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 266
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3ba8010ddd20e50800000000000000
+      internalID: 6774220675219108780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 268
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a027af6b3ed7a0490800000000000000
+      internalID: -7779266989348195830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_5
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 270
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6b196ced1f22530800000000000000
+      internalID: 3828888572334814914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 269
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c84c8d3f5a00e70800000000000000
+      internalID: 9079439315511315472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_7
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 270
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e9c17865bf4d1a0800000000000000
+      internalID: -6785522389487935871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 268
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4cdf0623575a9a0800000000000000
+      internalID: -6222438450906413905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_9
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 262
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3139910534137abf0800000000000000
+      internalID: -313227483902536941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 273
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bda66330ba5ff600800000000000000
+      internalID: 504221396111895984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 268
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59729c8c59c7f7470800000000000000
+      internalID: 8394565213202491285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_12
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 271
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb0c46c5a54a4250800000000000000
+      internalID: 5929628437685472205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_13
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 275
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976357fb04aef31e0800000000000000
+      internalID: -2215794927832058247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_14
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 275
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c818c1390078e10800000000000000
+      internalID: 2199727574832221277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_15
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 265
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95096323449d84c30800000000000000
+      internalID: 4343960727522283609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 265
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83297c4d6bb5c6430800000000000000
+      internalID: 3777495028269027896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_17
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 266
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6c446b945bbd310800000000000000
+      internalID: 1430936634815465141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_18
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 262
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8ad29afc26afeb0800000000000000
+      internalID: -4685323818289485614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_19
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 255
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357a21fe907b3f490800000000000000
+      internalID: -7713620483461961901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_20
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 266
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc9f5159677c5d30800000000000000
+      internalID: 4421540228391476440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_21
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 260
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 268c791470cff4990800000000000000
+      internalID: -7399418554650998686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 266
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d490bef0c8e0afb0800000000000000
+      internalID: -4638451700587260720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_23
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 264
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8fded61ca122770800000000000000
+      internalID: 8584453257796909224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_24
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 257
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da4c536fa0bd1930800000000000000
+      internalID: 4115639901819259603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_25
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 258
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2ecb6962dc08d60800000000000000
+      internalID: 7890532112774521504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_26
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 258
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38345533bb789ff0800000000000000
+      internalID: -29137387953833922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 235
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dadc5261191abcf0800000000000000
+      internalID: -235848468028138796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_28
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 235
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc9b30e0d58575f0800000000000000
+      internalID: -759553829980365570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_29
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 241
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2b41876c334b700800000000000000
+      internalID: 555125581584577230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_30
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 235
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa629c615db6b3e0800000000000000
+      internalID: -2038233623927035144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_31
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 242
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e62cd407c6e71810800000000000000
+      internalID: 1736109923829032675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_32
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 237
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab362ebbad8aa230800000000000000
+      internalID: 3650886216706309029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_33
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 246
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab152f3cfb09bdd60800000000000000
+      internalID: 7916079923334369722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_34
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 241
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c4c07a8e598c360800000000000000
+      internalID: 7190161631564549244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_35
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 245
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3fd46d7cd713270800000000000000
+      internalID: 8228496291430003631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_36
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 244
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59f059f856b24c10800000000000000
+      internalID: 2036390474781096284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_37
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 244
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08129d38e28ffa50800000000000000
+      internalID: 6557103516451739662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_38
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 232
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55af182da69429650800000000000000
+      internalID: 6238129157008652885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_39
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 232
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c144669e93b281350800000000000000
+      internalID: 5987583232317998108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_40
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 236
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd888a34a2b82eb0800000000000000
+      internalID: -4744345789008409089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_41
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 234
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f0c69c5beba2ad0800000000000000
+      internalID: -2726156936441753814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_42
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 237
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a17311681bf9ce0800000000000000
+      internalID: -1396202170089006458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_43
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 236
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02e10759866ae680800000000000000
+      internalID: -8725048588020620785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_44
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 235
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db4acf9ce0b5ea00800000000000000
+      internalID: 785228240385625045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_45
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 234
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46310c29ecb0efc80800000000000000
+      internalID: -8287173282461904028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_46
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 229
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f718f5f4cecf5020800000000000000
+      internalID: 2332810477336795126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_47
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 231
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1363639b220ccf130800000000000000
+      internalID: 3601965057358313009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_48
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 233
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558c9710a88e5da30800000000000000
+      internalID: 4239550303667079253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_49
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 226
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf0677161caf6de0800000000000000
+      internalID: -1337661353422876734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_50
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 227
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c83187e448242cb0800000000000000
+      internalID: -4889739019010623293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_51
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 227
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0c69b275e753ed0800000000000000
+      internalID: -2434901110665330447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 211
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a363a448ec7c5440800000000000000
+      internalID: 4925949429462295456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_53
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 210
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04dadf1db6a9be80800000000000000
+      internalID: -8162309518418848754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_54
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 217
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6773358ddb49fd70800000000000000
+      internalID: 9077369938736543594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_55
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 212
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d614add175b5569b0800000000000000
+      internalID: -5087559774323981971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_56
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 210
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422c14deb1eff7470800000000000000
+      internalID: 8394707626339975716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_57
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 218
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8cf2f03495f8120800000000000000
+      internalID: 2418249669473716441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_58
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 213
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddc2b38dfcc8c9c0800000000000000
+      internalID: -3906647287535579684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_59
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 212
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adac911d214851e0800000000000000
+      internalID: -2208943955400413785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_60
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 211
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa6e4be2f57bb9d0800000000000000
+      internalID: -2757480660643976539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_61
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 213
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f432a7272912730800000000000000
+      internalID: 3972617366690549580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_62
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 215
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96fd665625bfd6360800000000000000
+      internalID: 7164658913523457897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_63
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 211
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429fd74cd89f9d8a0800000000000000
+      internalID: -6279713818109150940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_64
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 214
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8658bc90bc4e940800000000000000
+      internalID: 5324603902388431050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_65
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 213
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c2563bde8921d40800000000000000
+      internalID: 5553669437185666144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_66
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 212
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66821828ad0c4aea0800000000000000
+      internalID: -5862348770204637082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_67
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 212
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8684050e94f43c280800000000000000
+      internalID: -9024282049605777304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_68
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 213
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6d2836f545be110800000000000000
+      internalID: 1291218486839924443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_69
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 218
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5dd73ff0514ff9f0800000000000000
+      internalID: -432555223069237923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_70
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 211
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97024515edc738110800000000000000
+      internalID: 1261989614882922617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_71
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 213
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78036446180c6e1d0800000000000000
+      internalID: -3321756013173526393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_72
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 212
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f05450f4d7657c0800000000000000
+      internalID: -4082938233820475547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_73
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 208
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0785fd5de5d7357d0800000000000000
+      internalID: -2930861086219478928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_74
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 208
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0cc0e93d526b550800000000000000
+      internalID: 6176165529805176993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_75
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 210
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b7dfd6f1b9c7020800000000000000
+      internalID: 2340916465617435424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_76
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 210
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e595606aa2d25dde0800000000000000
+      internalID: -1309090455483950754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_77
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 211
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd0dd24fc0dc03e0800000000000000
+      internalID: -2086062938780791365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_78
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 209
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d8966ea13137e20800000000000000
+      internalID: 3347039954322165030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_79
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 207
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b10071f8e8ef550800000000000000
+      internalID: 6196546882525731652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_80
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 211
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a4e44d4a1885dd0800000000000000
+      internalID: -2497103448440419716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_81
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 205
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b39cf8e9bf70f400800000000000000
+      internalID: 355924807016813489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_82
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 203
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5778f8e6e40ae7e0800000000000000
+      internalID: -1735569316600318114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_83
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 195
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d669547982453620800000000000000
+      internalID: 2753179905336895192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_84
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 198
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c378ef29233a47170800000000000000
+      internalID: 8175338661194139452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_85
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 191
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341128cc2ac82de20800000000000000
+      internalID: 3373913701697589571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_86
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 202
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccf55cc398e80890800000000000000
+      internalID: -7491482258644796216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_87
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 196
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9325df4d2b3cee0800000000000000
+      internalID: -1241952444371289645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_88
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 197
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d187b7cc041872350800000000000000
+      internalID: 5991899944548268061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_89
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 203
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38263f638dcc23670800000000000000
+      internalID: 8517095074317951619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_90
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 200
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca97b8c47b22fb80800000000000000
+      internalID: -8362573777489913148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_91
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 204
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda4bd4cda910f790800000000000000
+      internalID: -7498465145449133346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_92
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 202
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844181009faba5cd0800000000000000
+      internalID: -2568535058850245560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_93
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 197
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33315d37e17433680800000000000000
+      internalID: -8776593052697029837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_94
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 194
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f1f7d6865ccbd40800000000000000
+      internalID: 5601569088846372738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_95
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 188
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd036a8055394dfb0800000000000000
+      internalID: -4623908923976044324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_96
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 190
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b86a77aacacbcb0800000000000000
+      internalID: -4846809250805675189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_97
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 187
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c4dd35a9c6a5c10800000000000000
+      internalID: 2043064791053716623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_98
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 191
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41ee76d649a6e7c0800000000000000
+      internalID: -4042357493806997171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_99
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 188
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efdba326a0a77e80800000000000000
+      internalID: -8180893562671734816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_100
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 190
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef89eee44610275e0800000000000000
+      internalID: -1913465361346422530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_101
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 188
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de31567cdde90010800000000000000
+      internalID: 1155716310530866900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_102
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 192
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a445be170ce1ee150800000000000000
+      internalID: 5903689973423101002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_103
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 193
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7aeab7b4ece92e0800000000000000
+      internalID: -2117027951224641623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_104
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 194
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d959efa60eca14470800000000000000
+      internalID: 8377166861753554333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_105
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 194
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cac074247dd6b2d0800000000000000
+      internalID: -3263177389086029117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_106
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 194
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e522675bd6fa0c660800000000000000
+      internalID: 7404110673127809630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_107
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 192
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655a748b3600eeda0800000000000000
+      internalID: -5913788832397417130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_108
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 194
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9cc4087157be5d00800000000000000
+      internalID: 963408930837679263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_109
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 183
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3545ef2d1557fd780800000000000000
+      internalID: -8656070964490120109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_110
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 184
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab27d9b32560dcf0800000000000000
+      internalID: -229572376879748190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_111
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 183
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e5a7c5d59d6f9a0800000000000000
+      internalID: -6199528842022199654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_112
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 184
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f822191dd648de90800000000000000
+      internalID: -7000767705325098759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_113
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 186
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06571398a6a1d7bb0800000000000000
+      internalID: -4936760571657620128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_114
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 180
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a207a88dab99bd400800000000000000
+      internalID: 350042423827263530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_115
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 182
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c8fa7f44ad0f6e0800000000000000
+      internalID: -1805703460827460605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_116
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 180
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2d6bbc71b2321c0800000000000000
+      internalID: -4529729419002588450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_117
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 179
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cf4b53b64283b60800000000000000
+      internalID: 7725965203635240048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_118
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 180
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213f67b883273cd00800000000000000
+      internalID: 991761930135204626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_119
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 183
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b71223c9cefa900800000000000000
+      internalID: 698036622865824651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_120
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 178
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d15568316a8da80800000000000000
+      internalID: -8441814898717680228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_121
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 164
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7445ff252da0465e0800000000000000
+      internalID: -1917395642901113785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_122
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 169
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99165ba2879cbd30800000000000000
+      internalID: 4448597119411296668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_123
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 168
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3aa3ce1635db4b30800000000000000
+      internalID: 4272743099912137279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_124
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 171
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78367722229d357a0800000000000000
+      internalID: -6389524705678236793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_125
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 164
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ba3cdf16e6f44c0800000000000000
+      internalID: -4301097751967192180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_126
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 162
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69f3e73755a4b530800000000000000
+      internalID: 3869899773836523884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_127
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 169
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535cc86aee22e7230800000000000000
+      internalID: 3638383957353743669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_128
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 171
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8306dccd773ee6e30800000000000000
+      internalID: 4498783181734764600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_129
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 172
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648f1c18e26566dc0800000000000000
+      internalID: -3646132090564380602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_130
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 177
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213c981f24b7cd770800000000000000
+      internalID: 8636913712840164114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_131
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 172
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6710b97f58c1d7a30800000000000000
+      internalID: 4214556187999011190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_132
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 170
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b517c103af66ac4f0800000000000000
+      internalID: -807719958424555173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_133
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 166
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61ba12da2be6ffc0800000000000000
+      internalID: -3461320694441528977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_134
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 164
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16e08b6573351910800000000000000
+      internalID: 1807407404866922015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_135
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 168
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62044d04e0964160800000000000000
+      internalID: 7009449179198259819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_136
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 164
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed5cb496b4135180800000000000000
+      internalID: -9127929245337887262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_137
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 166
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108295a5f16551090800000000000000
+      internalID: -8064444865077237759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_138
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 163
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35a9b100627ec890800000000000000
+      internalID: -7435880178070739653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_139
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 167
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290a75f0c8b588d10800000000000000
+      internalID: 2128051481043509394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_140
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 161
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec090f01bbadfeb10800000000000000
+      internalID: 2013068055435841742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_141
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 166
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0c0adcb5a23a710800000000000000
+      internalID: 1703251657856434403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_142
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 169
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c89619d6f7ffe2d0800000000000000
+      internalID: -3247104166734686008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_143
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 163
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e886f1c32da4e00800000000000000
+      internalID: 1029866620474396191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_144
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 168
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c111d1dc669cf5e0800000000000000
+      internalID: -1874457950772194873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_145
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 159
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3aef684792c56a50800000000000000
+      internalID: 6513826391072434749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_146
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 160
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba446c2f66a2f8f0800000000000000
+      internalID: -508160811523093829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_147
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fbaf6958d1dd5d0800000000000000
+      internalID: -3036238114176974995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_148
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 160
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6dec59f3f64539f0800000000000000
+      internalID: -489406970825216659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_149
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 161
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2efc349f29df170800000000000000
+      internalID: 8213882894675862205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_150
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 162
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd1a4b3d4b009220800000000000000
+      internalID: 2490503020270984671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_151
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 160
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8d2540c3ad57b10800000000000000
+      internalID: 1978727562604632270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_152
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 136
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b9bb0c0e3b40560800000000000000
+      internalID: 7279140675625130818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_153
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 117
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a054cc5d1853510800000000000000
+      internalID: 1528270403817245193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_154
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 134
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1c1de595d01c060800000000000000
+      internalID: 6971868375640293834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_155
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 135
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d8a344004b732f0800000000000000
+      internalID: -993127279574217344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_156
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 133
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4172a51ed713b340800000000000000
+      internalID: 4878269063985525067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_157
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 109
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ca003ac17e5a750800000000000000
+      internalID: 6315708162636819516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_158
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 120
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36d4e796041e5bb0800000000000000
+      internalID: -4945493322255509957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_159
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 136
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45ea9ff0ef8cdf40800000000000000
+      internalID: 5754632620396438863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_160
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 120
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebff75a37714d2d0800000000000000
+      internalID: -3254950845216719898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_161
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 136
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f0d841b3bd2fac0800000000000000
+      internalID: -3822752086889787582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_162
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 136
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb935fd5c4afba5d0800000000000000
+      internalID: -3050069116712568385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_163
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 134
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a196e3ac2b6940260800000000000000
+      internalID: 7062935810265213210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_164
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 135
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e5990b359685db0800000000000000
+      internalID: -4802973194424590714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_165
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 133
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159d83d6c59b2abc0800000000000000
+      internalID: -3773249731162482351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_166
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 129
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452e98bae522260c0800000000000000
+      internalID: -4584063680709533100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_167
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 117
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2d89d455b770710800000000000000
+      internalID: 1659430594013614808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_168
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 124
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805a576656923ec80800000000000000
+      internalID: -8294740573198899960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_169
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 136
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c17ff336792da380800000000000000
+      internalID: -8958458496114789949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_170
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 125
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f1ac55d7cfe0be0800000000000000
+      internalID: -1508991209882116213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_171
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 124
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373820a11f47de600800000000000000
+      internalID: 499183712580305779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_172
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 126
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1322d7aa2aaab360800000000000000
+      internalID: 7186243255603962652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_173
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 120
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4461de125636800800000000000000
+      internalID: 604437971383764187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_174
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 124
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222801d490134bfa0800000000000000
+      internalID: -5785945705246850526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_175
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 125
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2493ca2ba63fcad10800000000000000
+      internalID: 2138351562683857218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_176
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 126
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34ca2dcd0b3313a0800000000000000
+      internalID: -6695943290507049926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_177
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 120
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450fbff454aeddf80800000000000000
+      internalID: -8080044573017247660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_178
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 124
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b6f9e5db44a31c0800000000000000
+      internalID: -4523227295613228270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_179
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 88
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76aeb70fd0d57c6f0800000000000000
+      internalID: -664460105563248025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_180
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 98
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b1fca150bd57a80800000000000000
+      internalID: -8469622709229249638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_181
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 89
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c08d14264801a260800000000000000
+      internalID: 7106970784313999552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_182
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 102
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39170f2255515ea40800000000000000
+      internalID: 5396743183875994003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_183
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 91
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddead2474e3352950800000000000000
+      internalID: 6423597499808591581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_184
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d3baa551579b730800000000000000
+      internalID: 4015369277353442709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_185
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 88
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd30acb90c88b7410800000000000000
+      internalID: 1475923663722775517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_186
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 90
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2144302c29bd3c0800000000000000
+      internalID: -4333708854437866845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_187
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77755c4efa3e88520800000000000000
+      internalID: 2704661920832903031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_188
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 77
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f0d98f9f517f5d0800000000000000
+      internalID: -3028928061021286642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_189
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 90
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8521069f4ab51b0800000000000000
+      internalID: -5666754315150010180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_190
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 92
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63f538d3f1f128d0800000000000000
+      internalID: -2872749057678904466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_191
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 91
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5253ed11fda5561a0800000000000000
+      internalID: -6816942546831395547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_192
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 79
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75ffa59a68e7ef10800000000000000
+      internalID: 2299061679271441791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_193
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 89
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ead7e60426f3ff00800000000000000
+      internalID: 1149532964504722146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_194
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bf5734166f29f70800000000000000
+      internalID: 9192680687020669719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_195
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 75
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2d6a6481fa111c0800000000000000
+      internalID: -4534650830985964863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_196
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 83
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d88be94b6266300800000000000000
+      internalID: 244925786937134463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_197
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 72
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06af421b2d9474d10800000000000000
+      internalID: 2109736119710317152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_198
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 72
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fce98f327daf8470800000000000000
+      internalID: 8399122536273145080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_199
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 76
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbccd817e4a157270800000000000000
+      internalID: 8247527216813821115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_200
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 76
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa65a38ade0bd8420800000000000000
+      internalID: 2633955891857741482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_201
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 12
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf5fac409ac4aee0800000000000000
+      internalID: -1250652075391492161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_202
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 83
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4c4fe277d7503d0800000000000000
+      internalID: -3241046405980830521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_203
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 67
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4fb4d4bb3badec0800000000000000
+      internalID: -3541320539936393995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_204
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 58
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98490b26bd0bbb3c0800000000000000
+      internalID: -4342682959368645495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_205
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 50
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325841568df9ccc90800000000000000
+      internalID: -7148162756786223837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_206
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 38
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ff02dcfcd0ed190800000000000000
+      internalID: -7935890307229352076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_207
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 61
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee76125d8d9b4c010800000000000000
+      internalID: 1208294940981946350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_208
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 37
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5061acc16601d5490800000000000000
+      internalID: -7756024952506411515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_209
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 40
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d1d14d9cad77f70800000000000000
+      internalID: 9185050525427375519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_210
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 40
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b42af5c39f75ab0800000000000000
+      internalID: -5019269221983302896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_211
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 53
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264163bf1a0fdeaa0800000000000000
+      internalID: -6129978939286350750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_212
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 48
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1dc00fa1ca9a670800000000000000
+      internalID: 8550554599236096461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_213
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 42
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1a28a191269d9d0800000000000000
+      internalID: -2749058237574503977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_214
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 40
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50964d0b51f985600800000000000000
+      internalID: 457290277687945477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_215
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 32
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8253e497a730c0dc0800000000000000
+      internalID: -3671555771657734872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_216
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 31
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0623f71ffd83fa560800000000000000
+      internalID: 7327137653235593824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_217
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 36
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae96be9349c332980800000000000000
+      internalID: -8564935459003995670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_218
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 34
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef5de1eb0337e530800000000000000
+      internalID: 3884129329758429156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_219
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 33
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d3926bae0057290800000000000000
+      internalID: -7893401763818423038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_220
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 37
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8f89c8f1b34c390800000000000000
+      internalID: -7799043648009996089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_221
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 34
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c44b328cf9f0e730800000000000000
+      internalID: 4026492929781220551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_222
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c602e59be240f20800000000000000
+      internalID: 3387884193372466295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_223
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 16
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0af97fcbd580d10800000000000000
+      internalID: 2092025093103263956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_224
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 4
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807c5beb1d876f390800000000000000
+      internalID: -7784902063620241656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_225
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 14
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169f4f82afd73cf70800000000000000
+      internalID: 9206340576657865057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_226
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 10
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294ec43dd5adee610800000000000000
+      internalID: 1652498209803396242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_227
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 5
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c091668a2586fc4c0800000000000000
+      internalID: -4265075617874700020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_228
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 11
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2af37eed6e2fbd0800000000000000
+      internalID: -2597760190002519351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_229
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 14
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717b48e6db8a69ae0800000000000000
+      internalID: -1542860290771339497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_230
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 10
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7187cf2ed69b73e50800000000000000
+      internalID: 6789098844895082519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_231
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 17
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9018e92636556e0800000000000000
+      internalID: -1849462796748518986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_232
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 11
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4229bcf57656710800000000000000
+      internalID: 1685867296655025401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_233
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 7
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb5e3ab8e1185cb0800000000000000
+      internalID: -4875126905373828128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_234
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 12
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda6dbd3762180120800000000000000
+      internalID: 2380172637692062430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_235
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 13
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0725d2a055215dd50800000000000000
+      internalID: 6761330572018930288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_236
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 12
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dca6f3f44ca450c0800000000000000
+      internalID: -4587852708232909610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_237
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 16
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875781fbbfded6f60800000000000000
+      internalID: 8029335376170087800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_details_238
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 3
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef1fd4357fc18400800000000000000
+      internalID: 324768750452547563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ground_grass_details_0: 5318536009656277987
+      ground_grass_details_1: -3189137088214865780
+      ground_grass_details_10: 504221396111895984
+      ground_grass_details_100: -1913465361346422530
+      ground_grass_details_101: 1155716310530866900
+      ground_grass_details_102: 5903689973423101002
+      ground_grass_details_103: -2117027951224641623
+      ground_grass_details_104: 8377166861753554333
+      ground_grass_details_105: -3263177389086029117
+      ground_grass_details_106: 7404110673127809630
+      ground_grass_details_107: -5913788832397417130
+      ground_grass_details_108: 963408930837679263
+      ground_grass_details_109: -8656070964490120109
+      ground_grass_details_11: 8394565213202491285
+      ground_grass_details_110: -229572376879748190
+      ground_grass_details_111: -6199528842022199654
+      ground_grass_details_112: -7000767705325098759
+      ground_grass_details_113: -4936760571657620128
+      ground_grass_details_114: 350042423827263530
+      ground_grass_details_115: -1805703460827460605
+      ground_grass_details_116: -4529729419002588450
+      ground_grass_details_117: 7725965203635240048
+      ground_grass_details_118: 991761930135204626
+      ground_grass_details_119: 698036622865824651
+      ground_grass_details_12: 5929628437685472205
+      ground_grass_details_120: -8441814898717680228
+      ground_grass_details_121: -1917395642901113785
+      ground_grass_details_122: 4448597119411296668
+      ground_grass_details_123: 4272743099912137279
+      ground_grass_details_124: -6389524705678236793
+      ground_grass_details_125: -4301097751967192180
+      ground_grass_details_126: 3869899773836523884
+      ground_grass_details_127: 3638383957353743669
+      ground_grass_details_128: 4498783181734764600
+      ground_grass_details_129: -3646132090564380602
+      ground_grass_details_13: -2215794927832058247
+      ground_grass_details_130: 8636913712840164114
+      ground_grass_details_131: 4214556187999011190
+      ground_grass_details_132: -807719958424555173
+      ground_grass_details_133: -3461320694441528977
+      ground_grass_details_134: 1807407404866922015
+      ground_grass_details_135: 7009449179198259819
+      ground_grass_details_136: -9127929245337887262
+      ground_grass_details_137: -8064444865077237759
+      ground_grass_details_138: -7435880178070739653
+      ground_grass_details_139: 2128051481043509394
+      ground_grass_details_14: 2199727574832221277
+      ground_grass_details_140: 2013068055435841742
+      ground_grass_details_141: 1703251657856434403
+      ground_grass_details_142: -3247104166734686008
+      ground_grass_details_143: 1029866620474396191
+      ground_grass_details_144: -1874457950772194873
+      ground_grass_details_145: 6513826391072434749
+      ground_grass_details_146: -508160811523093829
+      ground_grass_details_147: -3036238114176974995
+      ground_grass_details_148: -489406970825216659
+      ground_grass_details_149: 8213882894675862205
+      ground_grass_details_15: 4343960727522283609
+      ground_grass_details_150: 2490503020270984671
+      ground_grass_details_151: 1978727562604632270
+      ground_grass_details_152: 7279140675625130818
+      ground_grass_details_153: 1528270403817245193
+      ground_grass_details_154: 6971868375640293834
+      ground_grass_details_155: -993127279574217344
+      ground_grass_details_156: 4878269063985525067
+      ground_grass_details_157: 6315708162636819516
+      ground_grass_details_158: -4945493322255509957
+      ground_grass_details_159: 5754632620396438863
+      ground_grass_details_16: 3777495028269027896
+      ground_grass_details_160: -3254950845216719898
+      ground_grass_details_161: -3822752086889787582
+      ground_grass_details_162: -3050069116712568385
+      ground_grass_details_163: 7062935810265213210
+      ground_grass_details_164: -4802973194424590714
+      ground_grass_details_165: -3773249731162482351
+      ground_grass_details_166: -4584063680709533100
+      ground_grass_details_167: 1659430594013614808
+      ground_grass_details_168: -8294740573198899960
+      ground_grass_details_169: -8958458496114789949
+      ground_grass_details_17: 1430936634815465141
+      ground_grass_details_170: -1508991209882116213
+      ground_grass_details_171: 499183712580305779
+      ground_grass_details_172: 7186243255603962652
+      ground_grass_details_173: 604437971383764187
+      ground_grass_details_174: -5785945705246850526
+      ground_grass_details_175: 2138351562683857218
+      ground_grass_details_176: -6695943290507049926
+      ground_grass_details_177: -8080044573017247660
+      ground_grass_details_178: -4523227295613228270
+      ground_grass_details_179: -664460105563248025
+      ground_grass_details_18: -4685323818289485614
+      ground_grass_details_180: -8469622709229249638
+      ground_grass_details_181: 7106970784313999552
+      ground_grass_details_182: 5396743183875994003
+      ground_grass_details_183: 6423597499808591581
+      ground_grass_details_184: 4015369277353442709
+      ground_grass_details_185: 1475923663722775517
+      ground_grass_details_186: -4333708854437866845
+      ground_grass_details_187: 2704661920832903031
+      ground_grass_details_188: -3028928061021286642
+      ground_grass_details_189: -5666754315150010180
+      ground_grass_details_19: -7713620483461961901
+      ground_grass_details_190: -2872749057678904466
+      ground_grass_details_191: -6816942546831395547
+      ground_grass_details_192: 2299061679271441791
+      ground_grass_details_193: 1149532964504722146
+      ground_grass_details_194: 9192680687020669719
+      ground_grass_details_195: -4534650830985964863
+      ground_grass_details_196: 244925786937134463
+      ground_grass_details_197: 2109736119710317152
+      ground_grass_details_198: 8399122536273145080
+      ground_grass_details_199: 8247527216813821115
+      ground_grass_details_2: -1572067601059049726
+      ground_grass_details_20: 4421540228391476440
+      ground_grass_details_200: 2633955891857741482
+      ground_grass_details_201: -1250652075391492161
+      ground_grass_details_202: -3241046405980830521
+      ground_grass_details_203: -3541320539936393995
+      ground_grass_details_204: -4342682959368645495
+      ground_grass_details_205: -7148162756786223837
+      ground_grass_details_206: -7935890307229352076
+      ground_grass_details_207: 1208294940981946350
+      ground_grass_details_208: -7756024952506411515
+      ground_grass_details_209: 9185050525427375519
+      ground_grass_details_21: -7399418554650998686
+      ground_grass_details_210: -5019269221983302896
+      ground_grass_details_211: -6129978939286350750
+      ground_grass_details_212: 8550554599236096461
+      ground_grass_details_213: -2749058237574503977
+      ground_grass_details_214: 457290277687945477
+      ground_grass_details_215: -3671555771657734872
+      ground_grass_details_216: 7327137653235593824
+      ground_grass_details_217: -8564935459003995670
+      ground_grass_details_218: 3884129329758429156
+      ground_grass_details_219: -7893401763818423038
+      ground_grass_details_22: -4638451700587260720
+      ground_grass_details_220: -7799043648009996089
+      ground_grass_details_221: 4026492929781220551
+      ground_grass_details_222: 3387884193372466295
+      ground_grass_details_223: 2092025093103263956
+      ground_grass_details_224: -7784902063620241656
+      ground_grass_details_225: 9206340576657865057
+      ground_grass_details_226: 1652498209803396242
+      ground_grass_details_227: -4265075617874700020
+      ground_grass_details_228: -2597760190002519351
+      ground_grass_details_229: -1542860290771339497
+      ground_grass_details_23: 8584453257796909224
+      ground_grass_details_230: 6789098844895082519
+      ground_grass_details_231: -1849462796748518986
+      ground_grass_details_232: 1685867296655025401
+      ground_grass_details_233: -4875126905373828128
+      ground_grass_details_234: 2380172637692062430
+      ground_grass_details_235: 6761330572018930288
+      ground_grass_details_236: -4587852708232909610
+      ground_grass_details_237: 8029335376170087800
+      ground_grass_details_238: 324768750452547563
+      ground_grass_details_24: 4115639901819259603
+      ground_grass_details_25: 7890532112774521504
+      ground_grass_details_26: -29137387953833922
+      ground_grass_details_27: -235848468028138796
+      ground_grass_details_28: -759553829980365570
+      ground_grass_details_29: 555125581584577230
+      ground_grass_details_3: 6774220675219108780
+      ground_grass_details_30: -2038233623927035144
+      ground_grass_details_31: 1736109923829032675
+      ground_grass_details_32: 3650886216706309029
+      ground_grass_details_33: 7916079923334369722
+      ground_grass_details_34: 7190161631564549244
+      ground_grass_details_35: 8228496291430003631
+      ground_grass_details_36: 2036390474781096284
+      ground_grass_details_37: 6557103516451739662
+      ground_grass_details_38: 6238129157008652885
+      ground_grass_details_39: 5987583232317998108
+      ground_grass_details_4: -7779266989348195830
+      ground_grass_details_40: -4744345789008409089
+      ground_grass_details_41: -2726156936441753814
+      ground_grass_details_42: -1396202170089006458
+      ground_grass_details_43: -8725048588020620785
+      ground_grass_details_44: 785228240385625045
+      ground_grass_details_45: -8287173282461904028
+      ground_grass_details_46: 2332810477336795126
+      ground_grass_details_47: 3601965057358313009
+      ground_grass_details_48: 4239550303667079253
+      ground_grass_details_49: -1337661353422876734
+      ground_grass_details_5: 3828888572334814914
+      ground_grass_details_50: -4889739019010623293
+      ground_grass_details_51: -2434901110665330447
+      ground_grass_details_52: 4925949429462295456
+      ground_grass_details_53: -8162309518418848754
+      ground_grass_details_54: 9077369938736543594
+      ground_grass_details_55: -5087559774323981971
+      ground_grass_details_56: 8394707626339975716
+      ground_grass_details_57: 2418249669473716441
+      ground_grass_details_58: -3906647287535579684
+      ground_grass_details_59: -2208943955400413785
+      ground_grass_details_6: 9079439315511315472
+      ground_grass_details_60: -2757480660643976539
+      ground_grass_details_61: 3972617366690549580
+      ground_grass_details_62: 7164658913523457897
+      ground_grass_details_63: -6279713818109150940
+      ground_grass_details_64: 5324603902388431050
+      ground_grass_details_65: 5553669437185666144
+      ground_grass_details_66: -5862348770204637082
+      ground_grass_details_67: -9024282049605777304
+      ground_grass_details_68: 1291218486839924443
+      ground_grass_details_69: -432555223069237923
+      ground_grass_details_7: -6785522389487935871
+      ground_grass_details_70: 1261989614882922617
+      ground_grass_details_71: -3321756013173526393
+      ground_grass_details_72: -4082938233820475547
+      ground_grass_details_73: -2930861086219478928
+      ground_grass_details_74: 6176165529805176993
+      ground_grass_details_75: 2340916465617435424
+      ground_grass_details_76: -1309090455483950754
+      ground_grass_details_77: -2086062938780791365
+      ground_grass_details_78: 3347039954322165030
+      ground_grass_details_79: 6196546882525731652
+      ground_grass_details_8: -6222438450906413905
+      ground_grass_details_80: -2497103448440419716
+      ground_grass_details_81: 355924807016813489
+      ground_grass_details_82: -1735569316600318114
+      ground_grass_details_83: 2753179905336895192
+      ground_grass_details_84: 8175338661194139452
+      ground_grass_details_85: 3373913701697589571
+      ground_grass_details_86: -7491482258644796216
+      ground_grass_details_87: -1241952444371289645
+      ground_grass_details_88: 5991899944548268061
+      ground_grass_details_89: 8517095074317951619
+      ground_grass_details_9: -313227483902536941
+      ground_grass_details_90: -8362573777489913148
+      ground_grass_details_91: -7498465145449133346
+      ground_grass_details_92: -2568535058850245560
+      ground_grass_details_93: -8776593052697029837
+      ground_grass_details_94: 5601569088846372738
+      ground_grass_details_95: -4623908923976044324
+      ground_grass_details_96: -4846809250805675189
+      ground_grass_details_97: 2043064791053716623
+      ground_grass_details_98: -4042357493806997171
+      ground_grass_details_99: -8180893562671734816
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

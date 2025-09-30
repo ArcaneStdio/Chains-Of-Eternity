@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 0da5796d01791d846b1fb83efe3116e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1574610775758209067
+    second: Magic_Shield_0
+  - first:
+      213: 4730185143634535482
+    second: Magic_Shield_1
+  - first:
+      213: -145902593964218484
+    second: Magic_Shield_2
+  - first:
+      213: -2217343616387957803
+    second: Magic_Shield_3
+  - first:
+      213: -8240110080092444905
+    second: Magic_Shield_4
+  - first:
+      213: -8948120651598594279
+    second: Magic_Shield_5
+  - first:
+      213: -3925117649140383812
+    second: Magic_Shield_6
+  - first:
+      213: 3601512388889351630
+    second: Magic_Shield_7
+  - first:
+      213: 4609934166479012001
+    second: Magic_Shield_8
+  - first:
+      213: -5594975622694702743
+    second: Magic_Shield_9
+  - first:
+      213: 872405728149118772
+    second: Magic_Shield_10
+  - first:
+      213: 1070620733306262425
+    second: Magic_Shield_11
+  - first:
+      213: -4235390847991136484
+    second: Magic_Shield_12
+  - first:
+      213: -6060053800069011788
+    second: Magic_Shield_13
+  - first:
+      213: 8579321841871287445
+    second: Magic_Shield_14
+  - first:
+      213: -2507067247223008262
+    second: Magic_Shield_15
+  - first:
+      213: -2766654700200399003
+    second: Magic_Shield_16
+  - first:
+      213: -5551491437172739080
+    second: Magic_Shield_17
+  - first:
+      213: -3560700410949374232
+    second: Magic_Shield_18
+  - first:
+      213: -7616319840431243162
+    second: Magic_Shield_19
+  - first:
+      213: 2753329229832713763
+    second: Magic_Shield_20
+  - first:
+      213: -388611544791951296
+    second: Magic_Shield_21
+  - first:
+      213: -7120609302185423807
+    second: Magic_Shield_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Magic_Shield_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 29
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20029c68242ad510800000000000000
+      internalID: 1574610775758209067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 0
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34aa28935ef4a140800000000000000
+      internalID: 4730185143634535482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_2
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 67
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8764f22d56a9fdf0800000000000000
+      internalID: -145902593964218484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_3
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 52
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db37389ab96a31e0800000000000000
+      internalID: -2217343616387957803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_4
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 0
+        width: 26
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71769f54a8f35ad80800000000000000
+      internalID: -8240110080092444905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_5
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 0
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ff0223da3e1d380800000000000000
+      internalID: -8948120651598594279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_6
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 0
+        width: 39
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbffe555b4e2789c0800000000000000
+      internalID: -3925117649140383812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_7
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 0
+        width: 42
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec51be1af642bf130800000000000000
+      internalID: 3601512388889351630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_8
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 0
+        width: 42
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a00bee23b6c9ff30800000000000000
+      internalID: 4609934166479012001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_9
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 0
+        width: 42
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961ff4a8057aa52b0800000000000000
+      internalID: -5594975622694702743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_10
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 0
+        width: 43
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f185633686b1c00800000000000000
+      internalID: 872405728149118772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_11
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 0
+        width: 41
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99353e172eb9bde00800000000000000
+      internalID: 1070620733306262425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_12
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 0
+        width: 41
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f3c8cb67ed835c0800000000000000
+      internalID: -4235390847991136484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_13
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b661272d2d56eba0800000000000000
+      internalID: -6060053800069011788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_14
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 0
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594fc7e82cfdf0770800000000000000
+      internalID: 8579321841871287445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_15
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 0
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af391452f9b153dd0800000000000000
+      internalID: -2507067247223008262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_16
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 0
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fe362653eda99d0800000000000000
+      internalID: -2766654700200399003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_17
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 0
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f332b173f325f2b0800000000000000
+      internalID: -5551491437172739080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_18
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 0
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee66c577d9d59ec0800000000000000
+      internalID: -3560700410949374232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_19
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 0
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660065745756d4690800000000000000
+      internalID: -7616319840431243162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_20
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 0
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326f0e5c85ac53620800000000000000
+      internalID: 2753329229832713763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_21
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 0
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0485f05ebdf5b9af0800000000000000
+      internalID: -388611544791951296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Shield_22
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 0
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c45e6f0938e2d90800000000000000
+      internalID: -7120609302185423807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Magic_Shield_0: 1574610775758209067
+      Magic_Shield_1: 4730185143634535482
+      Magic_Shield_10: 872405728149118772
+      Magic_Shield_11: 1070620733306262425
+      Magic_Shield_12: -4235390847991136484
+      Magic_Shield_13: -6060053800069011788
+      Magic_Shield_14: 8579321841871287445
+      Magic_Shield_15: -2507067247223008262
+      Magic_Shield_16: -2766654700200399003
+      Magic_Shield_17: -5551491437172739080
+      Magic_Shield_18: -3560700410949374232
+      Magic_Shield_19: -7616319840431243162
+      Magic_Shield_2: -145902593964218484
+      Magic_Shield_20: 2753329229832713763
+      Magic_Shield_21: -388611544791951296
+      Magic_Shield_22: -7120609302185423807
+      Magic_Shield_3: -2217343616387957803
+      Magic_Shield_4: -8240110080092444905
+      Magic_Shield_5: -8948120651598594279
+      Magic_Shield_6: -3925117649140383812
+      Magic_Shield_7: 3601512388889351630
+      Magic_Shield_8: 4609934166479012001
+      Magic_Shield_9: -5594975622694702743
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
