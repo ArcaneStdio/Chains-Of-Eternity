@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 7656034888858123405}
   - component: {fileID: 6964972613293325350}
   - component: {fileID: 4349058077160462336}
+  - component: {fileID: 1629297829050403200}
   m_Layer: 11
   m_Name: wizard
   m_TagString: Untagged
@@ -242,6 +243,7 @@ MonoBehaviour:
   Name: Enemy
   performedAttack: 0
   agent: {fileID: 0}
+  deathEffect: {fileID: 0}
   verticalAngleThreshold: 10
   visionRange: 15
   visionRadius: 0.5
@@ -283,3 +285,56 @@ NavMeshAgent:
   m_BaseOffset: 0.275
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1629297829050403200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9212777999329551265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.ShadowCaster2D
+  m_ShadowGroup: 0
+  m_Priority: 3
+  m_ComponentVersion: 5
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_AlphaCutoff: 0.136
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.17499995, y: -0.2750001, z: 0}
+  - {x: -0.11026321, y: 0.246228, z: 0}
+  - {x: -0.030000003, y: 0.2426318, z: 0}
+  - {x: 0.024980435, y: -0.0660004, z: 0}
+  - {x: -0.012017523, y: -0.2714036, z: 0}
+  m_ShapePathHash: -1411686458
+  m_InstanceId: 0
+  m_ShadowShape2DComponent: {fileID: 0}
+  m_ShadowShape2DProvider:
+    rid: -2
+  m_ShadowCastingSource: 1
+  m_ShadowMesh:
+    m_Mesh: {fileID: 0}
+    m_LocalBounds:
+      m_Center: {x: -0.075009756, y: -0.014386058, z: 0}
+      m_Extent: {x: 0.0999902, y: 0.26061404, z: 0}
+    m_EdgeProcessing: 1
+    m_TrimEdge: 0.07
+    m_FlipX: 0
+    m_FlipY: 0
+    m_InitialTrim: 0.07
+  m_CastingOption: 1
+  m_PreviousTrimEdge: 0.07
+  m_PreviousEdgeProcessing: 1
+  m_PreviousShadowCastingSource: 1
+  m_PreviousShadowShape2DSource: {fileID: 8224493088627994221}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }

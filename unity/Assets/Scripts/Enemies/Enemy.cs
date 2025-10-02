@@ -87,10 +87,10 @@ public class Enemy : MonoBehaviour
     public bool IsFacingRight = true;
 
     private void Awake()
-    {   
+    {
         //Debug.Log("qwertyuiop " + agent.updateRotation);
         spriteRenderer = GetComponent<SpriteRenderer>();
-        if(spriteRenderer == null)
+        if (spriteRenderer == null)
         {
             spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         }
@@ -102,6 +102,7 @@ public class Enemy : MonoBehaviour
         agent.updateUpAxis = false; // Disable automatic up-axis adjustment if not needed
         agent.updateRotation = false; // Disable automatic rotation to control it manually
         StartCoroutine(FixRotationNextFrame());
+        StartCoroutine(SelectingPlayer());
     }
     private IEnumerator FixRotationNextFrame()
     {
@@ -124,7 +125,7 @@ public class Enemy : MonoBehaviour
     {
         //Debug.Log("zzzzzzzzzzzzzzzzzzzzzzzzzz");
         //Debug.Log("qwertyuiop " + agent.updateRotation);
-        if(agent.updateRotation)
+        if (agent.updateRotation)
         {
             agent.updateRotation = false; // Disable automatic rotation to control it manually
             //Debug.Log("changed value of update rotation " + agent.updateRotation);
@@ -137,7 +138,8 @@ public class Enemy : MonoBehaviour
         if (RB == null)
         {
             //Debug.LogError("Rigidbody2D component is missing on the enemy!");
-        }else
+        }
+        else
         {
             RB.freezeRotation = true;
         }
@@ -158,7 +160,7 @@ public class Enemy : MonoBehaviour
         //Debug.Log("ccccccccccccccccccccccccccccccccccccccccc");
         StateMachine.Initialize(IdleState);
         //Debug.Log("Current state of enemyh in start func " + StateMachine.CurrentState);
-        expAward = (int) UnityEngine.Random.Range(minExpAward, maxExpAward);
+        expAward = (int)UnityEngine.Random.Range(minExpAward, maxExpAward);
         // StartCoroutine(enumerator());
     }
 
@@ -168,6 +170,27 @@ public class Enemy : MonoBehaviour
         CheckVerticalMovement();
         animator.SetBool("movingUp", movingUp);
         animator.SetBool("movingDown", movingDown);
+    }
+    private IEnumerator SelectingPlayer()
+    {
+        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+        Transform closest = null;
+        float minDistance = Mathf.Infinity;
+        Vector3 currentPos = transform.position;
+
+        foreach (GameObject p in players)
+        {
+            float dist = Vector3.Distance(currentPos, p.transform.position);
+            if (dist < minDistance)
+            {
+                minDistance = dist;
+                closest = p.transform;
+            }
+        }
+
+        playerTransform = closest;
+        yield return new WaitForSeconds(1f);
+        StartCoroutine(SelectingPlayer());
     }
 
     private void FixedUpdate()
@@ -234,7 +257,7 @@ public class Enemy : MonoBehaviour
         }
         return targetPos;
     }
-    public void TakeDamage(int damage, Vector3 sourcePos,float knockbackForce, bool applyKnockback = true, bool applyStun = true, bool flash = true, string damageType = "Physical")
+    public void TakeDamage(int damage, Vector3 sourcePos, float knockbackForce, bool applyKnockback = true, bool applyStun = true, bool flash = true, string damageType = "Physical")
     {
         //TODO : Handle different damage types (e.g., Physical, Magical)
         int effectiveDamage = Mathf.Max(0, damage);
@@ -258,11 +281,11 @@ public class Enemy : MonoBehaviour
     }
     public virtual IEnumerator FlashOnHit()
     {
-        
+
         if (spriteRenderer == null) yield break; // No sprite renderer to flash
 
         Color originalColor = spriteRenderer.color;
-        spriteRenderer.color = Color.red*2; // Flash color
+        spriteRenderer.color = Color.red * 2; // Flash color
         yield return new WaitForSeconds(0.1f);
         spriteRenderer.color = originalColor; // Reset to original color
     }
@@ -271,7 +294,7 @@ public class Enemy : MonoBehaviour
         StartCoroutine(KnockbackRoutine(direction, force, duration, applyStun));
     }
     private IEnumerator KnockbackRoutine(Vector2 direction, float force, float duration, bool applyStun)
-    {   
+    {
         inknockback = true;
         agent.enabled = false;
         RB.AddForce(direction.normalized * force, ForceMode2D.Impulse);
@@ -285,7 +308,7 @@ public class Enemy : MonoBehaviour
         else
         {
             StateMachine.ChangeState(FreeRoamingState); // Return to idle state if not stunned
-        }   
+        }
         inknockback = false;
     }
     public void FlipIfNeeded()
@@ -312,11 +335,11 @@ public class Enemy : MonoBehaviour
         else
             transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
-    
+
     public void Die()
     {
         hasDied = true;
-        
+
         animator.SetBool("isDead", true);
         Debug.Log(Name + " has died.");
         //TODO: Implement death logic, like playing a death animation, dropping loot, etc.
@@ -402,10 +425,11 @@ public class Enemy : MonoBehaviour
         {
             movingDown = true;
             movingUp = false;
-        }else
+        }
+        else
         {
             movingUp = false;
-            movingDown = false; 
+            movingDown = false;
         }
     }
 

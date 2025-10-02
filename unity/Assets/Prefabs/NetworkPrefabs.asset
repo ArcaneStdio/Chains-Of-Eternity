@@ -13,8 +13,192 @@ MonoBehaviour:
   m_Name: NetworkPrefabs
   m_EditorClassIdentifier: PurrNet.Runtime::PurrNet.NetworkPrefabs
   autoGenerate: 1
-  networkOnly: 1
+  networkOnly: 0
   poolByDefault: 0
   folder: {fileID: 102900000, guid: b2e871b6997a58341a203e0966910930, type: 3}
   linkedNetworkPrefabs: []
-  prefabs: []
+  prefabs:
+  - guid: 0737acb13a4e6144bac8f83d78376d52
+    prefab: {fileID: 8385226143460851807, guid: 0737acb13a4e6144bac8f83d78376d52, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 123eaecb0dcde6d4e94428d554d1f6c9
+    prefab: {fileID: 5933200329339262740, guid: 123eaecb0dcde6d4e94428d554d1f6c9, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 22804c0d46037584ab68068e7d1e4fa7
+    prefab: {fileID: 9177574158773460480, guid: 22804c0d46037584ab68068e7d1e4fa7, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 24f9f9ef4d2a9284eb4fc1b5d22b2ca5
+    prefab: {fileID: 6443761513929015096, guid: 24f9f9ef4d2a9284eb4fc1b5d22b2ca5, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 2740e714d7a770a49ba4e62d306f2afc
+    prefab: {fileID: 1877339097207565170, guid: 2740e714d7a770a49ba4e62d306f2afc, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 2a0d8b3693afe4c4183de7b49731f4f1
+    prefab: {fileID: 3854106681809894150, guid: 2a0d8b3693afe4c4183de7b49731f4f1, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 2dc03b67883a23e43ac9d3e5adf61087
+    prefab: {fileID: 3226168612997848149, guid: 2dc03b67883a23e43ac9d3e5adf61087, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 2f74417df2fe6b841ae1fc353cbac1a3
+    prefab: {fileID: 2024150311830923761, guid: 2f74417df2fe6b841ae1fc353cbac1a3, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 3e671688e1b886d42a9adf4af055ad39
+    prefab: {fileID: 4930592600765841910, guid: 3e671688e1b886d42a9adf4af055ad39, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 3f413fb59c1ecb74a9f7b2ae42202bf7
+    prefab: {fileID: 7752562615193699788, guid: 3f413fb59c1ecb74a9f7b2ae42202bf7, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 407c948bebb88074880effa5ffcfa7bb
+    prefab: {fileID: 1491566942244768823, guid: 407c948bebb88074880effa5ffcfa7bb, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 4a3daace5d8fd6640abbe650e56a4987
+    prefab: {fileID: 7037010515813155081, guid: 4a3daace5d8fd6640abbe650e56a4987, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 60bb2cafc7f49af4eafe9eb6dd17c6dd
+    prefab: {fileID: 249310588689319383, guid: 60bb2cafc7f49af4eafe9eb6dd17c6dd, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 639daec06a470b84dbaff95677f5de6f
+    prefab: {fileID: 6132036095892929945, guid: 639daec06a470b84dbaff95677f5de6f, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 6560608d45621b649920d44ea64e991b
+    prefab: {fileID: 7285081725834437630, guid: 6560608d45621b649920d44ea64e991b, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 6a038e118a1564445b7b2f769e5e9ea8
+    prefab: {fileID: 4323691407903832724, guid: 6a038e118a1564445b7b2f769e5e9ea8, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 70256362795949343a1d08361150b3f5
+    prefab: {fileID: 1167995661332513867, guid: 70256362795949343a1d08361150b3f5, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 70ffeda73c52f7d47864b45c9d086e57
+    prefab: {fileID: 8893257752172722859, guid: 70ffeda73c52f7d47864b45c9d086e57, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 74728815e8ce957488983852d184a8c9
+    prefab: {fileID: 5812871974501420190, guid: 74728815e8ce957488983852d184a8c9, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 74dc2adce21b55f4188cb19ac3932fce
+    prefab: {fileID: 9212777999329551265, guid: 74dc2adce21b55f4188cb19ac3932fce, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 75d2e29d5f83d064dafdd267a692bba8
+    prefab: {fileID: 4045365373633045307, guid: 75d2e29d5f83d064dafdd267a692bba8, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 78205dd2cdbc6a544a4bb741fac1ffad
+    prefab: {fileID: 7258946755817167162, guid: 78205dd2cdbc6a544a4bb741fac1ffad, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 7ec5912d4cf66864d91e405742889354
+    prefab: {fileID: 4930592600765841910, guid: 7ec5912d4cf66864d91e405742889354, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 8cf353b35db797542a4ae1a14fe24d90
+    prefab: {fileID: 8317846951134401471, guid: 8cf353b35db797542a4ae1a14fe24d90, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 8e66960b754ac4e47bf706f3865fb79d
+    prefab: {fileID: 8893257752172722859, guid: 8e66960b754ac4e47bf706f3865fb79d, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 8fcb9d2d43929c04f8c70c38581418d4
+    prefab: {fileID: 6360420542703049433, guid: 8fcb9d2d43929c04f8c70c38581418d4, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 91ded306004fd8149a9f2dff15048e90
+    prefab: {fileID: 1499713003964049530, guid: 91ded306004fd8149a9f2dff15048e90, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 923791c7c386b014dab87eb63f30018d
+    prefab: {fileID: 5987572886358014243, guid: 923791c7c386b014dab87eb63f30018d, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 92cfa656837954e40b67afd96276cf61
+    prefab: {fileID: 6209271696004017643, guid: 92cfa656837954e40b67afd96276cf61, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 97d395502c71f5c4ab23174767f8fe49
+    prefab: {fileID: 1824501089534250734, guid: 97d395502c71f5c4ab23174767f8fe49, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: 9a0f9f2711406e442b0f9d657eefa275
+    prefab: {fileID: 2219135399208372356, guid: 9a0f9f2711406e442b0f9d657eefa275, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: b0390d62af66eaf4398495d2ad5e6db8
+    prefab: {fileID: 1830325476716934222, guid: b0390d62af66eaf4398495d2ad5e6db8, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: b9d9ff6edec7cd944a6046137da9805c
+    prefab: {fileID: 4165039339264298305, guid: b9d9ff6edec7cd944a6046137da9805c, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: ba99ab73fec5f574e8b41653ea2cef49
+    prefab: {fileID: 3156783975728500347, guid: ba99ab73fec5f574e8b41653ea2cef49, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: c43d4fad23d6d4445b2ae9dee087b0d7
+    prefab: {fileID: 5508670238207069271, guid: c43d4fad23d6d4445b2ae9dee087b0d7, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: c47239f6fa381e8429cd6e69010b1cc7
+    prefab: {fileID: 1447499493920756699, guid: c47239f6fa381e8429cd6e69010b1cc7, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: c8996f97c68c4b24b9eb1ac3e444d828
+    prefab: {fileID: 47699529012242362, guid: c8996f97c68c4b24b9eb1ac3e444d828, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: cfd52433c2081db47b83623fd9394d6f
+    prefab: {fileID: 7539522403395165278, guid: cfd52433c2081db47b83623fd9394d6f, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: da62df30eec2ee441b05a4adeb73b341
+    prefab: {fileID: 7285081725834437630, guid: da62df30eec2ee441b05a4adeb73b341, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: dda8a6ace6735d24dbb74768cc133c15
+    prefab: {fileID: 2525560515901863268, guid: dda8a6ace6735d24dbb74768cc133c15, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: e9e55db0d78a6564b9225e9b95bd18a2
+    prefab: {fileID: 768798390334714721, guid: e9e55db0d78a6564b9225e9b95bd18a2, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: edd9fd1712394594c98b98fa7df8cbb6
+    prefab: {fileID: 5785946327999026960, guid: edd9fd1712394594c98b98fa7df8cbb6, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: effaaa665bce18747b546d1bc5c10965
+    prefab: {fileID: 676028150557829203, guid: effaaa665bce18747b546d1bc5c10965, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: f29c7511d1776cc4a8b21c83552fae90
+    prefab: {fileID: 923377228555135564, guid: f29c7511d1776cc4a8b21c83552fae90, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: af86cc88c1b2338408c7d46426a2ca76
+    prefab: {fileID: 1421787838738747100, guid: af86cc88c1b2338408c7d46426a2ca76, type: 3}
+    pooled: 0
+    warmupCount: 5
+  - guid: bc3ef1f9e94530742af9c6a5ca5a86e9
+    prefab: {fileID: 5739180081222091304, guid: bc3ef1f9e94530742af9c6a5ca5a86e9, type: 3}
+    pooled: 0
+    warmupCount: 5
