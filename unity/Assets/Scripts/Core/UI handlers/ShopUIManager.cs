@@ -88,7 +88,7 @@ public class ShopUIManager : MonoBehaviour
 
 
         //Acutally buying items
-        //Web3AuthManager.Instance.BuyItem(currentSelectedItem.NFTID, currentSelectedItem.itemCost);
+        Web3AuthManager.Instance.BuyItem(currentSelectedItem.NFTID, currentSelectedItem.itemCost);
         if (prefabToSpawn != null && spawnPoint != null)
         {
             Instantiate(prefabToSpawn, spawnPoint.position + new Vector3(2, 2, 0), Quaternion.identity);

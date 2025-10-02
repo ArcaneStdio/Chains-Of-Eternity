@@ -9,14 +9,14 @@ public class RemoveItemFromInventory : MonoBehaviour
     // Call this method to remove the item
     public void RemoveItem()
     {
-        if (itemToRemove != null && inventory != null)
-        {
-            inventory.RemoveItemByName(itemToRemove.itemName, amountToRemove);
-            Debug.Log($"Removed {amountToRemove} of {itemToRemove.itemName} from inventory.");
-        }
-        else
-        {
-            Debug.LogWarning("Item to remove or inventory is not assigned.");
-        }
+        //if (itemToRemove != null && inventory != null)
+        //{
+        //    inventory.RemoveItemByName(itemToRemove.itemName, amountToRemove);
+        //    Debug.Log($"Removed {amountToRemove} of {itemToRemove.itemName} from inventory.");
+        //}
+        //else
+        //{
+        //    Debug.LogWarning("Item to remove or inventory is not assigned.");
+        //}
     }
 }

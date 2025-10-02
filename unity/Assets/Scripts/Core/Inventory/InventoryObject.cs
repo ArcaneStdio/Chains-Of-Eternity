@@ -1,4 +1,4 @@
-﻿﻿using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -33,7 +33,7 @@ public class InventoryObject : ScriptableObject
 
         // Make sure item exists in database
         Debug.Log($"Attempting to add item with ID: {_item.Id} and amount: {_amount}");
-        if (_item.Id < 0 || database.ItemObjects[_item.Id] == null)
+        if (_item.Id < 0  || database.ItemObjects[_item.Id] == null)
         {
             Debug.LogWarning("Item ID is invalid or not found in database.");
             return false;
@@ -61,9 +61,9 @@ public class InventoryObject : ScriptableObject
             Debug.Log("This is slots length " + GetSlots.Length);
             for (int i = 0; i < GetSlots.Length; i++)
             {
-                //Debug.Log(i);
+                Debug.Log(i);
                 //CHanging it to <=0
-                if (GetSlots[i].item.Id <= -1)
+                if (GetSlots[i].item.Id <= 0)   
                 {
                     counter++;
                 }
@@ -105,56 +105,6 @@ public class InventoryObject : ScriptableObject
             item1.UpdateSlot(temp.item, temp.amount);
         }
     }
-
-    public bool RemoveItem(Item _item, int _amount = 1)
-    {
-        InventorySlot slot = FindItemOnInventory(_item);
-        if (slot == null)
-        {
-            Debug.LogWarning($"Item with ID {_item.Id} not found in inventory.");
-            return false;
-        }
-
-        if (slot.amount > _amount)
-        {
-            slot.AddAmount(-_amount); // decrease
-        }
-        else
-        {
-            slot.RemoveItem(); // remove completely
-        }
-        return true;
-    }
-
-    public bool RemoveItemByName(string itemName, int _amount = 1)
-    {
-        for (int i = 0; i < GetSlots.Length; i++)
-        {
-            InventorySlot slot = GetSlots[i];
-            Debug.Log($"Checking slot {i} with item ID {slot.item.Id} and amount {slot.amount}");
-            
-            if (slot.item == null || slot.item.Id < 0 || slot.item.Id >= database.ItemObjects.Length)
-                continue;
-
-            ItemObject itemObj = database.ItemObjects[slot.item.Id];
-
-            if (itemObj != null && itemObj.name == itemName)
-            {
-                if (slot.amount > _amount)
-                {
-                    slot.AddAmount(-_amount); // decrease amount
-                }
-                else
-                {
-                    slot.RemoveItem(); // clear the slot
-                }
-                return true; // only first match removed
-            }
-        }
-        Debug.LogWarning($"Item with name {itemName} not found in inventory.");
-        return false;
-    }
-
 
 
     [ContextMenu("Save")]
@@ -230,10 +180,10 @@ public class InventorySlot
     public ItemObject ItemObject
     {
         get
-        {   //changed from >=-1 to >=0
+        {
             if (item.Id >= 0)
             {
-                //Debug.Log(item.Id);
+                Debug.Log(item.Id);
                 return parent.inventory.database.ItemObjects[item.Id];
             }
             return null;
@@ -278,3 +228,5 @@ public class InventorySlot
         return false;
     }
 }
+
+

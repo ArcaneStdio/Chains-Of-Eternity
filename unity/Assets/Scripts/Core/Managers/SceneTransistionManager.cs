@@ -26,10 +26,10 @@ public class SceneTransitionManager : MonoBehaviour
     private void Start()
     {
         // Subscribe to Web3Auth login event
-        // if (Web3AuthManager.Instance != null)
-        // {
-        //     // We'll handle transition manually after login success
-        // }
+        if (Web3AuthManager.Instance != null)
+        {
+            // We'll handle transition manually after login success
+        }
     }
 
     public void OnLoginSuccess()

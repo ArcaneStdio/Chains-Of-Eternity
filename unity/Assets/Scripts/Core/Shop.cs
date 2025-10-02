@@ -8,8 +8,8 @@ public class ShopManager : MonoBehaviour
     [SerializeField] Canvas dialogueCanvas;
     [SerializeField] Transform spawnPoint;
 
-    // public Mint_NFT mint_NFT;
-    // private string _currentAddress => Web3AuthManager.Instance.GetWalletAddress();
+    public Mint_NFT mint_NFT;
+    private string _currentAddress => Web3AuthManager.Instance.GetWalletAddress();
 
     [Header("Shop Items")]
     public GameObject shopItems;
@@ -48,10 +48,10 @@ public class ShopManager : MonoBehaviour
     }
     public void MintNFT_Request()
     {
-            // if (mint_NFT != null)
-            // {
-            //     mint_NFT.MintNFT(_currentAddress);
-            // }
+        if (mint_NFT != null)
+        {
+            mint_NFT.MintNFT(_currentAddress);
+        }
     }
     public void BuyItem(int itemIndex)
     {
