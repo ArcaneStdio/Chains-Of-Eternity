@@ -90,7 +90,7 @@ public class ListedItemsConnection : MonoBehaviour
         item.type = ParseItemType(nft.kind);
         item.rarity = ParseRarity(nft.rarity);
         item.stackable = false;
-        item.itemCost = 0;
+        item.itemCost = 10f;
         item.maxItemStock = 1;
 
         // Type-specific data

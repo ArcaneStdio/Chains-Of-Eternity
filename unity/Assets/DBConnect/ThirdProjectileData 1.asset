@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileData
   targetLayerMask:
     serializedVersion: 2
-    m_Bits: 2048
+    m_Bits: 3
   damage: 25
   knockbackForce: 10
   destroyOnHit: 1

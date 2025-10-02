@@ -39,7 +39,7 @@ public class SpellSlotUI : MonoBehaviour
         }
 
         // Hook up button
-        //  selectButton.onClick.RemoveAllListeners();
-        //selectButton.onClick.AddListener(() => marketplace.ShowSpellDetails(spellData,projectileData));
+        selectButton.onClick.RemoveAllListeners();
+        selectButton.onClick.AddListener(() => marketplace.ShowSpellDetails(spellData,projectileData));
     }
 }

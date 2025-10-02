@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 
     #region GameManagerReferences
     [SerializeField] private GameObject pauseUI;
-    private GameObject inventoryUI;
+    [SerializeField] private GameObject inventoryUI;
     [SerializeField] private Canvas statsCanvas;
     [SerializeField] private Canvas controlsCanvas;
     #endregion
@@ -27,7 +27,6 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject); // Persist across scenes
 
         gameStateMachine = new StateMachine<GameManager>();
-        inventoryUI = GameObject.FindGameObjectWithTag("InventoryCanvas");
         statsCanvas = GameObject.FindGameObjectWithTag("StatsCanvas")?.GetComponent<Canvas>();
 
     }
@@ -56,76 +55,76 @@ public class GameManager : MonoBehaviour
 
     public void ShowInventoryUI()
     {
-        if (inventoryUI == null)
-        {
-            Debug.LogError("Inventory UI not found! Make sure it has the tag 'InventoryCanvas'.");
-            return;
-        }
-        inventoryUI.GetComponent<Canvas>().enabled = true;
-        Debug.Log("Showing inventory UI");
-        // e.g., InventoryUI.SetActive(true);
+        //if (inventoryUI == null)
+        //{
+        //    Debug.LogError("Inventory UI not found! Make sure it has the tag 'InventoryCanvas'.");
+        //    return;
+        //}
+        //inventoryUI.GetComponent<Canvas>().enabled = true;
+        //Debug.Log("Showing inventory UI");
+        //// e.g., InventoryUI.SetActive(true);
     }
 
     public void HideInventoryUI()
     {
-        if (inventoryUI == null)
-        {
-            Debug.LogError("Inventory UI not found! Make sure it has the tag 'InventoryCanvas'.");
-            return;
-        }
-        inventoryUI.GetComponent<Canvas>().enabled = false;
-        Debug.Log("Hiding inventory UI");
+        //if (inventoryUI == null)
+        //{
+        //    Debug.LogError("Inventory UI not found! Make sure it has the tag 'InventoryCanvas'.");
+        //    return;
+        //}
+        //inventoryUI.GetComponent<Canvas>().enabled = false;
+        //Debug.Log("Hiding inventory UI");
     }
 
     public void ShowPauseMenu()
     {
-        Debug.Log("Showing pause menu");
+        //Debug.Log("Showing pause menu");
         // e.g., PauseMenu.SetActive(true);
     }
 
     public void HidePauseMenu()
     {
-        Debug.Log("Hiding pause menu");
+        //Debug.Log("Hiding pause menu");
         // e.g., PauseMenu.SetActive(false);
     }
 
     public void ShowStatsCanvas()
     {
-        if (statsCanvas == null)
-        {
-            Debug.LogError("Stats Canvas not found! Make sure it has the tag 'StatsCanvas'.");
-            return;
-        }
-        statsCanvas.enabled = true;
-        Debug.Log("Showing stats canvas");
+        //if (statsCanvas == null)
+        //{
+        //    Debug.LogError("Stats Canvas not found! Make sure it has the tag 'StatsCanvas'.");
+        //    return;
+        //}
+        //statsCanvas.enabled = true;
+        //Debug.Log("Showing stats canvas");
     }
 
     public void HideStatsCanvas()
     {
-        if (statsCanvas == null)
-        {
-            Debug.LogError("Stats Canvas not found! Make sure it has the tag 'StatsCanvas'.");
-            return;
-        }
-        statsCanvas.enabled = false;
-        Debug.Log("Hiding stats canvas");
+        //if (statsCanvas == null)
+        //{
+        //    Debug.LogError("Stats Canvas not found! Make sure it has the tag 'StatsCanvas'.");
+        //    return;
+        //}
+        //statsCanvas.enabled = false;
+        //Debug.Log("Hiding stats canvas");
     }
 
     public void ShowControlsCanvas()
     {
-        if (controlsCanvas == null)
-        {
-            return;
-        }
-        controlsCanvas.enabled = true;
+        //if (controlsCanvas == null)
+        //{
+        //    return;
+        //}
+        //controlsCanvas.enabled = true;
     }
 
     public void HideControlsCanvas()
     {
-        if (controlsCanvas == null)
-        {
-            return;
-        }
-        controlsCanvas.enabled = false;
+        //if (controlsCanvas == null)
+        //{
+        //    return;
+        //}
+        //controlsCanvas.enabled = false;
     }
 }

@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Starter Sword
   m_EditorClassIdentifier: 
   itemName: Starter Sword
-  uiDisplay: {fileID: 4694007364678901417, guid: d07b803c54ae9fb4ebfc1e8a13b12f4c, type: 3}
+  uiDisplay: {fileID: -7296337056529428220, guid: 0b95fed0845917a4095834ae80061f6d, type: 3}
   rarity: 0
   stackable: 0
   type: 0
   description: Start your journey with this sword
+  NFTID: 0
   data:
     Name: 
     Id: 1

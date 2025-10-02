@@ -24,5 +24,6 @@ EditorBuildSettings:
     path: Assets/Game/Scenes/Finale/SpellTestingFinale.unity
     guid: a6566281b21c85247aa782f248280e7e
   m_configObjects:
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 86c716eb22ad030468dcf98d4de5f6fa, type: 3}
   m_UseUCBPForAssetBundles: 0

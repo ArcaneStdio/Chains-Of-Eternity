@@ -14,33 +14,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileData
   targetLayerMask:
     serializedVersion: 2
-    m_Bits: 2048
-  damage: 41
-  knockbackForce: 8.13
+    m_Bits: 3
+  damage: 25
+  knockbackForce: 10
   destroyOnHit: 1
   canPierce: 0
   maxPierceCount: 2
   movementPath: 0
-  projectileSpeed: 6.83
+  projectileSpeed: 15
   projectileLifeTime: 3.5
-  projectileSize: 1.1
+  projectileSize: 1
   numberOfProjectiles: 1
-  delayBetweenProjectiles: 0.71
+  delayBetweenProjectiles: 0
   spawnOffsets:
   - {x: 0, y: 0}
-  staggeredLaunchAngle: 42
+  staggeredLaunchAngle: 0
   directions:
   - {x: 0.70710677, y: 0.70710677}
-  zigzagAmplitude: 10.51
-  zigzagFrequency: 15.15
-  homingDelay: 1.51
-  homingRadius: 6.7
-  homingUpdateRate: 0.52
-  circularInitialRadius: 2.52
-  circularSpeed: 4.73
-  circularRadialSpeed: -1.42
-  randomDirectionOffset: 0.08
-  arcGravityScale: 2.27
+  zigzagAmplitude: 10
+  zigzagFrequency: 10
+  homingDelay: 0.1
+  homingRadius: 10
+  homingUpdateRate: 0.2
+  circularInitialRadius: 1
+  circularSpeed: 4
+  circularRadialSpeed: 0.8
+  randomDirectionOffset: 0.2
+  arcGravityScale: 1
   hitEffectPrefab: {fileID: 0}
   hitSound: {fileID: 0}
   spawnSound: {fileID: 0}

@@ -15,32 +15,32 @@ MonoBehaviour:
   targetLayerMask:
     serializedVersion: 2
     m_Bits: 3
-  damage: 25
-  knockbackForce: 10
+  damage: 0
+  knockbackForce: 0
   destroyOnHit: 1
   canPierce: 0
-  maxPierceCount: 2
+  maxPierceCount: 1
   movementPath: 0
-  projectileSpeed: 15
-  projectileLifeTime: 3.5
+  projectileSpeed: 0.1
+  projectileLifeTime: 0.1
   projectileSize: 1
-  numberOfProjectiles: 1
-  delayBetweenProjectiles: 0
+  numberOfProjectiles: 10
+  delayBetweenProjectiles: 1
   spawnOffsets:
   - {x: 0, y: 0}
-  staggeredLaunchAngle: 0
+  staggeredLaunchAngle: 90
   directions:
   - {x: 0.70710677, y: 0.70710677}
-  zigzagAmplitude: 10
-  zigzagFrequency: 10
+  zigzagAmplitude: 30
+  zigzagFrequency: 25
   homingDelay: 0.1
-  homingRadius: 10
-  homingUpdateRate: 0.2
-  circularInitialRadius: 1
-  circularSpeed: 4
+  homingRadius: 20
+  homingUpdateRate: 200
+  circularInitialRadius: 4
+  circularSpeed: 10
   circularRadialSpeed: 0.8
-  randomDirectionOffset: 0.2
-  arcGravityScale: 1
+  randomDirectionOffset: 1
+  arcGravityScale: 5
   hitEffectPrefab: {fileID: 0}
   hitSound: {fileID: 0}
   spawnSound: {fileID: 0}

@@ -48,12 +48,11 @@ public class ShopManager : MonoBehaviour
     }
     public void MintNFT_Request()
     {
-        // if (mint_NFT != null)
-        // {
-        //     mint_NFT.MintNFT(_currentAddress);
-        // }
+            // if (mint_NFT != null)
+            // {
+            //     mint_NFT.MintNFT(_currentAddress);
+            // }
     }
-    
     public void BuyItem(int itemIndex)
     {
         // Check if item is available
@@ -85,7 +84,7 @@ public class ShopManager : MonoBehaviour
         // PlayerInventory.Instance.AddItem(item);
         Vector3 spawnPosition = spawnPoint.position + new Vector3(2, 2, 0);
         Debug.Log($"Spawning item at position: {spawnPosition}");
-        Instantiate(shopItems, spawnPosition, Quaternion.identity);
+        Instantiate(shopItems,spawnPosition, Quaternion.identity);
         // Update stock
         currentStock--;
 

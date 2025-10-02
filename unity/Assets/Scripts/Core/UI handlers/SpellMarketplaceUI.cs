@@ -47,7 +47,7 @@ public class SpellMarketplaceUI : MonoBehaviour
 
     private IEnumerator WaitandUpdate()
     {
-        yield return new WaitForSeconds(2f); // wait for 2 seconds to ensure all Elemts are loaded
+        yield return new WaitForSeconds(2f); // wait for 0.1 seconds to ensure all UI elements are initialized
         for (int i = 0; i < spellButtons.Length; i++)
         {
             int index = i;

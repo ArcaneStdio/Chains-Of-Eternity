@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Health Potion
   m_EditorClassIdentifier: 
   itemName: Health Potion
-  uiDisplay: {fileID: -3237844493445452581, guid: d07b803c54ae9fb4ebfc1e8a13b12f4c, type: 3}
+  uiDisplay: {fileID: 4902729985760503732, guid: 0b95fed0845917a4095834ae80061f6d, type: 3}
   rarity: 0
   stackable: 1
   type: 2
   description: 
+  NFTID: 0
   data:
     Name: Health Potion
     Id: 3

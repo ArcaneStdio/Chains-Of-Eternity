@@ -8,10 +8,8 @@ public class CanvasSceneTransition : MonoBehaviour
 {
     [Header("Transition Settings")]
     [SerializeField] private string sceneToLoad;          // Scene name (or leave empty to load next in build order)
-    [SerializeField] private float vidDuration = 2f;     // Duration of fade
+    [SerializeField] private float vidDuration = 1f;     // Duration of fade
     [SerializeField] private GameObject transitionCanvas; // CanvasGroup for fading
-    [SerializeField] private bool callinSpellTest = false; // If true, transition is triggered externally
-    [SerializeField] private GameObject resetSpell; // Reference to ResetSpell script
     private float Timer = 0f;
 
     private bool isTransitioning = false;
@@ -48,12 +46,11 @@ public class CanvasSceneTransition : MonoBehaviour
 
     public void StartTransition()
     {
-        Destroy(resetSpell);    
         if (!isTransitioning)
         {
+            Debug.Log("Starting Transition");
             StartCoroutine(DoSceneTransition());
         }
-
     }
 
 
@@ -62,25 +59,35 @@ public class CanvasSceneTransition : MonoBehaviour
         isTransitioning = true;
         //player.Enable_DisableInput(false); 
         // Fade in (to black)
+        Debug.Log("Transition started");
         yield return StartCoroutine(Activatee());
+        Debug.Log("Transition 1");
 
         // Load next scene
         string nextScene = string.IsNullOrEmpty(sceneToLoad)
             ? GetNextSceneName()
             : sceneToLoad;
 
+        Debug.Log("Transition 2");
         yield return SceneManager.LoadSceneAsync(nextScene);
 
+        Debug.Log("Transition 3");
         isTransitioning = false;
     }
 
     private IEnumerator Activatee()
     {
+        Debug.Log("Transition 4");
         if (transitionCanvas == null)
+        {
+            Debug.Log("Transition 5");
             yield break;
+        }
         transitionCanvas.SetActive(true);
+        Debug.Log("Transition 6");
 
-        yield return new WaitForSeconds(vidDuration);
+        //yield return new WaitForSeconds(vidDuration);
+        Debug.Log("Transition 7");
     }
 
     private string GetNextSceneName()

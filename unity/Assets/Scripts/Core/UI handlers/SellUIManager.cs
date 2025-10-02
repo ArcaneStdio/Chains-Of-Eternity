@@ -67,8 +67,6 @@ public class SellUIManager : MonoBehaviour
         selectedItem.itemCost = source.itemCost;
         selectedItem.maxItemStock = source.maxItemStock;
         selectedItem.NFTID = source.NFTID;
-        selectedItem.id = source.id;
-        selectedItem.data.Id = source.data.Id;
 
         // ✅ Copy type-specific data (deep clone where possible)
         switch (source.type)

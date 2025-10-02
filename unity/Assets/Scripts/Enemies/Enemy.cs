@@ -82,6 +82,8 @@ public class Enemy : MonoBehaviour
     public CooldownState CooldownState { get; private set; }
     public SpriteRenderer spriteRenderer { get; private set; }
 
+    //private SimpleRandomContract simpleRandomContract;
+
     public bool IsFacingRight = true;
 
     private void Awake()
