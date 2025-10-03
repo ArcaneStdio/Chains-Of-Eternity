@@ -40,9 +40,9 @@ public class Player : NetworkBehaviour
     private BoxCollider2D downHitbox;
     [Header("Stats")]
     [SerializeField] public int DashEnergyCost=25;
-    public int CurrentHealth => Stats.currentHealth.value;
-    public int CurrentMana => Stats.currentMana.value;
-    public int CurrentEnergy => Stats.currentEnergy.value;
+    public float CurrentHealth => Stats.currentHealth.value;
+    public float CurrentMana => Stats.currentMana.value;
+    public float CurrentEnergy => Stats.currentEnergy.value;
     public void UseEnergy(int amount) => Stats.UseEnergy(amount);
     [SerializeField] private LayerMask enemyLayer;
 

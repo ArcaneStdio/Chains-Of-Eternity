@@ -20,6 +20,7 @@ public class ProjectileSpellRuntime : MonoBehaviour
     private bool initialized = false;
     private int hitCount = 0;
     private Enemy enemy;
+    private PlayerStats playerStats;
 
     public System.Action<GameObject> OnTargetHit;
     public System.Action OnProjectileDestroyed;
@@ -116,7 +117,18 @@ public class ProjectileSpellRuntime : MonoBehaviour
         }
         if (enemy == null)
         {
-            target.gameObject.GetComponent<PlayerStats>().TakeDamage(data.damage, transform.position,data.knockbackForce);
+            Debug.Log("Attacking MP Player", target);
+            playerStats = target.GetComponent<PlayerStats>();
+            if (playerStats != null)
+            {
+                playerStats.TakeDamage(data.damage, transform.position, data.knockbackForce);
+                Debug.Log("Player takes damage  "+data.damage);
+            }
+            else
+            {
+                Debug.Log("Player stats is null");
+            }
+
         }
 
         var trgRb = target.GetComponent<Rigidbody2D>();

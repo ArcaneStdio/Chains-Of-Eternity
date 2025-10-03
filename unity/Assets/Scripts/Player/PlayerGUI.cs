@@ -6,9 +6,9 @@ public class playerstatsGUI : MonoBehaviour
 {
     public GameObject Player;
     public GameObject HealthCanvas;
-    private Slider HealthSlider;
-    private Slider StaminaSlider;
-    private Slider ManaSlider;
+    public Slider HealthSlider;
+    public Slider StaminaSlider;
+    public Slider ManaSlider;
     // public TextMeshProUGUI HealthText;
     // public TextMeshProUGUI AttackText;
     // public TextMeshProUGUI DefenseText;
@@ -20,9 +20,9 @@ public class playerstatsGUI : MonoBehaviour
 
     void Awake()
     {
-        HealthSlider = HealthCanvas.transform.Find("HealthBar").GetComponent<Slider>();
-        StaminaSlider = HealthCanvas.transform.Find("EnergyBar").GetComponent<Slider>();
-        ManaSlider = HealthCanvas.transform.Find("ManaBar").GetComponent<Slider>();
+        // HealthSlider = HealthCanvas.transform.Find("HealthBar").GetComponent<Slider>();
+        // StaminaSlider = HealthCanvas.transform.Find("EnergyBar").GetComponent<Slider>();
+        // ManaSlider = HealthCanvas.transform.Find("ManaBar").GetComponent<Slider>();
         StartCoroutine(StartAfter2s());
     }
     // Update is called once per frame
@@ -34,6 +34,9 @@ public class playerstatsGUI : MonoBehaviour
             maxEnergy = playerstats.heroData.specialStats.maxEnergy;
             maxMana = playerstats.heroData.specialStats.maxMana;
             maxHealth = playerstats.heroData.defensiveStats.maxHealth;
+            Debug.Log("MaxHealth" + maxHealth);
+            Debug.Log("MaxMana" + maxMana);
+            Debug.Log("MaxEnergy" + maxEnergy);
         }
 
 
@@ -54,9 +57,13 @@ public class playerstatsGUI : MonoBehaviour
     }
     void Update()
     {
-        HealthSlider.value = playerstats.currentHealth / maxHealth;
-        StaminaSlider.value = playerstats.currentEnergy / maxEnergy;
-        ManaSlider.value = playerstats.currentMana / maxMana;
+        HealthSlider.value = (float)playerstats.currentHealth.value / maxHealth;
+        StaminaSlider.value = (float)playerstats.currentEnergy.value / maxEnergy;
+        ManaSlider.value = ((float)playerstats.currentMana.value) / maxMana;
+        Debug.Log("ManaSliderValue" + ManaSlider.value);     
+        // Debug.Log("Health: " + playerstats.currentHealth.value + "/" + maxHealth);
+        // Debug.Log("Energy: " + playerstats.currentEnergy.value + "/" + maxEnergy);
+        // Debug.Log("Mana: " + playerstats.currentMana.value + "/" + maxMana);
         //HealthText.text = playerstats.heroData.defensiveStats.maxHealth.ToString();
         //AttackText.text = playerstats.heroData.offensiveStats.damage.ToString();
         //DefenseText.text = playerstats.heroData.defensiveStats.defense.ToString();
