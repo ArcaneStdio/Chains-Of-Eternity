@@ -16,7 +16,7 @@ public class PlayerStunState : PlayerState
         player.Animator.SetBool("walkingDown", false);
         player.Animator.SetBool("dashing", false);
         player.Enable_DisableInput(false); // Disable input
-        player.AttackStateMachine.ChangeState(player.noAttackState);
+        player.attackStateMachine.ChangeState(player.noAttackState);
         startTime = Time.time;
         player.SetVelocity(Vector2.zero); // Optional freeze
     }

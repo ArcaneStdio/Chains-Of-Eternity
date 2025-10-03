@@ -38,6 +38,8 @@ public class ProjectileSpellRuntime : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.transform == caster || other.transform.IsChildOf(caster))
+            return;
         if (((1 << other.gameObject.layer) & data.targetLayerMask) != 0)
         {
             ApplyDamageAndKnockback(other.gameObject);
@@ -109,11 +111,13 @@ public class ProjectileSpellRuntime : MonoBehaviour
         enemy = target.GetComponentInParent<Enemy>();
         if (enemy != null)
         {
-            enemy.TakeDamage(data.damage, caster.position, data.knockbackForce,data.knockbackForce>0 ,true, true, "Magical");
+            enemy.TakeDamage(data.damage, caster.position, data.knockbackForce, data.knockbackForce > 0, true, true, "Magical");
             Debug.Log($"Projectile hit {target.name}, dealt {data.damage} damage.");
         }
-
-
+        if (enemy == null)
+        {
+            target.gameObject.GetComponent<PlayerStats>().TakeDamage(data.damage, transform.position,data.knockbackForce);
+        }
 
         var trgRb = target.GetComponent<Rigidbody2D>();
         // if (trgRb != null)
@@ -155,24 +159,24 @@ public class StraightMovementPattern : IMovementPattern
 }
 public class ArcMovementPattern : IMovementPattern
 {
-    private ProjectileSpellRuntime p; 
-    private ProjectileData d; 
-    private Vector2 dir; 
-    
-    public void Initialize(ProjectileSpellRuntime p, ProjectileData d, Vector2 dir) 
-    { 
-        this.p = p; 
-        this.d = d; 
-        this.dir = dir; 
-        
-        var rb = p.GetComponent<Rigidbody2D>(); 
-        if (rb != null) rb.gravityScale = d.arcGravityScale; 
-        
+    private ProjectileSpellRuntime p;
+    private ProjectileData d;
+    private Vector2 dir;
+
+    public void Initialize(ProjectileSpellRuntime p, ProjectileData d, Vector2 dir)
+    {
+        this.p = p;
+        this.d = d;
+        this.dir = dir;
+
+        var rb = p.GetComponent<Rigidbody2D>();
+        if (rb != null) rb.gravityScale = d.arcGravityScale;
+
         // Launch with horizontal speed and upward velocity
-        p.SetVelocity(new Vector2(dir.x * d.projectileSpeed, d.projectileSpeed)); 
-    } 
-    
-    public void UpdateMovement(float dt) { } 
+        p.SetVelocity(new Vector2(dir.x * d.projectileSpeed, d.projectileSpeed));
+    }
+
+    public void UpdateMovement(float dt) { }
 }
 
 public class HomingMovementPattern : IMovementPattern
@@ -218,6 +222,9 @@ public class HomingMovementPattern : IMovementPattern
 
         foreach (var h in hits)
         {
+            if (h.transform == p.GetCaster() || h.transform.IsChildOf(p.GetCaster()))
+                continue;
+
             float dist = Vector2.Distance(p.transform.position, h.transform.position);
             if (dist < min) { min = dist; closest = h.gameObject; }
         }
@@ -245,20 +252,20 @@ public class ZigZagMovementPattern : IMovementPattern
 }
 public class RandomMovementPattern : IMovementPattern
 {
-    private ProjectileSpellRuntime p; 
-    private ProjectileData d; 
-    
-    public void Initialize(ProjectileSpellRuntime p, ProjectileData d, Vector2 dir) 
-    { 
-        this.p = p; 
-        this.d = d; 
-        
-        float off = d.randomDirectionOffset; 
-        Vector2 rnd = new Vector2(Random.Range(-off, off), Random.Range(-off, off)); 
-        p.SetVelocity((dir + rnd).normalized * d.projectileSpeed); 
-    } 
-    
-    public void UpdateMovement(float dt) { } 
+    private ProjectileSpellRuntime p;
+    private ProjectileData d;
+
+    public void Initialize(ProjectileSpellRuntime p, ProjectileData d, Vector2 dir)
+    {
+        this.p = p;
+        this.d = d;
+
+        float off = d.randomDirectionOffset;
+        Vector2 rnd = new Vector2(Random.Range(-off, off), Random.Range(-off, off));
+        p.SetVelocity((dir + rnd).normalized * d.projectileSpeed);
+    }
+
+    public void UpdateMovement(float dt) { }
 }
 
 public class CircularMovementPattern : IMovementPattern

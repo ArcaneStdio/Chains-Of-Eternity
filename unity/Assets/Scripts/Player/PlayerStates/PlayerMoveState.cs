@@ -24,7 +24,7 @@ public class PlayerMoveState : PlayerState
             stateMachine.ChangeState(player.idleState);
             return;
         }
-        if (InputManager.Instance.DashPressed && player.canDash && player.currentEnergy >= player.dashEnergyCost)
+        if (InputManager.Instance.DashPressed && player.canDash && player.CurrentEnergy >= player.DashEnergyCost)
         {
             stateMachine.ChangeState(player.dashState);
             return;
@@ -54,7 +54,7 @@ public class PlayerMoveState : PlayerState
         
         spellcast = InputManager.Instance.Spell1Pressed || InputManager.Instance.Spell2Pressed || 
                     InputManager.Instance.Spell3Pressed || InputManager.Instance.Spell4Pressed;
-        if (spellcast && player.currentMana > 20)
+        if (spellcast && player.CurrentMana > 20)
         {
             stateMachine.ChangeState(player.spellState);
             return;

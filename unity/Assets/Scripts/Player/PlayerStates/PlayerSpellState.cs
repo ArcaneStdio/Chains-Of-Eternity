@@ -18,7 +18,7 @@ public class PlayerSpellState : PlayerState
         player.Animator.SetBool("attacking", false);
         player.Animator.SetBool("casting", true); // Set casting animation
         player.Enable_DisableInput(false); // Disable input
-        player.AttackStateMachine.ChangeState(player.noAttackState);
+        player.attackStateMachine.ChangeState(player.noAttackState);
         startTime = Time.time;
         player.SetVelocity(Vector2.zero); // Optional freeze
     }

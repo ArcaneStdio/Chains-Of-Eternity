@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 2226608116939089014}
   - component: {fileID: 6538216298958606019}
   - component: {fileID: 1609726536630773545}
+  - component: {fileID: 1608036016469715783}
   m_Layer: 0
-  m_Name: Lightning_NonD
+  m_Name: Water_NonD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 44.432938, y: -13.148289, z: 0}
-  m_LocalScale: {x: 2.056498, y: 2.5955799, z: 1.9966}
+  m_LocalScale: {x: 2.61, y: 3.2941744, z: 2.5339806}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -55,6 +56,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -76,11 +79,12 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: -2187394180781118169, guid: 1e52750e8f38071489bd4af7ef1cc860, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: -1336102162, guid: c2b083cc5cace2f439ee8188394e9b4e, type: 3}
+  m_Color: {r: 0.56294054, g: 0.6298903, b: 0.94716984, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -100,7 +104,7 @@ Animator:
   m_GameObject: {fileID: 718544881489533443}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 66a1f1494a224d04d985059d092534c3, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1f050f9807ac17944885aba0e3f6ffd5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -177,7 +181,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.453125, y: 0.484375}
+    oldSize: {x: 0.28, y: 0.3}
     newSize: {x: 0.359375, y: 0.421875}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -192,3 +196,34 @@ PolygonCollider2D:
       - {x: 0.1796875, y: 0.1796875}
       - {x: 0.1328125, y: 0.2109375}
   m_UseDelaunayMesh: 0
+--- !u!114 &1608036016469715783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718544881489533443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817fe5016bd0a2a49a95b6eb338bb132, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: PurrNet.Runtime::PurrNet.NetworkTransform
+  _isSetup: 0
+  _prefabId: -2147483648
+  _componentIndex: -2147483648
+  _shouldBePooled: 0
+  _parent: {fileID: 0}
+  _invertedPathToNearestParent: 
+  _directChildren: []
+  _networkRules: {fileID: 0}
+  _visitiblityRules: {fileID: 0}
+  _syncPosition: 1
+  _syncRotation: 1
+  _syncScale: 1
+  _syncParent: 1
+  _interpolateSettings: 7
+  _minBufferSize: 1
+  _maxBufferSize: 2
+  _characterControllerPatch: 0
+  _ownerAuth: 1
+  _interpolationTiming: 0

@@ -124,10 +124,10 @@ public class BodEnemy : Enemy
         if (collision.CompareTag("Player"))
         {
             // Logic for when the enemy collides with the player
-            Player player = collision.gameObject.GetComponent<Player>();
+            PlayerStats player = collision.gameObject.GetComponent<PlayerStats>();
             if (player != null)
             {
-                player.TakeDamage(damage, transform.position, knockbackForce: knockbackForce, applyKnockback: true, applyStun: true, damageType: "Physical");
+                player.TakeDamage(damage, transform.position, knockbackForce: knockbackForce, applyKnockback: true, applyStun: true);
             }
             // Example: Deal damage to the player or trigger an effect
         }

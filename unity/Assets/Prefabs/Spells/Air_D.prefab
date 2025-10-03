@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 2226608116939089014}
   - component: {fileID: 6538216298958606019}
   - component: {fileID: 1609726536630773545}
+  - component: {fileID: 1216491231291281978}
   m_Layer: 0
-  m_Name: FireBullet
+  m_Name: Air_D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,7 +83,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: -3406769101288076676, guid: 78d0b0d70137a1b49abec19237e89bcc, type: 3}
+  m_Sprite: {fileID: -3601681476470460243, guid: fb589c6d866e6494ca7d40a01d25fd95, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -103,7 +104,7 @@ Animator:
   m_GameObject: {fileID: 718544881489533443}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 16f1de8dbaa9a464caed6fdec1058cba, type: 2}
+  m_Controller: {fileID: 9100000, guid: bf73cb4983550794dbed5c035835e6ba, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -180,7 +181,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.359375, y: 0.421875}
+    oldSize: {x: 0.29, y: 0.46}
     newSize: {x: 0.359375, y: 0.421875}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -195,3 +196,34 @@ PolygonCollider2D:
       - {x: 0.1796875, y: 0.1796875}
       - {x: 0.1328125, y: 0.2109375}
   m_UseDelaunayMesh: 0
+--- !u!114 &1216491231291281978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718544881489533443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817fe5016bd0a2a49a95b6eb338bb132, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: PurrNet.Runtime::PurrNet.NetworkTransform
+  _isSetup: 0
+  _prefabId: -2147483648
+  _componentIndex: -2147483648
+  _shouldBePooled: 0
+  _parent: {fileID: 0}
+  _invertedPathToNearestParent: 
+  _directChildren: []
+  _networkRules: {fileID: 0}
+  _visitiblityRules: {fileID: 0}
+  _syncPosition: 1
+  _syncRotation: 1
+  _syncScale: 1
+  _syncParent: 1
+  _interpolateSettings: 7
+  _minBufferSize: 1
+  _maxBufferSize: 2
+  _characterControllerPatch: 0
+  _ownerAuth: 1
+  _interpolationTiming: 0

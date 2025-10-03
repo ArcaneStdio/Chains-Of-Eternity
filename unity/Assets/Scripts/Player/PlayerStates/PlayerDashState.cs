@@ -11,9 +11,9 @@ public class PlayerDashState : PlayerState
     public override void Enter()
     {
         base.Enter();
-        player.Invincibilty(true);// Make player invincible during dash
+        // player.Invincibilty(true);// Make player invincible during dash
         // Not enough energy? Go back to previous state
-        if (player.currentEnergy < player.dashEnergyCost)
+        if (player.CurrentEnergy < player.DashEnergyCost)
         {
             Debug.Log("Not enough energy to dash.");
             stateMachine.ChangeState(player.idleState);
@@ -23,7 +23,7 @@ public class PlayerDashState : PlayerState
         player.Animator.SetBool("dashing", true);
         player.Animator.SetBool("walking", false);
         // Consume energy
-        player.UseEnergy(player.dashEnergyCost);
+        player.UseEnergy(player.DashEnergyCost);
         moveInput = InputManager.Instance.MoveDirection.normalized;
         if (moveInput == Vector2.zero)
             moveInput = player.IsFacingRight ? Vector2.right : Vector2.left;
@@ -37,7 +37,7 @@ public class PlayerDashState : PlayerState
     {   
         base.Exit();
         player.Animator.SetBool("dashing", false);
-        player.Invincibilty(false); // Disable invincibility after dash
+        //player.Invincibilty(false); // Disable invincibility after dash
 
     }
     public override void LogicUpdate()

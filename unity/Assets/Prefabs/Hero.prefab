@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5144673127348382011}
   - component: {fileID: 1096189031372475908}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Light 2D (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 7080878602032333915}
   - component: {fileID: 133666434609881969}
   - component: {fileID: 4717676792406009316}
+  - component: {fileID: -488175116038512043}
   - component: {fileID: 8574163957188846133}
   - component: {fileID: 8592615825745221719}
   - component: {fileID: 8859425946914354900}
@@ -107,7 +108,13 @@ GameObject:
   - component: {fileID: 4585099646815921111}
   - component: {fileID: 6624726496539539478}
   - component: {fileID: -3084103627336129927}
-  m_Layer: 19
+  - component: {fileID: 6526761565673619785}
+  - component: {fileID: 385859633317250722}
+  - component: {fileID: 1879767107557831868}
+  - component: {fileID: 3126535712169796103}
+  - component: {fileID: 4455548888023745925}
+  - component: {fileID: 6199488839820106931}
+  m_Layer: 11
   m_Name: Hero
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -251,23 +258,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69b2f5d1896c729439dd7b7e34ac980f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneTransition: {fileID: 0}
-  heroData: {fileID: 11400000, guid: e772d6b34f6819f4cbb112706c89763c, type: 2}
-  currentHealth: 0
-  currentMana: 0
-  currentEnergy: 0
+  _isSetup: 0
+  _prefabId: -2147483648
+  _componentIndex: -2147483648
+  _shouldBePooled: 0
+  _parent: {fileID: 0}
+  _invertedPathToNearestParent: 
+  _directChildren: []
+  _networkRules: {fileID: 0}
+  _visitiblityRules: {fileID: 0}
   moveSpeed: 4
   dashSpeed: 10
   dashDuration: 0.6
   dashCooldown: 1
   canDash: 1
-  RegenerateResourcesRate: 1
-  dashEnergyCost: 20
-  attackHitbox: {fileID: 2520987092378588741}
+  IsFacingRight: 1
+  spriteRenderer: {fileID: 7080878602032333915}
+  DashEnergyCost: 25
   enemyLayer:
     serializedVersion: 2
     m_Bits: 2048
-  IsFacingRight: 1
+--- !u!114 &-488175116038512043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421787838738747100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c846ffe938285bb42a759a159fdc5316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
+  _isSetup: 0
+  _prefabId: -2147483648
+  _componentIndex: -2147483648
+  _shouldBePooled: 0
+  _parent: {fileID: 0}
+  _invertedPathToNearestParent: 
+  _directChildren: []
+  _networkRules: {fileID: 0}
+  _visitiblityRules: {fileID: 0}
+  heroData: {fileID: 11400000, guid: e772d6b34f6819f4cbb112706c89763c, type: 2}
+  currentHealth:
+    _value: 0
+    _ownerAuth: 0
+    _sendIntervalInSeconds: 0
+  currentMana:
+    _value: 0
+    _ownerAuth: 0
+    _sendIntervalInSeconds: 0
+  currentEnergy:
+    _value: 0
+    _ownerAuth: 0
+    _sendIntervalInSeconds: 0
+  RegenerateResourcesRate: 1
   isInvincible: 0
 --- !u!114 &8574163957188846133
 MonoBehaviour:
@@ -362,7 +407,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9102b8341690bd74f9a3f526710a0062, type: 2}
   - {fileID: 11400000, guid: a93b33b593f76504780b3d08c50b1fa8, type: 2}
   - {fileID: 11400000, guid: 0061877e4df930a4795745099962cc09, type: 2}
-  player: {fileID: 4717676792406009316}
+  playerstats: {fileID: -488175116038512043}
 --- !u!114 &2168569601668913233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -414,7 +459,7 @@ MonoBehaviour:
     defaultData:
       name: 
       notes: 
-  player: {fileID: 4717676792406009316}
+  playerstats: {fileID: 0}
 --- !u!114 &3640941638704932560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -533,6 +578,10 @@ MonoBehaviour:
     activeAsOwner: 1
   - target: {fileID: 1175751907869597020}
     activeAsOwner: 1
+  - target: {fileID: 6526761565673619785}
+    activeAsOwner: 1
+  - target: {fileID: 385859633317250722}
+    activeAsOwner: 1
   _gameObjects: []
   _toActivate: []
   _toDeactivate: []
@@ -559,6 +608,166 @@ MonoBehaviour:
   _directChildren: []
   _networkRules: {fileID: 0}
   _visitiblityRules: {fileID: 0}
+--- !u!114 &6526761565673619785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421787838738747100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5db30a367e7ebe4b8081abb76c99b3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerNumber1
+  _isSetup: 0
+  _prefabId: -2147483648
+  _componentIndex: -2147483648
+  _shouldBePooled: 0
+  _parent: {fileID: 0}
+  _invertedPathToNearestParent: 
+  _directChildren: []
+  _networkRules: {fileID: 0}
+  _visitiblityRules: {fileID: 0}
+  playerNumber:
+    _value: 0
+    _ownerAuth: 1
+    _sendIntervalInSeconds: 0
+  numberText: {fileID: 358943266327359166}
+--- !u!114 &385859633317250722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421787838738747100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cab1b8c5a68499a4b825f49243b1332e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerGUI
+  Player: {fileID: 0}
+  HealthCanvas: {fileID: 4165039339264298305, guid: b9d9ff6edec7cd944a6046137da9805c, type: 3}
+  maxHealth: 0
+  maxEnergy: 0
+  maxMana: 0
+--- !u!114 &1879767107557831868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421787838738747100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b598b9d8509d64abb9fdaf07fa3f6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: PurrNet.Runtime::PurrNet.NetworkAnimator
+  _isSetup: 0
+  _prefabId: -2147483648
+  _componentIndex: -2147483648
+  _shouldBePooled: 0
+  _parent: {fileID: 0}
+  _invertedPathToNearestParent: 
+  _directChildren: []
+  _networkRules: {fileID: 0}
+  _visitiblityRules: {fileID: 0}
+  _animator: {fileID: 133666434609881969}
+  _ownerAuth: 1
+  _autoSyncParameters: 1
+  _dontSyncParameters: []
+--- !u!114 &3126535712169796103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421787838738747100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb763cfb0fbf2c44b3587223c4aad1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: PurrNet.Runtime::PurrNet.NetworkReflection
+  _isSetup: 0
+  _prefabId: -2147483648
+  _componentIndex: -2147483648
+  _shouldBePooled: 0
+  _parent: {fileID: 0}
+  _invertedPathToNearestParent: 
+  _directChildren: []
+  _networkRules: {fileID: 0}
+  _visitiblityRules: {fileID: 0}
+  _trackedBehaviour: {fileID: 7080878602032333915}
+  _trackedFields:
+  - type: 1
+    name: color
+  _ownerAuth: 0
+--- !u!114 &4455548888023745925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421787838738747100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb763cfb0fbf2c44b3587223c4aad1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: PurrNet.Runtime::PurrNet.NetworkReflection
+  _isSetup: 0
+  _prefabId: -2147483648
+  _componentIndex: -2147483648
+  _shouldBePooled: 0
+  _parent: {fileID: 0}
+  _invertedPathToNearestParent: 
+  _directChildren: []
+  _networkRules: {fileID: 0}
+  _visitiblityRules: {fileID: 0}
+  _trackedBehaviour: {fileID: 4717676792406009316}
+  _trackedFields:
+  - type: 0
+    name: currentHealth
+  - type: 0
+    name: currentMana
+  - type: 0
+    name: currentEnergy
+  _ownerAuth: 1
+--- !u!114 &6199488839820106931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421787838738747100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c846ffe938285bb42a759a159fdc5316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
+  _isSetup: 0
+  _prefabId: -2147483648
+  _componentIndex: -2147483648
+  _shouldBePooled: 0
+  _parent: {fileID: 0}
+  _invertedPathToNearestParent: 
+  _directChildren: []
+  _networkRules: {fileID: 0}
+  _visitiblityRules: {fileID: 0}
+  heroData: {fileID: 0}
+  currentHealth:
+    _value: 0
+    _ownerAuth: 0
+    _sendIntervalInSeconds: 0
+  currentMana:
+    _value: 0
+    _ownerAuth: 0
+    _sendIntervalInSeconds: 0
+  currentEnergy:
+    _value: 0
+    _ownerAuth: 0
+    _sendIntervalInSeconds: 0
+  RegenerateResourcesRate: 1
+  isInvincible: 0
 --- !u!1 &7378200865221468711
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,7 +781,7 @@ GameObject:
   - component: {fileID: 8644637075420150050}
   - component: {fileID: 3200277814310182977}
   - component: {fileID: 2911045910091968275}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: attack_hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -767,7 +976,7 @@ GameObject:
   - component: {fileID: 2011050308956630969}
   - component: {fileID: 5143916058724388951}
   - component: {fileID: 358943266327359166}
-  m_Layer: 19
+  m_Layer: 11
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

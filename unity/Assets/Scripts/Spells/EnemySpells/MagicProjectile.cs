@@ -27,7 +27,7 @@ public class MagicProjectile : MonoBehaviour
             collision.gameObject.layer == LayerMask.NameToLayer("Player"))  // ignore enemies, projectiles and player
         {
             Debug.Log("Calling TakeDamage   " + collision.gameObject.name);
-            collision.gameObject.GetComponent<Player>().TakeDamage(damage, transform.position,knockbackforce);
+            collision.gameObject.GetComponent<PlayerStats>().TakeDamage(damage, transform.position,knockbackforce);
             hasHit = true;
         }
         

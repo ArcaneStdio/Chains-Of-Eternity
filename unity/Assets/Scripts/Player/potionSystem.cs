@@ -10,7 +10,7 @@ public class potionSystem : MonoBehaviour
 
     [SerializeField] private InventoryObject potionInventory;
     [SerializeField] private Item empty;
-    [SerializeField] private Player player; // Reference to the Player script
+    [SerializeField] private PlayerStats playerstats; // Reference to the Player script
     private Item[] potionItems; // Array to hold potion items
     private InventorySlot slot;
     private Item potion;
@@ -148,9 +148,9 @@ public class potionSystem : MonoBehaviour
             //Debug.Log(potion.consumableData.manaAffected);
             //Debug.Log(potion.consumableData.energyAffected);
             //Debug.Log("From ItemObject: " + slot.ItemObject.consumableData.manaAffected);
-            player.currentHealth += slot.ItemObject.consumableData.healthAffected; // Example of applying potion effect
-            player.currentMana += slot.ItemObject.consumableData.manaAffected; // Example of applying potion effect
-            player.currentEnergy += slot.ItemObject.consumableData.energyAffected; // Example of applying potion effect
+            playerstats.currentHealth.value += slot.ItemObject.consumableData.healthAffected; // Example of applying potion effect
+            playerstats.currentMana.value += slot.ItemObject.consumableData.manaAffected; // Example of applying potion effect
+            playerstats.currentEnergy.value += slot.ItemObject.consumableData.energyAffected; // Example of applying potion effect
 
 
             // Here you can add the logic to apply the potion's effects

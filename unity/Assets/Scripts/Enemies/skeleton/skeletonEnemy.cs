@@ -50,10 +50,10 @@ public class skeletonEnemy : Enemy
         {
             Debug.Log("Slime Enemy collided with Player!");
             // Example: Apply damage or effects to the player
-            Player player = collision.gameObject.GetComponent<Player>();
+            PlayerStats player = collision.gameObject.GetComponent<PlayerStats>();
             if (player != null)
             {
-                player.TakeDamage(damage, transform.position,knockbackForce: knockbackForce , applyKnockback: true, applyStun: true, damageType: "Slime");
+                player.TakeDamage(damage, transform.position,knockbackForce: knockbackForce , applyKnockback: true, applyStun: true);
                 StateMachine.ChangeState(CooldownState);
             }
         }
