@@ -8,7 +8,7 @@ using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] Transform playerTransform; // Reference to the player's transform
+    [SerializeField] protected Transform playerTransform; // Reference to the player's transform
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private float followOffset = 0.5f; // Offset to maintain while following the player    
     [Header("Enemy Stats")]

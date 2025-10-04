@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spellName: WaterDiscs
   element: 1
-  visualPrefab: {fileID: 718544881489533443, guid: a02f860b645ef424eb6e2f10268c1b80, type: 3}
+  visualPrefab: {fileID: 7583309771101132855, guid: cefc61ca73bab874a9bd4643e83d70d1, type: 3}
   manaCost: 30
   cooldown: 3
   attackSubtype: 0

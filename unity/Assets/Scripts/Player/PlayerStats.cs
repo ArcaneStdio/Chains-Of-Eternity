@@ -26,6 +26,7 @@ public class PlayerStats : NetworkBehaviour
     private Transform spawnPoint;
     private GameObject playerObject;
     private Color originalColor;
+    private bool isFlashing = false;
 
     private void Awake()
     {
@@ -37,11 +38,13 @@ public class PlayerStats : NetworkBehaviour
         originalColor = spriteRenderer.color;
         StartCoroutine(StartAfter2s());
     }
-
+    private void Start(){
+        StartCoroutine(StartAfter2s());
+    }
     private IEnumerator StartAfter2s()
     {
         // Initialize values on server
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         ChangeHealth(heroData.defensiveStats.maxHealth);
         currentMana.value = heroData.specialStats.maxMana;
         currentEnergy.value = heroData.specialStats.maxEnergy;
@@ -52,6 +55,7 @@ public class PlayerStats : NetworkBehaviour
     {
         currentHealth.value = newHealth;
     }
+
     private void FixedUpdate()
     {
         regenTimer += Time.fixedDeltaTime;
@@ -76,7 +80,10 @@ public class PlayerStats : NetworkBehaviour
         {
             ApplyKnockback((transform.position - sourcePos).normalized, knockbackForce, applyStun);
             if (knockbackForce > 10f) ShakeCamera();
-            if (flash) StartCoroutine(FlashOnHit());
+            if (flash){ 
+                if(!isFlashing){
+                StartCoroutine(FlashOnHit());}
+            }
         }
 
         if (currentHealth.value == 0)
@@ -149,10 +156,12 @@ public class PlayerStats : NetworkBehaviour
 
     #region Visual Effects
     private IEnumerator FlashOnHit()
-    {
+    {   
+        isFlashing = true;
         if (spriteRenderer == null) yield break;
         spriteRenderer.color = Color.red * 2;
         yield return new WaitForSeconds(0.2f);
+        isFlashing = false;
         spriteRenderer.color = originalColor;
     }
 

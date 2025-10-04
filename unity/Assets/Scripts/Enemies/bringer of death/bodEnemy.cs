@@ -20,7 +20,7 @@ public class BodEnemy : Enemy
         }
         farRange = attackRange;
         Debug.Log(farRange);
-    }
+    } 
     private void Update()
     {
         base.Update();

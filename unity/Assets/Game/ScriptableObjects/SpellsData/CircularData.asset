@@ -23,12 +23,12 @@ MonoBehaviour:
   movementPath: 5
   projectileSpeed: 15
   projectileLifeTime: 3.5
-  projectileSize: 1
-  numberOfProjectiles: 4
+  projectileSize: 1.151
+  numberOfProjectiles: 5
   delayBetweenProjectiles: 0.1
   spawnOffsets:
   - {x: 0, y: 0}
-  staggeredLaunchAngle: 0
+  staggeredLaunchAngle: 11.7
   directions:
   - {x: 0.70710677, y: 0.70710677}
   zigzagAmplitude: 10
@@ -36,9 +36,9 @@ MonoBehaviour:
   homingDelay: 0.1
   homingRadius: 10
   homingUpdateRate: 0.2
-  circularInitialRadius: 1
-  circularSpeed: 6
-  circularRadialSpeed: 1.2
+  circularInitialRadius: 1.56
+  circularSpeed: 3.2
+  circularRadialSpeed: 0.5
   randomDirectionOffset: 0.2
   arcGravityScale: 1
   hitEffectPrefab: {fileID: 0}
