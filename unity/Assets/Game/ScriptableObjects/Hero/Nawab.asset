@@ -19,13 +19,13 @@ MonoBehaviour:
   raceName: Human
   equippedItems: []
   offensiveStats:
-    damage: 5
+    damage: 25
     attackSpeed: 100
     criticalRate: 10
     criticalDamage: 50
   defensiveStats:
     maxHealth: 100
-    defense: 5
+    defense: 0
     healthRegeneration: 1
     resistances: 
   specialStats:

@@ -42,11 +42,16 @@ public class PlayerStats : NetworkBehaviour
     {
         // Initialize values on server
         yield return new WaitForSeconds(2f);
-        currentHealth.value = heroData.defensiveStats.maxHealth;
+        ChangeHealth(heroData.defensiveStats.maxHealth);
         currentMana.value = heroData.specialStats.maxMana;
         currentEnergy.value = heroData.specialStats.maxEnergy;
     }
 
+    [ServerRpc(requireOwnership:false)]
+    public void ChangeHealth(float newHealth)
+    {
+        currentHealth.value = newHealth;
+    }
     private void FixedUpdate()
     {
         regenTimer += Time.fixedDeltaTime;
@@ -63,7 +68,9 @@ public class PlayerStats : NetworkBehaviour
         if (isInvincible) return;
 
         int effectiveDamage = Mathf.Max(0, damage - heroData.defensiveStats.defense);
-        currentHealth.value = Mathf.Max(0, currentHealth.value - effectiveDamage);
+        float newHealth = Mathf.Max(0, currentHealth.value - effectiveDamage);
+        ChangeHealth(newHealth);
+        Debug.Log($"{heroData.playerName} took {effectiveDamage} damage. Current Health: {currentHealth.value}/{heroData.defensiveStats.maxHealth}");
 
         if (applyKnockback)
         {
@@ -84,7 +91,8 @@ public class PlayerStats : NetworkBehaviour
 
     public void RegenerateResources()
     {
-        currentHealth.value = Mathf.Min(heroData.defensiveStats.maxHealth, currentHealth.value + heroData.defensiveStats.healthRegeneration);
+        float newHealth = Mathf.Min(heroData.defensiveStats.maxHealth, currentHealth.value + heroData.defensiveStats.healthRegeneration);
+        ChangeHealth(newHealth);
         currentMana.value = Mathf.Min(heroData.specialStats.maxMana, currentMana.value + heroData.specialStats.manaRegeneration);
         currentEnergy.value = Mathf.Min(heroData.specialStats.maxEnergy, currentEnergy.value + heroData.specialStats.energyRegeneration);
     }
@@ -130,7 +138,7 @@ public class PlayerStats : NetworkBehaviour
 
     public void Respawn()
     {
-        currentHealth.value = heroData.defensiveStats.maxHealth;
+        ChangeHealth(heroData.defensiveStats.maxHealth);
         currentEnergy.value = heroData.specialStats.maxEnergy;
         currentMana.value = heroData.specialStats.maxMana;
         transform.position = spawnPoint.position;

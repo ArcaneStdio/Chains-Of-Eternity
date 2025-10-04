@@ -148,7 +148,7 @@ public class potionSystem : MonoBehaviour
             //Debug.Log(potion.consumableData.manaAffected);
             //Debug.Log(potion.consumableData.energyAffected);
             //Debug.Log("From ItemObject: " + slot.ItemObject.consumableData.manaAffected);
-            playerstats.currentHealth.value += slot.ItemObject.consumableData.healthAffected; // Example of applying potion effect
+            playerstats.ChangeHealth(playerstats.currentHealth.value + slot.ItemObject.consumableData.healthAffected); // Example of applying potion effect
             playerstats.currentMana.value += slot.ItemObject.consumableData.manaAffected; // Example of applying potion effect
             playerstats.currentEnergy.value += slot.ItemObject.consumableData.energyAffected; // Example of applying potion effect
 
