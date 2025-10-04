@@ -12,6 +12,7 @@ public class Player : NetworkBehaviour
     public float dashSpeed = 15f;
     public float dashDuration = 1f;
     public float dashCooldown = 0.5f;
+    public float knockbackForce = 7f;
 
     public bool canDash = true;
     public bool IsFacingRight = true;
@@ -46,7 +47,6 @@ public class Player : NetworkBehaviour
     public void UseEnergy(int amount) => Stats.UseEnergy(amount);
     [SerializeField] private LayerMask enemyLayer;
 
-    private PlayerStats stats;
 
     private void Awake()
     {
@@ -122,6 +122,8 @@ public class Player : NetworkBehaviour
     public void EnableHitboxDef(bool value)
     {
         attackHitbox.enabled = value;
+        upHitbox.enabled = value;
+        downHitbox.enabled = value;
         if (value) attackHandler.ClearHitEnemies();
     }
 

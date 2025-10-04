@@ -111,8 +111,6 @@ GameObject:
   - component: {fileID: 6526761565673619785}
   - component: {fileID: 385859633317250722}
   - component: {fileID: 1879767107557831868}
-  - component: {fileID: 3126535712169796103}
-  - component: {fileID: 6199488839820106931}
   m_Layer: 11
   m_Name: Hero
   m_TagString: Player
@@ -271,6 +269,7 @@ MonoBehaviour:
   dashSpeed: 10
   dashDuration: 0.6
   dashCooldown: 1
+  knockbackForce: 7
   canDash: 1
   IsFacingRight: 1
   spriteRenderer: {fileID: 7080878602032333915}
@@ -681,68 +680,6 @@ MonoBehaviour:
   _ownerAuth: 1
   _autoSyncParameters: 1
   _dontSyncParameters: []
---- !u!114 &3126535712169796103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1421787838738747100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cb763cfb0fbf2c44b3587223c4aad1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: PurrNet.Runtime::PurrNet.NetworkReflection
-  _isSetup: 0
-  _prefabId: -2147483648
-  _componentIndex: -2147483648
-  _shouldBePooled: 0
-  _parent: {fileID: 0}
-  _invertedPathToNearestParent: 
-  _directChildren: []
-  _networkRules: {fileID: 0}
-  _visitiblityRules: {fileID: 0}
-  _trackedBehaviour: {fileID: 7080878602032333915}
-  _trackedFields:
-  - type: 1
-    name: color
-  _ownerAuth: 0
---- !u!114 &6199488839820106931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1421787838738747100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c846ffe938285bb42a759a159fdc5316, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
-  _isSetup: 0
-  _prefabId: -2147483648
-  _componentIndex: -2147483648
-  _shouldBePooled: 0
-  _parent: {fileID: 0}
-  _invertedPathToNearestParent: 
-  _directChildren: []
-  _networkRules: {fileID: 0}
-  _visitiblityRules: {fileID: 0}
-  heroData: {fileID: 0}
-  currentHealth:
-    _value: 0
-    _ownerAuth: 0
-    _sendIntervalInSeconds: 0
-  currentMana:
-    _value: 0
-    _ownerAuth: 0
-    _sendIntervalInSeconds: 0
-  currentEnergy:
-    _value: 0
-    _ownerAuth: 0
-    _sendIntervalInSeconds: 0
-  RegenerateResourcesRate: 1
-  isInvincible: 0
 --- !u!1 &7378200865221468711
 GameObject:
   m_ObjectHideFlags: 0
@@ -812,7 +749,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.16782174, y: 0.0052591264}
+  m_Offset: {x: 0.16782174, y: -0.008150682}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -822,7 +759,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.49095857, y: 0.36713338}
+  m_Size: {x: 0.49095857, y: 0.393953}
   m_EdgeRadius: 0
 --- !u!114 &8644637075420150050
 MonoBehaviour:
@@ -836,7 +773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ec12377caf97fd43ab4654794e2edff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackHitbox: {fileID: 0}
+  attackHitbox: {fileID: 2520987092378588741}
   enemyLayer:
     serializedVersion: 2
     m_Bits: 2048
@@ -845,7 +782,7 @@ MonoBehaviour:
   dealsStun: 0
   flashenemy: 1
   weaponType: Physical
-  player: {fileID: 0}
+  player: {fileID: 4717676792406009316}
   upHitbox: {fileID: 3200277814310182977}
   downHitbox: {fileID: 2911045910091968275}
 --- !u!61 &3200277814310182977
@@ -882,7 +819,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.01656273, y: 0.2720108}
+  m_Offset: {x: 0.0014460385, y: 0.16619456}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -892,7 +829,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.26540005, y: 0.14810862}
+  m_Size: {x: 0.53078026, y: 0.3597411}
   m_EdgeRadius: 0
 --- !u!61 &2911045910091968275
 BoxCollider2D:
@@ -928,7 +865,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.019486167, y: -0.3132046}
+  m_Offset: {x: 0.0028117895, y: -0.26669165}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -938,7 +875,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.23617171, y: 0.24498686}
+  m_Size: {x: 0.53631186, y: 0.33801275}
   m_EdgeRadius: 0
 --- !u!1 &8119343466243879575
 GameObject:
@@ -1142,6 +1079,14 @@ PrefabInstance:
     - target: {fileID: 2034063240172845072, guid: e32bdabef9d48ea47941a54bd2c373b4, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487566760184540536, guid: e32bdabef9d48ea47941a54bd2c373b4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5509808
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487566760184540536, guid: e32bdabef9d48ea47941a54bd2c373b4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 188.72
       objectReference: {fileID: 0}
     - target: {fileID: 4721930292581553691, guid: e32bdabef9d48ea47941a54bd2c373b4, type: 3}
       propertyPath: m_Pivot.x

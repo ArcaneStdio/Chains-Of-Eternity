@@ -21,6 +21,7 @@ public class PlayerStats : NetworkBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private Transform cameraTransform;
+    private Color originalColor;
 
     public bool isInvincible = false;
     private bool flash = true;
@@ -31,6 +32,7 @@ public class PlayerStats : NetworkBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
+        originalColor = spriteRenderer != null ? spriteRenderer.color : Color.white;
         spriteRenderer = GetComponent<SpriteRenderer>();
         cameraTransform = Camera.main.transform;
         spawnPoint = transform;
@@ -41,6 +43,7 @@ public class PlayerStats : NetworkBehaviour
     {
         // Initialize values on server
         yield return new WaitForSeconds(2f);
+        originalColor = spriteRenderer != null ? spriteRenderer.color : Color.white;
         currentHealth.value = heroData.defensiveStats.maxHealth;
         currentMana.value = heroData.specialStats.maxMana;
         currentEnergy.value = heroData.specialStats.maxEnergy;
@@ -141,9 +144,8 @@ public class PlayerStats : NetworkBehaviour
     private IEnumerator FlashOnHit()
     {
         if (spriteRenderer == null) yield break;
-        Color originalColor = spriteRenderer.color;
         spriteRenderer.color = Color.red * 2;
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.2f);
         spriteRenderer.color = originalColor;
     }
 

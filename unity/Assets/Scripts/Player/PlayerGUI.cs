@@ -15,7 +15,6 @@ public class playerstatsGUI : MonoBehaviour
     // public TextMeshProUGUI EnergyText;
     // public TextMeshProUGUI ManaText;
     [SerializeField] float maxHealth, maxEnergy, maxMana;
-
     private PlayerStats playerstats;
 
     void Awake()
