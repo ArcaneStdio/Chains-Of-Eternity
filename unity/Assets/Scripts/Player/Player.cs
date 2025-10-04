@@ -39,7 +39,7 @@ public class Player : NetworkBehaviour
     private BoxCollider2D upHitbox;
     private BoxCollider2D downHitbox;
     [Header("Stats")]
-    [SerializeField] public int DashEnergyCost=25;
+    [SerializeField] public int DashEnergyCost = 25;
     public float CurrentHealth => Stats.currentHealth.value;
     public float CurrentMana => Stats.currentMana.value;
     public float CurrentEnergy => Stats.currentEnergy.value;
@@ -122,6 +122,8 @@ public class Player : NetworkBehaviour
     public void EnableHitboxDef(bool value)
     {
         attackHitbox.enabled = value;
+        upHitbox.enabled = value;
+        downHitbox.enabled = value;
         if (value) attackHandler.ClearHitEnemies();
     }
 
@@ -131,7 +133,7 @@ public class Player : NetworkBehaviour
     public void DisableUpHitbox() => upHitbox.enabled = false;
     public void EnableDownHitbox() { downHitbox.enabled = true; attackHandler.ClearHitEnemies(); }
     public void DisableDownHitBox() => downHitbox.enabled = false;
-     public void ClearHitEnemies()
+    public void ClearHitEnemies()
     {
         attackHandler.ClearHitEnemies();
     }
