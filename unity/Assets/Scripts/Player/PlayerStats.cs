@@ -9,9 +9,9 @@ public class PlayerStats : NetworkBehaviour
     public HeroData heroData; // ScriptableObject reference
     public Animator Animator { get; private set; }
     // Synced values
-    [SerializeField] public SyncVar<float> currentHealth;
-    [SerializeField] public SyncVar<float> currentMana;
-    [SerializeField] public SyncVar<float> currentEnergy;
+    [SerializeField] public SyncVar<float> currentHealth = new(100);
+    [SerializeField] public SyncVar<float> currentMana = new(100,ownerAuth:true);
+    [SerializeField] public SyncVar<float> currentEnergy = new(100,ownerAuth:true);
 
     [Header("Settings")]
     public int RegenerateResourcesRate = 1;

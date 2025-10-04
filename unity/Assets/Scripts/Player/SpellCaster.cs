@@ -1,59 +1,57 @@
 using UnityEngine;
+using PurrNet; // import for [ServerRpc], NetworkBehaviour, etc.
 
-public class SpellCaster : MonoBehaviour
+public class SpellCaster : NetworkBehaviour
 {
     public SpellObject[] spellbook; // Assign in Inspector
-    public PlayerStats playerstats; // Reference to the Player script
+    public PlayerStats playerStats; // Reference to PlayerStats (with SyncVars)
+
     void Update()
     {
-        if (InputManager.Instance.Spell1Pressed)
+        if (!isOwner) return; // Only local player can issue input
+
+        if (InputManager.Instance.Spell1Pressed) TryCastSpell(0);
+        if (InputManager.Instance.Spell2Pressed) TryCastSpell(1);
+        if (InputManager.Instance.Spell3Pressed) TryCastSpell(2);
+        if (InputManager.Instance.Spell4Pressed) TryCastSpell(3);
+    }
+
+    private void TryCastSpell(int index)
+    {
+        if (index < 0 || index >= spellbook.Length) return;
+        SpellObject spell = spellbook[index];
+
+        // Local pre-check for responsiveness (optional, actual validation is on server)
+        if (playerStats.currentMana < spell.manaCost)
         {
-            if (playerstats.currentMana < spellbook[0].manaCost)
-            {
-                Debug.LogWarning("Not enough mana to cast this spell.");
-                return;
-            }
-            SpellObject spell = spellbook[0];
-            SpellFactory.CastSpell(spell, transform);
-            playerstats.currentMana.value -= (int)spell.manaCost;
-            Debug.Log($"Casting spell: {spell.name}, Mana cost: {spell.manaCost}, Remaining Mana: {playerstats.currentMana}");
+            Debug.LogWarning("Not enough mana to cast this spell.");
+            return;
         }
 
-        if (InputManager.Instance.Spell2Pressed)
+        // Ask the server to cast (authoritative)
+        RequestCastSpellServerRpc(index, transform.position, transform.forward);
+    }
+
+    // Client → Server
+    [ServerRpc(requireOwnership:true)]
+    private void RequestCastSpellServerRpc(int spellIndex, Vector3 spawnPos, Vector3 forward, RPCInfo info = default)
+    {
+        if (spellIndex < 0 || spellIndex >= spellbook.Length) return;
+        SpellObject spell = spellbook[spellIndex];
+
+        // Validate mana on server
+        if (playerStats.currentMana < spell.manaCost)
         {
-            if (playerstats.currentMana < spellbook[1].manaCost)
-            {
-                Debug.LogWarning("Not enough mana to cast this spell.");
-                return;
-            }
-            SpellObject spell = spellbook[1];
-            SpellFactory.CastSpell(spell, transform);
-            playerstats.currentMana.value -= (int)spell.manaCost;
-            Debug.Log($"Casting spell: {spell.name}, Mana cost: {spell.manaCost}, Remaining Mana: {playerstats.currentMana}");
+            Debug.Log($"Player tried to cast {spell.name} but not enough mana.");
+            return;
         }
-        if (InputManager.Instance.Spell3Pressed)
-        {
-            if (playerstats.currentMana < spellbook[2].manaCost)
-            {
-                Debug.LogWarning("Not enough mana to cast this spell.");
-                return;
-            }
-            SpellObject spell = spellbook[2];
-            SpellFactory.CastSpell(spell, transform);
-            playerstats.currentMana.value -= (int)spell.manaCost;
-            Debug.Log($"Casting spell: {spell.name}, Mana cost: {spell.manaCost}, Remaining Mana: {playerstats.currentMana}");
-        }
-        if (InputManager.Instance.Spell4Pressed)
-        {
-            if (playerstats.currentMana < spellbook[3].manaCost)
-            {
-                Debug.LogWarning("Not enough mana to cast this spell.");
-                return;
-            }
-            SpellObject spell = spellbook[3];
-            SpellFactory.CastSpell(spell, transform);
-            playerstats.currentMana.value -= (int)spell.manaCost;
-            Debug.Log($"Casting spell: {spell.name}, Mana cost: {spell.manaCost}, Remaining Mana: {playerstats.currentMana}");
-        }
+
+        // Deduct mana server-side (SyncVar will sync to all)
+        playerStats.currentMana.value -= (int)spell.manaCost;
+
+        // Create projectile/spell effect server-side
+        SpellFactory.CastSpell(spell, transform);
+
+        Debug.Log($"[SERVER] Casting spell: {spell.name}, Cost: {spell.manaCost}, Remaining Mana: {playerStats.currentMana}");
     }
 }

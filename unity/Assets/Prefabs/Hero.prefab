@@ -111,6 +111,7 @@ GameObject:
   - component: {fileID: 6526761565673619785}
   - component: {fileID: 385859633317250722}
   - component: {fileID: 1879767107557831868}
+  - component: {fileID: 5306581967287461937}
   m_Layer: 11
   m_Name: Hero
   m_TagString: Player
@@ -305,11 +306,11 @@ MonoBehaviour:
     _sendIntervalInSeconds: 0
   currentMana:
     _value: 0
-    _ownerAuth: 0
+    _ownerAuth: 1
     _sendIntervalInSeconds: 0
   currentEnergy:
     _value: 0
-    _ownerAuth: 0
+    _ownerAuth: 1
     _sendIntervalInSeconds: 0
   RegenerateResourcesRate: 1
   isInvincible: 0
@@ -401,12 +402,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 378c9530a521b2e4fa1092f04103bc47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isSetup: 0
+  _prefabId: -2147483648
+  _componentIndex: -2147483648
+  _shouldBePooled: 0
+  _parent: {fileID: 0}
+  _invertedPathToNearestParent: 
+  _directChildren: []
+  _networkRules: {fileID: 0}
+  _visitiblityRules: {fileID: 0}
   spellbook:
   - {fileID: 11400000, guid: 5862efa3c8f79884abfe6f7f82f87b19, type: 2}
   - {fileID: 11400000, guid: 9102b8341690bd74f9a3f526710a0062, type: 2}
   - {fileID: 11400000, guid: a93b33b593f76504780b3d08c50b1fa8, type: 2}
   - {fileID: 11400000, guid: 0061877e4df930a4795745099962cc09, type: 2}
-  playerstats: {fileID: -488175116038512043}
+  playerStats: {fileID: 0}
 --- !u!114 &2168569601668913233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -680,6 +690,27 @@ MonoBehaviour:
   _ownerAuth: 1
   _autoSyncParameters: 1
   _dontSyncParameters: []
+--- !u!114 &5306581967287461937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421787838738747100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5681fe548eb84304ea28a286062791f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: PurrNet.Runtime::PurrNet.NetworkIdentity
+  _isSetup: 0
+  _prefabId: -2147483648
+  _componentIndex: -2147483648
+  _shouldBePooled: 0
+  _parent: {fileID: 0}
+  _invertedPathToNearestParent: 
+  _directChildren: []
+  _networkRules: {fileID: 0}
+  _visitiblityRules: {fileID: 0}
 --- !u!1 &7378200865221468711
 GameObject:
   m_ObjectHideFlags: 0
