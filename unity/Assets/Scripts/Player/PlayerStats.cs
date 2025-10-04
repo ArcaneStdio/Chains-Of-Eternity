@@ -21,11 +21,11 @@ public class PlayerStats : NetworkBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private Transform cameraTransform;
-
     public bool isInvincible = false;
     private bool flash = true;
     private Transform spawnPoint;
     private GameObject playerObject;
+    private Color originalColor;
 
     private void Awake()
     {
@@ -34,6 +34,7 @@ public class PlayerStats : NetworkBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         cameraTransform = Camera.main.transform;
         spawnPoint = transform;
+        originalColor = spriteRenderer.color;
         StartCoroutine(StartAfter2s());
     }
 
@@ -141,9 +142,8 @@ public class PlayerStats : NetworkBehaviour
     private IEnumerator FlashOnHit()
     {
         if (spriteRenderer == null) yield break;
-        Color originalColor = spriteRenderer.color;
         spriteRenderer.color = Color.red * 2;
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.2f);
         spriteRenderer.color = originalColor;
     }
 
