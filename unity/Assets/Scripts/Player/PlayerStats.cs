@@ -127,6 +127,7 @@ public class PlayerStats : NetworkBehaviour
 
         yield return new WaitForSeconds(duration);
         // Re-enable input via controller later
+        rb.linearVelocity = Vector2.zero;
     }
 
     private void Die()

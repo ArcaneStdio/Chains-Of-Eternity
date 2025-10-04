@@ -12,7 +12,7 @@ public class Player : NetworkBehaviour
     public float dashSpeed = 15f;
     public float dashDuration = 1f;
     public float dashCooldown = 0.5f;
-    public float knockbackForce = 7f;
+    public float knockbackForce = 20f;
 
     public bool canDash = true;
     public bool IsFacingRight = true;

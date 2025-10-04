@@ -2,58 +2,37 @@ using UnityEngine;
 
 public class SpellCaster : MonoBehaviour
 {
-    public SpellObject[] spellbook; // Assign in Inspector
+    public SpellObject[] spellbook; // Assign in Inspector (size = 8)
     public PlayerStats playerstats; // Reference to the Player script
+
     void Update()
     {
-        if (InputManager.Instance.Spell1Pressed)
+        // Loop through 8 spell slots
+        for (int i = 0; i < spellbook.Length && i < 8; i++)
         {
-            if (playerstats.currentMana < spellbook[0].manaCost)
+            if (spellbook[i] == null) continue; // Skip empty slots
+
+            // Map keys 1-8 -> Alpha1 to Alpha8
+            if (Input.GetKeyDown(KeyCode.Alpha1 + i))
             {
-                Debug.LogWarning("Not enough mana to cast this spell.");
-                return;
+                TryCastSpell(i);
             }
-            SpellObject spell = spellbook[0];
-            SpellFactory.CastSpell(spell, transform);
-            playerstats.currentMana.value -= (int)spell.manaCost;
-            Debug.Log($"Casting spell: {spell.name}, Mana cost: {spell.manaCost}, Remaining Mana: {playerstats.currentMana}");
+        }
+    }
+
+    private void TryCastSpell(int index)
+    {
+        SpellObject spell = spellbook[index];
+
+        if (playerstats.currentMana < spell.manaCost)
+        {
+            Debug.LogWarning($"Not enough mana to cast spell in slot {index + 1}.");
+            return;
         }
 
-        if (InputManager.Instance.Spell2Pressed)
-        {
-            if (playerstats.currentMana < spellbook[1].manaCost)
-            {
-                Debug.LogWarning("Not enough mana to cast this spell.");
-                return;
-            }
-            SpellObject spell = spellbook[1];
-            SpellFactory.CastSpell(spell, transform);
-            playerstats.currentMana.value -= (int)spell.manaCost;
-            Debug.Log($"Casting spell: {spell.name}, Mana cost: {spell.manaCost}, Remaining Mana: {playerstats.currentMana}");
-        }
-        if (InputManager.Instance.Spell3Pressed)
-        {
-            if (playerstats.currentMana < spellbook[2].manaCost)
-            {
-                Debug.LogWarning("Not enough mana to cast this spell.");
-                return;
-            }
-            SpellObject spell = spellbook[2];
-            SpellFactory.CastSpell(spell, transform);
-            playerstats.currentMana.value -= (int)spell.manaCost;
-            Debug.Log($"Casting spell: {spell.name}, Mana cost: {spell.manaCost}, Remaining Mana: {playerstats.currentMana}");
-        }
-        if (InputManager.Instance.Spell4Pressed)
-        {
-            if (playerstats.currentMana < spellbook[3].manaCost)
-            {
-                Debug.LogWarning("Not enough mana to cast this spell.");
-                return;
-            }
-            SpellObject spell = spellbook[3];
-            SpellFactory.CastSpell(spell, transform);
-            playerstats.currentMana.value -= (int)spell.manaCost;
-            Debug.Log($"Casting spell: {spell.name}, Mana cost: {spell.manaCost}, Remaining Mana: {playerstats.currentMana}");
-        }
+        SpellFactory.CastSpell(spell, transform);
+        playerstats.currentMana.value -= (int)spell.manaCost;
+
+        Debug.Log($"Casting spell from slot {index + 1}: {spell.name}, Mana cost: {spell.manaCost}, Remaining Mana: {playerstats.currentMana}");
     }
 }

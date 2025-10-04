@@ -19,19 +19,19 @@ MonoBehaviour:
   raceName: Human
   equippedItems: []
   offensiveStats:
-    damage: 25
+    damage: 15
     attackSpeed: 100
     criticalRate: 10
     criticalDamage: 50
   defensiveStats:
-    maxHealth: 100
+    maxHealth: 200
     defense: 0
     healthRegeneration: 1
     resistances: 
   specialStats:
     maxEnergy: 100
     energyRegeneration: 5
-    maxMana: 100
+    maxMana: 200
     manaRegeneration: 5
   statPointsAssigned:
     constitution: 1
