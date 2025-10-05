@@ -136,7 +136,7 @@ namespace PurrNet.Transports
             var request = UnityWebRequest.Get(url);
             request.useHttpContinue = false;
             request.SetRequestHeader("Cache-Control", "no-cache");
-            request.SetRequestHeader("region", region);
+            request.SetRequestHeader("region", "france");
             request.SetRequestHeader("name", roomName);
             var response = await request.SendWebRequest();
 

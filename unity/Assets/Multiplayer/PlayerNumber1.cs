@@ -20,7 +20,7 @@ public class PlayerNumber1 : NetworkBehaviour
     }
     private void OnPlayerNumberChanged(int newNumber)
     {
-        numberText.text = "Player Number: " + newNumber;
+        numberText.text = newNumber.ToString();
     }
     private void Update()
     {
