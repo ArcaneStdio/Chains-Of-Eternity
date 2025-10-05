@@ -100,6 +100,7 @@ GameObject:
   - component: {fileID: -488175116038512043}
   - component: {fileID: 8574163957188846133}
   - component: {fileID: 8592615825745221719}
+  - component: {fileID: 8581886196778673931}
   - component: {fileID: 8859425946914354900}
   - component: {fileID: 1175751907869597020}
   - component: {fileID: 2168569601668913233}
@@ -375,6 +376,28 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.119084194, y: 0.27908647}
   m_EdgeRadius: 0
+--- !u!114 &8581886196778673931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421787838738747100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 014aa82c62eb1824d89c4e26a0aa28b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerColorHandler
+  _isSetup: 0
+  _prefabId: -2147483648
+  _componentIndex: -2147483648
+  _shouldBePooled: 0
+  _parent: {fileID: 0}
+  _invertedPathToNearestParent: 
+  _directChildren: []
+  _networkRules: {fileID: 0}
+  _visitiblityRules: {fileID: 0}
+  playerMaterial: {fileID: 2100000, guid: ca8d985240edef04cb6c71890f9ec12b, type: 2}
 --- !u!114 &8859425946914354900
 MonoBehaviour:
   m_ObjectHideFlags: 0

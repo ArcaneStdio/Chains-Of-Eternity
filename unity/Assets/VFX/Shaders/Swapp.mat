@@ -65,10 +65,10 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _HairColor: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
+    - _HairColor: {r: 1, g: 0.05270496, b: 0, a: 1}
     - _Hair_Color: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ShirtColor: {r: 1, g: 0.3820755, b: 0.38943172, a: 1}
+    - _ShirtColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShirtColorOriginal: {r: 0.5372549, g: 0.11764706, b: 0.16862747, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
