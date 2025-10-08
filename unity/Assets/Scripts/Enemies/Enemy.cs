@@ -8,7 +8,7 @@ using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] protected Transform playerTransform; // Reference to the player's transform
+    [SerializeField] Transform playerTransform; // Reference to the player's transform
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private float followOffset = 0.5f; // Offset to maintain while following the player    
     [Header("Enemy Stats")]
@@ -59,6 +59,10 @@ public class Enemy : MonoBehaviour
     [Header("Roaming Settings")]
     [SerializeField] private float roamRadius = 5f;
     [SerializeField] private LayerMask groundLayer;
+
+    [Header("Behavior System")]
+    [Tooltip("If true, uses Behavior Graph. If false, uses State Machine.")]
+    public bool useBehaviorGraph = false;
 
     // Animator for the enemy reference
     public Animator animator;
@@ -146,30 +150,70 @@ public class Enemy : MonoBehaviour
         //Debug.Log("yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy");
         currentHealth = maxHealth; // Initialize current health to max health
 
-        //Debug.Log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-        StateMachine = new StateMachine<Enemy>();
-        //simpleRandomContract = new SimpleRandomContract();
+        // Only initialize state machine if not using Behavior Graph
+        if (!useBehaviorGraph)
+        {
+            Debug.Log($"[{Name}] Using STATE MACHINE AI");
+            //Debug.Log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+            StateMachine = new StateMachine<Enemy>();
+            //simpleRandomContract = new SimpleRandomContract();
 
-        //Debug.Log("bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb");
-        IdleState = new IdleState(this, StateMachine);
-        FreeRoamingState = new FreeRoamingState(this, StateMachine);
-        FollowState = new FollowState(this, StateMachine);
-        AttackState = new AttackState(this, StateMachine);
-        StunState = new StunState(this, StateMachine);
-        CooldownState = new CooldownState(this, StateMachine, AttackCooldown);
-        //Debug.Log("ccccccccccccccccccccccccccccccccccccccccc");
-        StateMachine.Initialize(IdleState);
-        //Debug.Log("Current state of enemyh in start func " + StateMachine.CurrentState);
+            //Debug.Log("bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb");
+            IdleState = new IdleState(this, StateMachine);
+            FreeRoamingState = new FreeRoamingState(this, StateMachine);
+            FollowState = new FollowState(this, StateMachine);
+            AttackState = new AttackState(this, StateMachine);
+            StunState = new StunState(this, StateMachine);
+            CooldownState = new CooldownState(this, StateMachine, AttackCooldown);
+            //Debug.Log("ccccccccccccccccccccccccccccccccccccccccc");
+            StateMachine.Initialize(IdleState);
+            //Debug.Log("Current state of enemyh in start func " + StateMachine.CurrentState);
+        }
+        else
+        {
+            Debug.Log($"[{Name}] Using BEHAVIOR GRAPH AI ✓");
+            
+            // Check if BehaviorGraphAgent exists
+            var behaviorAgent = GetComponent<Unity.Behavior.BehaviorGraphAgent>();
+            if (behaviorAgent != null)
+            {
+                Debug.Log($"[{Name}] BehaviorGraphAgent found! Graph={behaviorAgent.Graph?.name ?? "NULL"}");
+            }
+            else
+            {
+                Debug.LogError($"[{Name}] NO BehaviorGraphAgent component!");
+            }
+        }
+        
         expAward = (int)UnityEngine.Random.Range(minExpAward, maxExpAward);
         // StartCoroutine(enumerator());
     }
 
     public void Update()
     {
-        StateMachine?.LogicUpdate();
+        // Only run state machine if not using Behavior Graph
+        if (!useBehaviorGraph)
+        {
+            StateMachine?.LogicUpdate();
+        }
+        
         CheckVerticalMovement();
-        animator.SetBool("movingUp", movingUp);
-        animator.SetBool("movingDown", movingDown);
+        
+        // Only set animator parameters if they exist
+        if (animator != null)
+        {
+            foreach (AnimatorControllerParameter param in animator.parameters)
+            {
+                if (param.name == "movingUp")
+                {
+                    animator.SetBool("movingUp", movingUp);
+                }
+                if (param.name == "movingDown")
+                {
+                    animator.SetBool("movingDown", movingDown);
+                }
+            }
+        }
     }
     private IEnumerator SelectingPlayer()
     {
@@ -195,7 +239,12 @@ public class Enemy : MonoBehaviour
 
     private void FixedUpdate()
     {
-        StateMachine?.PhysicsUpdate();
+        // Only run state machine physics if not using Behavior Graph
+        if (!useBehaviorGraph)
+        {
+            StateMachine?.PhysicsUpdate();
+        }
+        
         FlipIfNeeded();
     }
 
@@ -301,13 +350,18 @@ public class Enemy : MonoBehaviour
         yield return new WaitForSeconds(duration);
         RB.linearVelocity = Vector2.zero;
         agent.enabled = true;
-        if (applyStun)
+        
+        // Only use state machine if not using Behavior Graph
+        if (!useBehaviorGraph && StateMachine != null)
         {
-            StateMachine.ChangeState(StunState);
-        }
-        else
-        {
-            StateMachine.ChangeState(FreeRoamingState); // Return to idle state if not stunned
+            if (applyStun)
+            {
+                StateMachine.ChangeState(StunState);
+            }
+            else
+            {
+                StateMachine.ChangeState(FreeRoamingState); // Return to idle state if not stunned
+            }
         }
         inknockback = false;
     }
@@ -405,15 +459,23 @@ public class Enemy : MonoBehaviour
     // }
     private void CheckVerticalMovement()
     {
+        // Reset flags
+        movingUp = false;
+        movingDown = false;
+        
+        if (agent == null || !agent.isActiveAndEnabled || !agent.hasPath)
+            return;
+            
         Vector2 directionToDestination = agent.destination - transform.position;
+        
+        // Check if destination is valid
+        if (directionToDestination.magnitude < 0.01f)
+            return;
+            
         directionToDestination.Normalize();
 
         // Get the signed angle relative to the y-axis
         float angle = Vector2.SignedAngle(Vector2.up, directionToDestination);
-
-        // Reset flags
-        movingUp = false;
-        movingDown = false;
 
         // Check if within threshold
         if (Mathf.Abs(angle) <= verticalAngleThreshold)
@@ -425,11 +487,6 @@ public class Enemy : MonoBehaviour
         {
             movingDown = true;
             movingUp = false;
-        }
-        else
-        {
-            movingUp = false;
-            movingDown = false;
         }
     }
 

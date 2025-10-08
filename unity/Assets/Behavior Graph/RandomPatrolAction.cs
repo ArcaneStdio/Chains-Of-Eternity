@@ -35,10 +35,22 @@ namespace Unity.Behavior
             if (Agent.Value == null)
             {
                 LogFailure("No agent assigned.");
+                UnityEngine.Debug.LogError("[RandomPatrol] Agent.Value is NULL!");
                 return Status.Failure;
             }
 
+            UnityEngine.Debug.Log($"[RandomPatrol] Starting for {Agent.Value.name}");
+            
             Initialize();
+
+            if (m_NavMeshAgent == null)
+            {
+                UnityEngine.Debug.LogError($"[RandomPatrol] No NavMeshAgent on {Agent.Value.name}!");
+            }
+            else
+            {
+                UnityEngine.Debug.Log($"[RandomPatrol] NavMeshAgent found! Speed={m_NavMeshAgent.speed}, IsOnNavMesh={m_NavMeshAgent.isOnNavMesh}");
+            }
 
             PickNewDestination();
             m_Waiting = false;
@@ -131,8 +143,9 @@ namespace Unity.Behavior
 
         private void PickNewDestination()
         {
+            // For 2D NavMesh, we use X and Y (not X and Z)
             Vector2 randomCircle = UnityEngine.Random.insideUnitCircle * RoamRadius.Value;
-            m_CurrentTarget = Agent.Value.transform.position + new Vector3(randomCircle.x, 0, randomCircle.y);
+            m_CurrentTarget = Agent.Value.transform.position + new Vector3(randomCircle.x, randomCircle.y, 0);
 
             if (m_NavMeshAgent != null && m_NavMeshAgent.isOnNavMesh)
             {
