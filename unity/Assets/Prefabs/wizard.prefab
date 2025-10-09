@@ -257,7 +257,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 2097152
-  useBehaviorGraph: 0
+  useBehaviorGraph: 1
   animator: {fileID: 8920417749181368278}
   IsFacingRight: 1
   magicProjectilePrefab: {fileID: 1830325476716934222, guid: b0390d62af66eaf4398495d2ad5e6db8, type: 3}

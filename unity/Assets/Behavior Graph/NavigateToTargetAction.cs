@@ -20,6 +20,7 @@ namespace Unity.Behavior
         [SerializeReference] public BlackboardVariable<float> DistanceThreshold = new BlackboardVariable<float>(1.5f);
 
         private NavMeshAgent m_NavMeshAgent;
+        private Animator m_Animator;
         private float m_OriginalSpeed;
         private float m_OriginalStoppingDistance;
 
@@ -47,6 +48,8 @@ namespace Unity.Behavior
                 return Status.Failure;
             }
 
+            m_Animator = Agent.Value.GetComponentInChildren<Animator>();
+
             UnityEngine.Debug.Log($"[NavigateToTarget] Starting! Agent={Agent.Value.name}, Target={Target.Value.name}, Speed={Speed.Value}");
 
             // Store original values
@@ -56,6 +59,13 @@ namespace Unity.Behavior
             // Set navigation parameters
             m_NavMeshAgent.speed = Speed.Value;
             m_NavMeshAgent.stoppingDistance = DistanceThreshold.Value;
+            
+            if (m_Animator != null)
+            {
+                m_Animator.SetBool("followPlayer", true);
+                m_Animator.SetBool("freeRoam", false);
+                m_Animator.SetBool("isAttacking", false);
+            }
             
             UnityEngine.Debug.Log($"[NavigateToTarget] NavMeshAgent configured. IsOnNavMesh={m_NavMeshAgent.isOnNavMesh}, Speed={m_NavMeshAgent.speed}");
 
@@ -88,7 +98,11 @@ namespace Unity.Behavior
 
         protected override void OnEnd()
         {
-            // Restore original values
+            if (m_Animator != null)
+            {
+                m_Animator.SetBool("followPlayer", false);
+            }
+
             if (m_NavMeshAgent != null)
             {
                 if (m_NavMeshAgent.isOnNavMesh)
@@ -97,7 +111,11 @@ namespace Unity.Behavior
                 }
                 m_NavMeshAgent.speed = m_OriginalSpeed;
                 m_NavMeshAgent.stoppingDistance = m_OriginalStoppingDistance;
+                
+                m_NavMeshAgent.isStopped = false;
             }
+            
+            UnityEngine.Debug.Log($"[NavigateToTarget] Ended for {Agent.Value?.name}");
         }
     }
 }

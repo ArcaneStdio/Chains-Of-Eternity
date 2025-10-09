@@ -313,6 +313,10 @@ public class Enemy : MonoBehaviour
 
         currentHealth = Mathf.Max(0, currentHealth - effectiveDamage);
         animator.SetBool("isHit", true);
+        
+        //backup[s]
+        StartCoroutine(ResetHitAnimation(0.5f));
+        
         //Debug.Log(sourcePos);
         //Debug.Log(transform.position);
         //Debug.Log(transform.position - sourcePos);
@@ -394,15 +398,37 @@ public class Enemy : MonoBehaviour
     {
         hasDied = true;
 
+        if (agent != null && agent.isOnNavMesh)
+        {
+            agent.isStopped = true;
+            agent.velocity = Vector3.zero;
+        }
+
+        Collider2D col = GetComponent<Collider2D>();
+        if (col != null)
+            col.enabled = false;
+
         animator.SetBool("isDead", true);
+        animator.SetBool("isAttacking", false);
+        animator.SetBool("followPlayer", false);
+        animator.SetBool("freeRoam", false);
+        
         Debug.Log(Name + " has died.");
-        //TODO: Implement death logic, like playing a death animation, dropping loot, etc.
+        
         if (deathEffect != null)
         {
             Instantiate(deathEffect, transform.position, Quaternion.identity);
         }
         onDeath();
-        Destroy(gameObject); // For now, just destroy the enemy
+        
+        // Delay destruction to let death animation play
+        StartCoroutine(DestroyAfterAnimation(2f)); // TODO: adjust delay based on actual animation length
+    }
+
+    private System.Collections.IEnumerator DestroyAfterAnimation(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        Destroy(gameObject);
     }
     public virtual void PerformAttack()
     {
@@ -416,6 +442,12 @@ public class Enemy : MonoBehaviour
 
     public void hitAnimComplete()
     {
+        animator.SetBool("isHit", false);
+    }
+
+    private System.Collections.IEnumerator ResetHitAnimation(float delay)
+    {
+        yield return new WaitForSeconds(delay);
         animator.SetBool("isHit", false);
     }
 

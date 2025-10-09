@@ -52,6 +52,14 @@ namespace Unity.Behavior
                 UnityEngine.Debug.Log($"[RandomPatrol] NavMeshAgent found! Speed={m_NavMeshAgent.speed}, IsOnNavMesh={m_NavMeshAgent.isOnNavMesh}");
             }
 
+            // conditon: to set animator parameters
+            if (m_Animator != null)
+            {
+                m_Animator.SetBool("freeRoam", true);
+                m_Animator.SetBool("followPlayer", false);
+                m_Animator.SetBool("isAttacking", false);
+            }
+
             PickNewDestination();
             m_Waiting = false;
             m_WaitTimer = 0f;
@@ -102,15 +110,28 @@ namespace Unity.Behavior
         {
             UpdateAnimatorSpeed(0f);
 
+            // Reset animator parameters when stopping roaming
+            if (m_Animator != null)
+            {
+                m_Animator.SetBool("freeRoam", false);
+            }
+
             if (m_NavMeshAgent != null)
             {
                 if (m_NavMeshAgent.isOnNavMesh)
                 {
                     m_NavMeshAgent.ResetPath();
                 }
-                m_NavMeshAgent.speed = m_OriginalSpeed;
-                m_NavMeshAgent.stoppingDistance = m_OriginalStoppingDistance;
+                if (m_OriginalSpeed > 0)
+                    m_NavMeshAgent.speed = m_OriginalSpeed;
+                if (m_OriginalStoppingDistance >= 0)
+                    m_NavMeshAgent.stoppingDistance = m_OriginalStoppingDistance;
+                
+                // TODO: Ensure agent is not stuck in stopped state
+                m_NavMeshAgent.isStopped = false;
             }
+            
+            UnityEngine.Debug.Log($"[RandomPatrol] Ended for {Agent.Value?.name}");
         }
 
         private void Initialize()
