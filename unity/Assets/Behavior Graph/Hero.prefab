@@ -1101,7 +1101,7 @@ ParticleSystem:
     radiusThickness: 1
     donutRadius: 0.2
     m_Position: {x: 0.0000013275203, y: -1.741889e-11, z: -0.000000112044404}
-    m_Rotation: {x: -0.0000050119165, y: 271.1742, z: -0.0000011725185}
+    m_Rotation: {x: -0.0000050119165, y: 271.17, z: -0.0000011725185}
     m_Scale: {x: 1, y: 1, z: 1}
     placementMode: 0
     m_MeshMaterialIndex: 0
@@ -5461,6 +5461,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4863fafb98083d049ab1f6e37fc2e8cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  groundTilemap: {fileID: 0}
+  playerFeet: {fileID: 0}
+  player: {fileID: 7371946289265735080}
+  colorDatabase: {fileID: 0}
+  colorLerpSpeed: 20
+  fallbackColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
 --- !u!1 &5075472103858859457
 GameObject:
   m_ObjectHideFlags: 0

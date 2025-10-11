@@ -10,6 +10,8 @@ public class ParticleHandler : MonoBehaviour
     private Tilemap groundTilemap;                // assign the Tilemap that contains walkable ground tiles
     [SerializeField]
     private Transform playerFeet;                 // small transform at player's feet
+    [SerializeField]
+    private Player player;
 
     [Header("Database")]
     public TileColorDatabase colorDatabase;     // assign the generated TileColorDatabase.asset
@@ -19,6 +21,7 @@ public class ParticleHandler : MonoBehaviour
     public Color fallbackColor = new Color(0.8f, 0.8f, 0.8f, 1f);
 
     private ParticleSystem.MainModule mainModule;
+    private ParticleSystem.ShapeModule shapeModule;
     private Color currentColor;
 
     private void Awake()
@@ -38,10 +41,31 @@ public class ParticleHandler : MonoBehaviour
         currentColor = mainModule.startColor.mode == ParticleSystemGradientMode.Color
             ? mainModule.startColor.color
             : fallbackColor;
+
+        shapeModule = footstepParticles.shape;
     }
 
     void Update()
     {
+
+        if(player == null || !player.enabled) return; // only update when player is active
+        if (player.stateMachine.CurrentState != player.moveState)
+        {
+            // only update when in move state
+            footstepParticles.Stop();
+            return;
+        }
+
+        if(player.IsFacingRight == false)
+        {
+            shapeModule.rotation = new Vector3(shapeModule.rotation.x, -271.17f, shapeModule.rotation.z);
+            footstepParticles.Play();
+        }else
+        {
+            shapeModule.rotation = new Vector3(shapeModule.rotation.x, 271.17f, shapeModule.rotation.z);
+            footstepParticles.Play();
+        }
+
         if (groundTilemap == null || playerFeet == null) return;
         Vector3Int cellPos = groundTilemap.WorldToCell(playerFeet.position);
         TileBase tile = groundTilemap.GetTile(cellPos);
