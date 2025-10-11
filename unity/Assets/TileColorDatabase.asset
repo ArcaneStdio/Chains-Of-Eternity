@@ -1,0 +1,1090 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9ad3d936a84be4488a607941e0aa48d, type: 3}
+  m_Name: TileColorDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::TileColorDatabase
+  tileColors:
+  - tile: {fileID: 11400000, guid: ecbf1a638e1a03c4e886b6e6a3424a7f, type: 2}
+    color: {r: 0.5019608, g: 0.5411765, b: 0.6392157, a: 2}
+  - tile: {fileID: 11400000, guid: 017e30f22dfad3f4098ea2f9fa1ced97, type: 2}
+    color: {r: 0.22669683, g: 0.14864254, b: 0.13959277, a: 1.4392157}
+  - tile: {fileID: 11400000, guid: 2241127bda0aa3d4d9d4ca926f3472ef, type: 2}
+    color: {r: 0.26928106, g: 0.23084968, b: 0.28784314, a: 1.5333333}
+  - tile: {fileID: 11400000, guid: c1d1b10c9ebbbdd479a89553eb36ee73, type: 2}
+    color: {r: 0.2922269, g: 0.2092437, b: 0.19635855, a: 1.6571429}
+  - tile: {fileID: 11400000, guid: 4255f2d0da2b1624d9cacec60d1d2c05, type: 2}
+    color: {r: 0.2992375, g: 0.22156863, b: 0.22276689, a: 1.5055556}
+  - tile: {fileID: 11400000, guid: 4bc4af71bae80d34489a3e6a98eeec18, type: 2}
+    color: {r: 0.17460318, g: 0.15770309, b: 0.21232493, a: 1.4571428}
+  - tile: {fileID: 11400000, guid: 2b2dbc065e5aee14cafd83bb4aed27e0, type: 2}
+    color: {r: 0.29828823, g: 0.21493931, b: 0.21151572, a: 1.5587301}
+  - tile: {fileID: 11400000, guid: 3a4b23028b5a1ba45aabf87d991832cc, type: 2}
+    color: {r: 0.13464053, g: 0.12875818, b: 0.19934641, a: 1.3333334}
+  - tile: {fileID: 11400000, guid: 2bbd2d42d75b6e7438f8f85f21d9f8f6, type: 2}
+    color: {r: 0.2483779, g: 0.20616756, b: 0.19532977, a: 1.6131194}
+  - tile: {fileID: 11400000, guid: dace1bd89e756a44dabc8a00672fc1d0, type: 2}
+    color: {r: 0.16544119, g: 0.1622549, b: 0.22745098, a: 1.7813725}
+  - tile: {fileID: 11400000, guid: b0f07dbac3325774a9025a49b2292d2c, type: 2}
+    color: {r: 0.12990196, g: 0.12696078, b: 0.18774511, a: 2}
+  - tile: {fileID: 11400000, guid: d01945073e0e062458a19c92fb215caf, type: 2}
+    color: {r: 0.18088235, g: 0.17818628, b: 0.24607843, a: 2}
+  - tile: {fileID: 11400000, guid: 904e300f916f86c4793bd96be3bc4f7e, type: 2}
+    color: {r: 0.13799019, g: 0.13455883, b: 0.19681373, a: 2}
+  - tile: {fileID: 11400000, guid: 229fa77f4d800024cafe943f7f879a29, type: 2}
+    color: {r: 0.24068628, g: 0.23284315, b: 0.31911767, a: 2}
+  - tile: {fileID: 11400000, guid: bcec8f6b089ff9946a6f17d6ef44fc2d, type: 2}
+    color: {r: 0.13799019, g: 0.13455883, b: 0.19681373, a: 2}
+  - tile: {fileID: 11400000, guid: c1719614c9bb2234fb42105ecf57f358, type: 2}
+    color: {r: 0.24068628, g: 0.23284315, b: 0.31911767, a: 2}
+  - tile: {fileID: 11400000, guid: e15f6ea057a79d24a8c45c722e967071, type: 2}
+    color: {r: 0.17377451, g: 0.16936275, b: 0.2394608, a: 2}
+  - tile: {fileID: 11400000, guid: de5bbe3fae5898449b040f56742df4cb, type: 2}
+    color: {r: 0.18333334, g: 0.17990196, b: 0.25539216, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: c72879e34c865884b8e06efe15ea0d22, type: 2}
+    color: {r: 0.11372549, g: 0.10980392, b: 0.16862746, a: 2}
+  - tile: {fileID: 11400000, guid: 23e4c918e1b313240ba0d61fc09f8d5b, type: 2}
+    color: {r: 0.17941177, g: 0.17598039, b: 0.24411765, a: 2}
+  - tile: {fileID: 11400000, guid: 114e44a690ffbe64ab8b2d1f130249eb, type: 2}
+    color: {r: 0.17941177, g: 0.17598039, b: 0.24411765, a: 2}
+  - tile: {fileID: 11400000, guid: ec0fe61e68056724db3dbe1be869d6f8, type: 2}
+    color: {r: 0.2504902, g: 0.25, b: 0.327451, a: 2}
+  - tile: {fileID: 11400000, guid: 4f9a1c88421f3294083df2a1efeca99a, type: 2}
+    color: {r: 0.18970588, g: 0.18651961, b: 0.25833336, a: 2}
+  - tile: {fileID: 11400000, guid: 0ed2ab8bf72fa694a9bb6b8fe2a06f59, type: 2}
+    color: {r: 0.24289216, g: 0.2372549, b: 0.32132354, a: 2}
+  - tile: {fileID: 11400000, guid: b21fd795439c9c24c93f90d2b12d91ef, type: 2}
+    color: {r: 0.24068628, g: 0.23284315, b: 0.31911767, a: 2}
+  - tile: {fileID: 11400000, guid: d43e59794ac73b34a936cf4441d4d794, type: 2}
+    color: {r: 0.24117647, g: 0.23578432, b: 0.31887257, a: 2}
+  - tile: {fileID: 11400000, guid: 20cace485f462d54baa7715f54726205, type: 2}
+    color: {r: 0.21813726, g: 0.21764706, b: 0.29607844, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: 7eb629463f89ee248bdf47a584cb7417, type: 2}
+    color: {r: 0.16078432, g: 0.16078432, b: 0.24313726, a: 1}
+  - tile: {fileID: 11400000, guid: 2750e44911a5ce94a89698694d5a4467, type: 2}
+    color: {r: 0.21764706, g: 0.21740197, b: 0.29509804, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: af7848442929f984fb2fc558dd75d891, type: 2}
+    color: {r: 0.2504902, g: 0.25, b: 0.327451, a: 2}
+  - tile: {fileID: 11400000, guid: 8d987c516e59b424092d685f354c83d5, type: 2}
+    color: {r: 0.24093138, g: 0.24068628, b: 0.31740198, a: 2}
+  - tile: {fileID: 11400000, guid: 1c86210b57f586d4c9a406b3f04f93a0, type: 2}
+    color: {r: 0.2, g: 0.19975491, b: 0.27867648, a: 1.7507353}
+  - tile: {fileID: 11400000, guid: 85979dbcd20c9344683cfff4852d884b, type: 2}
+    color: {r: 0.21078432, g: 0.21029413, b: 0.2872549, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: 132cffd97a6c988499303064985d025f, type: 2}
+    color: {r: 0.20857844, g: 0.20833334, b: 0.28529412, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: a7c2e31504905114fb06bacd8d73c4d7, type: 2}
+    color: {r: 0.44681376, g: 0.47254905, b: 0.5857843, a: 1.7813725}
+  - tile: {fileID: 11400000, guid: f547cbb46a6923b4f9471c0ef2e97dba, type: 2}
+    color: {r: 0.5262255, g: 0.56102943, b: 0.6781863, a: 2}
+  - tile: {fileID: 11400000, guid: 9b54460a88ca2bc48b4796c0b92191cb, type: 2}
+    color: {r: 0.55857843, g: 0.58750004, b: 0.73014706, a: 2}
+  - tile: {fileID: 11400000, guid: 84358652580ad7b4c9a32b97bcd96916, type: 2}
+    color: {r: 0.49681374, g: 0.53382355, b: 0.63455886, a: 2}
+  - tile: {fileID: 11400000, guid: 17fcfa37fba685a43b5b901d48f90afb, type: 2}
+    color: {r: 0.38039216, g: 0.4044118, b: 0.4911765, a: 2}
+  - tile: {fileID: 11400000, guid: ac150ec69fa575e4cb20f2be4f899b78, type: 2}
+    color: {r: 0.46740198, g: 0.50049025, b: 0.59877455, a: 2}
+  - tile: {fileID: 11400000, guid: 76c0430afa0c8c745b804325b72a072b, type: 2}
+    color: {r: 0.429902, g: 0.45710787, b: 0.5615196, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: e4fe67e796c9d494cbbb7ee0ab59afc6, type: 2}
+    color: {r: 0.5019608, g: 0.5411765, b: 0.6392157, a: 2}
+  - tile: {fileID: 11400000, guid: ff98e135d926c384cbe4a0af591dde1b, type: 2}
+    color: {r: 0.5262255, g: 0.56102943, b: 0.6781863, a: 2}
+  - tile: {fileID: 11400000, guid: 5d17710b49139fa4faea3cba084cf9b4, type: 2}
+    color: {r: 0.3404412, g: 0.35808825, b: 0.4509804, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: 26e354e373c733147861875de95d3e78, type: 2}
+    color: {r: 0.38039216, g: 0.4044118, b: 0.4911765, a: 2}
+  - tile: {fileID: 11400000, guid: 2ed8749765836914f882a646cb41bee2, type: 2}
+    color: {r: 0.4017157, g: 0.42401963, b: 0.5235294, a: 2}
+  - tile: {fileID: 11400000, guid: d34cd84b558ff1140a31b98b1bb07f43, type: 2}
+    color: {r: 0.42352942, g: 0.4517157, b: 0.54289216, a: 2}
+  - tile: {fileID: 11400000, guid: a1fca88a5bed4c4459c14fbec3175353, type: 2}
+    color: {r: 0.39362746, g: 0.41887257, b: 0.50710785, a: 2}
+  - tile: {fileID: 11400000, guid: 42792cba36c470040832de7b1c91c12c, type: 2}
+    color: {r: 0.40931374, g: 0.43578434, b: 0.5259804, a: 2}
+  - tile: {fileID: 11400000, guid: 57a82437bc95fc540b2ba261e46c7778, type: 2}
+    color: {r: 0.3539216, g: 0.36862746, b: 0.47352943, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: 0dfd06d0dd86a9d47a115ebb812f87f4, type: 2}
+    color: {r: 0.2502451, g: 0.25514707, b: 0.33995098, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: 885e3f02505a2004cba42d631c5bb481, type: 2}
+    color: {r: 0.29534316, g: 0.30514708, b: 0.3987745, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: 80b91b9ca3e517a4ea7555abbd48ed63, type: 2}
+    color: {r: 0.3122549, g: 0.35833335, b: 0.43235293, a: 1.5625}
+  - tile: {fileID: 11400000, guid: f24ed534a4d1ebd4f94dfd3266145f5d, type: 2}
+    color: {r: 0.36078432, g: 0.4117647, b: 0.49803922, a: 1.75}
+  - tile: {fileID: 11400000, guid: 62f85956ad5e16f4fa64411862a493b8, type: 2}
+    color: {r: 0.34534314, g: 0.39558825, b: 0.47671568, a: 1.75}
+  - tile: {fileID: 11400000, guid: d5368f96941775a4fb631c4cf5d1a3de, type: 2}
+    color: {r: 0.3504902, g: 0.4009804, b: 0.48382354, a: 2}
+  - tile: {fileID: 11400000, guid: 06ab297356b365e4f901d7a06e987b35, type: 2}
+    color: {r: 0.34019607, g: 0.39019608, b: 0.46960783, a: 1.875}
+  - tile: {fileID: 11400000, guid: 1f0de161c35c8244286753e269f6a781, type: 2}
+    color: {r: 0.31960785, g: 0.36862746, b: 0.44117647, a: 1.75}
+  - tile: {fileID: 11400000, guid: 53770a334c7a6894c99bb5e900a5e861, type: 2}
+    color: {r: 0.36078432, g: 0.4117647, b: 0.49803922, a: 2}
+  - tile: {fileID: 11400000, guid: 53a6583ae4e2e064b8fbd2eff5a9f6cf, type: 2}
+    color: {r: 0.34019607, g: 0.39019608, b: 0.46960783, a: 2}
+  - tile: {fileID: 11400000, guid: eecfe6e43323b9f4ca17dba5149b3f3f, type: 2}
+    color: {r: 0.36078432, g: 0.4117647, b: 0.49803922, a: 2}
+  - tile: {fileID: 11400000, guid: 649be8b32def74d4f862cff21214f5d0, type: 2}
+    color: {r: 0.36078432, g: 0.4117647, b: 0.49803922, a: 1.9375}
+  - tile: {fileID: 11400000, guid: 6764b94a6b5775d4b860a16b66d2ce8d, type: 2}
+    color: {r: 0.5262255, g: 0.56102943, b: 0.6781863, a: 2}
+  - tile: {fileID: 11400000, guid: 8024d2c3194b1ef4fb9801d0f73479d1, type: 2}
+    color: {r: 0.5262255, g: 0.56102943, b: 0.6781863, a: 2}
+  - tile: {fileID: 11400000, guid: 07d7db73cbbf6b64bb1156acd79b85c5, type: 2}
+    color: {r: 0.53431374, g: 0.5676471, b: 0.6911765, a: 2}
+  - tile: {fileID: 11400000, guid: 27b27fa750a438041a34553aa8db4983, type: 2}
+    color: {r: 0.16544119, g: 0.1622549, b: 0.22745098, a: 1.7813725}
+  - tile: {fileID: 11400000, guid: 0e496f94c2c6a9c4ab550f12c9196b21, type: 2}
+    color: {r: 0.18088235, g: 0.17818628, b: 0.24607843, a: 2}
+  - tile: {fileID: 11400000, guid: 86176643ad82300459015718b77a7305, type: 2}
+    color: {r: 0.25637257, g: 0.28774512, b: 0.352451, a: 1.3125}
+  - tile: {fileID: 11400000, guid: 4b3aca62a3c144b48aeed22f77ee8183, type: 2}
+    color: {r: 0.2897059, g: 0.3252451, b: 0.39803922, a: 1.5}
+  - tile: {fileID: 11400000, guid: 08493ee6af3f0534b83ce3c5eefe2144, type: 2}
+    color: {r: 0.30686274, g: 0.3526961, b: 0.4240196, a: 1.4375}
+  - tile: {fileID: 11400000, guid: ad755fbd791ae304eb5a723caeee80ce, type: 2}
+    color: {r: 0.4622549, g: 0.492402, b: 0.6002451, a: 1.9688725}
+  - tile: {fileID: 11400000, guid: 063893463a5fd75469967dfd2860b6ed, type: 2}
+    color: {r: 0.5232843, g: 0.5588236, b: 0.67352945, a: 2}
+  - tile: {fileID: 11400000, guid: 8664fa06c7f84f746b4886bad6eaea6e, type: 2}
+    color: {r: 0.12205883, g: 0.11960785, b: 0.175, a: 1.25}
+  - tile: {fileID: 11400000, guid: d42b68d108cd8664e944de2fbc7f63cd, type: 2}
+    color: {r: 0.15784314, g: 0.15588236, b: 0.22156863, a: 1.75}
+  - tile: {fileID: 11400000, guid: febd917b05b24f14d9c892132bd9e848, type: 2}
+    color: {r: 0.19411765, g: 0.19117647, b: 0.25906864, a: 2}
+  - tile: {fileID: 11400000, guid: bfeffeb6a32f39848b90809cea8b0473, type: 2}
+    color: {r: 0.14803922, g: 0.14607844, b: 0.20686275, a: 1.75}
+  - tile: {fileID: 11400000, guid: 123f33dd1b6c36b45880e709f321e64a, type: 2}
+    color: {r: 0.2139706, g: 0.2134804, b: 0.29215688, a: 1.8129902}
+  - tile: {fileID: 11400000, guid: c2f795acdd5d9874d8a300ee7ed64ee2, type: 2}
+    color: {r: 0.17107844, g: 0.16911766, b: 0.23357844, a: 1.9688725}
+  - tile: {fileID: 11400000, guid: d9021e4ff30968548a9741700cd05b0c, type: 2}
+    color: {r: 0.20857844, g: 0.20833334, b: 0.28529412, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: af38f29c4dbc7304e922dd0837932853, type: 2}
+    color: {r: 0.14803922, g: 0.14607844, b: 0.20686275, a: 1.75}
+  - tile: {fileID: 11400000, guid: 6a503113889adac48a61d27338e1d1b7, type: 2}
+    color: {r: 0.16053922, g: 0.15833335, b: 0.21740197, a: 1.75}
+  - tile: {fileID: 11400000, guid: 3a6a56e50a5517a4da4f4258c63bccac, type: 2}
+    color: {r: 0.20661765, g: 0.20196079, b: 0.2769608, a: 2}
+  - tile: {fileID: 11400000, guid: 701bd9829e5489c4ea46bf48cd04dcbc, type: 2}
+    color: {r: 0.17941177, g: 0.17598039, b: 0.24411765, a: 2}
+  - tile: {fileID: 11400000, guid: db9e94cdeda24054b970c213113cfaac, type: 2}
+    color: {r: 0.2504902, g: 0.24436274, b: 0.33186275, a: 1.9377451}
+  - tile: {fileID: 11400000, guid: a77d0bcd1032594428218b37c037cfa9, type: 2}
+    color: {r: 0.24117647, g: 0.23578432, b: 0.31887257, a: 2}
+  - tile: {fileID: 11400000, guid: 448102ed72dec4b479ccebc94f293303, type: 2}
+    color: {r: 0.29656863, g: 0.25343138, b: 0.29117647, a: 1.5}
+  - tile: {fileID: 11400000, guid: 2ce8d7461ca89c841b6087dc5d47d7eb, type: 2}
+    color: {r: 0.29387257, g: 0.23210785, b: 0.2502451, a: 1.5}
+  - tile: {fileID: 11400000, guid: 81b0d561df2a58343a0f668c8f064106, type: 2}
+    color: {r: 0.34509805, g: 0.3990196, b: 0.4779412, a: 2}
+  - tile: {fileID: 11400000, guid: 625fc9acb04680046b684f4d5dea4d4a, type: 2}
+    color: {r: 0.3529412, g: 0.40539217, b: 0.4879902, a: 2}
+  - tile: {fileID: 11400000, guid: d20b3e1e1845b2749b060030caf3421e, type: 2}
+    color: {r: 0.24558824, g: 0.24117647, b: 0.32230392, a: 2}
+  - tile: {fileID: 11400000, guid: 20f8e019696c94a4b8a8c5b2c1feab22, type: 2}
+    color: {r: 0.20784314, g: 0.20416667, b: 0.27745098, a: 2}
+  - tile: {fileID: 11400000, guid: b574291201b2da447bd70c10b7df9e18, type: 2}
+    color: {r: 0.27769607, g: 0.2764706, b: 0.37132353, a: 2}
+  - tile: {fileID: 11400000, guid: 29f723fefe61cc241bb31b44fc52ae97, type: 2}
+    color: {r: 0.24191177, g: 0.24142158, b: 0.32916668, a: 2}
+  - tile: {fileID: 11400000, guid: 290d2430e04665849a9532bdda4fb020, type: 2}
+    color: {r: 0.35857844, g: 0.30441177, b: 0.34632355, a: 2}
+  - tile: {fileID: 11400000, guid: 0dcf2401513e95b4e8771751e42914c4, type: 2}
+    color: {r: 0.35171568, g: 0.27990198, b: 0.3, a: 2}
+  - tile: {fileID: 11400000, guid: 58975fcbb80e6f549950b936be6c1ff6, type: 2}
+    color: {r: 0.47990197, g: 0.5117647, b: 0.6161765, a: 2}
+  - tile: {fileID: 11400000, guid: c1190b22eba051c4889740993dd29777, type: 2}
+    color: {r: 0.4909314, g: 0.5264706, b: 0.6276961, a: 2}
+  - tile: {fileID: 11400000, guid: 2e6f5216de409a542b6010b9393a55f8, type: 2}
+    color: {r: 0.3504902, g: 0.40490198, b: 0.48578432, a: 2}
+  - tile: {fileID: 11400000, guid: 4040231474f373247bd884f92870009d, type: 2}
+    color: {r: 0.34460786, g: 0.39411765, b: 0.4745098, a: 2}
+  - tile: {fileID: 11400000, guid: 916c3c4a515731f4199c1a57082e837a, type: 2}
+    color: {r: 0.19387256, g: 0.19240196, b: 0.26960784, a: 1.7674019}
+  - tile: {fileID: 11400000, guid: f2ca5fc034bb0eb41af51c4e784af924, type: 2}
+    color: {r: 0.16593137, g: 0.1644608, b: 0.23921569, a: 1.702451}
+  - tile: {fileID: 11400000, guid: f54cd981e751ec04c8024853256fa40a, type: 2}
+    color: {r: 0.23602942, g: 0.24656864, b: 0.34338236, a: 1.8034314}
+  - tile: {fileID: 11400000, guid: 6ef2dd39e87b8554bb8c5ff400fec76d, type: 2}
+    color: {r: 0.20931374, g: 0.21985295, b: 0.31446078, a: 1.7409314}
+  - tile: {fileID: 11400000, guid: b2e40dbfa20c0f649b797157db112ba5, type: 2}
+    color: {r: 0.48799023, g: 0.52132356, b: 0.62622553, a: 2}
+  - tile: {fileID: 11400000, guid: 0d7c3e2600b41fc4390ebba333e2d616, type: 2}
+    color: {r: 0.4776961, g: 0.51250005, b: 0.60906863, a: 2}
+  - tile: {fileID: 11400000, guid: 4f6cdde064b28cc47aeadf9a7dab160d, type: 2}
+    color: {r: 0.2514706, g: 0.3421569, b: 0.4392157, a: 1.8125}
+  - tile: {fileID: 11400000, guid: 81eb6b3af68d51d4fa3c236de39e34f3, type: 2}
+    color: {r: 0.2504902, g: 0.25, b: 0.327451, a: 2}
+  - tile: {fileID: 11400000, guid: 6dd6fd63ed3c22b4bba4c8dab9795308, type: 2}
+    color: {r: 0.24093138, g: 0.24068628, b: 0.31740198, a: 2}
+  - tile: {fileID: 11400000, guid: cd655722ecb8fe74584cb30a145ae1fd, type: 2}
+    color: {r: 0.39926472, g: 0.5284314, b: 0.64460784, a: 1.1875}
+  - tile: {fileID: 11400000, guid: 77f611bee7c38eb458892e99586267e7, type: 2}
+    color: {r: 0.3004902, g: 0.57500005, b: 0.71568626, a: 1.25}
+  - tile: {fileID: 11400000, guid: e801f460aa12d7544bfe437f99a744e6, type: 2}
+    color: {r: 0.47034317, g: 0.52254903, b: 0.63210785, a: 1.8125}
+  - tile: {fileID: 11400000, guid: 34154260a782a1d40b394a258a468eb7, type: 2}
+    color: {r: 0.3764706, g: 0.46200982, b: 0.57009804, a: 1.8125}
+  - tile: {fileID: 11400000, guid: 4fd58381b15bf8543b162f750f64e0d4, type: 2}
+    color: {r: 0.47500002, g: 0.56911767, b: 0.7012255, a: 1.75}
+  - tile: {fileID: 11400000, guid: 9d78faf68beed7e429cbdec681be6af2, type: 2}
+    color: {r: 0.5262255, g: 0.56102943, b: 0.6781863, a: 2}
+  - tile: {fileID: 11400000, guid: d7ba2e4ff02b8be42ac5fba855e25059, type: 2}
+    color: {r: 0.3009804, g: 0.5776961, b: 0.7176471, a: 1.25}
+  - tile: {fileID: 11400000, guid: 36e345efb4a0a054cac0ed62f34f20b6, type: 2}
+    color: {r: 0.36838236, g: 0.45637256, b: 0.5625, a: 1.8125}
+  - tile: {fileID: 11400000, guid: a2b025b71a92f3642aae68799da60d8d, type: 2}
+    color: {r: 0.4009804, g: 0.42401963, b: 0.5235294, a: 2}
+  - tile: {fileID: 11400000, guid: a5319f017a8d7f14d87161ca78ea1444, type: 2}
+    color: {r: 0.38357845, g: 0.55735296, b: 0.6862745, a: 1.1875}
+  - tile: {fileID: 11400000, guid: 3ad64bc4fdfb3e743864b69428fa48d2, type: 2}
+    color: {r: 0.5262255, g: 0.56102943, b: 0.6781863, a: 2}
+  - tile: {fileID: 11400000, guid: 5ecfde1becebfb54d8aeac0ae23dbe56, type: 2}
+    color: {r: 0.21372549, g: 0.3007353, b: 0.39313728, a: 1.25}
+  - tile: {fileID: 11400000, guid: 3986bb08f4abd1e4e8ec181876b901ff, type: 2}
+    color: {r: 0.3794118, g: 0.4044118, b: 0.4911765, a: 2}
+  - tile: {fileID: 11400000, guid: 04e0340436e9e4c4899568ce81fe8cff, type: 2}
+    color: {r: 0.4642157, g: 0.58455884, b: 0.70759803, a: 1.75}
+  - tile: {fileID: 11400000, guid: 4141112ad9d5c024fa2e1b241aeb3b92, type: 2}
+    color: {r: 0.22352941, g: 0.35906863, b: 0.57450986, a: 2}
+  - tile: {fileID: 11400000, guid: d463e127700227e4f8bf3be23197d4fe, type: 2}
+    color: {r: 0.24632353, g: 0.43553922, b: 0.64730394, a: 2}
+  - tile: {fileID: 11400000, guid: d069ff04da4f8ba4a895f0bc9edd0206, type: 2}
+    color: {r: 0.24705882, g: 0.4392157, b: 0.6509804, a: 2}
+  - tile: {fileID: 11400000, guid: 9b5616f2e5e87654a9ee928a47b2cb49, type: 2}
+    color: {r: 0.2656046, g: 0.5139706, b: 0.7111111, a: 1.3125}
+  - tile: {fileID: 11400000, guid: 63edf519a3340f9499fd705f05340fc9, type: 2}
+    color: {r: 0.2635621, g: 0.5053922, b: 0.7045752, a: 1.4583334}
+  - tile: {fileID: 11400000, guid: 5c3b494413e5b2a4d9511c1c5bbafd40, type: 2}
+    color: {r: 0.6089412, g: 0.5904314, b: 0.5061961, a: 1.64}
+  - tile: {fileID: 11400000, guid: 5142cc2d6fe97044694e996c4599c809, type: 2}
+    color: {r: 0.6126906, g: 0.5867103, b: 0.49542487, a: 1.4930556}
+  - tile: {fileID: 11400000, guid: b28e055d28546fa438ed231958ed09e0, type: 2}
+    color: {r: 0.41696203, g: 0.25643635, b: 0.26950476, a: 1.7194366}
+  - tile: {fileID: 11400000, guid: 3df74e7e9d07210408530453aac0f042, type: 2}
+    color: {r: 0.27873304, g: 0.20829563, b: 0.23092006, a: 1.868175}
+  - tile: {fileID: 11400000, guid: 6fe34d1757a750f44bfb33c0ff81c4ef, type: 2}
+    color: {r: 0.2980136, g: 0.20997053, b: 0.21525055, a: 1.506113}
+  - tile: {fileID: 11400000, guid: 30b36d08643ef4f4598b806e84c60adc, type: 2}
+    color: {r: 0.70756304, g: 0.6004002, b: 0.48115247, a: 1.6122448}
+  - tile: {fileID: 11400000, guid: 3e6d0daedbaf7f04784372344a22f672, type: 2}
+    color: {r: 0.73491514, g: 0.65658265, b: 0.57732743, a: 1.5378151}
+  - tile: {fileID: 11400000, guid: fe4fee2be0d839a45b6fc3b619dcb5fe, type: 2}
+    color: {r: 0.80997336, g: 0.73536676, b: 0.66250306, a: 1.7901235}
+  - tile: {fileID: 11400000, guid: 166328dbe7032d844bda566d7caa7180, type: 2}
+    color: {r: 0.3377451, g: 0.49733117, b: 0.27205884, a: 1.6041667}
+  - tile: {fileID: 11400000, guid: 24267907db0d9814c850422a1d7a70b0, type: 2}
+    color: {r: 0.47528443, g: 0.6599371, b: 0.3315904, a: 1.6666667}
+  - tile: {fileID: 11400000, guid: 6a4a4e2df7a76424eaee6a3c09f87997, type: 2}
+    color: {r: 0.30406988, g: 0.4713462, b: 0.22871973, a: 1.617647}
+  - tile: {fileID: 11400000, guid: abf25d296548700419333ee593f04bd3, type: 2}
+    color: {r: 0.27705884, g: 0.4711765, b: 0.23705883, a: 1.45}
+  - tile: {fileID: 11400000, guid: df6c94a3fa4ff9f4cab8df549c84859f, type: 2}
+    color: {r: 0.4934913, g: 0.6079249, b: 0.32990196, a: 1.5625}
+  - tile: {fileID: 11400000, guid: d304dc6b7eb536a44afa73b00c75d40f, type: 2}
+    color: {r: 0.37058824, g: 0.429902, b: 0.26954657, a: 1.46875}
+  - tile: {fileID: 11400000, guid: be3bfe4ba06c31d46a751098f024bceb, type: 2}
+    color: {r: 0.25869283, g: 0.43782136, b: 0.22718956, a: 1.5666666}
+  - tile: {fileID: 11400000, guid: e0d41d9791893004f8bc2f5634e1fd1b, type: 2}
+    color: {r: 0.42927173, g: 0.3562325, b: 0.2709384, a: 1.5535715}
+  - tile: {fileID: 11400000, guid: 0443bf02b0e7ed540ae9d1ab6e049d29, type: 2}
+    color: {r: 0.33803922, g: 0.22588235, b: 0.19352941, a: 1.6}
+  - tile: {fileID: 11400000, guid: 191402003c07a28479f365c47a3b73f2, type: 2}
+    color: {r: 0.36496732, g: 0.29647058, b: 0.22222222, a: 1.3666667}
+  - tile: {fileID: 11400000, guid: 97c2dce53e40fc54581be610ff8bf448, type: 2}
+    color: {r: 0.42517647, g: 0.5347843, b: 0.32831374, a: 1.61}
+  - tile: {fileID: 11400000, guid: abe8240875dc8714caf97c046893806b, type: 2}
+    color: {r: 0.32476193, g: 0.29150328, b: 0.21594772, a: 1.3190477}
+  - tile: {fileID: 11400000, guid: 79a7ea6369e73cd41893759b27a55b26, type: 2}
+    color: {r: 0.42107844, g: 0.41735294, b: 0.27284315, a: 1.5125}
+  - tile: {fileID: 11400000, guid: 3532d4f8bbc8d1248bd0dc50cd53fef5, type: 2}
+    color: {r: 0.4971165, g: 0.5207448, b: 0.40756303, a: 1.6092436}
+  - tile: {fileID: 11400000, guid: 711433557c93a8c4ea006a6529c4a0e9, type: 2}
+    color: {r: 0.54534316, g: 0.53161764, b: 0.25588235, a: 1.1875}
+  - tile: {fileID: 11400000, guid: 0330c37b069ebbb40a7b6f55dd6bf8fc, type: 2}
+    color: {r: 0.3529412, g: 0.44681874, b: 0.4067227, a: 1.5102041}
+  - tile: {fileID: 11400000, guid: 0dcc046e0abf98e41b38425694fac590, type: 2}
+    color: {r: 0.46797386, g: 0.627451, b: 0.24640524, a: 1}
+  - tile: {fileID: 11400000, guid: f190d54a320602c429aaca29bf24ab11, type: 2}
+    color: {r: 0.6884706, g: 0.79984313, b: 0.3334902, a: 1.08}
+  - tile: {fileID: 11400000, guid: ebc399aac7346fa47b0f644e5fabf9c8, type: 2}
+    color: {r: 0.39078432, g: 0.60490197, b: 0.3084314, a: 1.35}
+  - tile: {fileID: 11400000, guid: f14b745883130da45aeee9903ec34ac8, type: 2}
+    color: {r: 0.7872549, g: 0.7, b: 0.6279412, a: 2}
+  - tile: {fileID: 11400000, guid: 2750da3de93d3e841af49be026de122c, type: 2}
+    color: {r: 0.62352943, g: 0.54901963, b: 0.3764706, a: 1.25}
+  - tile: {fileID: 11400000, guid: 606e90f3d94f8884c9c057706e654272, type: 2}
+    color: {r: 0.6039216, g: 0.7519608, b: 0.37156862, a: 1.25}
+  - tile: {fileID: 11400000, guid: 47b8710db359887409c1b3c36bbda222, type: 2}
+    color: {r: 0.6578432, g: 0.8039216, b: 0.3872549, a: 1.25}
+  - tile: {fileID: 11400000, guid: a4bfe7e3c1ac2224f885d0a9edf56673, type: 2}
+    color: {r: 0.36914206, g: 0.19889984, b: 0.20940468, a: 1.6289593}
+  - tile: {fileID: 11400000, guid: f7dbbeaeb4b479f48a9df1fe44891989, type: 2}
+    color: {r: 0.31176472, g: 0.10643599, b: 0.15483277, a: 1.4352942}
+  - tile: {fileID: 11400000, guid: 6ab328166219b274b8162276f7a1540f, type: 2}
+    color: {r: 0.40280366, g: 0.20346022, b: 0.20551859, a: 1.4343891}
+  - tile: {fileID: 11400000, guid: 87de7df91a1f8a246acdf9ebdf309da2, type: 2}
+    color: {r: 0.41960785, g: 0.1522314, b: 0.16818383, a: 1.719457}
+  - tile: {fileID: 11400000, guid: 2b19f93bbf4f51042a1ae4dfb8587f5c, type: 2}
+    color: {r: 0.61941725, g: 0.55038124, b: 0.4989379, a: 1.9375}
+  - tile: {fileID: 11400000, guid: d3b1b6840cb8f3b47a9291171eddfc8c, type: 2}
+    color: {r: 0.5693247, g: 0.25568628, b: 0.2550327, a: 1.8}
+  - tile: {fileID: 11400000, guid: d4d0ad311573f394aaace266fc990c7d, type: 2}
+    color: {r: 0.30980393, g: 0.29803923, b: 0.44313726, a: 1.64}
+  - tile: {fileID: 11400000, guid: cae29c539ad55c7468b0b3f3e9b4b439, type: 2}
+    color: {r: 0.44803923, g: 0.7156863, b: 0.22156863, a: 1}
+  - tile: {fileID: 11400000, guid: 8ed708ef9769da847b5cfa85f53b6e37, type: 2}
+    color: {r: 0.5647059, g: 0.5, b: 0.39754903, a: 2}
+  - tile: {fileID: 11400000, guid: 75002fab3649c464fbca133132c176a3, type: 2}
+    color: {r: 0.5647059, g: 0.5, b: 0.39754903, a: 2}
+  - tile: {fileID: 11400000, guid: ed35464fbaf0ea244946929f1ab88d0a, type: 2}
+    color: {r: 0.534902, g: 0.46823528, b: 0.38418302, a: 2}
+  - tile: {fileID: 11400000, guid: 534998f873558844e81857f59fa4faf0, type: 2}
+    color: {r: 0.534902, g: 0.46823528, b: 0.38418302, a: 2}
+  - tile: {fileID: 11400000, guid: 4a6ba9149d062d24b8494c5b33c8ac98, type: 2}
+    color: {r: 0.7529412, g: 0.6810458, b: 0.59477127, a: 2}
+  - tile: {fileID: 11400000, guid: c750ee603a1390a40962acf4924b37df, type: 2}
+    color: {r: 0.5102708, g: 0.48552755, b: 0.45910364, a: 2}
+  - tile: {fileID: 11400000, guid: 909f34bb1b0a9964a80d87bde171565a, type: 2}
+    color: {r: 0.5102708, g: 0.48552755, b: 0.45910364, a: 2}
+  - tile: {fileID: 11400000, guid: 8aa667b0037023d41b018ef121f61f84, type: 2}
+    color: {r: 0.26603922, g: 0.23294118, b: 0.21992157, a: 1.9739608}
+  - tile: {fileID: 11400000, guid: dc80bb85c7986014ab766614270d33bc, type: 2}
+    color: {r: 0.26603922, g: 0.23294118, b: 0.21992157, a: 1.9739608}
+  - tile: {fileID: 11400000, guid: c70e6e7eabcca1d4c98de5579aea88cf, type: 2}
+    color: {r: 0.30165914, g: 0.2735445, b: 0.25809956, a: 1.9230769}
+  - tile: {fileID: 11400000, guid: 267ca1b710f199f4aba0fd5d13fc4d2c, type: 2}
+    color: {r: 0.19313726, g: 0.16862746, b: 0.16764706, a: 2}
+  - tile: {fileID: 11400000, guid: 1077e0e77ae84fa45a048655ccba9c08, type: 2}
+    color: {r: 0.19313726, g: 0.16862746, b: 0.16764706, a: 2}
+  - tile: {fileID: 11400000, guid: a359de840866cf1468d29abe16cda394, type: 2}
+    color: {r: 0.43352008, g: 0.43898228, b: 0.45718956, a: 2}
+  - tile: {fileID: 11400000, guid: c86e8c88951ee624c93aef1e67c772be, type: 2}
+    color: {r: 0.43352008, g: 0.43898228, b: 0.45718956, a: 2}
+  - tile: {fileID: 11400000, guid: 937b58420922e034b9f68996c6faa3bf, type: 2}
+    color: {r: 0.37290552, g: 0.32455438, b: 0.2826649, a: 1.8181818}
+  - tile: {fileID: 11400000, guid: a6fdb164cfffa8a4384ee3f21183dd36, type: 2}
+    color: {r: 0.4530968, g: 0.36290073, b: 0.34024277, a: 2}
+  - tile: {fileID: 11400000, guid: 2ca49ab69bde53b40aa2eac7eb168a9f, type: 2}
+    color: {r: 0.4530968, g: 0.36290073, b: 0.34024277, a: 2}
+  - tile: {fileID: 11400000, guid: dd89ca666410d1e4ab68c6e6f3bd81e5, type: 2}
+    color: {r: 0.54677874, g: 0.4751634, b: 0.42147526, a: 1.5714285}
+  - tile: {fileID: 11400000, guid: a697cf2546d50ff4d9dbc70fe2ef0f91, type: 2}
+    color: {r: 0.48020542, g: 0.45560226, b: 0.43828198, a: 1.9285715}
+  - tile: {fileID: 11400000, guid: 62144a613ea4b0a4e83502990976729f, type: 2}
+    color: {r: 0.42392159, g: 0.39882353, b: 0.44705883, a: 2}
+  - tile: {fileID: 11400000, guid: 4b251cb023226b741a2abbda6ebf3658, type: 2}
+    color: {r: 0.49564272, g: 0.48006538, b: 0.47015253, a: 1.9457517}
+  - tile: {fileID: 11400000, guid: 4b60ec86892cfb94a8da4c7de63035f6, type: 2}
+    color: {r: 0.56526613, g: 0.5308123, b: 0.5014006, a: 2}
+  - tile: {fileID: 11400000, guid: 806ad24ecabc5f144943b5f02f386771, type: 2}
+    color: {r: 0.5921569, g: 0.6043573, b: 0.5956427, a: 1.6666667}
+  - tile: {fileID: 11400000, guid: 3c6e5a5042a38da43864552760b8257d, type: 2}
+    color: {r: 0.33144894, g: 0.3211612, b: 0.33124524, a: 2}
+  - tile: {fileID: 11400000, guid: 89cb50b852b8a0b46a64b9db450fc444, type: 2}
+    color: {r: 0.5849265, g: 0.5534722, b: 0.52287585, a: 2}
+  - tile: {fileID: 11400000, guid: 3c5984f92bb9cab45b9f5def23f76475, type: 2}
+    color: {r: 0.43812636, g: 0.44368193, b: 0.45479304, a: 2}
+  - tile: {fileID: 11400000, guid: 9834d6147dff45847be119fa85502485, type: 2}
+    color: {r: 0.94485295, g: 0.8982843, b: 0.78455883, a: 2}
+  - tile: {fileID: 11400000, guid: 93be41c8d20075b4a8577c2769b1d3a5, type: 2}
+    color: {r: 0.8011642, g: 0.7762255, b: 0.5110907, a: 2}
+  - tile: {fileID: 11400000, guid: 7528a8c671382e040b0729e2d797d338, type: 2}
+    color: {r: 0.44524887, g: 0.39613673, b: 0.33386123, a: 1.2534965}
+  - tile: {fileID: 11400000, guid: 4cd2bc2ff674f67409873c6ee784a854, type: 2}
+    color: {r: 0.49256927, g: 0.4432486, b: 0.37346998, a: 1.2232258}
+  - tile: {fileID: 11400000, guid: 4fc543db176bab34ca659788cbc4906d, type: 2}
+    color: {r: 0.5476817, g: 0.49674743, b: 0.41637832, a: 1.2627451}
+  - tile: {fileID: 11400000, guid: 9cbad3d61cfb978478c56938f5adfe1e, type: 2}
+    color: {r: 0.1127451, g: 0.12327018, b: 0.10585879, a: 1.2463943}
+  - tile: {fileID: 11400000, guid: 94d3a034a232ccf4d85e8b5ef1c388d9, type: 2}
+    color: {r: 0.42310926, g: 0.37997198, b: 0.3394958, a: 1.5839286}
+  - tile: {fileID: 11400000, guid: ec8e6ebbf0f340f48ba0660461d2e47a, type: 2}
+    color: {r: 0.42212012, g: 0.44975492, b: 0.4627451, a: 1.53125}
+  - tile: {fileID: 11400000, guid: 2445eeb85bbd0574fa19c1ad7ac1fa15, type: 2}
+    color: {r: 0.22496733, g: 0.17019609, b: 0.22444445, a: 1.4428759}
+  - tile: {fileID: 11400000, guid: 0b46b1c120a73a84db5ab950d6fbbb7b, type: 2}
+    color: {r: 0.2386438, g: 0.32263073, b: 0.35784316, a: 1.5672386}
+  - tile: {fileID: 11400000, guid: 11adeceb97395df48973c7cc9116cde2, type: 2}
+    color: {r: 0.12608437, g: 0.23592791, b: 0.2549812, a: 1.5769063}
+  - tile: {fileID: 11400000, guid: c424383e932e2ea459c7e6610db4dde6, type: 2}
+    color: {r: 0.13800187, g: 0.20140056, b: 0.21111111, a: 1.5380952}
+  - tile: {fileID: 11400000, guid: 328a09ff40b574a48bb74aa23a55d6ca, type: 2}
+    color: {r: 0.21351483, g: 0.19063361, b: 0.21319073, a: 1.4771998}
+  - tile: {fileID: 11400000, guid: 54d33884116eaf44fa7af10723f27ac5, type: 2}
+    color: {r: 0.2395389, g: 0.18767507, b: 0.23252532, a: 1.4318573}
+  - tile: {fileID: 11400000, guid: a79d2e3818cafe64581dee78d0aa7145, type: 2}
+    color: {r: 0.1884058, g: 0.21967179, b: 0.2551897, a: 1.484463}
+  - tile: {fileID: 11400000, guid: 510483d2c67c680479a53dc25f6d25a2, type: 2}
+    color: {r: 0.21268873, g: 0.2232214, b: 0.23818718, a: 1.4211038}
+  - tile: {fileID: 11400000, guid: 8bef36f97f0a81a4aab9fa6ed2669223, type: 2}
+    color: {r: 0.21268873, g: 0.2232214, b: 0.23818718, a: 1.4211038}
+  - tile: {fileID: 11400000, guid: 2b76cc9861143fa45a25faaa9c5ec18c, type: 2}
+    color: {r: 0.1724965, g: 0.29884455, b: 0.253764, a: 1.4330357}
+  - tile: {fileID: 11400000, guid: 14250c95113e5754c8b5fa26cc4314a8, type: 2}
+    color: {r: 0.097467326, g: 0.1491013, b: 0.21115197, a: 1.2708334}
+  - tile: {fileID: 11400000, guid: 661ef741d2b1de8489e17ccc6649f929, type: 2}
+    color: {r: 0.20464155, g: 0.53457415, b: 0.3851256, a: 1.9648438}
+  - tile: {fileID: 11400000, guid: cfbf2d79407112b4db5e131054611ae1, type: 2}
+    color: {r: 0.109754905, g: 0.2022549, b: 0.24661765, a: 1.4875}
+  - tile: {fileID: 11400000, guid: 1069411df398b764bae64e73a640de19, type: 2}
+    color: {r: 0.10625584, g: 0.18692811, b: 0.24211018, a: 1.4285715}
+  - tile: {fileID: 11400000, guid: 3ae299e7b6707284ebde27609bb44e76, type: 2}
+    color: {r: 0.14172323, g: 0.2510935, b: 0.2883107, a: 1.7061274}
+  - tile: {fileID: 11400000, guid: ba76cf60b35dcc143af93d5fe1cc6d68, type: 2}
+    color: {r: 0.115686275, g: 0.23305322, b: 0.26540616, a: 1.5357143}
+  - tile: {fileID: 11400000, guid: d0de86080b670264db7fdebf01f6b3c9, type: 2}
+    color: {r: 0.26732028, g: 0.22562093, b: 0.21882354, a: 1.4074509}
+  - tile: {fileID: 11400000, guid: 739ea39ba0350784585dc8cb739ffbd3, type: 2}
+    color: {r: 0.87689954, g: 0.58363974, b: 0.37003678, a: 2}
+  - tile: {fileID: 11400000, guid: 5fc87ced176263d4a8ec04dc16a5dacf, type: 2}
+    color: {r: 0.27058825, g: 0.52156866, b: 0.59607846, a: 2}
+  - tile: {fileID: 11400000, guid: 6912e21bbcf487441aaf153a450aa4c1, type: 2}
+    color: {r: 0.63799024, g: 0.34430146, b: 0.26813728, a: 1.921875}
+  - tile: {fileID: 11400000, guid: e173fb3c5a15f104c95dd29c8fde2844, type: 2}
+    color: {r: 0.45294118, g: 0.26213235, b: 0.24129903, a: 1.65625}
+  - tile: {fileID: 11400000, guid: 92d997e9fb89d4e438e59be4cd68ff62, type: 2}
+    color: {r: 0.5206802, g: 0.6165288, b: 0.31755516, a: 1.9453125}
+  - tile: {fileID: 11400000, guid: 117a08a5a7c8b4d41bf7d7935d434de1, type: 2}
+    color: {r: 0.5767923, g: 0.68014705, b: 0.33416054, a: 1.9960938}
+  - tile: {fileID: 11400000, guid: c98246dc08e5cf943a1c933f839ccbe5, type: 2}
+    color: {r: 0.5422641, g: 0.6403646, b: 0.32484683, a: 1.9726562}
+  - tile: {fileID: 11400000, guid: 15e2aa679d017a14c9fb7090c59fd03a, type: 2}
+    color: {r: 0.83607537, g: 0.7807292, b: 0.46087623, a: 1.9609375}
+  - tile: {fileID: 11400000, guid: 8f44b59925781a24393266c988b6aa14, type: 2}
+    color: {r: 0.9132353, g: 0.85603553, b: 0.48616728, a: 2}
+  - tile: {fileID: 11400000, guid: 3131502706f855d46a0c43e4c6abadda, type: 2}
+    color: {r: 0.8806373, g: 0.82709867, b: 0.47140014, a: 1.9960938}
+  - tile: {fileID: 11400000, guid: 907502085e390c34597079c040c949fb, type: 2}
+    color: {r: 0.53357846, g: 0.63448226, b: 0.32653186, a: 1.9648438}
+  - tile: {fileID: 11400000, guid: c4de78d5059a7e546878d25884b48fc3, type: 2}
+    color: {r: 0.59336704, g: 0.7013174, b: 0.34255517, a: 2}
+  - tile: {fileID: 11400000, guid: 6cd4e682f647de84ab8b82cacfb48be9, type: 2}
+    color: {r: 0.57051164, g: 0.6734069, b: 0.3349265, a: 2}
+  - tile: {fileID: 11400000, guid: d181091813e311d4788b68bf310065b4, type: 2}
+    color: {r: 0.85318625, g: 0.8008272, b: 0.46320468, a: 1.9648438}
+  - tile: {fileID: 11400000, guid: 6ff2ccc8c0233344badbfeb5a6e7a8b8, type: 2}
+    color: {r: 0.9384344, g: 0.8799632, b: 0.49364278, a: 2}
+  - tile: {fileID: 11400000, guid: 37c84fb17c3bcea44a783cbe264ac566, type: 2}
+    color: {r: 0.8911305, g: 0.83679533, b: 0.47731313, a: 1.9921875}
+  - tile: {fileID: 11400000, guid: dfde6db9e11a32e4b8815b3486a48a05, type: 2}
+    color: {r: 0.8103554, g: 0.7617647, b: 0.44840688, a: 1.9570312}
+  - tile: {fileID: 11400000, guid: 1245aa3adfb106d4fa88115292949b12, type: 2}
+    color: {r: 0.49039522, g: 0.57775736, b: 0.30925247, a: 1.890625}
+  - tile: {fileID: 11400000, guid: 92c994a95e15fd44f91603fea6e2c50c, type: 2}
+    color: {r: 0.55323225, g: 0.64975494, b: 0.3276348, a: 1.9648438}
+  - tile: {fileID: 11400000, guid: e1f7152a1ea889848ae1e673d8371489, type: 2}
+    color: {r: 0.51459867, g: 0.60916054, b: 0.3202359, a: 1.9335938}
+  - tile: {fileID: 11400000, guid: cd845f5fd7534694e8f561546b2912e2, type: 2}
+    color: {r: 0.8074908, g: 0.75842524, b: 0.44574144, a: 1.921875}
+  - tile: {fileID: 11400000, guid: 159c2ef8e99f5624190cd6a2baaa6278, type: 2}
+    color: {r: 0.86688113, g: 0.8113971, b: 0.46801472, a: 1.9648438}
+  - tile: {fileID: 11400000, guid: b20f7e77c6216ab4a82207e45b023dff, type: 2}
+    color: {r: 0.82807904, g: 0.7789982, b: 0.45232844, a: 1.9375}
+  - tile: {fileID: 11400000, guid: 88116a5a4eee429439aab7d56fd4c86b, type: 2}
+    color: {r: 0.8469516, g: 0.79404104, b: 0.4608456, a: 1.9648438}
+  - tile: {fileID: 11400000, guid: 3ba49d820e8ad4a43a44bbbfc0d4e290, type: 2}
+    color: {r: 0.47647062, g: 0.65799636, b: 0.65346205, a: 1.9296875}
+  - tile: {fileID: 11400000, guid: ce81221c7c138994a9ad0c94bbb38b82, type: 2}
+    color: {r: 0.52003676, g: 0.7176777, b: 0.70998776, a: 2}
+  - tile: {fileID: 11400000, guid: 54cffa2864b38224c94a18d8add6621c, type: 2}
+    color: {r: 0.4901042, g: 0.6801777, b: 0.6745558, a: 1.953125}
+  - tile: {fileID: 11400000, guid: 6653c9db9f303134fac12a898f237e52, type: 2}
+    color: {r: 0.45312503, g: 0.6288603, b: 0.6265932, a: 1.8828125}
+  - tile: {fileID: 11400000, guid: 7a33abb05ac52c64a80d4763d3d3b3ac, type: 2}
+    color: {r: 0.48762256, g: 0.6776042, b: 0.67478555, a: 2}
+  - tile: {fileID: 11400000, guid: e895372331e816c41a918267e992e7e9, type: 2}
+    color: {r: 0.53223044, g: 0.7318015, b: 0.72181374, a: 2}
+  - tile: {fileID: 11400000, guid: 31cb57c82a4cf41488480405b21ee0b0, type: 2}
+    color: {r: 0.5045343, g: 0.7062194, b: 0.702788, a: 2}
+  - tile: {fileID: 11400000, guid: f4015b3db821de14b91a4a17bdb0a2f3, type: 2}
+    color: {r: 0.46351105, g: 0.65479475, b: 0.6572917, a: 2}
+  - tile: {fileID: 11400000, guid: f6414028a6372a44f98f73a68ba33d3b, type: 2}
+    color: {r: 0.47928923, g: 0.66444546, b: 0.66227025, a: 2}
+  - tile: {fileID: 11400000, guid: 409e405e15b569045856908a987464a8, type: 2}
+    color: {r: 0.5257047, g: 0.7233762, b: 0.71416974, a: 2}
+  - tile: {fileID: 11400000, guid: 14301710e48cc054e9bec9c3d08138b9, type: 2}
+    color: {r: 0.5057905, g: 0.69731927, b: 0.6904412, a: 2}
+  - tile: {fileID: 11400000, guid: 35ff33bca75ed3e49b27b1677018e685, type: 2}
+    color: {r: 0.45465687, g: 0.6329197, b: 0.63325673, a: 2}
+  - tile: {fileID: 11400000, guid: b5f2283bf06a0dd44a826f7ab686dceb, type: 2}
+    color: {r: 0.37117034, g: 0.53406864, b: 0.53549325, a: 1.9257812}
+  - tile: {fileID: 11400000, guid: eb448561bbd11844dbdc1414ab4fed40, type: 2}
+    color: {r: 0.39791667, g: 0.57478553, b: 0.57196695, a: 1.9453125}
+  - tile: {fileID: 11400000, guid: fbecbf383a0b4724d8d366d0f9d4e112, type: 2}
+    color: {r: 0.3832108, g: 0.55340075, b: 0.55306375, a: 1.9375}
+  - tile: {fileID: 11400000, guid: a29b41e5776189f4aac73684cfab23e1, type: 2}
+    color: {r: 0.3619179, g: 0.51835173, b: 0.52140015, a: 1.9257812}
+  - tile: {fileID: 11400000, guid: d55cc43ba613a414a9af30b46f542aef, type: 2}
+    color: {r: 0.5019608, g: 0.5411765, b: 0.6392157, a: 2}
+  - tile: {fileID: 11400000, guid: 6ec87c553a830ed4b8d974f7d82c84e3, type: 2}
+    color: {r: 0.22669683, g: 0.14864254, b: 0.13959277, a: 1.4392157}
+  - tile: {fileID: 11400000, guid: 1165c220d5458d64fb2b378184e457fa, type: 2}
+    color: {r: 0.26928106, g: 0.23084968, b: 0.28784314, a: 1.5333333}
+  - tile: {fileID: 11400000, guid: 49d70c25775f94545b381538f4b798ab, type: 2}
+    color: {r: 0.2922269, g: 0.2092437, b: 0.19635855, a: 1.6571429}
+  - tile: {fileID: 11400000, guid: 1d2ecd854b6c79d45a46819da6e8083c, type: 2}
+    color: {r: 0.2992375, g: 0.22156863, b: 0.22276689, a: 1.5055556}
+  - tile: {fileID: 11400000, guid: c15d907c97f52a848a043a1ce18683bd, type: 2}
+    color: {r: 0.17460318, g: 0.15770309, b: 0.21232493, a: 1.4571428}
+  - tile: {fileID: 11400000, guid: 563a5f8f41648584885ad00853244fa1, type: 2}
+    color: {r: 0.29828823, g: 0.21493931, b: 0.21151572, a: 1.5587301}
+  - tile: {fileID: 11400000, guid: 3db8fe91dddb3d547b5fac6992aeb889, type: 2}
+    color: {r: 0.13464053, g: 0.12875818, b: 0.19934641, a: 1.3333334}
+  - tile: {fileID: 11400000, guid: c9475d54e6b17944b96ccaa9edde4504, type: 2}
+    color: {r: 0.2483779, g: 0.20616756, b: 0.19532977, a: 1.6131194}
+  - tile: {fileID: 11400000, guid: 2394341feb7d20b4f9819214d10d175a, type: 2}
+    color: {r: 0.16544119, g: 0.1622549, b: 0.22745098, a: 1.7813725}
+  - tile: {fileID: 11400000, guid: fd7de4f35e31001428f92eedc0c87420, type: 2}
+    color: {r: 0.12990196, g: 0.12696078, b: 0.18774511, a: 2}
+  - tile: {fileID: 11400000, guid: 3060868fc2cc1de41ae0ec6b5c14635e, type: 2}
+    color: {r: 0.18088235, g: 0.17818628, b: 0.24607843, a: 2}
+  - tile: {fileID: 11400000, guid: 7b2ccef0c6db9cd42a4f56fe13ce36b0, type: 2}
+    color: {r: 0.13799019, g: 0.13455883, b: 0.19681373, a: 2}
+  - tile: {fileID: 11400000, guid: 7435033bf364f6640b7cd17353df1ecf, type: 2}
+    color: {r: 0.24068628, g: 0.23284315, b: 0.31911767, a: 2}
+  - tile: {fileID: 11400000, guid: 0df9445c1e159b54f99b19701b59e070, type: 2}
+    color: {r: 0.13799019, g: 0.13455883, b: 0.19681373, a: 2}
+  - tile: {fileID: 11400000, guid: 08c1437b04ed72942bc0877a53753381, type: 2}
+    color: {r: 0.24068628, g: 0.23284315, b: 0.31911767, a: 2}
+  - tile: {fileID: 11400000, guid: 34e97e7d8334e7d43bdce5202c2f0d6e, type: 2}
+    color: {r: 0.17377451, g: 0.16936275, b: 0.2394608, a: 2}
+  - tile: {fileID: 11400000, guid: 0f55d942df5c6fc499c080c4ad7bf2d8, type: 2}
+    color: {r: 0.18333334, g: 0.17990196, b: 0.25539216, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: c453ad70a75cea449b8e1d20b01ae655, type: 2}
+    color: {r: 0.11372549, g: 0.10980392, b: 0.16862746, a: 2}
+  - tile: {fileID: 11400000, guid: 25bc1bb0f91b4f841948f2bbf8612f88, type: 2}
+    color: {r: 0.17941177, g: 0.17598039, b: 0.24411765, a: 2}
+  - tile: {fileID: 11400000, guid: 1fae47524943aa842b9f9bca3c167073, type: 2}
+    color: {r: 0.17941177, g: 0.17598039, b: 0.24411765, a: 2}
+  - tile: {fileID: 11400000, guid: 87f0c45ba3b26be4cb5e1ecc0212e559, type: 2}
+    color: {r: 0.2504902, g: 0.25, b: 0.327451, a: 2}
+  - tile: {fileID: 11400000, guid: 1cd4783e56cdb054d9ab2932c9874b05, type: 2}
+    color: {r: 0.18970588, g: 0.18651961, b: 0.25833336, a: 2}
+  - tile: {fileID: 11400000, guid: 3111e8f81d5c4a040aca41ae5daaf980, type: 2}
+    color: {r: 0.24289216, g: 0.2372549, b: 0.32132354, a: 2}
+  - tile: {fileID: 11400000, guid: 82c5006d506d5694f8851d4638ea0806, type: 2}
+    color: {r: 0.24068628, g: 0.23284315, b: 0.31911767, a: 2}
+  - tile: {fileID: 11400000, guid: 0ec986846e07eb44cbbdab908fb213a8, type: 2}
+    color: {r: 0.24117647, g: 0.23578432, b: 0.31887257, a: 2}
+  - tile: {fileID: 11400000, guid: 5885529dcdf74bb4585b3f6082de0de5, type: 2}
+    color: {r: 0.21813726, g: 0.21764706, b: 0.29607844, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: 472e7741c8d547b4b8a71eda5d0d0f75, type: 2}
+    color: {r: 0.16078432, g: 0.16078432, b: 0.24313726, a: 1}
+  - tile: {fileID: 11400000, guid: ba8e77fd72c2f7844993b330262ab8f2, type: 2}
+    color: {r: 0.21764706, g: 0.21740197, b: 0.29509804, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: 360431926ed3459429ef101f0c658fc4, type: 2}
+    color: {r: 0.2504902, g: 0.25, b: 0.327451, a: 2}
+  - tile: {fileID: 11400000, guid: 702d150ca11ba524b94fcb59c665d899, type: 2}
+    color: {r: 0.24093138, g: 0.24068628, b: 0.31740198, a: 2}
+  - tile: {fileID: 11400000, guid: 7e79e3ff3c16c7042bcc191a25d3d487, type: 2}
+    color: {r: 0.2, g: 0.19975491, b: 0.27867648, a: 1.7507353}
+  - tile: {fileID: 11400000, guid: 442f7e72e86344b41a44f2027fd0a6eb, type: 2}
+    color: {r: 0.21078432, g: 0.21029413, b: 0.2872549, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: 9fd63b52fa9b14643910b84be2faa821, type: 2}
+    color: {r: 0.20857844, g: 0.20833334, b: 0.28529412, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: 91d7d1dad8617b04ca1e04ca7889fe2c, type: 2}
+    color: {r: 0.44681376, g: 0.47254905, b: 0.5857843, a: 1.7813725}
+  - tile: {fileID: 11400000, guid: aaeef581f45c8094a8e4327720c3852c, type: 2}
+    color: {r: 0.5262255, g: 0.56102943, b: 0.6781863, a: 2}
+  - tile: {fileID: 11400000, guid: 94f1bf20e18125b40ab1488cf99de759, type: 2}
+    color: {r: 0.55857843, g: 0.58750004, b: 0.73014706, a: 2}
+  - tile: {fileID: 11400000, guid: 5ad54960f842561459283bd047f6ccbe, type: 2}
+    color: {r: 0.49681374, g: 0.53382355, b: 0.63455886, a: 2}
+  - tile: {fileID: 11400000, guid: acb61066a9fdafc47a1c8e8beb322093, type: 2}
+    color: {r: 0.38039216, g: 0.4044118, b: 0.4911765, a: 2}
+  - tile: {fileID: 11400000, guid: eb773740990c31342af9595584d4b232, type: 2}
+    color: {r: 0.46740198, g: 0.50049025, b: 0.59877455, a: 2}
+  - tile: {fileID: 11400000, guid: d8aa8ebfb4a8c4247922a55edd729598, type: 2}
+    color: {r: 0.429902, g: 0.45710787, b: 0.5615196, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: 57ab62c9590dc1740a6b27f88f933113, type: 2}
+    color: {r: 0.5019608, g: 0.5411765, b: 0.6392157, a: 2}
+  - tile: {fileID: 11400000, guid: 3a4a9bb2ee5737746b56a6dd6fe68abf, type: 2}
+    color: {r: 0.5262255, g: 0.56102943, b: 0.6781863, a: 2}
+  - tile: {fileID: 11400000, guid: e88cac537602bbb4ea54b2667d060580, type: 2}
+    color: {r: 0.3404412, g: 0.35808825, b: 0.4509804, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: 3274dee8ddf6e734a9b0d5a5bd25f7af, type: 2}
+    color: {r: 0.38039216, g: 0.4044118, b: 0.4911765, a: 2}
+  - tile: {fileID: 11400000, guid: 1051382d70201b944ad7fcd60549bf68, type: 2}
+    color: {r: 0.4017157, g: 0.42401963, b: 0.5235294, a: 2}
+  - tile: {fileID: 11400000, guid: 1f543f5b27240ee48844f9748ddef97c, type: 2}
+    color: {r: 0.42352942, g: 0.4517157, b: 0.54289216, a: 2}
+  - tile: {fileID: 11400000, guid: b82dbf24079ae1840b7e0a671c71ba67, type: 2}
+    color: {r: 0.39362746, g: 0.41887257, b: 0.50710785, a: 2}
+  - tile: {fileID: 11400000, guid: af58f625cf06d034c9efc1fd9a8b120e, type: 2}
+    color: {r: 0.40931374, g: 0.43578434, b: 0.5259804, a: 2}
+  - tile: {fileID: 11400000, guid: 138b7c1ba021d2148921d78a9b5f4091, type: 2}
+    color: {r: 0.3539216, g: 0.36862746, b: 0.47352943, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: 57a6f9c7f0262f04cbfa7f4c09500af0, type: 2}
+    color: {r: 0.2502451, g: 0.25514707, b: 0.33995098, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: 1ea78f2a3556e7d4b98a303e06fe2c31, type: 2}
+    color: {r: 0.29534316, g: 0.30514708, b: 0.3987745, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: a45e481ab160da345be9fd4fe627d9a7, type: 2}
+    color: {r: 0.3122549, g: 0.35833335, b: 0.43235293, a: 1.5625}
+  - tile: {fileID: 11400000, guid: 29812d902d7b51a41ac9754509e98d30, type: 2}
+    color: {r: 0.36078432, g: 0.4117647, b: 0.49803922, a: 1.75}
+  - tile: {fileID: 11400000, guid: de192a5b1bd673a44bdbd013ba65d6d6, type: 2}
+    color: {r: 0.34534314, g: 0.39558825, b: 0.47671568, a: 1.75}
+  - tile: {fileID: 11400000, guid: 1958a6c42aa5d0f4bbc1a3c402db0cfd, type: 2}
+    color: {r: 0.3504902, g: 0.4009804, b: 0.48382354, a: 2}
+  - tile: {fileID: 11400000, guid: a88fc9037e387f14da02ca3b59d04b3a, type: 2}
+    color: {r: 0.34019607, g: 0.39019608, b: 0.46960783, a: 1.875}
+  - tile: {fileID: 11400000, guid: 494c087464eabdf44826ba4f19840f86, type: 2}
+    color: {r: 0.31960785, g: 0.36862746, b: 0.44117647, a: 1.75}
+  - tile: {fileID: 11400000, guid: c0fa4fa696d375244b6001be148695d8, type: 2}
+    color: {r: 0.36078432, g: 0.4117647, b: 0.49803922, a: 2}
+  - tile: {fileID: 11400000, guid: 3598002be386971478a730f67fd7aecf, type: 2}
+    color: {r: 0.34019607, g: 0.39019608, b: 0.46960783, a: 2}
+  - tile: {fileID: 11400000, guid: 68d09a209d8304b428d8497acf88b4af, type: 2}
+    color: {r: 0.36078432, g: 0.4117647, b: 0.49803922, a: 2}
+  - tile: {fileID: 11400000, guid: e8a96370638930a4bbb7246fe3142b0e, type: 2}
+    color: {r: 0.36078432, g: 0.4117647, b: 0.49803922, a: 1.9375}
+  - tile: {fileID: 11400000, guid: 54bab4ff581ce0c4aa538aae8bb4e808, type: 2}
+    color: {r: 0.5262255, g: 0.56102943, b: 0.6781863, a: 2}
+  - tile: {fileID: 11400000, guid: 6bc9f492618c00f49be4ae5c3fa02a99, type: 2}
+    color: {r: 0.5262255, g: 0.56102943, b: 0.6781863, a: 2}
+  - tile: {fileID: 11400000, guid: 3641314c94fdeea4590caf731da40f5a, type: 2}
+    color: {r: 0.53431374, g: 0.5676471, b: 0.6911765, a: 2}
+  - tile: {fileID: 11400000, guid: fb9e9999a45e64e4791adea9d02c04ad, type: 2}
+    color: {r: 0.16544119, g: 0.1622549, b: 0.22745098, a: 1.7813725}
+  - tile: {fileID: 11400000, guid: 4b33ef16ae94055418e0763866e62889, type: 2}
+    color: {r: 0.18088235, g: 0.17818628, b: 0.24607843, a: 2}
+  - tile: {fileID: 11400000, guid: 4e06a33276a89e44e90764eff169845c, type: 2}
+    color: {r: 0.25637257, g: 0.28774512, b: 0.352451, a: 1.3125}
+  - tile: {fileID: 11400000, guid: 7201102576196a7478f166a7111b5b76, type: 2}
+    color: {r: 0.2897059, g: 0.3252451, b: 0.39803922, a: 1.5}
+  - tile: {fileID: 11400000, guid: 318e17019a1a1fb458c82f2dfe843ae7, type: 2}
+    color: {r: 0.30686274, g: 0.3526961, b: 0.4240196, a: 1.4375}
+  - tile: {fileID: 11400000, guid: d22ee557cc9aa3f4d8f3eb04400792fa, type: 2}
+    color: {r: 0.4622549, g: 0.492402, b: 0.6002451, a: 1.9688725}
+  - tile: {fileID: 11400000, guid: 9624072fe91cf544da5297f17b185d12, type: 2}
+    color: {r: 0.5232843, g: 0.5588236, b: 0.67352945, a: 2}
+  - tile: {fileID: 11400000, guid: 0c8a64183b201664dace3a8d07fb4bee, type: 2}
+    color: {r: 0.12205883, g: 0.11960785, b: 0.175, a: 1.25}
+  - tile: {fileID: 11400000, guid: e486c2e20671966419a8bfa914e32eab, type: 2}
+    color: {r: 0.15784314, g: 0.15588236, b: 0.22156863, a: 1.75}
+  - tile: {fileID: 11400000, guid: 319a11b4d6485fa4cb49309a6b099686, type: 2}
+    color: {r: 0.19411765, g: 0.19117647, b: 0.25906864, a: 2}
+  - tile: {fileID: 11400000, guid: 0ca14f4d19407654d896b48463157b85, type: 2}
+    color: {r: 0.14803922, g: 0.14607844, b: 0.20686275, a: 1.75}
+  - tile: {fileID: 11400000, guid: 56471eafd44f583438153d8e34372875, type: 2}
+    color: {r: 0.2139706, g: 0.2134804, b: 0.29215688, a: 1.8129902}
+  - tile: {fileID: 11400000, guid: 8025f848ed831824a9ec3e1835cccd2a, type: 2}
+    color: {r: 0.17107844, g: 0.16911766, b: 0.23357844, a: 1.9688725}
+  - tile: {fileID: 11400000, guid: 3897668108c825b43aa783b5c9d75704, type: 2}
+    color: {r: 0.20857844, g: 0.20833334, b: 0.28529412, a: 1.8754902}
+  - tile: {fileID: 11400000, guid: 92bc8d3ed23ad8c4988d9601b31e0f86, type: 2}
+    color: {r: 0.14803922, g: 0.14607844, b: 0.20686275, a: 1.75}
+  - tile: {fileID: 11400000, guid: 6f3fa23d18ec7024f9082e885d0c5cab, type: 2}
+    color: {r: 0.16053922, g: 0.15833335, b: 0.21740197, a: 1.75}
+  - tile: {fileID: 11400000, guid: 98ad91b1b20d7e449bdc8e0993b3e564, type: 2}
+    color: {r: 0.20661765, g: 0.20196079, b: 0.2769608, a: 2}
+  - tile: {fileID: 11400000, guid: 5ab84ff4cbd40b94fbfab09e6932e981, type: 2}
+    color: {r: 0.17941177, g: 0.17598039, b: 0.24411765, a: 2}
+  - tile: {fileID: 11400000, guid: 1f18d2e6a2bb1b44ea22edaea83fd11b, type: 2}
+    color: {r: 0.2504902, g: 0.24436274, b: 0.33186275, a: 1.9377451}
+  - tile: {fileID: 11400000, guid: 090a388e3f40ea840ad884caa2fe755d, type: 2}
+    color: {r: 0.24117647, g: 0.23578432, b: 0.31887257, a: 2}
+  - tile: {fileID: 11400000, guid: 5fcf5268ac7efbb40a100cdec24c860f, type: 2}
+    color: {r: 0.29656863, g: 0.25343138, b: 0.29117647, a: 1.5}
+  - tile: {fileID: 11400000, guid: 8b76e5286670d8645b287bf1e59c35c6, type: 2}
+    color: {r: 0.29387257, g: 0.23210785, b: 0.2502451, a: 1.5}
+  - tile: {fileID: 11400000, guid: c7aa94288915316448be120d0b5dec72, type: 2}
+    color: {r: 0.34509805, g: 0.3990196, b: 0.4779412, a: 2}
+  - tile: {fileID: 11400000, guid: b4aa06ddd509f3a4a82d0cc8c9da9ab9, type: 2}
+    color: {r: 0.3529412, g: 0.40539217, b: 0.4879902, a: 2}
+  - tile: {fileID: 11400000, guid: b9c6f89382b87ba4f98e1e42f27bf48a, type: 2}
+    color: {r: 0.24558824, g: 0.24117647, b: 0.32230392, a: 2}
+  - tile: {fileID: 11400000, guid: d36640e490d29c74b86c3dbcd64779e9, type: 2}
+    color: {r: 0.20784314, g: 0.20416667, b: 0.27745098, a: 2}
+  - tile: {fileID: 11400000, guid: 733bfd3892aea244c9ac5a0b8223bf87, type: 2}
+    color: {r: 0.27769607, g: 0.2764706, b: 0.37132353, a: 2}
+  - tile: {fileID: 11400000, guid: 83556438ed126764fa29b7349af757b4, type: 2}
+    color: {r: 0.24191177, g: 0.24142158, b: 0.32916668, a: 2}
+  - tile: {fileID: 11400000, guid: 2f05421207d33e149b02e1b63e6a0799, type: 2}
+    color: {r: 0.35857844, g: 0.30441177, b: 0.34632355, a: 2}
+  - tile: {fileID: 11400000, guid: 4295fb9bd50e89c43821013d2e81d582, type: 2}
+    color: {r: 0.35171568, g: 0.27990198, b: 0.3, a: 2}
+  - tile: {fileID: 11400000, guid: 098b7bced4bb4a24fa39e238864f1ee8, type: 2}
+    color: {r: 0.47990197, g: 0.5117647, b: 0.6161765, a: 2}
+  - tile: {fileID: 11400000, guid: 5aa72d11320f2934094cdc4c32eca750, type: 2}
+    color: {r: 0.4909314, g: 0.5264706, b: 0.6276961, a: 2}
+  - tile: {fileID: 11400000, guid: 74fe0d06e42bf734ea9defa7b64a64e4, type: 2}
+    color: {r: 0.3504902, g: 0.40490198, b: 0.48578432, a: 2}
+  - tile: {fileID: 11400000, guid: 0aceb9d8bc633a84e999aa4e6e849baf, type: 2}
+    color: {r: 0.34460786, g: 0.39411765, b: 0.4745098, a: 2}
+  - tile: {fileID: 11400000, guid: 5f56abd267c375f429ad3001c597b573, type: 2}
+    color: {r: 0.19387256, g: 0.19240196, b: 0.26960784, a: 1.7674019}
+  - tile: {fileID: 11400000, guid: 61d24e1aa3bd20c4e9386fd232c92bd6, type: 2}
+    color: {r: 0.16593137, g: 0.1644608, b: 0.23921569, a: 1.702451}
+  - tile: {fileID: 11400000, guid: e19791bb73395444d821ed04c36b209d, type: 2}
+    color: {r: 0.23602942, g: 0.24656864, b: 0.34338236, a: 1.8034314}
+  - tile: {fileID: 11400000, guid: 135be715a0a826d45b98aedc3437066a, type: 2}
+    color: {r: 0.20931374, g: 0.21985295, b: 0.31446078, a: 1.7409314}
+  - tile: {fileID: 11400000, guid: ae85035e86736f743be7294ae5515167, type: 2}
+    color: {r: 0.48799023, g: 0.52132356, b: 0.62622553, a: 2}
+  - tile: {fileID: 11400000, guid: 3dfdc9c342ff595488871a87e2bd5b78, type: 2}
+    color: {r: 0.4776961, g: 0.51250005, b: 0.60906863, a: 2}
+  - tile: {fileID: 11400000, guid: 5cd9411cb60ec5f4690baa8dc867605f, type: 2}
+    color: {r: 0.2514706, g: 0.3421569, b: 0.4392157, a: 1.8125}
+  - tile: {fileID: 11400000, guid: 38a7c69ad47a6f84d9ca2e17f2585c64, type: 2}
+    color: {r: 0.2504902, g: 0.25, b: 0.327451, a: 2}
+  - tile: {fileID: 11400000, guid: f0719dd2f4677e743aaf86333777da3c, type: 2}
+    color: {r: 0.24093138, g: 0.24068628, b: 0.31740198, a: 2}
+  - tile: {fileID: 11400000, guid: d9f4a82c37095b74997b43d939f204c2, type: 2}
+    color: {r: 0.39926472, g: 0.5284314, b: 0.64460784, a: 1.1875}
+  - tile: {fileID: 11400000, guid: 5dd4536c2a87fe543b75a38f320d50d2, type: 2}
+    color: {r: 0.3004902, g: 0.57500005, b: 0.71568626, a: 1.25}
+  - tile: {fileID: 11400000, guid: 32bee9fb904e93744bb408c7a20d77a7, type: 2}
+    color: {r: 0.47034317, g: 0.52254903, b: 0.63210785, a: 1.8125}
+  - tile: {fileID: 11400000, guid: 67ae6d686a08f934d8fa703ed6f71dec, type: 2}
+    color: {r: 0.3764706, g: 0.46200982, b: 0.57009804, a: 1.8125}
+  - tile: {fileID: 11400000, guid: e11827057a3241545b5f83572c1d6de1, type: 2}
+    color: {r: 0.47500002, g: 0.56911767, b: 0.7012255, a: 1.75}
+  - tile: {fileID: 11400000, guid: b977bb3008b5d7f43a26cacfeac2fc3b, type: 2}
+    color: {r: 0.5262255, g: 0.56102943, b: 0.6781863, a: 2}
+  - tile: {fileID: 11400000, guid: 719b57d040d8970449c46ede3f5f65ff, type: 2}
+    color: {r: 0.3009804, g: 0.5776961, b: 0.7176471, a: 1.25}
+  - tile: {fileID: 11400000, guid: 182a1710463d53945b02895413a350fb, type: 2}
+    color: {r: 0.36838236, g: 0.45637256, b: 0.5625, a: 1.8125}
+  - tile: {fileID: 11400000, guid: f3564b78437e8b643aaf33256b56e6c8, type: 2}
+    color: {r: 0.4009804, g: 0.42401963, b: 0.5235294, a: 2}
+  - tile: {fileID: 11400000, guid: 6ed061c9f0ddaf642a03b6c944cedbf5, type: 2}
+    color: {r: 0.38357845, g: 0.55735296, b: 0.6862745, a: 1.1875}
+  - tile: {fileID: 11400000, guid: c0911849ba60ed848b0c7e60dfd3c8ec, type: 2}
+    color: {r: 0.5262255, g: 0.56102943, b: 0.6781863, a: 2}
+  - tile: {fileID: 11400000, guid: c4cdeb8004dc9ab4391331df51c1c9b5, type: 2}
+    color: {r: 0.21372549, g: 0.3007353, b: 0.39313728, a: 1.25}
+  - tile: {fileID: 11400000, guid: 22f6b0e1bc109614aa51ed83e8c3ce6a, type: 2}
+    color: {r: 0.3794118, g: 0.4044118, b: 0.4911765, a: 2}
+  - tile: {fileID: 11400000, guid: 2bbecd6442dde894eb34e03a7c30efd9, type: 2}
+    color: {r: 0.4642157, g: 0.58455884, b: 0.70759803, a: 1.75}
+  - tile: {fileID: 11400000, guid: be2e6983ab7a3e8429b971f1bf94013e, type: 2}
+    color: {r: 0.22352941, g: 0.35906863, b: 0.57450986, a: 2}
+  - tile: {fileID: 11400000, guid: 7cb0da2cb9252364ab9718b545ae8cef, type: 2}
+    color: {r: 0.24632353, g: 0.43553922, b: 0.64730394, a: 2}
+  - tile: {fileID: 11400000, guid: f6dda9ed5269f494681da88f16946193, type: 2}
+    color: {r: 0.24705882, g: 0.4392157, b: 0.6509804, a: 2}
+  - tile: {fileID: 11400000, guid: 225060abd078a9f49a8a0ea466e841b0, type: 2}
+    color: {r: 0.2656046, g: 0.5139706, b: 0.7111111, a: 1.3125}
+  - tile: {fileID: 11400000, guid: 9feb3635ebc571849830d4a743af9023, type: 2}
+    color: {r: 0.2635621, g: 0.5053922, b: 0.7045752, a: 1.4583334}
+  - tile: {fileID: 11400000, guid: 838bf70c8940bd840baa0df604df6720, type: 2}
+    color: {r: 0.6089412, g: 0.5904314, b: 0.5061961, a: 1.64}
+  - tile: {fileID: 11400000, guid: c716a237f1c77f948a5e27fba0558ffa, type: 2}
+    color: {r: 0.6126906, g: 0.5867103, b: 0.49542487, a: 1.4930556}
+  - tile: {fileID: 11400000, guid: b7538ad09c153144bb4f3b645fc5af29, type: 2}
+    color: {r: 0.41696203, g: 0.25643635, b: 0.26950476, a: 1.7194366}
+  - tile: {fileID: 11400000, guid: 6ed86f22b672c354ca887e64bba3111f, type: 2}
+    color: {r: 0.27873304, g: 0.20829563, b: 0.23092006, a: 1.868175}
+  - tile: {fileID: 11400000, guid: 9e37b0e0af62c4c418b29b585d19322a, type: 2}
+    color: {r: 0.2980136, g: 0.20997053, b: 0.21525055, a: 1.506113}
+  - tile: {fileID: 11400000, guid: 5c98d28d69aa7e14f9516a0f62f5ae10, type: 2}
+    color: {r: 0.70756304, g: 0.6004002, b: 0.48115247, a: 1.6122448}
+  - tile: {fileID: 11400000, guid: b47b2d47284ecd8488d54463aa94b76b, type: 2}
+    color: {r: 0.73491514, g: 0.65658265, b: 0.57732743, a: 1.5378151}
+  - tile: {fileID: 11400000, guid: 23afb29a1032db744b7a1e821541ea2c, type: 2}
+    color: {r: 0.80997336, g: 0.73536676, b: 0.66250306, a: 1.7901235}
+  - tile: {fileID: 11400000, guid: f48bcb432b4b2c24681f8594c11c8720, type: 2}
+    color: {r: 0.3377451, g: 0.49733117, b: 0.27205884, a: 1.6041667}
+  - tile: {fileID: 11400000, guid: dc4b4c6b594f280489913d05af27c019, type: 2}
+    color: {r: 0.47528443, g: 0.6599371, b: 0.3315904, a: 1.6666667}
+  - tile: {fileID: 11400000, guid: fdce913ab9a3c3d42ba9ac50a666cb7c, type: 2}
+    color: {r: 0.30406988, g: 0.4713462, b: 0.22871973, a: 1.617647}
+  - tile: {fileID: 11400000, guid: c2cb0bb5d76ab224dadcf9c81f2c2d24, type: 2}
+    color: {r: 0.27705884, g: 0.4711765, b: 0.23705883, a: 1.45}
+  - tile: {fileID: 11400000, guid: e901c50a2b30a7f4f908f0bf7ccfaa9e, type: 2}
+    color: {r: 0.4934913, g: 0.6079249, b: 0.32990196, a: 1.5625}
+  - tile: {fileID: 11400000, guid: d28d81781448e9c41985160a623a909d, type: 2}
+    color: {r: 0.37058824, g: 0.429902, b: 0.26954657, a: 1.46875}
+  - tile: {fileID: 11400000, guid: a339dca9cff833b42888dc9f563a3dc9, type: 2}
+    color: {r: 0.25869283, g: 0.43782136, b: 0.22718956, a: 1.5666666}
+  - tile: {fileID: 11400000, guid: 63b5a3877fd93c045bceb60325a4c307, type: 2}
+    color: {r: 0.42927173, g: 0.3562325, b: 0.2709384, a: 1.5535715}
+  - tile: {fileID: 11400000, guid: 958cd9723eac7dc4b8e47310a7436bbd, type: 2}
+    color: {r: 0.33803922, g: 0.22588235, b: 0.19352941, a: 1.6}
+  - tile: {fileID: 11400000, guid: 2289ab8c9a8cd1c419d09bbdc916371f, type: 2}
+    color: {r: 0.36496732, g: 0.29647058, b: 0.22222222, a: 1.3666667}
+  - tile: {fileID: 11400000, guid: c8340e7bb65de8346a17b6faa7a04899, type: 2}
+    color: {r: 0.42517647, g: 0.5347843, b: 0.32831374, a: 1.61}
+  - tile: {fileID: 11400000, guid: a6d775481345ba64a838bb1349873ff0, type: 2}
+    color: {r: 0.32476193, g: 0.29150328, b: 0.21594772, a: 1.3190477}
+  - tile: {fileID: 11400000, guid: b5c8420102f839544bd82702ec487aae, type: 2}
+    color: {r: 0.42107844, g: 0.41735294, b: 0.27284315, a: 1.5125}
+  - tile: {fileID: 11400000, guid: 092a8310ee65b284cbc51836dd4d9bcb, type: 2}
+    color: {r: 0.4971165, g: 0.5207448, b: 0.40756303, a: 1.6092436}
+  - tile: {fileID: 11400000, guid: cffbe0430bbfb1c41ae96b65356d17d1, type: 2}
+    color: {r: 0.54534316, g: 0.53161764, b: 0.25588235, a: 1.1875}
+  - tile: {fileID: 11400000, guid: 57f055a886430a846ae2aa02e12f90ce, type: 2}
+    color: {r: 0.3529412, g: 0.44681874, b: 0.4067227, a: 1.5102041}
+  - tile: {fileID: 11400000, guid: 76e447e07a8382b40803669be30e0c6d, type: 2}
+    color: {r: 0.46797386, g: 0.627451, b: 0.24640524, a: 1}
+  - tile: {fileID: 11400000, guid: 322ec7ce8f272b644a509a25e98c1bf2, type: 2}
+    color: {r: 0.6884706, g: 0.79984313, b: 0.3334902, a: 1.08}
+  - tile: {fileID: 11400000, guid: 2da7de05303e0ec4d8916f2d8d84aa12, type: 2}
+    color: {r: 0.39078432, g: 0.60490197, b: 0.3084314, a: 1.35}
+  - tile: {fileID: 11400000, guid: a0287e4aa8176004a9176379723d21ca, type: 2}
+    color: {r: 0.7872549, g: 0.7, b: 0.6279412, a: 2}
+  - tile: {fileID: 11400000, guid: d8c04b7068c486946a67f4651c717412, type: 2}
+    color: {r: 0.62352943, g: 0.54901963, b: 0.3764706, a: 1.25}
+  - tile: {fileID: 11400000, guid: d2ca3c984d2067e4a95eb86fd3e88e8b, type: 2}
+    color: {r: 0.6039216, g: 0.7519608, b: 0.37156862, a: 1.25}
+  - tile: {fileID: 11400000, guid: a7cd3f42f7e905949bbbbe927ffbfbe2, type: 2}
+    color: {r: 0.6578432, g: 0.8039216, b: 0.3872549, a: 1.25}
+  - tile: {fileID: 11400000, guid: c03bb1621aa3224439fec8dadc5e43ea, type: 2}
+    color: {r: 0.36914206, g: 0.19889984, b: 0.20940468, a: 1.6289593}
+  - tile: {fileID: 11400000, guid: 0247265824189ee4c91e233915fe51c4, type: 2}
+    color: {r: 0.31176472, g: 0.10643599, b: 0.15483277, a: 1.4352942}
+  - tile: {fileID: 11400000, guid: fd0c472008890764bae58f911c59af26, type: 2}
+    color: {r: 0.40280366, g: 0.20346022, b: 0.20551859, a: 1.4343891}
+  - tile: {fileID: 11400000, guid: 76ba5686874bd574abf135e305cc5bea, type: 2}
+    color: {r: 0.41960785, g: 0.1522314, b: 0.16818383, a: 1.719457}
+  - tile: {fileID: 11400000, guid: 9e01fc940cf86b24c8c69f3228c22ab1, type: 2}
+    color: {r: 0.61941725, g: 0.55038124, b: 0.4989379, a: 1.9375}
+  - tile: {fileID: 11400000, guid: 64e653d92cfb7e241907d1b16dd3babf, type: 2}
+    color: {r: 0.5693247, g: 0.25568628, b: 0.2550327, a: 1.8}
+  - tile: {fileID: 11400000, guid: 63f383bfa8b735d448db11dc7efd7cba, type: 2}
+    color: {r: 0.30980393, g: 0.29803923, b: 0.44313726, a: 1.64}
+  - tile: {fileID: 11400000, guid: c3b36d9123accab46a8b5809bfaddd33, type: 2}
+    color: {r: 0.44803923, g: 0.7156863, b: 0.22156863, a: 1}
+  - tile: {fileID: 11400000, guid: ff0a2e8219045584c8b749d170b9493e, type: 2}
+    color: {r: 0.5647059, g: 0.5, b: 0.39754903, a: 2}
+  - tile: {fileID: 11400000, guid: 8d226c692e235a64e9790b1d9ca79da2, type: 2}
+    color: {r: 0.5647059, g: 0.5, b: 0.39754903, a: 2}
+  - tile: {fileID: 11400000, guid: ef0aeb4ea402c6043983a74c05639d0b, type: 2}
+    color: {r: 0.534902, g: 0.46823528, b: 0.38418302, a: 2}
+  - tile: {fileID: 11400000, guid: bf79c7acc5c0b944396c16680ed9bc4e, type: 2}
+    color: {r: 0.534902, g: 0.46823528, b: 0.38418302, a: 2}
+  - tile: {fileID: 11400000, guid: 34a7b1177aab5264885dc3297e121877, type: 2}
+    color: {r: 0.7529412, g: 0.6810458, b: 0.59477127, a: 2}
+  - tile: {fileID: 11400000, guid: 86882f8b539f23544a24b76a75531a3b, type: 2}
+    color: {r: 0.5102708, g: 0.48552755, b: 0.45910364, a: 2}
+  - tile: {fileID: 11400000, guid: 3f923a91287ca0f4684dbce17e01ba5b, type: 2}
+    color: {r: 0.5102708, g: 0.48552755, b: 0.45910364, a: 2}
+  - tile: {fileID: 11400000, guid: e8425056e1c8d974cb1dd3a0283fc072, type: 2}
+    color: {r: 0.26603922, g: 0.23294118, b: 0.21992157, a: 1.9739608}
+  - tile: {fileID: 11400000, guid: 5d928e44d992d1e4892ca24b28aa2a5e, type: 2}
+    color: {r: 0.26603922, g: 0.23294118, b: 0.21992157, a: 1.9739608}
+  - tile: {fileID: 11400000, guid: 94240c912cede8b49a9345fe3f5e6810, type: 2}
+    color: {r: 0.30165914, g: 0.2735445, b: 0.25809956, a: 1.9230769}
+  - tile: {fileID: 11400000, guid: 28add1d2cf7ed3645a579b24f7622413, type: 2}
+    color: {r: 0.19313726, g: 0.16862746, b: 0.16764706, a: 2}
+  - tile: {fileID: 11400000, guid: d2f60004b37052b448e61a0e7c4d87c5, type: 2}
+    color: {r: 0.19313726, g: 0.16862746, b: 0.16764706, a: 2}
+  - tile: {fileID: 11400000, guid: 5b402783aec17cf459ba8e568d5e9074, type: 2}
+    color: {r: 0.43352008, g: 0.43898228, b: 0.45718956, a: 2}
+  - tile: {fileID: 11400000, guid: 8d94753531cec4c41ba2b28e0c3dadd3, type: 2}
+    color: {r: 0.43352008, g: 0.43898228, b: 0.45718956, a: 2}
+  - tile: {fileID: 11400000, guid: 934dc4073ba3ce6458abad1eef3fd7e8, type: 2}
+    color: {r: 0.37290552, g: 0.32455438, b: 0.2826649, a: 1.8181818}
+  - tile: {fileID: 11400000, guid: 62b76be6ee6eb3c4fafcdd0bf11243a1, type: 2}
+    color: {r: 0.4530968, g: 0.36290073, b: 0.34024277, a: 2}
+  - tile: {fileID: 11400000, guid: 2b9347eb09a1be643a102e9a030480a5, type: 2}
+    color: {r: 0.4530968, g: 0.36290073, b: 0.34024277, a: 2}
+  - tile: {fileID: 11400000, guid: 7653513b6dfc436469f475b9505a7fc5, type: 2}
+    color: {r: 0.54677874, g: 0.4751634, b: 0.42147526, a: 1.5714285}
+  - tile: {fileID: 11400000, guid: 05f1396893491a949889eb835c5f8f8f, type: 2}
+    color: {r: 0.48020542, g: 0.45560226, b: 0.43828198, a: 1.9285715}
+  - tile: {fileID: 11400000, guid: 668e182bda719a94c8b864c459ae6ef4, type: 2}
+    color: {r: 0.42392159, g: 0.39882353, b: 0.44705883, a: 2}
+  - tile: {fileID: 11400000, guid: 514c7599bfb2c4d49a41221f2c403c82, type: 2}
+    color: {r: 0.49564272, g: 0.48006538, b: 0.47015253, a: 1.9457517}
+  - tile: {fileID: 11400000, guid: b7014427f7efc3548adab09df9404d6d, type: 2}
+    color: {r: 0.56526613, g: 0.5308123, b: 0.5014006, a: 2}
+  - tile: {fileID: 11400000, guid: 445e5608f3571aa4c9abbc3bb88ab02c, type: 2}
+    color: {r: 0.5921569, g: 0.6043573, b: 0.5956427, a: 1.6666667}
+  - tile: {fileID: 11400000, guid: abea6cf26bf628742a2f3fb04c794b0a, type: 2}
+    color: {r: 0.33144894, g: 0.3211612, b: 0.33124524, a: 2}
+  - tile: {fileID: 11400000, guid: 83c9ec3dd4b14ff448c9d1c427c94eb8, type: 2}
+    color: {r: 0.5849265, g: 0.5534722, b: 0.52287585, a: 2}
+  - tile: {fileID: 11400000, guid: b06cab136feb00c428c5669496d14ce9, type: 2}
+    color: {r: 0.43812636, g: 0.44368193, b: 0.45479304, a: 2}
+  - tile: {fileID: 11400000, guid: 1391f77274b78c54e85f577eb874c897, type: 2}
+    color: {r: 0.94485295, g: 0.8982843, b: 0.78455883, a: 2}
+  - tile: {fileID: 11400000, guid: 3c9d3b51b938d8346927987b29299b63, type: 2}
+    color: {r: 0.8011642, g: 0.7762255, b: 0.5110907, a: 2}
+  - tile: {fileID: 11400000, guid: eebabccd300d5f047b8dde67f6fe16d7, type: 2}
+    color: {r: 0.44524887, g: 0.39613673, b: 0.33386123, a: 1.2534965}
+  - tile: {fileID: 11400000, guid: da9b43eadd80e5b4f9a34f5fe3cc455d, type: 2}
+    color: {r: 0.49256927, g: 0.4432486, b: 0.37346998, a: 1.2232258}
+  - tile: {fileID: 11400000, guid: c9f8784ab085414459bcac2ed907a1cd, type: 2}
+    color: {r: 0.5476817, g: 0.49674743, b: 0.41637832, a: 1.2627451}
+  - tile: {fileID: 11400000, guid: 3eed548d9df6e2e4facabc6d68b89843, type: 2}
+    color: {r: 0.1127451, g: 0.12327018, b: 0.10585879, a: 1.2463943}
+  - tile: {fileID: 11400000, guid: 6bc5194f92301cf4683f276a87b0aabe, type: 2}
+    color: {r: 0.26718956, g: 0.29181373, b: 0.22787583, a: 1.2458334}
+  - tile: {fileID: 11400000, guid: 91f64f83da1e3ae419be59b005227145, type: 2}
+    color: {r: 0.42310926, g: 0.37997198, b: 0.3394958, a: 1.5839286}
+  - tile: {fileID: 11400000, guid: 198d10933713ee74a824fb423154e9e7, type: 2}
+    color: {r: 0.23856793, g: 0.23755252, b: 0.21235995, a: 1.5679972}
+  - tile: {fileID: 11400000, guid: 03f44c7a6f51d2144b95e02234b0c023, type: 2}
+    color: {r: 0.3082789, g: 0.19754903, b: 0.15800653, a: 1.535294}
+  - tile: {fileID: 11400000, guid: 1d911f177b18a2e41a786492c3be3057, type: 2}
+    color: {r: 0.42212012, g: 0.44975492, b: 0.4627451, a: 1.53125}
+  - tile: {fileID: 11400000, guid: 187dee4422fac8e489d40293929d6017, type: 2}
+    color: {r: 0.22496733, g: 0.17019609, b: 0.22444445, a: 1.4428759}
+  - tile: {fileID: 11400000, guid: db35a5a6ac0384746a60cc87d500d359, type: 2}
+    color: {r: 0.2386438, g: 0.32263073, b: 0.35784316, a: 1.5672386}
+  - tile: {fileID: 11400000, guid: 14cd2651e3777f342bd24989351de105, type: 2}
+    color: {r: 0.12608437, g: 0.23592791, b: 0.2549812, a: 1.5769063}
+  - tile: {fileID: 11400000, guid: 654a94899ee4a684fad2cbb5173e8dd3, type: 2}
+    color: {r: 0.13800187, g: 0.20140056, b: 0.21111111, a: 1.5380952}
+  - tile: {fileID: 11400000, guid: 11c593761bdac2945a368dac13beac93, type: 2}
+    color: {r: 0.21351483, g: 0.19063361, b: 0.21319073, a: 1.4771998}
+  - tile: {fileID: 11400000, guid: 2555a1873a2928b4a8f0f35ed27dcc43, type: 2}
+    color: {r: 0.2395389, g: 0.18767507, b: 0.23252532, a: 1.4318573}
+  - tile: {fileID: 11400000, guid: b39c366472068314ab83272fc54c125d, type: 2}
+    color: {r: 0.1884058, g: 0.21967179, b: 0.2551897, a: 1.484463}
+  - tile: {fileID: 11400000, guid: 5edc34d76eb99764faf890292001e076, type: 2}
+    color: {r: 0.21268873, g: 0.2232214, b: 0.23818718, a: 1.4211038}
+  - tile: {fileID: 11400000, guid: 5268b08705ab25048a1333bb0233c4e7, type: 2}
+    color: {r: 0.21268873, g: 0.2232214, b: 0.23818718, a: 1.4211038}
+  - tile: {fileID: 11400000, guid: e4ffeaf16829c3043b66b2635109f263, type: 2}
+    color: {r: 0.1724965, g: 0.29884455, b: 0.253764, a: 1.4330357}
+  - tile: {fileID: 11400000, guid: 9c6b7db01ba70a741912244e0593caff, type: 2}
+    color: {r: 0.097467326, g: 0.1491013, b: 0.21115197, a: 1.2708334}
+  - tile: {fileID: 11400000, guid: 04053ddaa52c92b469bdff1b18765e32, type: 2}
+    color: {r: 0.20464155, g: 0.53457415, b: 0.3851256, a: 1.9648438}
+  - tile: {fileID: 11400000, guid: b4f0bdc83269bff438b9421a6f835ccc, type: 2}
+    color: {r: 0.109754905, g: 0.2022549, b: 0.24661765, a: 1.4875}
+  - tile: {fileID: 11400000, guid: 80b3c5f857a23664f8221ff96a81ffef, type: 2}
+    color: {r: 0.10625584, g: 0.18692811, b: 0.24211018, a: 1.4285715}
+  - tile: {fileID: 11400000, guid: 4f3d4baa10125334eb0b0b22a7b89357, type: 2}
+    color: {r: 0.14172323, g: 0.2510935, b: 0.2883107, a: 1.7061274}
+  - tile: {fileID: 11400000, guid: 1bf464f0b89295d4696c87f37decc9f9, type: 2}
+    color: {r: 0.115686275, g: 0.23305322, b: 0.26540616, a: 1.5357143}
+  - tile: {fileID: 11400000, guid: da5e68f1c39d4154eb2bfc376f605913, type: 2}
+    color: {r: 0.26732028, g: 0.22562093, b: 0.21882354, a: 1.4074509}
+  - tile: {fileID: 11400000, guid: dcc2cc38fce24c24d9d2725ae3151fed, type: 2}
+    color: {r: 0.87689954, g: 0.58363974, b: 0.37003678, a: 2}
+  - tile: {fileID: 11400000, guid: 01edaa925d822134893e9e98b356c92a, type: 2}
+    color: {r: 0.27058825, g: 0.52156866, b: 0.59607846, a: 2}
+  - tile: {fileID: 11400000, guid: 64cb0b8da259cc6408d5de3287d4f606, type: 2}
+    color: {r: 0.63799024, g: 0.34430146, b: 0.26813728, a: 1.921875}
+  - tile: {fileID: 11400000, guid: 62d059a21a69d1c409721defdc82208d, type: 2}
+    color: {r: 0.45294118, g: 0.26213235, b: 0.24129903, a: 1.65625}
+  - tile: {fileID: 11400000, guid: ccca60e317904a441b87a6d560a6cfca, type: 2}
+    color: {r: 0.5206802, g: 0.6165288, b: 0.31755516, a: 1.9453125}
+  - tile: {fileID: 11400000, guid: 9871baa69f4944d488bd960dec538a77, type: 2}
+    color: {r: 0.5767923, g: 0.68014705, b: 0.33416054, a: 1.9960938}
+  - tile: {fileID: 11400000, guid: b6613da2a28ef544b8858f7e23189471, type: 2}
+    color: {r: 0.5422641, g: 0.6403646, b: 0.32484683, a: 1.9726562}
+  - tile: {fileID: 11400000, guid: 24691dbae99bee24d82b0b6101306380, type: 2}
+    color: {r: 0.83607537, g: 0.7807292, b: 0.46087623, a: 1.9609375}
+  - tile: {fileID: 11400000, guid: d3ce4a1159ce4ff45b35ad79998c6f3b, type: 2}
+    color: {r: 0.9132353, g: 0.85603553, b: 0.48616728, a: 2}
+  - tile: {fileID: 11400000, guid: 10ebbb7daf8450b469c39b787c8eeba2, type: 2}
+    color: {r: 0.8806373, g: 0.82709867, b: 0.47140014, a: 1.9960938}
+  - tile: {fileID: 11400000, guid: 74572da8c05798b48853639e45637338, type: 2}
+    color: {r: 0.53357846, g: 0.63448226, b: 0.32653186, a: 1.9648438}
+  - tile: {fileID: 11400000, guid: 54a115d84e96db640b08546276987c7e, type: 2}
+    color: {r: 0.59336704, g: 0.7013174, b: 0.34255517, a: 2}
+  - tile: {fileID: 11400000, guid: a18a71185e0d6724eaea29884dc16901, type: 2}
+    color: {r: 0.57051164, g: 0.6734069, b: 0.3349265, a: 2}
+  - tile: {fileID: 11400000, guid: 2d9a7c2a66e0e8d468e3c618613c3e64, type: 2}
+    color: {r: 0.85318625, g: 0.8008272, b: 0.46320468, a: 1.9648438}
+  - tile: {fileID: 11400000, guid: db4674997883e0044bfabe298919c090, type: 2}
+    color: {r: 0.9384344, g: 0.8799632, b: 0.49364278, a: 2}
+  - tile: {fileID: 11400000, guid: 79724b51dda05b041a4b673bc7418167, type: 2}
+    color: {r: 0.8911305, g: 0.83679533, b: 0.47731313, a: 1.9921875}
+  - tile: {fileID: 11400000, guid: 69943054b5e79144b9177684c140cd35, type: 2}
+    color: {r: 0.8103554, g: 0.7617647, b: 0.44840688, a: 1.9570312}
+  - tile: {fileID: 11400000, guid: 5ae5d984aaa1d5d42a592e229b32d683, type: 2}
+    color: {r: 0.49039522, g: 0.57775736, b: 0.30925247, a: 1.890625}
+  - tile: {fileID: 11400000, guid: c712b48e19e03d5469d3058564da9192, type: 2}
+    color: {r: 0.55323225, g: 0.64975494, b: 0.3276348, a: 1.9648438}
+  - tile: {fileID: 11400000, guid: 05920342aaf5820449a3549707e3b151, type: 2}
+    color: {r: 0.51459867, g: 0.60916054, b: 0.3202359, a: 1.9335938}
+  - tile: {fileID: 11400000, guid: 8e1ac92d02828554396a8e6af7d5ee39, type: 2}
+    color: {r: 0.8074908, g: 0.75842524, b: 0.44574144, a: 1.921875}
+  - tile: {fileID: 11400000, guid: 1d8cad816b15d134aa7c22f357d67cf2, type: 2}
+    color: {r: 0.86688113, g: 0.8113971, b: 0.46801472, a: 1.9648438}
+  - tile: {fileID: 11400000, guid: 398fa3a1e59993d42b6e4626d2093c74, type: 2}
+    color: {r: 0.82807904, g: 0.7789982, b: 0.45232844, a: 1.9375}
+  - tile: {fileID: 11400000, guid: 31badbc802ecd8a4697c1f715c455e24, type: 2}
+    color: {r: 0.8469516, g: 0.79404104, b: 0.4608456, a: 1.9648438}
+  - tile: {fileID: 11400000, guid: 0a78d2d46c6d13943910aca66fc8b51a, type: 2}
+    color: {r: 0.47647062, g: 0.65799636, b: 0.65346205, a: 1.9296875}
+  - tile: {fileID: 11400000, guid: 7829e59d6a5c7964fb2bf4e24e792e6a, type: 2}
+    color: {r: 0.52003676, g: 0.7176777, b: 0.70998776, a: 2}
+  - tile: {fileID: 11400000, guid: 0e568b9f8b854cb46b4be8946cb26b0e, type: 2}
+    color: {r: 0.4901042, g: 0.6801777, b: 0.6745558, a: 1.953125}
+  - tile: {fileID: 11400000, guid: 2cffa5fb0170944499af36d6471d9ffe, type: 2}
+    color: {r: 0.45312503, g: 0.6288603, b: 0.6265932, a: 1.8828125}
+  - tile: {fileID: 11400000, guid: 66381c5cac9b14b41bedb61041f2cf36, type: 2}
+    color: {r: 0.48762256, g: 0.6776042, b: 0.67478555, a: 2}
+  - tile: {fileID: 11400000, guid: 4cf38f8895468ab4f99a0792635e7edb, type: 2}
+    color: {r: 0.53223044, g: 0.7318015, b: 0.72181374, a: 2}
+  - tile: {fileID: 11400000, guid: 2de77650d87737047980766c582df076, type: 2}
+    color: {r: 0.5045343, g: 0.7062194, b: 0.702788, a: 2}
+  - tile: {fileID: 11400000, guid: 329c156f613881c4aaae23e36b6ebacc, type: 2}
+    color: {r: 0.46351105, g: 0.65479475, b: 0.6572917, a: 2}
+  - tile: {fileID: 11400000, guid: e7aa4da5459ca274a9c81460d1220f48, type: 2}
+    color: {r: 0.47928923, g: 0.66444546, b: 0.66227025, a: 2}
+  - tile: {fileID: 11400000, guid: e2bbf4dc8da847f4c9a36bb055311017, type: 2}
+    color: {r: 0.5257047, g: 0.7233762, b: 0.71416974, a: 2}
+  - tile: {fileID: 11400000, guid: 0dd3a63bbeab29243988c41acbe501fc, type: 2}
+    color: {r: 0.5057905, g: 0.69731927, b: 0.6904412, a: 2}
+  - tile: {fileID: 11400000, guid: 1d9db3a077e023745b558e5f6d1ad71a, type: 2}
+    color: {r: 0.45465687, g: 0.6329197, b: 0.63325673, a: 2}
+  - tile: {fileID: 11400000, guid: a359700d4c226724ba843422a4defae2, type: 2}
+    color: {r: 0.37117034, g: 0.53406864, b: 0.53549325, a: 1.9257812}
+  - tile: {fileID: 11400000, guid: 82914bfb69d5c714ea445bc6a838d145, type: 2}
+    color: {r: 0.39791667, g: 0.57478553, b: 0.57196695, a: 1.9453125}
+  - tile: {fileID: 11400000, guid: 5e7ea81ab09ce7c419167b1a821776a0, type: 2}
+    color: {r: 0.3832108, g: 0.55340075, b: 0.55306375, a: 1.9375}
+  - tile: {fileID: 11400000, guid: 24bed7628b5e19646b53b59b6348e389, type: 2}
+    color: {r: 0.3619179, g: 0.51835173, b: 0.52140015, a: 1.9257812}
+  - tile: {fileID: 11400000, guid: 66003e790b0269c439b3730246e8f66d, type: 2}
+    color: {r: 0.25343138, g: 0.22162993, b: 0.2661152, a: 0.8250612}
+  - tile: {fileID: 11400000, guid: 09ab44e18d91aff4abcea4ed7383e25f, type: 2}
+    color: {r: 0.9721432, g: 0.81899315, b: 0.48224983, a: 0.32124868}
+  - tile: {fileID: 11400000, guid: a4cb4ed9b8cdcc042a4c1949e783698f, type: 2}
+    color: {r: 0.96657884, g: 0.8142799, b: 0.47915417, a: 0.3662605}
+  - tile: {fileID: 11400000, guid: 9c21510cf0ae0fd469b868869c5be2f1, type: 2}
+    color: {r: 0.88588154, g: 0.74072826, b: 0.44713268, a: 0.5197406}
+  - tile: {fileID: 11400000, guid: b5c1e279873306d42ad6ff0b043c5f86, type: 2}
+    color: {r: 0.9506818, g: 0.7983166, b: 0.4712886, a: 0.40017408}
+  - tile: {fileID: 11400000, guid: 46b7ce276c5c1cb4aa73962fad317d1a, type: 2}
+    color: {r: 0.26412734, g: 0.5077662, b: 0.706384, a: 0.57546705}
+  - tile: {fileID: 11400000, guid: 4462b3b65457845478be0a9e2082dbb9, type: 2}
+    color: {r: 0.32007247, g: 0.48815346, b: 0.22317077, a: 0.74693704}
+  - tile: {fileID: 11400000, guid: 1fa0ae79400fa1248b100d5f12740207, type: 2}
+    color: {r: 0.3174766, g: 0.4868721, b: 0.22400562, a: 0.6807482}
+  - tile: {fileID: 11400000, guid: 4e7bd79a4e8741d49ab9f1596bad4dae, type: 2}
+    color: {r: 0.21546102, g: 0.4360359, b: 0.23581536, a: 0.690355}
+  - tile: {fileID: 11400000, guid: 1decec91388f2c344954072ed9d4b0c5, type: 2}
+    color: {r: 0.23109734, g: 0.4340496, b: 0.2289351, a: 0.6763085}
+  - tile: {fileID: 11400000, guid: dc10a1648594aa043b2986405952d753, type: 2}
+    color: {r: 0.25343138, g: 0.22162993, b: 0.2661152, a: 0.8250612}
+  - tile: {fileID: 11400000, guid: 32dfe08e04bb4cd47886ef7e493ffbcb, type: 2}
+    color: {r: 0.9721432, g: 0.81899315, b: 0.48224983, a: 0.32124868}
+  - tile: {fileID: 11400000, guid: 4650f88e51469554c8f793b115f44eb6, type: 2}
+    color: {r: 0.96657884, g: 0.8142799, b: 0.47915417, a: 0.3662605}
+  - tile: {fileID: 11400000, guid: 12182ac781180e84a831ea262b00ca8b, type: 2}
+    color: {r: 0.88588154, g: 0.74072826, b: 0.44713268, a: 0.5197406}
+  - tile: {fileID: 11400000, guid: 4ec3ae3d11fdfc6458283583f6e9a2fb, type: 2}
+    color: {r: 0.9506818, g: 0.7983166, b: 0.4712886, a: 0.40017408}
+  - tile: {fileID: 11400000, guid: 9824bdecc32ede64591886d22e1166a7, type: 2}
+    color: {r: 0.26412734, g: 0.5077662, b: 0.706384, a: 0.57546705}
+  - tile: {fileID: 11400000, guid: 685457d5c7a4e914b97f13e300f7a286, type: 2}
+    color: {r: 0.32007247, g: 0.48815346, b: 0.22317077, a: 0.74693704}
+  - tile: {fileID: 11400000, guid: 06c8b88298cd4c84bbdccf7701ea681a, type: 2}
+    color: {r: 0.3174766, g: 0.4868721, b: 0.22400562, a: 0.6807482}
+  - tile: {fileID: 11400000, guid: 484ce710434e1ac45bf0bc58fb9ea13e, type: 2}
+    color: {r: 0.21546102, g: 0.4360359, b: 0.23581536, a: 0.690355}
+  - tile: {fileID: 11400000, guid: c0696a63b618de04bbcceee5b5dbf093, type: 2}
+    color: {r: 0.23109734, g: 0.4340496, b: 0.2289351, a: 0.6763085}
+  defaultColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
