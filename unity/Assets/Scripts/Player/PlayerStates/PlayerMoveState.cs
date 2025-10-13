@@ -11,6 +11,8 @@ public class PlayerMoveState : PlayerState
     public override void Enter()
     {
         //player.PlayAnimation("Run");
+        player.Animator.SetBool("facingDown", false);
+        player.Animator.SetBool("facingUp", false);
     }
 
     public override void LogicUpdate()
@@ -34,12 +36,16 @@ public class PlayerMoveState : PlayerState
         if (moveInput.y > 0)
         {
             player.Animator.SetBool("walkingUp", true);
+            player.Animator.SetBool("facingUp", true);
             player.Animator.SetBool("walking", false);
+            player.Animator.SetBool("facingDown", false);
             player.Animator.SetBool("walkingDown", false);
         }
         else if (moveInput.y < 0)
         {
             player.Animator.SetBool("walkingUp", false);
+            player.Animator.SetBool("facingUp", false);
+            player.Animator.SetBool("facingDown", true);
             player.Animator.SetBool("walkingDown", true);
             player.Animator.SetBool("walking", false);
         }
@@ -48,6 +54,11 @@ public class PlayerMoveState : PlayerState
             player.Animator.SetBool("walkingUp", false);
             player.Animator.SetBool("walkingDown", false);
             player.Animator.SetBool("walking", true);
+            if(moveInput.x != 0)
+            {
+                player.Animator.SetBool("facingUp", false);
+                player.Animator.SetBool("facingDown", false);
+            }
         }
 
         player.FlipIfNeeded(moveInput.x);
