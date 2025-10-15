@@ -35,6 +35,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/Finale/SpellTestingFinale.unity
     guid: a6566281b21c85247aa782f248280e7e
+  - enabled: 1
+    path: Assets/Game/Scenes/ronin_test/Home.unity
+    guid: 8c1f6cc39ba4ea04d9542227a31fd17e
+  - enabled: 1
+    path: Assets/Game/Scenes/ronin_test/start_scene_2.unity
+    guid: 33d6f50d5dcce2f4d9d2cbb941903206
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 86c716eb22ad030468dcf98d4de5f6fa, type: 3}

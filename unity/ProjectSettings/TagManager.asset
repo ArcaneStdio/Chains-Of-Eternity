@@ -45,5 +45,8 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Trees
+    uniqueID: 3636360431
+    locked: 0
   m_RenderingLayers:
   - Default
