@@ -4,6 +4,7 @@ using PurrNet;
 [RequireComponent(typeof(PlayerStats))]
 public class Player : NetworkBehaviour
 {
+    public bool IsNetworkActive { get; private set; }
     public PlayerStats Stats { get; private set; }
     public Animator Animator => Stats.Animator;
 
@@ -84,6 +85,14 @@ public class Player : NetworkBehaviour
         stateMachine.LogicUpdate();
         attackStateMachine.HandleInput();
         attackStateMachine.LogicUpdate();
+        if (NetworkManager.main == null)
+        {
+            IsNetworkActive = false;
+        }
+        else
+        {
+            IsNetworkActive = !NetworkManager.main.isOffline;
+        }
     }
 
     private void FixedUpdate()
