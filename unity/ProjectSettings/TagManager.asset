@@ -8,6 +8,7 @@ TagManager:
   - InventoryCanvas
   - ConversationCanvas
   - StatsCanvas
+  - walls_platue
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - wall_platue
   - 
   - Enemy
   - 
