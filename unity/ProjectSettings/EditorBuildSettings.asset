@@ -41,6 +41,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/Testing/ronin_test/start_scene_2.unity
     guid: 33d6f50d5dcce2f4d9d2cbb941903206
+  - enabled: 1
+    path: Assets/Game/Scenes/Testing/ronin_test/Mainmenu.unity
+    guid: 3c0e50a9bbdb36643a81645de8471a1d
+  - enabled: 1
+    path: Assets/Game/Scenes/Testing/ronin_test/SettingsScreen.unity
+    guid: b893c5b5907f5334ab0286cb9b940e18
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 86c716eb22ad030468dcf98d4de5f6fa, type: 3}
