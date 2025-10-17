@@ -36,7 +36,7 @@ namespace Unity.Behavior
             if (Target.Value == null)
             {
                 LogFailure("No target assigned.");
-                UnityEngine.Debug.LogError("[NavigateToTarget] Target.Value is NULL!");
+                UnityEngine.Debug.LogError("[NavigateToTarget] Target.Value is NULL! Make sure Player is set in Blackboard!");
                 return Status.Failure;
             }
 
@@ -50,7 +50,7 @@ namespace Unity.Behavior
 
             m_Animator = Agent.Value.GetComponentInChildren<Animator>();
 
-            UnityEngine.Debug.Log($"[NavigateToTarget] Starting! Agent={Agent.Value.name}, Target={Target.Value.name}, Speed={Speed.Value}");
+            UnityEngine.Debug.Log($"[NavigateToTarget] ahhhhhhhhhhhhhhhhhhhhh STARTING TO CHASE! Agent={Agent.Value.name}, Target={Target.Value.name}, Speed={Speed.Value}");
 
             // Store original values
             m_OriginalSpeed = m_NavMeshAgent.speed;
@@ -77,6 +77,13 @@ namespace Unity.Behavior
             if (Agent.Value == null || Target.Value == null || m_NavMeshAgent == null)
                 return Status.Failure;
 
+            Enemy enemyComponent = Agent.Value.GetComponent<Enemy>();
+            if (enemyComponent != null && !enemyComponent.CanSeePlayer())
+            {
+                UnityEngine.Debug.Log($"[NavigateToTarget] {Agent.Value.name} lost sight of player! Aborting chase.");
+                return Status.Failure; // sometimes not wokring ned to look into it
+            }
+
             // Update destination to follow moving target
             if (m_NavMeshAgent.isActiveAndEnabled && m_NavMeshAgent.isOnNavMesh)
             {
@@ -88,6 +95,7 @@ namespace Unity.Behavior
                     float distanceToTarget = Vector3.Distance(Agent.Value.transform.position, Target.Value.transform.position);
                     if (distanceToTarget <= DistanceThreshold.Value)
                     {
+                        UnityEngine.Debug.Log($"[NavigateToTarget] {Agent.Value.name} reached target!");
                         return Status.Success;
                     }
                 }

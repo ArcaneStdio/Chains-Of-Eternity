@@ -2,7 +2,11 @@ using UnityEngine;
 
 public class slimeEnemy : Enemy
 {      
-
+    [Header("Slime Settings")]
+    [Tooltip("Cooldown between collision damage (to prevent spamming)")]
+    public float collisionDamageCooldown = 1.5f;
+    
+    private float lastDamageTime = -999f;
 
     public override void PerformAttack()
     {
@@ -15,13 +19,24 @@ public class slimeEnemy : Enemy
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            if (Time.time - lastDamageTime < collisionDamageCooldown)
+            {
+                return;
+            }
+
             Debug.Log("Slime Enemy collided with Player!");
             // Example: Apply damage or effects to the player
             PlayerStats player = collision.gameObject.GetComponent<PlayerStats>();
             if (player != null)
             {
-                player.TakeDamage(damage, transform.position,knockbackForce: knockbackForce , applyKnockback: true, applyStun: true);
-                StateMachine.ChangeState(CooldownState);
+                player.TakeDamage(damage, transform.position, knockbackForce: knockbackForce, applyKnockback: true, applyStun: true);
+                lastDamageTime = Time.time;
+                
+                // Only change state if using State Machine (not Behavior Graph)
+                if (!useBehaviorGraph && StateMachine != null)
+                {
+                    StateMachine.ChangeState(CooldownState);
+                }
             }
         }
     }

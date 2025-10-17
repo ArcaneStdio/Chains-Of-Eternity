@@ -103,8 +103,20 @@ public class Enemy : MonoBehaviour
 
         RB = transform.GetComponent<Rigidbody2D>();
         agent = GetComponent<NavMeshAgent>();
+        
         agent.updateUpAxis = false; // Disable automatic up-axis adjustment if not needed
         agent.updateRotation = false; // Disable automatic rotation to control it manually
+        agent.updatePosition = true;
+        
+        if (RB != null)
+        {
+            RB.bodyType = RigidbodyType2D.Kinematic; 
+            RB.gravityScale = 0f; 
+            RB.isKinematic = true; 
+        }
+        
+        StartCoroutine(InitializeNavMeshAgent());
+        
         StartCoroutine(FixRotationNextFrame());
         StartCoroutine(SelectingPlayer());
     }
@@ -112,6 +124,59 @@ public class Enemy : MonoBehaviour
     {
         yield return null; // wait one frame for NavMeshAgent internal setup
         transform.rotation = Quaternion.identity; // reset to upright
+        
+    }
+
+    private IEnumerator InitializeNavMeshAgent()
+    {
+        if (agent == null) yield break;
+        
+        yield return null;
+        
+        Debug.Log($"[{Name}] Initial NavMesh check: isOnNavMesh={agent.isOnNavMesh}, enabled={agent.enabled}, Position={transform.position}");
+        
+        if (!agent.isOnNavMesh)
+        {
+            Debug.LogWarning($"[{Name}] NavMeshAgent NOT on NavMesh! Searching for nearest NavMesh point...");
+            
+            UnityEngine.AI.NavMeshHit hit;
+            if (UnityEngine.AI.NavMesh.SamplePosition(transform.position, out hit, 20f, UnityEngine.AI.NavMesh.AllAreas))
+            {
+                Debug.Log($"[{Name}] Found NavMesh at distance={hit.distance:F2}, NavMesh position={hit.position}");
+                
+                Vector3 navMeshPos = hit.position;
+                transform.position = navMeshPos;
+                
+                Debug.Log($"[{Name}] Moved enemy to NavMesh position {navMeshPos} (using NavMesh's actual Z)");
+                
+                yield return null;
+                
+                if (agent.enabled)
+                {
+                    agent.Warp(navMeshPos);
+                    Debug.Log($"[{Name}] Warped NavMeshAgent to {navMeshPos}");
+                }
+            }
+            else
+            {
+                Debug.LogError($"[{Name}] Could not find NavMesh within 20 units! Enemy at {transform.position}. PLEASE REBAKE NavMesh or reposition enemy.");
+                yield break;
+            }
+        }
+        
+        yield return null;
+        
+        Debug.Log($"[{Name}] Final NavMesh check: isOnNavMesh={agent.isOnNavMesh}, Position={transform.position}");
+        
+        if (agent.isOnNavMesh)
+        {
+            agent.isStopped = false;
+            Debug.Log($"[{Name}] ✓ NavMeshAgent successfully initialized: isOnNavMesh=TRUE, Position={transform.position}");
+        }
+        else
+        {
+            Debug.LogError($"[{Name}] ✗ FAILED to place NavMeshAgent on NavMesh! The NavMesh might not be baked at this location. Try moving the enemy or rebaking the NavMesh.");
+        }
     }
 
     // void OnEnable()
@@ -138,6 +203,11 @@ public class Enemy : MonoBehaviour
         {
             agent.updateUpAxis = false; // Disable automatic rotation to control it manually
             //Debug.Log("chagned value of update up axis " + agent.updateUpAxis);
+        }
+        
+        if (agent != null)
+        {
+            Debug.Log($"[{Name}] Start() - NavMeshAgent status: isOnNavMesh={agent.isOnNavMesh}, Position={transform.position}");
         }
         if (RB == null)
         {
@@ -215,6 +285,14 @@ public class Enemy : MonoBehaviour
             }
         }
     }
+
+    private void LateUpdate()
+    {
+        if (agent != null && agent.isOnNavMesh && !inknockback)
+        {
+            return;
+        }
+    }
     private IEnumerator SelectingPlayer()
     {
         GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
@@ -245,13 +323,25 @@ public class Enemy : MonoBehaviour
             StateMachine?.PhysicsUpdate();
         }
         
+        if (useBehaviorGraph && animator != null && Time.frameCount % 120 == 0)
+        {
+            float velocity = agent != null ? agent.velocity.magnitude : 0f;
+            bool freeRoam = animator.GetBool("freeRoam");
+            bool followPlayer = animator.GetBool("followPlayer");
+            Debug.Log($"[{Name}] Animation State: Velocity={velocity:F2}, freeRoam={freeRoam}, followPlayer={followPlayer}");
+        }
+        
         FlipIfNeeded();
     }
 
     public bool CanSeePlayer()
     {
         if (playerTransform == null)
+        {
+            if (Time.frameCount % 120 == 0)
+                Debug.LogWarning($"[{Name}] CanSeePlayer: playerTransform is NULL!");
             return false;
+        }
 
         Vector2 direction = (playerTransform.position - transform.position).normalized;
         float distance = Vector2.Distance(transform.position, playerTransform.position);
@@ -268,15 +358,20 @@ public class Enemy : MonoBehaviour
             layerMask: playerLayer | obstacleLayer // Combine masks
         );
 
-        //Debug.Log("Performed raycast for player detection");
+        //debug-aaaaaaaaaaahhhhhhhhhhhhh
+        if (Time.frameCount % 300 == 0 && distance <= visionRange)
+        {
+            Debug.Log($"[{Name}] Checking player: distance={distance:F2}, visionRange={visionRange}, hit={hit.collider?.name ?? "none"}, playerLayer={playerLayer.value}, obstacleLayer={obstacleLayer.value}");
+        }
 
         if (hit)
         {
             // If the hit is the player, return true; if it's an obstacle, return false.
             if (((1 << hit.collider.gameObject.layer) & playerLayer) != 0)
+            {
                 return true;
+            }
         }
-        //Debug.Log("Player not detected within vision range or blocked by an obstacle.");
         return false;
     }
 
