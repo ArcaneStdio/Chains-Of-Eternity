@@ -6,6 +6,7 @@ public class PlayerQuestTracker : MonoBehaviour
     private const int MaxQuestSlots = 5;
 
     [Header("Player Quest Slots (Max 5)")]
+    [Tooltip("Pre-assigned Quest ScriptableObjects (5)")]
     public Quest[] questSlots = new Quest[MaxQuestSlots];
 
     private QuestManager questManager;
@@ -14,53 +15,95 @@ public class PlayerQuestTracker : MonoBehaviour
     {
         questManager = QuestManager.Instance;
         if (questManager == null)
-        {
             Debug.LogError("❌ QuestManager instance not found in the scene!");
-        }
     }
 
     /// <summary>
-    /// Assigns a new quest to the first available slot.
+    /// Assigns quest data into the first available quest slot (only if a free slot exists).
     /// </summary>
-    public bool AssignQuest(Quest quest)
+    public bool AssignQuest(Quest sourceQuest)
     {
-        if (quest == null)
+        if (sourceQuest == null)
         {
             Debug.LogWarning("⚠️ Attempted to assign a null quest!");
             return false;
         }
 
-        // Prevent duplicate active quest
+        // Prevent duplicates
         foreach (var q in questSlots)
         {
-            if (q == quest && q.state == QuestState.Active)
+            if (q != null && q.questID == sourceQuest.questID && q.state == QuestState.Active)
             {
-                Debug.LogWarning($"⚠️ Quest '{quest.questName}' already active!");
+                Debug.LogWarning($"⚠️ Quest '{sourceQuest.questName}' is already active!");
                 return false;
             }
         }
 
-        // Find first free slot
+        // Find a NotAssigned slot
+        int freeSlotIndex = -1;
         for (int i = 0; i < MaxQuestSlots; i++)
         {
-            if (questSlots[i] == null || questSlots[i].state == QuestState.NotAssigned || questSlots[i].state == QuestState.Failed)
+            if (questSlots[i] == null)
             {
-                quest.Assign();
-                questSlots[i] = quest;
-                questManager?.AddQuest(quest);
+                Debug.LogError($"⚠️ Quest slot {i + 1} is missing a Quest ScriptableObject reference!");
+                return false;
+            }
 
-                Debug.Log($"🧾 Quest Assigned: {quest.questName} → Slot {i + 1}");
-                return true;
+            if (questSlots[i].state == QuestState.NotAssigned)
+            {
+                freeSlotIndex = i;
+                break;
             }
         }
 
-        Debug.LogWarning("⚠️ No free quest slots available!");
-        return false;
+        if (freeSlotIndex == -1)
+        {
+            Debug.LogWarning("⚠️ Cannot accept new quest — all 5 quest slots are currently filled!");
+            return false;
+        }
+
+        Quest targetQuest = questSlots[freeSlotIndex];
+
+        // Copy data first
+        CopyQuestData(sourceQuest, targetQuest);
+
+        // Then explicitly activate it
+        targetQuest.Assign();
+        targetQuest.state = QuestState.Active;
+
+        questManager?.AddQuest(targetQuest);
+        Debug.Log($"🧾 Quest Assigned: {sourceQuest.questName} → Slot {freeSlotIndex + 1}");
+        return true;
     }
 
+
     /// <summary>
-    /// Abandons an active quest and frees up the slot.
+    /// Copies all relevant data from source quest to target quest (in-place overwrite).
     /// </summary>
+    private void CopyQuestData(Quest source, Quest target)
+    {
+        target.questID = source.questID;
+        target.questName = source.questName;
+        target.questDescription = source.questDescription;
+        target.experienceReward = source.experienceReward;
+        target.tokenReward = source.tokenReward;
+        target.rarity = source.rarity;
+        target.recommendedLevel = source.recommendedLevel;
+        // Deep copy objectives
+        target.objectives.Clear();
+        foreach (var obj in source.objectives)
+        {
+            QuestObjective newObj = new QuestObjective
+            {
+                enemyType = obj.enemyType,
+                requiredKills = obj.requiredKills,
+                currentKills = 0
+            };
+            target.objectives.Add(newObj);
+        }
+
+    }
+
     public void AbandonQuest(int slotIndex)
     {
         if (slotIndex < 0 || slotIndex >= MaxQuestSlots)
@@ -74,7 +117,8 @@ public class PlayerQuestTracker : MonoBehaviour
         {
             quest.MarkFailed();
             questManager?.RemoveQuest(quest);
-            questSlots[slotIndex] = null;
+            quest.state = QuestState.NotAssigned;
+            quest.ResetProgress();
 
             Debug.Log($"🚫 Quest Abandoned: {quest.questName}");
         }
@@ -84,9 +128,6 @@ public class PlayerQuestTracker : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Called when the player kills an enemy.
-    /// </summary>
     public void OnEnemyKilled(EnemyType type)
     {
         bool anyUpdated = false;
@@ -104,22 +145,16 @@ public class PlayerQuestTracker : MonoBehaviour
             questManager?.RegisterEnemyKill(type);
     }
 
-    /// <summary>
-    /// Checks if a given quest is currently assigned and active.
-    /// </summary>
     public bool HasQuest(Quest quest)
     {
         foreach (var q in questSlots)
         {
-            if (q == quest && q.state == QuestState.Active)
+            if (q != null && q.questID == quest.questID && q.state == QuestState.Active)
                 return true;
         }
         return false;
     }
 
-    /// <summary>
-    /// Returns all quests that should be shown in the GUI (active or completed).
-    /// </summary>
     public Quest[] GetVisibleQuests()
     {
         List<Quest> visible = new();
@@ -131,9 +166,6 @@ public class PlayerQuestTracker : MonoBehaviour
         return visible.ToArray();
     }
 
-    /// <summary>
-    /// Clears all quest slots (for testing/reset).
-    /// </summary>
     public void ClearAllQuests()
     {
         for (int i = 0; i < MaxQuestSlots; i++)
@@ -141,16 +173,13 @@ public class PlayerQuestTracker : MonoBehaviour
             if (questSlots[i] != null)
             {
                 questSlots[i].ResetProgress();
+                questSlots[i].state = QuestState.NotAssigned;
                 questManager?.RemoveQuest(questSlots[i]);
-                questSlots[i] = null;
             }
         }
         Debug.Log("🧹 Cleared all quest slots.");
     }
 
-    /// <summary>
-    /// Returns the number of currently active quests.
-    /// </summary>
     public int ActiveQuestCount()
     {
         int count = 0;

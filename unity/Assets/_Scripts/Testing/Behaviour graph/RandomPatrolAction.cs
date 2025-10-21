@@ -92,7 +92,7 @@ namespace Unity.Behavior
                 {
                     if (m_NavMeshAgent != null && m_NavMeshAgent.isOnNavMesh)
                     {
-                        UnityEngine.Debug.Log($"[RandomPatrol] {Agent.Value.name}: Distance={distance:F2}, Velocity={m_NavMeshAgent.velocity.magnitude:F2}, Speed={m_NavMeshAgent.speed}, IsStopped={m_NavMeshAgent.isStopped}, HasPath={m_NavMeshAgent.hasPath}");
+//                        UnityEngine.Debug.Log($"[RandomPatrol] {Agent.Value.name}: Distance={distance:F2}, Velocity={m_NavMeshAgent.velocity.magnitude:F2}, Speed={m_NavMeshAgent.speed}, IsStopped={m_NavMeshAgent.isStopped}, HasPath={m_NavMeshAgent.hasPath}");
                     }
                     else if (m_NavMeshAgent != null)
                     {

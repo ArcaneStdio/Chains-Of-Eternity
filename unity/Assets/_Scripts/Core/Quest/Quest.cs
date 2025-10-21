@@ -23,10 +23,8 @@ public class Quest : ScriptableObject
     public QuestState state = QuestState.NotAssigned;
 
     [Header("Tracking Info")]
-    public DateTime assignedTime;   // optional (for on-chain timing or expiry)
-
-
-
+    public DateTime assignedTime;
+    public DateTime? expiryTime;   // optional (for on-chain timing or expiry)
 
     public bool IsCompleted
     {
@@ -83,7 +81,7 @@ public class Quest : ScriptableObject
         foreach (var obj in objectives)
             obj.currentKills = 0;
 
-        state = QuestState.NotAssigned;
+        //state = QuestState.NotAssigned;
     }
 
     public void Assign()

@@ -12,10 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7e6f8d8b663a9e4dba6918e4765b1a3, type: 3}
   m_Name: Quest4
   m_EditorClassIdentifier: Assembly-CSharp::Quest
-  questID: 
-  questName: 
-  questDescription: 
-  objectives: []
-  experienceReward: 0
-  tokenReward: 0
+  questID: Q3
+  questName: Quest #3
+  rarity: 0
+  questDescription: Defeat 3 enemies for Quest #3.
+  objectives:
+  - enemyType: 1
+    requiredKills: 2
+    currentKills: 0
+  - enemyType: 4
+    requiredKills: 2
+    currentKills: 0
+  experienceReward: 136
+  tokenReward: 45
+  recommendedLevel: 3
   state: 0

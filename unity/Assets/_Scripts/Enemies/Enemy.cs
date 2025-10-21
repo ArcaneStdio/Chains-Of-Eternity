@@ -133,7 +133,7 @@ public class Enemy : MonoBehaviour
         
         yield return null;
         
-        Debug.Log($"[{Name}] Initial NavMesh check: isOnNavMesh={agent.isOnNavMesh}, enabled={agent.enabled}, Position={transform.position}");
+//        Debug.Log($"[{Name}] Initial NavMesh check: isOnNavMesh={agent.isOnNavMesh}, enabled={agent.enabled}, Position={transform.position}");
         
         if (!agent.isOnNavMesh)
         {

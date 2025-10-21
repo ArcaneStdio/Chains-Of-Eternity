@@ -10,20 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c7e6f8d8b663a9e4dba6918e4765b1a3, type: 3}
-  m_Name: Quest1
+  m_Name: QuestBoard 6
   m_EditorClassIdentifier: Assembly-CSharp::Quest
-  questID: Q8
-  questName: Quest #8
-  rarity: 3
-  questDescription: Defeat 3 enemies for Quest #8.
-  objectives:
-  - enemyType: 1
-    requiredKills: 3
-    currentKills: 0
-  - enemyType: 4
-    requiredKills: 1
-    currentKills: 0
-  experienceReward: 185
-  tokenReward: 20
-  recommendedLevel: 9
+  questID: 
+  questName: 
+  rarity: 0
+  questDescription: 
+  objectives: []
+  experienceReward: 0
+  tokenReward: 0
+  recommendedLevel: 
   state: 0
