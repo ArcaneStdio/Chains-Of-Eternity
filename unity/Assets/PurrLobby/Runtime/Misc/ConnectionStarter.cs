@@ -35,22 +35,6 @@ namespace PurrLobby
                 return;
             }
             
-            if (!_lobbyDataHolder)
-            {
-                PurrLogger.LogError($"Failed to start connection. {nameof(LobbyDataHolder)} is null!", this);
-                return;
-            }
-            
-            if (!_lobbyDataHolder.CurrentLobby.IsValid)
-            {
-                PurrLogger.LogError($"Failed to start connection. Lobby is invalid!", this);
-                return;
-            }
-
-            if(_networkManager.transport is PurrTransport) {
-                (_networkManager.transport as PurrTransport).roomName = _lobbyDataHolder.CurrentLobby.LobbyId;
-            } 
-            
 #if UTP_LOBBYRELAY
             else if(_networkManager.transport is UTPTransport) {
                 if(_lobbyDataHolder.CurrentLobby.IsOwner) {
@@ -67,6 +51,23 @@ namespace PurrLobby
             StartCoroutine(StartClient());
         }
 
+        private void StartFromLobby(){
+            if (!_lobbyDataHolder)
+            {
+                PurrLogger.LogError($"Failed to start connection. {nameof(LobbyDataHolder)} is null!", this);
+                return;
+            }
+            
+            if (!_lobbyDataHolder.CurrentLobby.IsValid)
+            {
+                PurrLogger.LogError($"Failed to start connection. Lobby is invalid!", this);
+                return;
+            }
+
+            if(_networkManager.transport is PurrTransport) {
+                (_networkManager.transport as PurrTransport).roomName = _lobbyDataHolder.CurrentLobby.LobbyId;
+            } 
+        }
         private IEnumerator StartClient()
         {
             yield return new WaitForSeconds(1f);
