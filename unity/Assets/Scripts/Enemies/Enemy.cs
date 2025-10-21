@@ -8,7 +8,7 @@ using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] protected Transform playerTransform; // Reference to the player's transform
+    [SerializeField] Transform playerTransform; // Reference to the player's transform
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private float followOffset = 0.5f; // Offset to maintain while following the player    
     [Header("Enemy Stats")]
@@ -60,6 +60,10 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float roamRadius = 5f;
     [SerializeField] private LayerMask groundLayer;
 
+    [Header("Behavior System")]
+    [Tooltip("If true, uses Behavior Graph. If false, uses State Machine.")]
+    public bool useBehaviorGraph = false;
+
     // Animator for the enemy reference
     public Animator animator;
 
@@ -99,8 +103,20 @@ public class Enemy : MonoBehaviour
 
         RB = transform.GetComponent<Rigidbody2D>();
         agent = GetComponent<NavMeshAgent>();
+        
         agent.updateUpAxis = false; // Disable automatic up-axis adjustment if not needed
         agent.updateRotation = false; // Disable automatic rotation to control it manually
+        agent.updatePosition = true;
+        
+        if (RB != null)
+        {
+            RB.bodyType = RigidbodyType2D.Kinematic; 
+            RB.gravityScale = 0f; 
+            RB.isKinematic = true; 
+        }
+        
+        StartCoroutine(InitializeNavMeshAgent());
+        
         StartCoroutine(FixRotationNextFrame());
         StartCoroutine(SelectingPlayer());
     }
@@ -108,6 +124,59 @@ public class Enemy : MonoBehaviour
     {
         yield return null; // wait one frame for NavMeshAgent internal setup
         transform.rotation = Quaternion.identity; // reset to upright
+        
+    }
+
+    private IEnumerator InitializeNavMeshAgent()
+    {
+        if (agent == null) yield break;
+        
+        yield return null;
+        
+        Debug.Log($"[{Name}] Initial NavMesh check: isOnNavMesh={agent.isOnNavMesh}, enabled={agent.enabled}, Position={transform.position}");
+        
+        if (!agent.isOnNavMesh)
+        {
+            Debug.LogWarning($"[{Name}] NavMeshAgent NOT on NavMesh! Searching for nearest NavMesh point...");
+            
+            UnityEngine.AI.NavMeshHit hit;
+            if (UnityEngine.AI.NavMesh.SamplePosition(transform.position, out hit, 20f, UnityEngine.AI.NavMesh.AllAreas))
+            {
+                Debug.Log($"[{Name}] Found NavMesh at distance={hit.distance:F2}, NavMesh position={hit.position}");
+                
+                Vector3 navMeshPos = hit.position;
+                transform.position = navMeshPos;
+                
+                Debug.Log($"[{Name}] Moved enemy to NavMesh position {navMeshPos} (using NavMesh's actual Z)");
+                
+                yield return null;
+                
+                if (agent.enabled)
+                {
+                    agent.Warp(navMeshPos);
+                    Debug.Log($"[{Name}] Warped NavMeshAgent to {navMeshPos}");
+                }
+            }
+            else
+            {
+                Debug.LogError($"[{Name}] Could not find NavMesh within 20 units! Enemy at {transform.position}. PLEASE REBAKE NavMesh or reposition enemy.");
+                yield break;
+            }
+        }
+        
+        yield return null;
+        
+        Debug.Log($"[{Name}] Final NavMesh check: isOnNavMesh={agent.isOnNavMesh}, Position={transform.position}");
+        
+        if (agent.isOnNavMesh)
+        {
+            agent.isStopped = false;
+            Debug.Log($"[{Name}] ✓ NavMeshAgent successfully initialized: isOnNavMesh=TRUE, Position={transform.position}");
+        }
+        else
+        {
+            Debug.LogError($"[{Name}] ✗ FAILED to place NavMeshAgent on NavMesh! The NavMesh might not be baked at this location. Try moving the enemy or rebaking the NavMesh.");
+        }
     }
 
     // void OnEnable()
@@ -135,6 +204,11 @@ public class Enemy : MonoBehaviour
             agent.updateUpAxis = false; // Disable automatic rotation to control it manually
             //Debug.Log("chagned value of update up axis " + agent.updateUpAxis);
         }
+        
+        if (agent != null)
+        {
+            Debug.Log($"[{Name}] Start() - NavMeshAgent status: isOnNavMesh={agent.isOnNavMesh}, Position={transform.position}");
+        }
         if (RB == null)
         {
             //Debug.LogError("Rigidbody2D component is missing on the enemy!");
@@ -146,30 +220,78 @@ public class Enemy : MonoBehaviour
         //Debug.Log("yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy");
         currentHealth = maxHealth; // Initialize current health to max health
 
-        //Debug.Log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-        StateMachine = new StateMachine<Enemy>();
-        //simpleRandomContract = new SimpleRandomContract();
+        // Only initialize state machine if not using Behavior Graph
+        if (!useBehaviorGraph)
+        {
+            Debug.Log($"[{Name}] Using STATE MACHINE AI");
+            //Debug.Log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+            StateMachine = new StateMachine<Enemy>();
+            //simpleRandomContract = new SimpleRandomContract();
 
-        //Debug.Log("bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb");
-        IdleState = new IdleState(this, StateMachine);
-        FreeRoamingState = new FreeRoamingState(this, StateMachine);
-        FollowState = new FollowState(this, StateMachine);
-        AttackState = new AttackState(this, StateMachine);
-        StunState = new StunState(this, StateMachine);
-        CooldownState = new CooldownState(this, StateMachine, AttackCooldown);
-        //Debug.Log("ccccccccccccccccccccccccccccccccccccccccc");
-        StateMachine.Initialize(IdleState);
-        //Debug.Log("Current state of enemyh in start func " + StateMachine.CurrentState);
+            //Debug.Log("bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb");
+            IdleState = new IdleState(this, StateMachine);
+            FreeRoamingState = new FreeRoamingState(this, StateMachine);
+            FollowState = new FollowState(this, StateMachine);
+            AttackState = new AttackState(this, StateMachine);
+            StunState = new StunState(this, StateMachine);
+            CooldownState = new CooldownState(this, StateMachine, AttackCooldown);
+            //Debug.Log("ccccccccccccccccccccccccccccccccccccccccc");
+            StateMachine.Initialize(IdleState);
+            //Debug.Log("Current state of enemyh in start func " + StateMachine.CurrentState);
+        }
+        else
+        {
+            Debug.Log($"[{Name}] Using BEHAVIOR GRAPH AI ✓");
+            
+            // Check if BehaviorGraphAgent exists
+            var behaviorAgent = GetComponent<Unity.Behavior.BehaviorGraphAgent>();
+            if (behaviorAgent != null)
+            {
+                Debug.Log($"[{Name}] BehaviorGraphAgent found! Graph={behaviorAgent.Graph?.name ?? "NULL"}");
+            }
+            else
+            {
+                Debug.LogError($"[{Name}] NO BehaviorGraphAgent component!");
+            }
+        }
+        
         expAward = (int)UnityEngine.Random.Range(minExpAward, maxExpAward);
         // StartCoroutine(enumerator());
     }
 
     public void Update()
     {
-        StateMachine?.LogicUpdate();
+        // Only run state machine if not using Behavior Graph
+        if (!useBehaviorGraph)
+        {
+            StateMachine?.LogicUpdate();
+        }
+        
         CheckVerticalMovement();
-        animator.SetBool("movingUp", movingUp);
-        animator.SetBool("movingDown", movingDown);
+        
+        // Only set animator parameters if they exist
+        if (animator != null)
+        {
+            foreach (AnimatorControllerParameter param in animator.parameters)
+            {
+                if (param.name == "movingUp")
+                {
+                    animator.SetBool("movingUp", movingUp);
+                }
+                if (param.name == "movingDown")
+                {
+                    animator.SetBool("movingDown", movingDown);
+                }
+            }
+        }
+    }
+
+    private void LateUpdate()
+    {
+        if (agent != null && agent.isOnNavMesh && !inknockback)
+        {
+            return;
+        }
     }
     private IEnumerator SelectingPlayer()
     {
@@ -195,14 +317,31 @@ public class Enemy : MonoBehaviour
 
     private void FixedUpdate()
     {
-        StateMachine?.PhysicsUpdate();
+        // Only run state machine physics if not using Behavior Graph
+        if (!useBehaviorGraph)
+        {
+            StateMachine?.PhysicsUpdate();
+        }
+        
+        if (useBehaviorGraph && animator != null && Time.frameCount % 120 == 0)
+        {
+            float velocity = agent != null ? agent.velocity.magnitude : 0f;
+            bool freeRoam = animator.GetBool("freeRoam");
+            bool followPlayer = animator.GetBool("followPlayer");
+            Debug.Log($"[{Name}] Animation State: Velocity={velocity:F2}, freeRoam={freeRoam}, followPlayer={followPlayer}");
+        }
+        
         FlipIfNeeded();
     }
 
     public bool CanSeePlayer()
     {
         if (playerTransform == null)
+        {
+            if (Time.frameCount % 120 == 0)
+                Debug.LogWarning($"[{Name}] CanSeePlayer: playerTransform is NULL!");
             return false;
+        }
 
         Vector2 direction = (playerTransform.position - transform.position).normalized;
         float distance = Vector2.Distance(transform.position, playerTransform.position);
@@ -219,15 +358,20 @@ public class Enemy : MonoBehaviour
             layerMask: playerLayer | obstacleLayer // Combine masks
         );
 
-        //Debug.Log("Performed raycast for player detection");
+        //debug-aaaaaaaaaaahhhhhhhhhhhhh
+        if (Time.frameCount % 300 == 0 && distance <= visionRange)
+        {
+            Debug.Log($"[{Name}] Checking player: distance={distance:F2}, visionRange={visionRange}, hit={hit.collider?.name ?? "none"}, playerLayer={playerLayer.value}, obstacleLayer={obstacleLayer.value}");
+        }
 
         if (hit)
         {
             // If the hit is the player, return true; if it's an obstacle, return false.
             if (((1 << hit.collider.gameObject.layer) & playerLayer) != 0)
+            {
                 return true;
+            }
         }
-        //Debug.Log("Player not detected within vision range or blocked by an obstacle.");
         return false;
     }
 
@@ -264,6 +408,10 @@ public class Enemy : MonoBehaviour
 
         currentHealth = Mathf.Max(0, currentHealth - effectiveDamage);
         animator.SetBool("isHit", true);
+        
+        //backup[s]
+        StartCoroutine(ResetHitAnimation(0.5f));
+        
         //Debug.Log(sourcePos);
         //Debug.Log(transform.position);
         //Debug.Log(transform.position - sourcePos);
@@ -301,13 +449,18 @@ public class Enemy : MonoBehaviour
         yield return new WaitForSeconds(duration);
         RB.linearVelocity = Vector2.zero;
         agent.enabled = true;
-        if (applyStun)
+        
+        // Only use state machine if not using Behavior Graph
+        if (!useBehaviorGraph && StateMachine != null)
         {
-            StateMachine.ChangeState(StunState);
-        }
-        else
-        {
-            StateMachine.ChangeState(FreeRoamingState); // Return to idle state if not stunned
+            if (applyStun)
+            {
+                StateMachine.ChangeState(StunState);
+            }
+            else
+            {
+                StateMachine.ChangeState(FreeRoamingState); // Return to idle state if not stunned
+            }
         }
         inknockback = false;
     }
@@ -340,15 +493,37 @@ public class Enemy : MonoBehaviour
     {
         hasDied = true;
 
+        if (agent != null && agent.isOnNavMesh)
+        {
+            agent.isStopped = true;
+            agent.velocity = Vector3.zero;
+        }
+
+        Collider2D col = GetComponent<Collider2D>();
+        if (col != null)
+            col.enabled = false;
+
         animator.SetBool("isDead", true);
+        animator.SetBool("isAttacking", false);
+        animator.SetBool("followPlayer", false);
+        animator.SetBool("freeRoam", false);
+        
         Debug.Log(Name + " has died.");
-        //TODO: Implement death logic, like playing a death animation, dropping loot, etc.
+        
         if (deathEffect != null)
         {
             Instantiate(deathEffect, transform.position, Quaternion.identity);
         }
         onDeath();
-        Destroy(gameObject); // For now, just destroy the enemy
+        
+        // Delay destruction to let death animation play
+        StartCoroutine(DestroyAfterAnimation(2f)); // TODO: adjust delay based on actual animation length
+    }
+
+    private System.Collections.IEnumerator DestroyAfterAnimation(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        Destroy(gameObject);
     }
     public virtual void PerformAttack()
     {
@@ -362,6 +537,12 @@ public class Enemy : MonoBehaviour
 
     public void hitAnimComplete()
     {
+        animator.SetBool("isHit", false);
+    }
+
+    private System.Collections.IEnumerator ResetHitAnimation(float delay)
+    {
+        yield return new WaitForSeconds(delay);
         animator.SetBool("isHit", false);
     }
 
@@ -405,15 +586,23 @@ public class Enemy : MonoBehaviour
     // }
     private void CheckVerticalMovement()
     {
+        // Reset flags
+        movingUp = false;
+        movingDown = false;
+        
+        if (agent == null || !agent.isActiveAndEnabled || !agent.hasPath)
+            return;
+            
         Vector2 directionToDestination = agent.destination - transform.position;
+        
+        // Check if destination is valid
+        if (directionToDestination.magnitude < 0.01f)
+            return;
+            
         directionToDestination.Normalize();
 
         // Get the signed angle relative to the y-axis
         float angle = Vector2.SignedAngle(Vector2.up, directionToDestination);
-
-        // Reset flags
-        movingUp = false;
-        movingDown = false;
 
         // Check if within threshold
         if (Mathf.Abs(angle) <= verticalAngleThreshold)
@@ -425,11 +614,6 @@ public class Enemy : MonoBehaviour
         {
             movingDown = true;
             movingUp = false;
-        }
-        else
-        {
-            movingUp = false;
-            movingDown = false;
         }
     }
 

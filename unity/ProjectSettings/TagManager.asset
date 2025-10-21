@@ -8,6 +8,7 @@ TagManager:
   - InventoryCanvas
   - ConversationCanvas
   - StatsCanvas
+  - walls_platue
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - wall_platue
   - 
   - Enemy
   - 
@@ -44,6 +45,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Trees
+    uniqueID: 3636360431
     locked: 0
   m_RenderingLayers:
   - Default

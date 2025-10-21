@@ -13,6 +13,8 @@ public class PlayerStats : NetworkBehaviour
     [SerializeField] public SyncVar<float> currentMana;
     [SerializeField] public SyncVar<float> currentEnergy;
 
+    public bool IsNetworkActive { get; private set; }
+
     [Header("Settings")]
     public int RegenerateResourcesRate = 1;
     private float regenTimer = 0f;
@@ -49,15 +51,36 @@ public class PlayerStats : NetworkBehaviour
         currentMana.value = heroData.specialStats.maxMana;
         currentEnergy.value = heroData.specialStats.maxEnergy;
     }
-
-    [ServerRpc(requireOwnership:false)]
     public void ChangeHealth(float newHealth)
+    {
+        if (IsNetworkActive)
+        {
+            // Call the actual RPC only when server is running
+            ChangeHealthServerRpc(newHealth);
+        }
+        else
+        {
+            // Directly modify local value for singleplayer
+            currentHealth.value = newHealth;
+        }
+    }
+
+    [ServerRpc(requireOwnership: false)]
+    private void ChangeHealthServerRpc(float newHealth)
     {
         currentHealth.value = newHealth;
     }
 
     private void FixedUpdate()
     {
+        if (NetworkManager.main == null)
+        {
+            IsNetworkActive = false;
+        }
+        else
+        {
+            IsNetworkActive = !NetworkManager.main.isOffline;
+        }
         regenTimer += Time.fixedDeltaTime;
         if (regenTimer >= RegenerateResourcesRate)
         {
@@ -98,6 +121,10 @@ public class PlayerStats : NetworkBehaviour
 
     public void RegenerateResources()
     {
+        if(heroData == null)
+        {
+            Debug.Log("HeroData is null in RegenerateResources");
+        }
         float newHealth = Mathf.Min(heroData.defensiveStats.maxHealth, currentHealth.value + heroData.defensiveStats.healthRegeneration);
         ChangeHealth(newHealth);
         currentMana.value = Mathf.Min(heroData.specialStats.maxMana, currentMana.value + heroData.specialStats.manaRegeneration);
