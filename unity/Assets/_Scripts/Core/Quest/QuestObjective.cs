@@ -6,7 +6,7 @@ public class QuestObjective
     [Header("Enemy Kill Requirement")]
     public EnemyType enemyType;
     public int requiredKills;
-    public int currentKills;
+    public int currentKills;    
 
     public bool IsComplete => currentKills >= requiredKills;
 

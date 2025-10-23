@@ -9,7 +9,9 @@ public class Quest : ScriptableObject
     public string questID;
     public string questName;
     public QuestRarity rarity;
-    [TextArea] public string questDescription;
+
+    [TextArea]
+    public string questDescription;
 
     [Header("Objectives")]
     public List<QuestObjective> objectives = new();
@@ -24,7 +26,7 @@ public class Quest : ScriptableObject
 
     [Header("Tracking Info")]
     public DateTime assignedTime;
-    public DateTime? expiryTime;   // optional (for on-chain timing or expiry)
+    public DateTime? expiryTime; // optional (for on-chain timing or expiry)
 
     public bool IsCompleted
     {

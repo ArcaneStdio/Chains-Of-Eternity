@@ -1,6 +1,6 @@
 using System.Collections;
-using UnityEngine;
 using PurrNet;
+using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator))]
 public class PlayerStats : NetworkBehaviour
@@ -8,10 +8,16 @@ public class PlayerStats : NetworkBehaviour
     [Header("Hero Data")]
     public HeroData heroData; // ScriptableObject reference
     public Animator Animator { get; private set; }
+
     // Synced values
-    [SerializeField] public SyncVar<float> currentHealth;
-    [SerializeField] public SyncVar<float> currentMana;
-    [SerializeField] public SyncVar<float> currentEnergy;
+    [SerializeField]
+    public SyncVar<float> currentHealth;
+
+    [SerializeField]
+    public SyncVar<float> currentMana;
+
+    [SerializeField]
+    public SyncVar<float> currentEnergy;
 
     public bool IsNetworkActive { get; private set; }
 
@@ -40,9 +46,12 @@ public class PlayerStats : NetworkBehaviour
         originalColor = spriteRenderer.color;
         StartCoroutine(StartAfter2s());
     }
-    private void Start(){
+
+    private void Start()
+    {
         StartCoroutine(StartAfter2s());
     }
+
     private IEnumerator StartAfter2s()
     {
         // Initialize values on server
@@ -50,7 +59,14 @@ public class PlayerStats : NetworkBehaviour
         ChangeHealth(heroData.defensiveStats.maxHealth);
         currentMana.value = heroData.specialStats.maxMana;
         currentEnergy.value = heroData.specialStats.maxEnergy;
+        heroData.ApplyStatScaling(
+            heroData.statPointsAssigned,
+            heroData.offensiveStats,
+            heroData.defensiveStats,
+            heroData.specialStats
+        );
     }
+
     public void ChangeHealth(float newHealth)
     {
         if (IsNetworkActive)
@@ -90,22 +106,35 @@ public class PlayerStats : NetworkBehaviour
     }
 
     #region Resource Management
-    public void TakeDamage(int damage, Vector3 sourcePos, float knockbackForce = 10f, bool applyKnockback = true, bool applyStun = true)
+    public void TakeDamage(
+        int damage,
+        Vector3 sourcePos,
+        float knockbackForce = 10f,
+        bool applyKnockback = true,
+        bool applyStun = true
+    )
     {
-        if (isInvincible) return;
+        if (isInvincible)
+            return;
 
         int effectiveDamage = Mathf.Max(0, damage - heroData.defensiveStats.defense);
         float newHealth = Mathf.Max(0, currentHealth.value - effectiveDamage);
         ChangeHealth(newHealth);
-        Debug.Log($"{heroData.playerName} took {effectiveDamage} damage. Current Health: {currentHealth.value}/{heroData.defensiveStats.maxHealth}");
+        Debug.Log(
+            $"{heroData.playerName} took {effectiveDamage} damage. Current Health: {currentHealth.value}/{heroData.defensiveStats.maxHealth}"
+        );
 
         if (applyKnockback)
         {
             ApplyKnockback((transform.position - sourcePos).normalized, knockbackForce, applyStun);
-            if (knockbackForce > 10f) ShakeCamera();
-            if (flash){ 
-                if(!isFlashing){
-                StartCoroutine(FlashOnHit());}
+            if (knockbackForce > 10f)
+                ShakeCamera();
+            if (flash)
+            {
+                if (!isFlashing)
+                {
+                    StartCoroutine(FlashOnHit());
+                }
             }
         }
 
@@ -113,30 +142,44 @@ public class PlayerStats : NetworkBehaviour
             Die();
     }
 
-    public void UseMana(int amount) =>
-        currentMana.value = Mathf.Max(0, currentMana.value - amount);
+    public void UseMana(int amount) => currentMana.value = Mathf.Max(0, currentMana.value - amount);
 
     public void UseEnergy(int amount) =>
         currentEnergy.value = Mathf.Max(0, currentEnergy.value - amount);
 
     public void RegenerateResources()
     {
-        if(heroData == null)
+        if (heroData == null)
         {
             Debug.Log("HeroData is null in RegenerateResources");
         }
-        float newHealth = Mathf.Min(heroData.defensiveStats.maxHealth, currentHealth.value + heroData.defensiveStats.healthRegeneration);
+        float newHealth = Mathf.Min(
+            heroData.defensiveStats.maxHealth,
+            currentHealth.value + heroData.defensiveStats.healthRegeneration
+        );
         ChangeHealth(newHealth);
-        currentMana.value = Mathf.Min(heroData.specialStats.maxMana, currentMana.value + heroData.specialStats.manaRegeneration);
-        currentEnergy.value = Mathf.Min(heroData.specialStats.maxEnergy, currentEnergy.value + heroData.specialStats.energyRegeneration);
+        currentMana.value = Mathf.Min(
+            heroData.specialStats.maxMana,
+            currentMana.value + heroData.specialStats.manaRegeneration
+        );
+        currentEnergy.value = Mathf.Min(
+            heroData.specialStats.maxEnergy,
+            currentEnergy.value + heroData.specialStats.energyRegeneration
+        );
     }
     #endregion
 
     #region Knockback + Death
-    public void ApplyKnockback(Vector2 direction, float force, bool applyStun, float duration = 0.2f)
+    public void ApplyKnockback(
+        Vector2 direction,
+        float force,
+        bool applyStun,
+        float duration = 0.2f
+    )
     {
         StartCoroutine(KnockbackRoutine(direction, force, duration, applyStun));
     }
+
     public void Enable_DisableInput(bool check)
     {
         // This method can be used to disable player input during certain states (e.g., stunned, dashing)
@@ -154,7 +197,13 @@ public class PlayerStats : NetworkBehaviour
             InputManager.Instance.DisableInput();
         }
     }
-    private IEnumerator KnockbackRoutine(Vector2 direction, float force, float duration, bool applyStun)
+
+    private IEnumerator KnockbackRoutine(
+        Vector2 direction,
+        float force,
+        float duration,
+        bool applyStun
+    )
     {
         rb.linearVelocity = Vector2.zero;
         rb.AddForce(direction.normalized * force, ForceMode2D.Impulse);
@@ -183,9 +232,10 @@ public class PlayerStats : NetworkBehaviour
 
     #region Visual Effects
     private IEnumerator FlashOnHit()
-    {   
+    {
         isFlashing = true;
-        if (spriteRenderer == null) yield break;
+        if (spriteRenderer == null)
+            yield break;
         spriteRenderer.color = Color.red * 2;
         yield return new WaitForSeconds(0.2f);
         isFlashing = false;
@@ -206,7 +256,8 @@ public class PlayerStats : NetworkBehaviour
         {
             elapsed += Time.deltaTime;
             Vector2 randomOffset = UnityEngine.Random.insideUnitCircle * magnitude;
-            cameraTransform.localPosition = originalLocalPosition + new Vector3(randomOffset.x, randomOffset.y, 0f);
+            cameraTransform.localPosition =
+                originalLocalPosition + new Vector3(randomOffset.x, randomOffset.y, 0f);
             yield return null;
         }
 

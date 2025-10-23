@@ -3,120 +3,137 @@ using UnityEngine;
 
 public class StatsFunctions : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI strengthText;
-    [SerializeField] private TextMeshProUGUI dexterityText;
-    [SerializeField] private TextMeshProUGUI constitutionText;
-    [SerializeField] private TextMeshProUGUI intelligenceText;
-    [SerializeField] private TextMeshProUGUI staminaText;
-    [SerializeField] private TextMeshProUGUI agilityText;
-    [SerializeField] private TextMeshProUGUI levelText;
+    [Header("UI References")]
+    [SerializeField]
+    private TextMeshProUGUI vitalityText;
 
-    [SerializeField] private HeroData heroData;
+    [SerializeField]
+    private TextMeshProUGUI strengthText;
+
+    [SerializeField]
+    private TextMeshProUGUI dexterityText;
+
+    [SerializeField]
+    private TextMeshProUGUI intelligenceText;
+
+    [SerializeField]
+    private TextMeshProUGUI enduranceText;
+
+    [SerializeField]
+    private TextMeshProUGUI focusText;
+
+    [SerializeField]
+    private TextMeshProUGUI levelText;
+
+    [SerializeField]
+    private HeroData heroData;
+
+    private ProgressManager pm => ProgressManager.Instance;
 
     private void Start()
     {
-        Debug.Log("Start called. Setting stat text fields.");
-
-        strengthText.text = heroData.statPointsAssigned.strength.ToString();
-        dexterityText.text = heroData.statPointsAssigned.dexterity.ToString();
-        constitutionText.text = heroData.statPointsAssigned.constitution.ToString();
-        intelligenceText.text = heroData.statPointsAssigned.intelligence.ToString();
-        staminaText.text = heroData.statPointsAssigned.stamina.ToString();
-        agilityText.text = heroData.statPointsAssigned.agility.ToString();
-        levelText.text = "Level " + heroData.level.ToString();
+        Debug.Log("Initializing stat UI with HeroData values.");
+        RefreshAllTexts();
     }
 
     private void Update()
     {
-        // Update the level text if the hero's level changes
-        if (heroData.level != int.Parse(levelText.text.Split(' ')[1]))
-        {
-            levelText.text = "Level " + heroData.level.ToString();
-        }
+        // Update level text dynamically if hero levels up
+        if (levelText.text != $"Level {heroData.level}")
+            levelText.text = $"Level {heroData.level}";
     }
 
-    public void increaseStrength()
+    // 🔄 Refresh all stat fields at once
+    private void RefreshAllTexts()
     {
-        Debug.Log("Increasing Strength");
-        ProgressManager.Instance.IncreaseStrength();
-        strengthText.text = (ProgressManager.Instance.strengthStats + ProgressManager.Instance.deltaStrength).ToString();
+        vitalityText.text = heroData.statPointsAssigned.vitality.ToString();
+        strengthText.text = heroData.statPointsAssigned.strength.ToString();
+        dexterityText.text = heroData.statPointsAssigned.dexterity.ToString();
+        intelligenceText.text = heroData.statPointsAssigned.intelligence.ToString();
+        enduranceText.text = heroData.statPointsAssigned.endurance.ToString();
+        focusText.text = heroData.statPointsAssigned.focus.ToString();
+        levelText.text = $"Level {heroData.level}";
     }
 
-    public void increaseDexterity()
+    // === Increase methods ===
+    public void IncreaseVitality()
     {
-        ProgressManager.Instance.IncreaseDexterity();
-        dexterityText.text = (ProgressManager.Instance.dexterityStats + ProgressManager.Instance.deltaDexterity).ToString();
-
+        pm.IncreaseVitality();
+        vitalityText.text = (pm.vitalityStats + pm.deltaVitality).ToString();
     }
 
-    public void increaseConstitution()
+    public void IncreaseStrength()
     {
-        ProgressManager.Instance.IncreaseConstitution();
-        constitutionText.text = (ProgressManager.Instance.constituionStats + ProgressManager.Instance.deltaConstitution).ToString();
-
+        pm.IncreaseStrength();
+        strengthText.text = (pm.strengthStats + pm.deltaStrength).ToString();
     }
 
-    public void increaseIntelligence()
+    public void IncreaseDexterity()
     {
-        ProgressManager.Instance.IncreaseIntelligence();
-        intelligenceText.text = (ProgressManager.Instance.intelligenceStats + ProgressManager.Instance.deltaIntelligence).ToString();
-
+        pm.IncreaseDexterity();
+        dexterityText.text = (pm.dexterityStats + pm.deltaDexterity).ToString();
     }
 
-    public void increaseStamina()
+    public void IncreaseIntelligence()
     {
-        ProgressManager.Instance.IncreaseStamina();
-        staminaText.text = (ProgressManager.Instance.staminaStats + ProgressManager.Instance.deltaStamina).ToString();
-
+        pm.IncreaseIntelligence();
+        intelligenceText.text = (pm.intelligenceStats + pm.deltaIntelligence).ToString();
     }
 
-    public void increaseAgility()
+    public void IncreaseEndurance()
     {
-        ProgressManager.Instance.IncreaseAgility();
-        agilityText.text = (ProgressManager.Instance.deltaAgility + ProgressManager.Instance.agilityStats).ToString();
-
+        pm.IncreaseEndurance();
+        enduranceText.text = (pm.enduranceStats + pm.deltaEndurance).ToString();
     }
 
-    public void decreaseStrength()
+    public void IncreaseFocus()
     {
-        ProgressManager.Instance.DecreaseStrength();
-        strengthText.text = (ProgressManager.Instance.strengthStats + ProgressManager.Instance.deltaStrength).ToString();
-        //strengthText.text = ProgressManager.Instance.strengthStats.ToString();
+        pm.IncreaseFocus();
+        focusText.text = (pm.focusStats + pm.deltaFocus).ToString();
     }
 
-    public void decreaseDexterity()
+    // === Decrease methods ===
+    public void DecreaseVitality()
     {
-        ProgressManager.Instance.DecreaseDexterity();
-        dexterityText.text = (ProgressManager.Instance.dexterityStats + ProgressManager.Instance.deltaDexterity).ToString();
+        pm.DecreaseVitality();
+        vitalityText.text = (pm.vitalityStats + pm.deltaVitality).ToString();
     }
 
-    public void decreaseConstitution()
+    public void DecreaseStrength()
     {
-        ProgressManager.Instance.DecreaseConstitution();
-        constitutionText.text = (ProgressManager.Instance.constituionStats + ProgressManager.Instance.deltaConstitution).ToString();
+        pm.DecreaseStrength();
+        strengthText.text = (pm.strengthStats + pm.deltaStrength).ToString();
     }
 
-    public void decreaseIntelligence()
+    public void DecreaseDexterity()
     {
-        ProgressManager.Instance.DecreaseIntelligence();
-        intelligenceText.text = (ProgressManager.Instance.intelligenceStats + ProgressManager.Instance.deltaIntelligence).ToString();
+        pm.DecreaseDexterity();
+        dexterityText.text = (pm.dexterityStats + pm.deltaDexterity).ToString();
     }
 
-    public void decreaseStamina()
+    public void DecreaseIntelligence()
     {
-        ProgressManager.Instance.DecreaseStamina();
-        staminaText.text = (ProgressManager.Instance.staminaStats + ProgressManager.Instance.deltaStamina).ToString();
+        pm.DecreaseIntelligence();
+        intelligenceText.text = (pm.intelligenceStats + pm.deltaIntelligence).ToString();
     }
 
-    public void decreaseAgility()
+    public void DecreaseEndurance()
     {
-        ProgressManager.Instance.DecreaseAgility();
-        agilityText.text = (ProgressManager.Instance.deltaAgility + ProgressManager.Instance.agilityStats).ToString();
+        pm.DecreaseEndurance();
+        enduranceText.text = (pm.enduranceStats + pm.deltaEndurance).ToString();
     }
 
-    public void confirm()
+    public void DecreaseFocus()
     {
-        ProgressManager.Instance.Confirm();
-        Debug.Log("Stats confirmed. Changes applied.");
+        pm.DecreaseFocus();
+        focusText.text = (pm.focusStats + pm.deltaFocus).ToString();
+    }
+
+    // ✅ Confirm changes
+    public void Confirm()
+    {
+        pm.Confirm();
+        RefreshAllTexts();
+        Debug.Log("Stats confirmed and UI updated.");
     }
 }
