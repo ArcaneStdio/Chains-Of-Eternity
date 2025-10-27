@@ -1,13 +1,8 @@
 public enum EnemyType
 {
     Slime,
-    Goblin,
-    Scorpion,
-    Skeleton,
-    Zombie,
-    Troll,
+    Fire_Worm,
     Wizard,
-    Mage,
-    Orc,
-    Dragon,
+    Bringer_Of_Death,
+    Gorgon,
 }

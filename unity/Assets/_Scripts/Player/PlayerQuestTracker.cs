@@ -1,5 +1,5 @@
-using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine;
 
 public class PlayerQuestTracker : MonoBehaviour
 {
@@ -45,7 +45,9 @@ public class PlayerQuestTracker : MonoBehaviour
         {
             if (questSlots[i] == null)
             {
-                Debug.LogError($"⚠️ Quest slot {i + 1} is missing a Quest ScriptableObject reference!");
+                Debug.LogError(
+                    $"⚠️ Quest slot {i + 1} is missing a Quest ScriptableObject reference!"
+                );
                 return false;
             }
 
@@ -58,7 +60,9 @@ public class PlayerQuestTracker : MonoBehaviour
 
         if (freeSlotIndex == -1)
         {
-            Debug.LogWarning("⚠️ Cannot accept new quest — all 5 quest slots are currently filled!");
+            Debug.LogWarning(
+                "⚠️ Cannot accept new quest — all 5 quest slots are currently filled!"
+            );
             return false;
         }
 
@@ -75,7 +79,6 @@ public class PlayerQuestTracker : MonoBehaviour
         Debug.Log($"🧾 Quest Assigned: {sourceQuest.questName} → Slot {freeSlotIndex + 1}");
         return true;
     }
-
 
     /// <summary>
     /// Copies all relevant data from source quest to target quest (in-place overwrite).
@@ -97,11 +100,10 @@ public class PlayerQuestTracker : MonoBehaviour
             {
                 enemyType = obj.enemyType,
                 requiredKills = obj.requiredKills,
-                currentKills = 0
+                currentKills = 0,
             };
             target.objectives.Add(newObj);
         }
-
     }
 
     public void AbandonQuest(int slotIndex)
