@@ -11,15 +11,30 @@ namespace Unity.Behavior
         description: "Moves an Agent randomly within a radius using NavMeshAgent or transform-based movement.",
         category: "Action/Navigation",
         story: "[Agent] roams randomly within [RoamRadius]",
-        id: "ff1466e917bd04d6055a5b3089cf3c61")]
+        id: "ff1466e917bd04d6055a5b3089cf3c61"
+    )]
     internal partial class RandomPatrolAction : Action
     {
-        [SerializeReference] public BlackboardVariable<GameObject> Agent;
-        [SerializeReference] public BlackboardVariable<float> RoamRadius = new(5f);
-        [SerializeReference] public BlackboardVariable<float> Speed = new(3f);
-        [SerializeReference] public BlackboardVariable<float> WaitTime = new(1f);
-        [SerializeReference] public BlackboardVariable<float> DistanceThreshold = new(0.2f);
-        [SerializeReference] public BlackboardVariable<string> AnimatorSpeedParam = new("SpeedMagnitude");
+        [SerializeReference]
+        public BlackboardVariable<GameObject> Agent;
+
+        [SerializeReference]
+        public BlackboardVariable<float> RoamRadius = new(5f);
+
+        [SerializeReference]
+        public BlackboardVariable<float> RoamRange = new(15f);
+
+        [SerializeReference]
+        public BlackboardVariable<float> Speed = new(3f);
+
+        [SerializeReference]
+        public BlackboardVariable<float> WaitTime = new(1f);
+
+        [SerializeReference]
+        public BlackboardVariable<float> DistanceThreshold = new(0.2f);
+
+        [SerializeReference]
+        public BlackboardVariable<string> AnimatorSpeedParam = new("SpeedMagnitude");
 
         private NavMeshAgent m_NavMeshAgent;
         private Animator m_Animator;
@@ -29,6 +44,7 @@ namespace Unity.Behavior
         private float m_OriginalSpeed = -1f;
         private float m_WaitTimer;
         private bool m_Waiting;
+        private Vector3 m_OriginalPosition;
 
         protected override Status OnStart()
         {
@@ -40,16 +56,20 @@ namespace Unity.Behavior
             }
 
             UnityEngine.Debug.Log($"[RandomPatrol] Starting for {Agent.Value.name}");
-            
+
             Initialize();
 
             if (m_NavMeshAgent == null)
             {
-                UnityEngine.Debug.LogError($"[RandomPatrol] No NavMeshAgent on {Agent.Value.name}!");
+                UnityEngine.Debug.LogError(
+                    $"[RandomPatrol] No NavMeshAgent on {Agent.Value.name}!"
+                );
             }
             else
             {
-                UnityEngine.Debug.Log($"[RandomPatrol] NavMeshAgent found! Speed={m_NavMeshAgent.speed}, IsOnNavMesh={m_NavMeshAgent.isOnNavMesh}");
+                UnityEngine.Debug.Log(
+                    $"[RandomPatrol] NavMeshAgent found! Speed={m_NavMeshAgent.speed}, IsOnNavMesh={m_NavMeshAgent.isOnNavMesh}"
+                );
             }
 
             // conditon: to set animator parameters
@@ -59,7 +79,7 @@ namespace Unity.Behavior
                 m_Animator.SetBool("followPlayer", false);
                 m_Animator.SetBool("isAttacking", false);
             }
-
+            m_OriginalPosition = Agent.Value.transform.position;
             PickNewDestination();
             m_Waiting = false;
             m_WaitTimer = 0f;
@@ -69,7 +89,8 @@ namespace Unity.Behavior
 
         protected override Status OnUpdate()
         {
-            if (Agent.Value == null) return Status.Failure;
+            if (Agent.Value == null)
+                return Status.Failure;
 
             if (m_Waiting)
             {
@@ -92,11 +113,13 @@ namespace Unity.Behavior
                 {
                     if (m_NavMeshAgent != null && m_NavMeshAgent.isOnNavMesh)
                     {
-//                        UnityEngine.Debug.Log($"[RandomPatrol] {Agent.Value.name}: Distance={distance:F2}, Velocity={m_NavMeshAgent.velocity.magnitude:F2}, Speed={m_NavMeshAgent.speed}, IsStopped={m_NavMeshAgent.isStopped}, HasPath={m_NavMeshAgent.hasPath}");
+                        //                        UnityEngine.Debug.Log($"[RandomPatrol] {Agent.Value.name}: Distance={distance:F2}, Velocity={m_NavMeshAgent.velocity.magnitude:F2}, Speed={m_NavMeshAgent.speed}, IsStopped={m_NavMeshAgent.isStopped}, HasPath={m_NavMeshAgent.hasPath}");
                     }
                     else if (m_NavMeshAgent != null)
                     {
-                        UnityEngine.Debug.LogWarning($"[RandomPatrol] {Agent.Value.name}: NOT ON NAVMESH! ahhhhhhhhhhhhhhhhhhh Position={Agent.Value.transform.position}");
+                        UnityEngine.Debug.LogWarning(
+                            $"[RandomPatrol] {Agent.Value.name}: NOT ON NAVMESH! ahhhhhhhhhhhhhhhhhhh Position={Agent.Value.transform.position}"
+                        );
                     }
                 }
 
@@ -105,13 +128,17 @@ namespace Unity.Behavior
                     m_CurrentSpeed = 0;
                     m_WaitTimer = WaitTime.Value;
                     m_Waiting = true;
-                    UnityEngine.Debug.Log($"[RandomPatrol] Reached destination, waiting for {WaitTime.Value}s");
+                    UnityEngine.Debug.Log(
+                        $"[RandomPatrol] Reached destination, waiting for {WaitTime.Value}s"
+                    );
                 }
                 else if (m_NavMeshAgent == null) // transform-based movement
                 {
-                    Agent.Value.transform.position =
-    Vector3.MoveTowards(Agent.Value.transform.position, m_CurrentTarget, Speed.Value * Time.deltaTime);
-
+                    Agent.Value.transform.position = Vector3.MoveTowards(
+                        Agent.Value.transform.position,
+                        m_CurrentTarget,
+                        Speed.Value * Time.deltaTime
+                    );
                 }
             }
 
@@ -139,11 +166,11 @@ namespace Unity.Behavior
                     m_NavMeshAgent.speed = m_OriginalSpeed;
                 if (m_OriginalStoppingDistance >= 0)
                     m_NavMeshAgent.stoppingDistance = m_OriginalStoppingDistance;
-                
+
                 // TODO: Ensure agent is not stuck in stopped state
                 m_NavMeshAgent.isStopped = false;
             }
-            
+
             UnityEngine.Debug.Log($"[RandomPatrol] Ended for {Agent.Value?.name}");
         }
 
@@ -167,7 +194,11 @@ namespace Unity.Behavior
 
         private float GetDistanceToTarget()
         {
-            if (m_NavMeshAgent != null && m_NavMeshAgent.isOnNavMesh && m_NavMeshAgent.pathPending == false)
+            if (
+                m_NavMeshAgent != null
+                && m_NavMeshAgent.isOnNavMesh
+                && m_NavMeshAgent.pathPending == false
+            )
             {
                 return m_NavMeshAgent.remainingDistance;
             }
@@ -177,17 +208,31 @@ namespace Unity.Behavior
             return Vector3.Distance(agentPos, m_CurrentTarget);
         }
 
+
         private void PickNewDestination()
         {
             // For 2D NavMesh, we use X and Y (not X and Z)
             Vector2 randomCircle = UnityEngine.Random.insideUnitCircle * RoamRadius.Value;
-            m_CurrentTarget = Agent.Value.transform.position + new Vector3(randomCircle.x, randomCircle.y, 0);
+
+            while (
+                Mathf.Sqrt(
+                    Mathf.Pow(m_OriginalPosition.x - randomCircle.x, 2)
+                        + Mathf.Pow(m_OriginalPosition.y - randomCircle.y, 2)
+                ) < RoamRange.Value
+            )
+            {
+                randomCircle = UnityEngine.Random.insideUnitCircle * RoamRadius.Value;
+            }
+            m_CurrentTarget =
+                Agent.Value.transform.position + new Vector3(randomCircle.x, randomCircle.y, 0);
 
             if (m_NavMeshAgent != null && m_NavMeshAgent.isOnNavMesh)
             {
                 bool success = m_NavMeshAgent.SetDestination(m_CurrentTarget);
-                UnityEngine.Debug.Log($"[RandomPatrol] PickNewDestination: From {Agent.Value.transform.position} to {m_CurrentTarget}, Success={success}, Distance={Vector3.Distance(Agent.Value.transform.position, m_CurrentTarget):F2}");
-                
+                UnityEngine.Debug.Log(
+                    $"[RandomPatrol] PickNewDestination: From {Agent.Value.transform.position} to {m_CurrentTarget}, Success={success}, Distance={Vector3.Distance(Agent.Value.transform.position, m_CurrentTarget):F2}"
+                );
+
                 if (success)
                 {
                     m_NavMeshAgent.isStopped = false;
@@ -195,14 +240,12 @@ namespace Unity.Behavior
             }
             else
             {
-                UnityEngine.Debug.LogWarning($"[RandomPatrol] Cannot set destination - NavMeshAgent is null or not on NavMesh!");
+                UnityEngine.Debug.LogWarning(
+                    $"[RandomPatrol] Cannot set destination - NavMeshAgent is null or not on NavMesh!"
+                );
             }
         }
 
-        private void UpdateAnimatorSpeed(float explicitSpeed = -1f)
-        {
-            
-        }
+        private void UpdateAnimatorSpeed(float explicitSpeed = -1f) { }
     }
 }
-    

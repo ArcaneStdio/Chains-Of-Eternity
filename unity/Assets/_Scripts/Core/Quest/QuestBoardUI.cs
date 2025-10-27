@@ -1,12 +1,12 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections.Generic;
 
 public class QuestBoardUI : MonoBehaviour
 {
     [Header("References")]
-    public List<QuestSlotUI> questSlots = new();   // 10 slots, manually assigned
-    public ExpandedQuestView expandedQuestView;    // Central expanded panel
+    public List<QuestSlotUI> questSlots = new(); // 10 slots, manually assigned
+    public ExpandedQuestView expandedQuestView; // Central expanded panel
     public PlayerQuestTracker playerQuestTracker;
     public Button refreshButton;
 
@@ -77,21 +77,31 @@ public class QuestBoardUI : MonoBehaviour
         List<QuestDataDTO> fakeData = new();
         for (int i = 0; i < 10; i++)
         {
-            fakeData.Add(new QuestDataDTO
-            {
-                id = $"Q{i + 1}",
-                name = $"Quest #{i + 1}",
-                description = $"Defeat {Random.Range(2, 6)} enemies for Quest #{i + 1}.",
-                recommendedLevel = $"{Random.Range(1, 10)}",
-                rarity = Random.Range(0, 4),
-                expReward = Random.Range(100, 400),
-                tokenReward = Random.Range(10, 50),
-                objectives = new List<QuestObjective>
+            fakeData.Add(
+                new QuestDataDTO
                 {
-                    new QuestObjective { enemyType = EnemyType.Goblin, requiredKills = Random.Range(1, 4) },
-                    new QuestObjective { enemyType = EnemyType.Orc, requiredKills = Random.Range(1, 3) }
+                    id = $"Q{i + 1}",
+                    name = $"Quest #{i + 1}",
+                    description = $"Defeat {Random.Range(2, 6)} enemies for Quest #{i + 1}.",
+                    recommendedLevel = $"{Random.Range(1, 10)}",
+                    rarity = Random.Range(0, 4),
+                    expReward = Random.Range(100, 400),
+                    tokenReward = Random.Range(10, 50),
+                    objectives = new List<QuestObjective>
+                    {
+                        new QuestObjective
+                        {
+                            enemyType = EnemyType.Slime,
+                            requiredKills = Random.Range(1, 4),
+                        },
+                        new QuestObjective
+                        {
+                            enemyType = EnemyType.Fire_Worm,
+                            requiredKills = Random.Range(1, 3),
+                        },
+                    },
                 }
-            });
+            );
         }
 
         QuestBoard.Instance.UpdateQuestsFromBackend(fakeData);
