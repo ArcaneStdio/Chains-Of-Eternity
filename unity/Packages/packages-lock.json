@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.dapperlabs.flowsdk": {
+      "version": "https://github.com/onflow/UnityFlowSDK.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "hash": "b6000f4973672409837bd79f6c13d56b04706c22"
+    },
     "com.rlabrecque.steamworks.net": {
       "version": "https://github.com/rlabrecque/Steamworks.NET.git?path=/com.rlabrecque.steamworks.net#2024.8.0",
       "depth": 0,
@@ -177,7 +186,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
-      "version": "1.8.24",
+      "version": "1.8.23",
       "depth": 1,
       "source": "registry",
       "dependencies": {

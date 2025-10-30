@@ -18,7 +18,7 @@ public class AuctionTesting : MonoBehaviour
     private TMP_InputField listId;
     [SerializeField]
     private TMP_InputField marketPlaceListPrice;
-    
+
 
     [SerializeField]
     private TextMeshProUGUI statusText;
@@ -32,7 +32,7 @@ public class AuctionTesting : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public async void Start()
     {
-               // Ensure Web3AuthManager instance exists
+        // Ensure Web3AuthManager instance exists
         if (Web3AuthManager.Instance == null)
         {
             Debug.LogError("Web3AuthManager instance not found in the scene.");
@@ -91,42 +91,42 @@ public class AuctionTesting : MonoBehaviour
 
     public void CreateEmptyCollection()
     {
-        Web3AuthManager.Instance.CreateNFTCollection();
+        //Web3AuthManager.Instance.CreateNFTCollection();
     }
 
     public void ListOnAuction()
     {
         Debug.Log(tokenIdVal);
         Debug.Log(basePriceVal);
-        Web3AuthManager.Instance.ListOnAuction(
-            durationVal,
-            1,
-            1000,
-            tokenIdVal,
-            basePriceVal
-        );
+        //Web3AuthManager.Instance.ListOnAuction(
+        //    durationVal,
+        //    1,
+        //    1000,
+        //    tokenIdVal,
+        //    basePriceVal
+        //);
 
         statusText.text = Web3AuthManager.Instance.transactionId;
     }
 
     public void InitializeAuctionScheduler()
     {
-        Web3AuthManager.Instance.InitializeAuctionScheduler();
+        //Web3AuthManager.Instance.InitializeAuctionScheduler();
     }
 
     public void PlaceBid()
     {
-        Web3AuthManager.Instance.BidOnItem(listIdVal, bidPriceVal);
+        //Web3AuthManager.Instance.BidOnItem(listIdVal, bidPriceVal);
     }
 
     public void BuyItem()
     {
-        Web3AuthManager.Instance.BuyItem(17, 10f);
+        //Web3AuthManager.Instance.BuyItem(17, 10f);
     }
 
     public void ListItemOnMarketPlace()
     {
-        Web3AuthManager.Instance.ListItemOnMarketplace(tokenIdVal, basePriceVal);
+        //Web3AuthManager.Instance.ListItemOnMarketplace(tokenIdVal, basePriceVal);
     }
 
 }

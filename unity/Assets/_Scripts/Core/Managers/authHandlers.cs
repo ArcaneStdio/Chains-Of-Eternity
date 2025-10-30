@@ -40,7 +40,7 @@ public class authHandlers : MonoBehaviour
 
     public void ListItem()
     {
-        Web3AuthManager.Instance.ListItemOnMarketplace(1, cost);
+        //Web3AuthManager.Instance.ListItemOnMarketplace(1, cost);
         sceneTransition.StartTransition();
     }
 }
