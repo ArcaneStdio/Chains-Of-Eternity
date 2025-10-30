@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FireWormEnemy : Enemy
 {
-    [Header("Slime Settings")]
+    [Header("FireWorm Settings")]
     [Tooltip("Cooldown between collision damage (to prevent spamming)")]
     public float collisionDamageCooldown = 1.5f;
 
