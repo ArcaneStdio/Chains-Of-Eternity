@@ -49,7 +49,7 @@ public class SlimeBehaviorSetup : MonoBehaviour
                     if (variable is Unity.Behavior.BlackboardVariable<GameObject> gameObjectVar)
                     {
                         gameObjectVar.Value = slimeSelf;
-                        Debug.Log($"[SlimeBehaviorSetup] Set '{variable.Name}' = {slimeSelf.name}");
+                        Debug.Log($"===================================================[SlimeBehaviorSetup] Set '{variable.Name}' = {slimeSelf.name}");
                     }
                 }
                 else if (variable.Name == "Player" || variable.Name == "Target")

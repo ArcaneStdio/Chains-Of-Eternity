@@ -14,25 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileData
   targetLayerMask:
     serializedVersion: 2
-    m_Bits: 3
+    m_Bits: 524288
   damage: 25
   knockbackForce: 10
   destroyOnHit: 1
   canPierce: 0
   maxPierceCount: 2
-  movementPath: 0
-  projectileSpeed: 15
+  movementPath: 1
+  projectileSpeed: 9
   projectileLifeTime: 3.5
-  projectileSize: 1
-  numberOfProjectiles: 1
+  projectileSize: 1.166
+  numberOfProjectiles: 2
   delayBetweenProjectiles: 0
   spawnOffsets:
   - {x: 0, y: 0}
-  staggeredLaunchAngle: 0
+  staggeredLaunchAngle: -31
   directions:
   - {x: 0.70710677, y: 0.70710677}
-  zigzagAmplitude: 10
-  zigzagFrequency: 10
+  zigzagAmplitude: 24.2
+  zigzagFrequency: 12.3
   homingDelay: 0.1
   homingRadius: 10
   homingUpdateRate: 0.2
