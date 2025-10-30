@@ -14,10 +14,10 @@ public class QuestSlotUI : MonoBehaviour, IPointerClickHandler
     private QuestBoardUI questBoardUI;
 
     // Define color mapping for rarities
-    private static readonly Color commonColor = new(0.8f, 0.8f, 0.8f); // light gray
-    private static readonly Color rareColor = new(0.3f, 0.6f, 1f);      // blue
-    private static readonly Color epicColor = new(0.6f, 0.2f, 0.9f);     // purple
-    private static readonly Color legendaryColor = new(1f, 0.7f, 0.1f);  // gold
+    private static readonly Color commonColor = Color.white; // light gray
+    private static readonly Color rareColor = Color.white;      // blue
+    private static readonly Color epicColor = Color.white;     // purple
+    private static readonly Color legendaryColor = Color.white;  // gold
 
     public void Show() => gameObject.SetActive(true);
 

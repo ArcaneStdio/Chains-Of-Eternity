@@ -20,9 +20,9 @@ public class ExpandedQuestView : MonoBehaviour
     // You can tweak these colors in Inspector or set defaults here
     [Header("Rarity Colors")]
     public Color commonColor = Color.white;
-    public Color rareColor = new Color(0.3f, 0.6f, 1f);
-    public Color epicColor = new Color(0.6f, 0.2f, 0.8f);
-    public Color legendaryColor = new Color(1f, 0.8f, 0.2f);
+    public Color rareColor = Color.white;
+    public Color epicColor = Color.white;
+    public Color legendaryColor = Color.white;
 
     private void Start()
     {
@@ -53,7 +53,7 @@ public class ExpandedQuestView : MonoBehaviour
 
         // 🟦 Match rarity color
         if (backgroundImage != null)
-            backgroundImage.color = GetColorForRarity(quest.rarity);
+            backgroundImage.color = Color.white;
     }
 
     private Color GetColorForRarity(QuestRarity rarity)
