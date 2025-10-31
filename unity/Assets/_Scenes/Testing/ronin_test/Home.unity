@@ -2429,6 +2429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 776b90a5b7504504db1d0638cb1f2e1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  statusText: {fileID: 0}
   mint_NFT: {fileID: 0}
   heronft: {fileID: 0}
   updateHero: {fileID: 0}
