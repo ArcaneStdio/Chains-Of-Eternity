@@ -13,10 +13,7 @@ public class authHandlers : MonoBehaviour
         cost = s;
     }
 
-    private void Start()
-    {
-        ConnectFlowWallet();
-    }
+   
     public void ConnectFlowWallet()
     {
         Web3AuthManager.Instance.ConnectFlowWallet();
@@ -33,9 +30,9 @@ public class authHandlers : MonoBehaviour
         {
             Debug.Log("Minting Hero for address: " + Web3AuthManager.Instance.GetWalletAddress());
         }
-        Mint_NFT.StartCoroutine(Mint_NFT.MintNFT(Web3AuthManager.Instance.GetWalletAddress()));
+        Web3AuthManager.Instance.HeroNFT_Request();
 
-        sceneTransition.StartTransition();
+        //sceneTransition.StartTransition();
     }
 
     public void ListItem()

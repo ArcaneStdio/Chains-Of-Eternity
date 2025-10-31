@@ -34,14 +34,15 @@ public class SceneTransitionManager : MonoBehaviour
 
     public void OnLoginSuccess()
     {
-        Debug.Log("Login successful, transitioning to character scene");
-        LoadCharacterScene();
+
+        StartCoroutine(Web3AuthManager.Instance.CheckHeroExistence());
+        
     }
 
     public void LoadCharacterScene()
     {
         Debug.Log("Loading character selection scene");
-        SceneManager.LoadScene("checkingAuction");
+        SceneManager.LoadScene(characterSceneName);
     }
 
     public void OnCharacterSelected()

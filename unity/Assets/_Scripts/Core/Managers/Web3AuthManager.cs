@@ -7,8 +7,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using System.Text;
 using System.Threading.Tasks;
+using TMPro;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class Web3AuthManager : MonoBehaviour
 {
@@ -20,16 +23,21 @@ public class Web3AuthManager : MonoBehaviour
     private Decimal delaySeconds = 600;
     private UInt64 ListingID = 53;
     private Decimal paymentAmount = 100;
+    private bool heroExists = false;
 
 
     public TMPro.TextMeshProUGUI statusText;
 
     private string _currentAddress;
+    private bool _isConnected;
+    
+    public bool HeroExists() => heroExists;
+    public bool IsConnected() => _isConnected;
     public string GetWalletAddress() => _currentAddress;
 
     public Mint_NFT mint_NFT;
 
-    public FlowUnityBridgeHero heronft;
+    private FlowUnityBridgeHero heronft = new FlowUnityBridgeHero();
 
     public FlowUnityBridgeUpdateHero updateHero;
 
@@ -41,6 +49,10 @@ public class Web3AuthManager : MonoBehaviour
     private string bidOnAuction = "import FungibleToken from 0x9a0766d93b6608b7\r\n    import FlowToken from 0x7e60df042a9c0868\r\n    import NonFungibleToken from 0x631e88ae7f1d7c20\r\n    import ItemManager from 0x0095f13a82f1a835   // replace if different\r\n    import AuctionHouse from 0x0095f13a82f1a835   // replace with marketplace address\r\n    transaction(listingID: UInt64, paymentAmount: UFix64) {\r\n        let vaultRef: auth(FungibleToken.Withdraw) &{FungibleToken.Vault}\r\n        let collectionRef: &ItemManager.Collection\r\n        prepare(buyer: auth(Storage, BorrowValue) &Account) {\r\n            self.vaultRef = buyer.storage.borrow<auth(FungibleToken.Withdraw) &{FungibleToken.Vault}>(from: /storage/flowTokenVault)\r\n            ?? panic(\"Missing FlowToken vault in buyer account. Please create & link one.\")\r\n            // 3) Withdraw the paymentAmount (should be >= listing price; contract will refund any extra)\r\n            let payment <- self.vaultRef.withdraw(amount: paymentAmount)\r\n            self.collectionRef = buyer.storage.borrow<&ItemManager.Collection>(\r\n                from: ItemManager.CollectionStoragePath // Assuming this exists; if not, replace with the actual StoragePath, e.g., /storage/ItemManagerCollection\r\n            ) ?? panic(\"Missing ItemManager collection in buyer account. Please create & link one.\")\r\n            // 4) Call marketplace purchase. Buyer address passed so contract can route refunds, deposits, etc.\r\n            AuctionHouse.placeBid(\r\n                listingID: listingID,\r\n                bidder: buyer.address,\r\n                payment: <-payment\r\n            )\r\n        }\r\n        execute {\r\n        log(\"Purchase transaction executed — check marketplace events for details.\")\r\n        }\r\n    }";
     private string buyItemTx = "import FungibleToken from 0x9a0766d93b6608b7\r\n    import FlowToken from 0x7e60df042a9c0868\r\n    import NonFungibleToken from 0x631e88ae7f1d7c20 \r\n    import ItemManager from 0x0095f13a82f1a835   // replace if different\r\n    import MarketPlace2 from 0x0095f13a82f1a835   // replace with marketplace address\r\n    transaction(listingID: UInt64, paymentAmount: UFix64) {\r\n    let vaultRef: auth(FungibleToken.Withdraw) &{FungibleToken.Vault}\r\n    let collectionRef: &ItemManager.Collection\r\n    prepare(buyer: auth(Storage, BorrowValue) &Account) {\r\n        self.vaultRef = buyer.storage.borrow<auth(FungibleToken.Withdraw) &{FungibleToken.Vault}>(from: /storage/flowTokenVault)\r\n        ?? panic(\"Missing FlowToken vault in buyer account. Please create & link one.\")\r\n      \r\n        let payment <- self.vaultRef.withdraw(amount: paymentAmount)\r\n        self.collectionRef = buyer.storage.borrow<&ItemManager.Collection>(\r\n            from: ItemManager.CollectionStoragePath \r\n        ) ?? panic(\"Missing ItemManager collection in buyer account. Please create & link one.\")\r\n        \r\n        MarketPlace2.purchase(\r\n            listingID: listingID,\r\n            buyer: buyer.address,\r\n            buyerCollection: self.collectionRef,\r\n            payment: <-payment\r\n        )\r\n    }\r\n    execute {\r\n    log(\"Purchase transaction executed — check marketplace events for details.\")\r\n    }\r\n  }";
     private string listItemMarketplaceTx = " import ItemManager from 0x0095f13a82f1a835\r\n    import MarketPlace2 from 0x0095f13a82f1a835\r\n    import NonFungibleToken from 0x631e88ae7f1d7c20\r\n\r\n    transaction(tokenID: UInt64, price: UFix64) {\r\n        let withdrawRef: auth(NonFungibleToken.Withdraw) &{NonFungibleToken.Collection}\r\n        prepare(signer: auth(Storage , BorrowValue) &Account) {\r\n            self.withdrawRef = signer.storage.borrow<auth(NonFungibleToken.Withdraw) &{NonFungibleToken.Collection}>(from: ItemManager.CollectionStoragePath)\r\n                ?? panic(\"Missing ItemManager collection\")\r\n\r\n            // Withdraw NFT from seller's collection\r\n            let nft <- self.withdrawRef.withdraw(withdrawID: tokenID)\r\n\r\n            // Pass the NFT resource and seller address to the marketplace\r\n            MarketPlace2.listItem(nft: <- nft, price: price, seller: signer.address)\r\n        }\r\n    }";
+    #endregion
+
+    #region Scripts Strings
+    private string checkHeroScript = "import HeroNFT from 0x0095f13a82f1a835\r\nimport NonFungibleToken from 0x631e88ae7f1d7c20\r\n\r\n/// Script to check if a Hero NFT exists for a given wallet address\r\n/// Returns true if the address has a Hero NFT, false otherwise\r\naccess(all) fun main(address: Address): Bool {\r\n    // Get the public capability for the collection\r\n    let collectionRef = getAccount(address)\r\n        .capabilities.get<&HeroNFT.Collection>(HeroNFT.CollectionPublicPath)\r\n        .borrow()\r\n    \r\n    // If the collection doesn't exist, return false\r\n    if collectionRef == nil {\r\n        return false\r\n    }\r\n    \r\n    // Check if the collection has any NFTs\r\n    let ids = collectionRef!.getIDs()\r\n    \r\n    // Return true if there's at least one NFT\r\n    return ids.length > 0\r\n}";
     #endregion
     void InitializeSDK()
     {
@@ -180,6 +192,9 @@ public class Web3AuthManager : MonoBehaviour
         FlowSDK.GetWalletProvider().Authenticate("", (string flowAddress) =>
         {
             Debug.Log($"Authenticated - Flow account address is {flowAddress}");
+            _currentAddress = flowAddress;
+            _isConnected = true;
+            SceneTransitionManager.Instance.OnLoginSuccess();
         }, () =>
         {
             Debug.Log("Authentication failed.");
@@ -364,10 +379,7 @@ public class Web3AuthManager : MonoBehaviour
 
     public void HeroNFT_Request()
     {
-        if (heronft != null)
-        {
-            heronft.MintHero(_currentAddress);
-        }
+        StartCoroutine(MintHero(_currentAddress));
     }
 
     //public void UpdateHero_Request()
@@ -662,6 +674,67 @@ public class Web3AuthManager : MonoBehaviour
 
             // Wait a couple seconds before polling again
             yield return new WaitForSeconds(1f);
+        }
+    }
+
+    public IEnumerator CheckHeroExistence()
+    {
+        //Create the script request.  We use the text in the GetNFTsOnAccount.cdc file and pass the address of the
+        //authenticated account as the address of the account we want to query.
+        Debug.Log("Checking Hero NFT existence for address: " + FlowSDK.GetWalletProvider().GetAuthenticatedAccount().Address);
+        FlowScriptRequest scriptRequest = new FlowScriptRequest
+        {
+            Script = checkHeroScript,
+            Arguments = new List<CadenceBase>
+            {
+                new CadenceAddress(FlowSDK.GetWalletProvider().GetAuthenticatedAccount().Address)
+            }
+        };
+
+        //Execute the script and wait until it is completed.
+        Task<FlowScriptResponse> scriptResponse = Scripts.ExecuteAtLatestBlock(scriptRequest);
+        yield return new WaitForSeconds(3);
+
+        
+
+        //Iterate over the returned dictionary
+        bool result = DapperLabs.Flow.Sdk.Cadence.Convert.FromCadence<bool>(scriptResponse.Result.Value);
+        Debug.Log("Hero NFT existence: " + result);
+        this.heroExists = result;
+        if (result)
+        {
+            SceneTransitionManager.Instance.LoadGameScene();
+        }
+        else
+        {
+            SceneTransitionManager.Instance.LoadCharacterScene();
+        }
+    }
+
+    public IEnumerator MintHero(string recipientAddress)
+    {
+        Debug.Log("Reached here -------- 0");
+        string apiBase = "http://localhost:3000";
+        MintHeroRequest reqData = new MintHeroRequest { recipientAddr = recipientAddress };
+        string json = JsonUtility.ToJson(reqData);
+        Debug.Log("Reached here -------- 1");
+        UnityWebRequest request = new UnityWebRequest($"{apiBase}/mint-hero", "POST");
+        byte[] bodyRaw = Encoding.UTF8.GetBytes(json);
+        request.uploadHandler = new UploadHandlerRaw(bodyRaw);
+        request.downloadHandler = new DownloadHandlerBuffer();
+        request.SetRequestHeader("Content-Type", "application/json");
+        Debug.Log("Reached here -------- 2");
+
+        yield return request.SendWebRequest();
+
+        Debug.Log("Reached here -------- 3");
+        if (request.result == UnityWebRequest.Result.Success)
+        {
+            Debug.Log("MintHero Success: " + request.downloadHandler.text);
+        }
+        else
+        {
+            Debug.LogError("MintHero Failed: " + request.error);
         }
     }
 
