@@ -1,0 +1,142 @@
+import * as fcl from "@onflow/fcl"
+import pkg from 'elliptic';
+import { SHA3 } from "sha3";   // instead of crypto.sha256
+import 'dotenv/config'; 
+import { receiveMessageOnPort } from "worker_threads";
+// Load environment variables
+const ACCOUNT_ADDRESS = process.env.ACCOUNT_ADDRESS;
+const PRIVATE_KEY = process.env.PRIVATE_KEY; // Hex string
+const KEY_ID = Number(process.env.KEY_ID || 0); // Key index in Flow account
+
+fcl.config()
+  .put("accessNode.api", "https://rest-testnet.onflow.org")
+  .put("app.detail.title", "Hero Game")
+  .put("flow.network", "testnet")
+  .put("accessNode.api", "https://rest-testnet.onflow.org")
+  .put("discovery.wallet", "https://fcl-discovery.onflow.org/testnet/authn")
+
+// Helper: Create signature
+const { ec: EC } = pkg;
+const ec = new EC("p256");
+
+
+
+export const signWithKey = async (privateKeyHex, msgHex) => {
+  // Hash with SHA3-256
+  const sha = new SHA3(256);
+  sha.update(Buffer.from(msgHex, "hex"));
+  const msgHash = sha.digest();
+
+  // Load private key
+  if (privateKeyHex.startsWith("0x")) {
+    privateKeyHex = privateKeyHex.slice(2);
+  }
+  if (privateKeyHex.length !== 64) {
+    throw new Error(`Invalid private key length: ${privateKeyHex.length}. Expected 64 hex chars (32 bytes).`);
+  }
+
+  const key = ec.keyFromPrivate(Buffer.from(privateKeyHex, "hex"));
+
+  // Derive Flow-compatible public key (X+Y, no 04 prefix)
+  const pubPoint = key.getPublic();
+  const x = pubPoint.getX().toArrayLike(Buffer, "be", 32);
+  const y = pubPoint.getY().toArrayLike(Buffer, "be", 32);
+  const derivedPubKey = Buffer.concat([x, y]).toString("hex");
+
+  console.log("----------------------");
+ // console.log("Derived Flow Public Key:", derivedPubKey);
+
+  // Sign hash
+  const sig = key.sign(msgHash);
+
+  const r = sig.r.toArrayLike(Buffer, "be", 32);
+  const s = sig.s.toArrayLike(Buffer, "be", 32);
+
+  return Buffer.concat([r, s]).toString("hex"); // 64-byte hex signature
+};
+
+
+// --- Authorization function ---
+const signingFunction = async ({ message }) => {
+  return {
+    addr: fcl.withPrefix(ACCOUNT_ADDRESS),
+    keyId: KEY_ID,
+    signature: await signWithKey(PRIVATE_KEY, message),
+  };
+};
+
+const authz = async (account) => {
+  return {
+    ...account,
+    tempId: `${ACCOUNT_ADDRESS}-${KEY_ID}`,
+    addr: fcl.withPrefix(ACCOUNT_ADDRESS),
+    keyId: KEY_ID,
+    signingFunction,
+
+  };
+};
+
+
+// ---- Configure FCL for Testnet (Cadence 1.0 ready) ----
+
+
+
+const cadence = `
+  import FungibleToken from 0xee82856bf20e2aa6
+    import FlowToken from 0x0ae53cb6e3f42a79
+    import NonFungibleToken from 0xf8d6e0586b0a20c7
+    import ItemManager from 0x0095f13a82f1a835   // replace if different
+    import AuctionHouse from 0x0095f13a82f1a835   // replace with marketplace address
+    transaction(listingID: UInt64, paymentAmount: UFix64) {
+        let vaultRef: auth(FungibleToken.Withdraw) &{FungibleToken.Vault}
+        let collectionRef: &ItemManager.Collection
+        prepare(buyer: auth(Storage, BorrowValue) &Account) {
+            self.vaultRef = buyer.storage.borrow<auth(FungibleToken.Withdraw) &{FungibleToken.Vault}>(from: /storage/flowTokenVault)
+            ?? panic("Missing FlowToken vault in buyer account. Please create & link one.")
+            // 3) Withdraw the paymentAmount (should be >= listing price; contract will refund any extra)
+            let payment <- self.vaultRef.withdraw(amount: paymentAmount)
+            self.collectionRef = buyer.storage.borrow<&ItemManager.Collection>(
+                from: ItemManager.CollectionStoragePath // Assuming this exists; if not, replace with the actual StoragePath, e.g., /storage/ItemManagerCollection
+            ) ?? panic("Missing ItemManager collection in buyer account. Please create & link one.")
+            // 4) Call marketplace purchase. Buyer address passed so contract can route refunds, deposits, etc.
+            AuctionHouse.placeBid(
+                listingID: listingID,
+                bidder: buyer.address,
+                payment: <-payment
+            )
+        }
+        execute {
+        log("Purchase transaction executed — check marketplace events for details.")
+        }
+    }
+`;
+
+export const BidOnItem = async (req, res) => {
+  const listingID = req.body.listingID;
+  const paymentAmount = req.body.paymentAmount;
+  //console.log(recipientAddr)
+  try {
+  
+    const txId = await fcl.mutate({
+      cadence,
+      args: (arg, t) => [arg(listingID, t.UInt64),
+        (paymentAmount, t.UFix64)
+      ],
+      proposer: authz,       // Must be the account that has NFTMinter
+      payer: authz,          // Pays gas
+      authorizations: [authz], // Signer must authorize (has NFTMinter)
+      limit: 9999,
+    });
+
+    console.log('Transaction submitted with ID:', txId);
+
+    const status = await fcl.tx(txId).onceSealed();
+    console.log('Transaction sealed:', status);
+    console.log("-----------------------------")
+    console.log("Sending response")
+    res.send(status)
+  } catch (err) {
+    console.error('Bidding failed:', err);
+    throw err;
+  }
+};
