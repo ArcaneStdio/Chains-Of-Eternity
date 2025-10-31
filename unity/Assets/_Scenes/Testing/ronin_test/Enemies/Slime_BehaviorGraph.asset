@@ -124,7 +124,7 @@ MonoBehaviour:
         AuthoringAssetID:
           m_Value0: 15318365983133660512
           m_Value1: 4289702497508654457
-        m_DebugInfo: {fileID: 0}
+        m_DebugInfo: {fileID: 8489896589007627700}
         BlackboardReference:
           rid: 1239499941160419502
         BlackboardGroupReferences: []
@@ -136,7 +136,7 @@ MonoBehaviour:
           rid: 1239499941160419504
         m_EndedNodes:
           rid: 1239499941160419505
-        m_VersionTimestamp: 638974467470721243
+        m_VersionTimestamp: 638974501211187598
     - rid: 1239499941160419502
       type: {class: BlackboardReference, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
@@ -377,7 +377,7 @@ MonoBehaviour:
   - rid: 1239499648806420959
   - rid: 1239499648806421052
   - rid: 808677013876375949
-  m_VersionTimestamp: 638974467470721243
+  m_VersionTimestamp: 638974501211187598
   m_DebugInfo: {fileID: 8489896589007627700}
   m_RuntimeGraph: {fileID: -2436017232242665307}
   AssetID:
@@ -606,7 +606,7 @@ MonoBehaviour:
     - rid: 808677013876375949
       type: {class: ModifierNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: -500.91718, y: 417.1034}
+        Position: {x: -300.99405, y: 427.489}
         ID:
           m_Value0: 5542785218951892520
           m_Value1: 8653260324041067354
