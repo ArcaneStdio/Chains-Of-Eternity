@@ -301,7 +301,7 @@ public class Web3AuthManager : MonoBehaviour
         this.paymentAmount = paymentAmount;
         if (FlowSDK.GetWalletProvider() != null && FlowSDK.GetWalletProvider().IsAuthenticated())
         {
-            StartCoroutine(BidOnItemEnum());
+            StartCoroutine(BuyItemEnum());
         }
         else
         {

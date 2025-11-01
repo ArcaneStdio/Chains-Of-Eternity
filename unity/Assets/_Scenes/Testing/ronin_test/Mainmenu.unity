@@ -1263,7 +1263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SceneTransitionManager
   loginSceneName: LoginScene
   characterSceneName: CharacterCreationFinale
-  gameSceneName: Home
+  gameSceneName: village_scene
 --- !u!1 &1639831538
 GameObject:
   m_ObjectHideFlags: 0

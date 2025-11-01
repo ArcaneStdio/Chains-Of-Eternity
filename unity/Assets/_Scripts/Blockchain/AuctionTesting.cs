@@ -121,7 +121,7 @@ public class AuctionTesting : MonoBehaviour
 
     public void BuyItem()
     {
-        Web3AuthManager.Instance.BuyItem(17, 10);
+        Web3AuthManager.Instance.BuyItem(22, 849);
     }
 
     public void ListItemOnMarketPlace()

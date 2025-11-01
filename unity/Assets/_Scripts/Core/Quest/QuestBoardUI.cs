@@ -22,8 +22,13 @@ public class QuestBoardUI : MonoBehaviour
             expandedQuestView.Hide();
 
         RefreshBoardUI();
+        StartCoroutine(InitialFetchDelay());
     }
-
+    private System.Collections.IEnumerator InitialFetchDelay()
+    {
+        yield return new WaitForSeconds(1f);
+        FetchNewQuests();
+    }
     /// <summary>
     /// Refreshes visible quest slots.
     /// </summary>
