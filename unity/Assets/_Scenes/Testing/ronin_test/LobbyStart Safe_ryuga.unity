@@ -2590,7 +2590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lobbyManager: {fileID: 1097043115}
-  nextScene: DungeonMultiplayer
+  nextScene: pvp
 --- !u!1 &1101296062
 GameObject:
   m_ObjectHideFlags: 0

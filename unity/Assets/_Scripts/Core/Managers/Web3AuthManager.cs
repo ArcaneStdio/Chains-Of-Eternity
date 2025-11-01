@@ -24,6 +24,7 @@ public class Web3AuthManager : MonoBehaviour
     private UInt64 ListingID = 53;
     private Decimal paymentAmount = 100;
     private bool heroExists = false;
+    private UInt64 questID = 1;
 
 
     public TMPro.TextMeshProUGUI statusText;
@@ -51,6 +52,7 @@ public class Web3AuthManager : MonoBehaviour
     private string bidOnAuction = "import FungibleToken from 0x9a0766d93b6608b7\r\n    import FlowToken from 0x7e60df042a9c0868\r\n    import NonFungibleToken from 0x631e88ae7f1d7c20\r\n    import ItemManager from 0x0095f13a82f1a835   // replace if different\r\n    import AuctionHouse from 0x0095f13a82f1a835   // replace with marketplace address\r\n    transaction(listingID: UInt64, paymentAmount: UFix64) {\r\n        let vaultRef: auth(FungibleToken.Withdraw) &{FungibleToken.Vault}\r\n        let collectionRef: &ItemManager.Collection\r\n        prepare(buyer: auth(Storage, BorrowValue) &Account) {\r\n            self.vaultRef = buyer.storage.borrow<auth(FungibleToken.Withdraw) &{FungibleToken.Vault}>(from: /storage/flowTokenVault)\r\n            ?? panic(\"Missing FlowToken vault in buyer account. Please create & link one.\")\r\n            // 3) Withdraw the paymentAmount (should be >= listing price; contract will refund any extra)\r\n            let payment <- self.vaultRef.withdraw(amount: paymentAmount)\r\n            self.collectionRef = buyer.storage.borrow<&ItemManager.Collection>(\r\n                from: ItemManager.CollectionStoragePath // Assuming this exists; if not, replace with the actual StoragePath, e.g., /storage/ItemManagerCollection\r\n            ) ?? panic(\"Missing ItemManager collection in buyer account. Please create & link one.\")\r\n            // 4) Call marketplace purchase. Buyer address passed so contract can route refunds, deposits, etc.\r\n            AuctionHouse.placeBid(\r\n                listingID: listingID,\r\n                bidder: buyer.address,\r\n                payment: <-payment\r\n            )\r\n        }\r\n        execute {\r\n        log(\"Purchase transaction executed — check marketplace events for details.\")\r\n        }\r\n    }";
     private string buyItemTx = "import FungibleToken from 0x9a0766d93b6608b7\r\n    import FlowToken from 0x7e60df042a9c0868\r\n    import NonFungibleToken from 0x631e88ae7f1d7c20 \r\n    import ItemManager from 0x0095f13a82f1a835   // replace if different\r\n    import MarketPlace2 from 0x0095f13a82f1a835   // replace with marketplace address\r\n    transaction(listingID: UInt64, paymentAmount: UFix64) {\r\n    let vaultRef: auth(FungibleToken.Withdraw) &{FungibleToken.Vault}\r\n    let collectionRef: &ItemManager.Collection\r\n    prepare(buyer: auth(Storage, BorrowValue) &Account) {\r\n        self.vaultRef = buyer.storage.borrow<auth(FungibleToken.Withdraw) &{FungibleToken.Vault}>(from: /storage/flowTokenVault)\r\n        ?? panic(\"Missing FlowToken vault in buyer account. Please create & link one.\")\r\n      \r\n        let payment <- self.vaultRef.withdraw(amount: paymentAmount)\r\n        self.collectionRef = buyer.storage.borrow<&ItemManager.Collection>(\r\n            from: ItemManager.CollectionStoragePath \r\n        ) ?? panic(\"Missing ItemManager collection in buyer account. Please create & link one.\")\r\n        \r\n        MarketPlace2.purchase(\r\n            listingID: listingID,\r\n            buyer: buyer.address,\r\n            buyerCollection: self.collectionRef,\r\n            payment: <-payment\r\n        )\r\n    }\r\n    execute {\r\n    log(\"Purchase transaction executed — check marketplace events for details.\")\r\n    }\r\n  }";
     private string listItemMarketplaceTx = " import ItemManager from 0x0095f13a82f1a835\r\n    import MarketPlace2 from 0x0095f13a82f1a835\r\n    import NonFungibleToken from 0x631e88ae7f1d7c20\r\n\r\n    transaction(tokenID: UInt64, price: UFix64) {\r\n        let withdrawRef: auth(NonFungibleToken.Withdraw) &{NonFungibleToken.Collection}\r\n        prepare(signer: auth(Storage , BorrowValue) &Account) {\r\n            self.withdrawRef = signer.storage.borrow<auth(NonFungibleToken.Withdraw) &{NonFungibleToken.Collection}>(from: ItemManager.CollectionStoragePath)\r\n                ?? panic(\"Missing ItemManager collection\")\r\n\r\n            // Withdraw NFT from seller's collection\r\n            let nft <- self.withdrawRef.withdraw(withdrawID: tokenID)\r\n\r\n            // Pass the NFT resource and seller address to the marketplace\r\n            MarketPlace2.listItem(nft: <- nft, price: price, seller: signer.address)\r\n        }\r\n    }";
+    private string joinQuestTx = "import QuestManager from 0x0095f13a82f1a835\r\nimport HeroNFT from 0x0095f13a82f1a835\r\nimport FlowTransactionScheduler from 0x11a3131ddbaa0917\r\nimport FlowTransactionSchedulerUtils from 0x11a3131ddbaa0917\r\nimport FlowToken from 0x7e60df042a9c0868\r\nimport FungibleToken from 0x9a0766d93b6608b7\r\nimport QuestTransactionUserHandler from 0x0095f13a82f1a835\r\nimport RandomPicker from 0x0095f13a82f1a835\r\n/// Create a quest and schedule its cleanup after 2 days\r\ntransaction(\r\n    questID: UInt64,\r\n    priority: UInt8,\r\n    executionEffort: UInt64\r\n)  {\r\n    \r\n    prepare(signer: auth(Storage, Capabilities, SaveValue) &Account) {\r\n        // Borrow the Manager from QuestManager contract account\r\n        //let managerRef = QuestManager.account.storage.borrow<&QuestManager.Manager>(from: /storage/QuestManager)\r\n           // ?? panic(\"Could not borrow Manager reference from QuestManager contract\")\r\n        \r\n        let player: Address = signer.address\r\n\r\n        let collectionRef = signer.storage.borrow<&HeroNFT.Collection>(from: HeroNFT.CollectionStoragePath)\r\n        ?? panic (\"blah\")\r\n\r\n        let ids = collectionRef.getIDs()\r\n\r\n        if ids.length == 0 {\r\n            panic (\"blah\")\r\n        }\r\n\r\n        let nftRef = collectionRef.borrowNFT(ids[0])\r\n        let heroRef = nftRef as! &HeroNFT.NFT\r\n\r\n       // return heroRef.heroData.level\r\n        let playerlevel = heroRef.heroData.level\r\n\r\n        QuestManager.joinQuest(\r\n            playerAcct: signer,\r\n            questID: questID,\r\n            playerLevel: UInt8(playerlevel)\r\n        )\r\n        \r\n        log(\"Successfully joined quest ID: \".concat(questID.toString()))\r\n\r\n        let transactionData = QuestTransactionUserHandler.playerinput(player: player, questID: questID)\r\n        \r\n        // Schedule cleanup for 2 days from now (172800 seconds)\r\n        let cleanupTimestamp: UFix64 = getCurrentBlock().timestamp + 172800.0\r\n     \r\n        // Convert priority\r\n        let pr = priority == 0\r\n            ? FlowTransactionScheduler.Priority.High\r\n            : priority == 1\r\n                ? FlowTransactionScheduler.Priority.Medium\r\n                : FlowTransactionScheduler.Priority.Low\r\n        \r\n        // Estimate fees\r\n        let est = FlowTransactionScheduler.estimate(\r\n            data: transactionData,\r\n            timestamp: cleanupTimestamp,\r\n            priority: pr,\r\n            executionEffort: executionEffort\r\n        )\r\n        \r\n        assert(\r\n            est.timestamp != nil || pr == FlowTransactionScheduler.Priority.Low,\r\n            message: est.error ?? \"estimation failed\"\r\n        )\r\n        \r\n        // Withdraw fees from signer's Flow vault\r\n        let vaultRef = signer.storage.borrow<auth(FungibleToken.Withdraw) &FlowToken.Vault>(from: /storage/flowTokenVault)\r\n            ?? panic(\"missing FlowToken vault\")\r\n        let fees <- vaultRef.withdraw(amount: est.flowFee ?? 0.0) as! @FlowToken.Vault\r\n        \r\n        // Create FlowTransactionSchedulerUtils Manager if not exists\r\n        if !signer.storage.check<@{FlowTransactionSchedulerUtils.Manager}>(from: FlowTransactionSchedulerUtils.managerStoragePath) {\r\n            let manager <- FlowTransactionSchedulerUtils.createManager()\r\n            signer.storage.save(<-manager, to: FlowTransactionSchedulerUtils.managerStoragePath)\r\n            \r\n            // Create a public capability to the scheduled transaction manager\r\n            let managerRef = signer.capabilities.storage.issue<&{FlowTransactionSchedulerUtils.Manager}>(FlowTransactionSchedulerUtils.managerStoragePath)\r\n            signer.capabilities.publish(managerRef, at: FlowTransactionSchedulerUtils.managerPublicPath)\r\n        }\r\n        \r\n        // Get or create the Handler capability\r\n        var handlerCap: Capability<auth(FlowTransactionScheduler.Execute) &{FlowTransactionScheduler.TransactionHandler}>? = nil\r\n        \r\n        // Check if handler already exists\r\n        if !signer.storage.check<@QuestTransactionUserHandler.Handler>(from: /storage/QuestTransactionUserHandler) {\r\n            let handler <- QuestTransactionUserHandler.createHandler()\r\n            signer.storage.save(<-handler, to: /storage/QuestTransactionUserHandler)\r\n        }\r\n        \r\n        // Get the capability (try to get existing controllers first)\r\n        let controllers = signer.capabilities.storage.getControllers(forPath: /storage/QuestTransactionUserHandler)\r\n        \r\n        if controllers.length > 0 {\r\n            if let cap = controllers[0].capability as? Capability<auth(FlowTransactionScheduler.Execute) &{FlowTransactionScheduler.TransactionHandler}> {\r\n                handlerCap = cap\r\n            } else if controllers.length > 1 {\r\n                handlerCap = controllers[1].capability as! Capability<auth(FlowTransactionScheduler.Execute) &{FlowTransactionScheduler.TransactionHandler}>\r\n            }\r\n        }\r\n        \r\n        // If no valid capability found, issue a new one\r\n        if handlerCap == nil || !handlerCap!.check() {\r\n            handlerCap = signer.capabilities.storage.issue<auth(FlowTransactionScheduler.Execute) &{FlowTransactionScheduler.TransactionHandler}>(/storage/QuestTransactionUserHandler)\r\n        }\r\n        \r\n        assert(handlerCap != nil && handlerCap!.check(), message: \"Handler capability is invalid\")\r\n        \r\n        // Borrow the FlowTransactionSchedulerUtils Manager to schedule\r\n        let schedulerManager = signer.storage.borrow<auth(FlowTransactionSchedulerUtils.Owner) &{FlowTransactionSchedulerUtils.Manager}>(from: FlowTransactionSchedulerUtils.managerStoragePath)\r\n            ?? panic(\"Could not borrow a Manager reference from FlowTransactionSchedulerUtils\")\r\n        \r\n        // Schedule the cleanup transaction\r\n        schedulerManager.schedule(\r\n            handlerCap: handlerCap!,\r\n            data: transactionData,\r\n            timestamp: cleanupTimestamp,\r\n            priority: pr,\r\n            executionEffort: executionEffort,\r\n            fees: <-fees\r\n        )\r\n        \r\n        log(\"Quest created with ID: \".concat(questID.toString()))\r\n        log(\"Cleanup scheduled for timestamp: \".concat(cleanupTimestamp.toString()))\r\n    }\r\n}";
     #endregion
 
     #region Scripts Strings
@@ -267,6 +269,19 @@ public class Web3AuthManager : MonoBehaviour
         if (FlowSDK.GetWalletProvider() != null && FlowSDK.GetWalletProvider().IsAuthenticated())
         {
             StartCoroutine(BidOnItemEnum());
+        }
+        else
+        {
+            Debug.Log("Wallet not authenticated or initialized");
+        }
+    }
+
+    public void JoinQuest(ulong questID)
+    {
+        this.questID = questID;
+        if (FlowSDK.GetWalletProvider() != null && FlowSDK.GetWalletProvider().IsAuthenticated())
+        {
+            StartCoroutine(joinQuestTxEnum());
         }
         else
         {
@@ -636,6 +651,58 @@ public class Web3AuthManager : MonoBehaviour
             DapperLabs.Flow.Sdk.Cadence.Convert.ToCadence(price, "UFix64")
         };
         Task<FlowTransactionResponse> txResponse = Transactions.Submit(listItemMarketplaceTx, args);
+
+        while (!txResponse.IsCompleted)
+        {
+            yield return null;
+        }
+
+        if (txResponse.Result.Error != null)
+        {
+            statusText.text = "Error, see log";
+            Debug.LogError(txResponse.Result.Error.Message);
+            yield break;
+        }
+
+        FlowTransactionResult txResult = null;
+        while (true)
+        {
+            var task = Transactions.GetResult(txResponse.Result.Id);
+            yield return new WaitUntil(() => task.IsCompleted);
+
+            txResult = task.Result;
+
+            if (txResult.Error != null)
+            {
+                statusText.text = "Error, see log";
+                Debug.LogError(txResult.Error.Message);
+                yield break;
+            }
+
+            statusText.text = "Transaction Status: " + txResult.Status.ToString();
+            Debug.Log("Transaction Status: " + txResult.Status);
+
+            if (txResult.Status == FlowTransactionStatus.SEALED)
+            {
+                statusText.text = " Transaction Sealed! ID: " + txResponse.Result.Id;
+                Debug.Log("Transaction sealed with ID: " + txResponse.Result.Id);
+                yield break;
+            }
+
+            // Wait a couple seconds before polling again
+            yield return new WaitForSeconds(1f);
+        }
+    }
+
+    public IEnumerator joinQuestTxEnum()
+    {
+        List<CadenceBase> args = new List<CadenceBase>
+        {
+            DapperLabs.Flow.Sdk.Cadence.Convert.ToCadence(questID, "UInt64"),
+            DapperLabs.Flow.Sdk.Cadence.Convert.ToCadence(priority, "UInt8"),
+            DapperLabs.Flow.Sdk.Cadence.Convert.ToCadence(executionEffort, "UInt64")
+        };
+        Task<FlowTransactionResponse> txResponse = Transactions.Submit(joinQuestTx, args);
 
         while (!txResponse.IsCompleted)
         {

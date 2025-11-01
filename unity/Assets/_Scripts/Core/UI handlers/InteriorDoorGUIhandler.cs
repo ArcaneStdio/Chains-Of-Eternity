@@ -4,22 +4,19 @@ using UnityEngine.SceneManagement;
 public class InteriorDoorGUIhandler : MonoBehaviour
 {
     [SerializeField] private Canvas tooltip;
+    [SerializeField] private Vector3 outdoorSpawnPosition; // set manually in Inspector
 
     private bool inRegion = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
 
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && inRegion)
         {
-            
+            // Remember the spawn position for the next scene
+            SpawnPoint.NextSpawnPosition = outdoorSpawnPosition;
+
+            // Load the outdoor scene
             SceneManager.LoadScene("village_scene");
-            //SceneTransitionManager.Instance.
         }
     }
 
@@ -31,6 +28,7 @@ public class InteriorDoorGUIhandler : MonoBehaviour
             inRegion = true;
         }
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
