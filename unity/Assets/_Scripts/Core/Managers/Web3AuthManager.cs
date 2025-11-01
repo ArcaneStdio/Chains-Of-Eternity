@@ -30,7 +30,9 @@ public class Web3AuthManager : MonoBehaviour
 
     private string _currentAddress;
     private bool _isConnected;
+    private bool _checkedHeroExistance = false;
     
+    public bool CheckedHeroExistance() => _checkedHeroExistance;
     public bool HeroExists() => heroExists;
     public bool IsConnected() => _isConnected;
     public string GetWalletAddress() => _currentAddress;
@@ -695,20 +697,12 @@ public class Web3AuthManager : MonoBehaviour
         Task<FlowScriptResponse> scriptResponse = Scripts.ExecuteAtLatestBlock(scriptRequest);
         yield return new WaitForSeconds(3);
 
-        
 
+        _checkedHeroExistance = true;
         //Iterate over the returned dictionary
         bool result = DapperLabs.Flow.Sdk.Cadence.Convert.FromCadence<bool>(scriptResponse.Result.Value);
         Debug.Log("Hero NFT existence: " + result);
         this.heroExists = result;
-        if (result)
-        {
-            SceneTransitionManager.Instance.LoadGameScene();
-        }
-        else
-        {
-            SceneTransitionManager.Instance.LoadCharacterScene();
-        }
     }
 
     public IEnumerator MintHero(string recipientAddress)

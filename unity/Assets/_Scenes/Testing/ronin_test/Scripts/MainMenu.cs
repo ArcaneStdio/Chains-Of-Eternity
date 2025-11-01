@@ -5,7 +5,14 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("Home");
+        if (Web3AuthManager.Instance.HeroExists())
+        {
+            SceneTransitionManager.Instance.LoadGameScene();
+        }
+        else
+        {
+            SceneTransitionManager.Instance.LoadCharacterScene();
+        }
     }
 
     public void OpenSettings()
