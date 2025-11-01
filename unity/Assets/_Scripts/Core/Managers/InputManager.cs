@@ -36,6 +36,7 @@ public class InputManager : MonoBehaviour
 
         inputActions = new PlayerInputActions();
         inputActions.Enable();
+        Debug.Log("InputManager initialized and input actions enabled.");
     }
     public void DisableInput()
     {

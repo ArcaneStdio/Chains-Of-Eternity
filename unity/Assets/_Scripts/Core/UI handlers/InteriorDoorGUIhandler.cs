@@ -1,39 +1,31 @@
-using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class OptionPoppup : MonoBehaviour
+public class InteriorDoorGUIhandler : MonoBehaviour
 {
     [SerializeField] private Canvas tooltip;
-    [SerializeField] private Canvas marketplace;
-    [SerializeField] private bool isTownHall = false;
 
     private bool inRegion = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) && inRegion)
+        if (Input.GetKeyDown(KeyCode.E) && inRegion)
         {
-            if(isTownHall)
-            {
-                SceneManager.LoadScene("Interior 1");
-            }else
-            {
-                marketplace.enabled = !marketplace.enabled;
-            }
+            
+            SceneManager.LoadScene("village_scene");
             //SceneTransitionManager.Instance.
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
             tooltip.enabled = true;
             inRegion = true;
@@ -41,12 +33,10 @@ public class OptionPoppup : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
             tooltip.enabled = false;
             inRegion = false;
         }
     }
-
-    
 }

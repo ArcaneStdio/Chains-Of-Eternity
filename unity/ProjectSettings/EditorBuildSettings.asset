@@ -48,7 +48,7 @@ EditorBuildSettings:
     path: Assets/_Scenes/Testing/ronin_test/SettingsScreen.unity
     guid: b893c5b5907f5334ab0286cb9b940e18
   - enabled: 1
-    path: Assets/_Scenes/Interior 1.unity
+    path: Assets/_Scenes/Testing/ronin_test/Interior 1.unity
     guid: 39fb1d50d9fac894794394e27ce32f64
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
